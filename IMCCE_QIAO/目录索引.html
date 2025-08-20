@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <title>Astrometric Positions</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 20px;
+            transition: background-color 0.5s ease;
+        }
+        h1 {
+            color: #fff; /* 白色字体 */
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 2.5em; /* 增大字体大小 */
+            font-weight: 400; /* 正常字体权重 */
+            margin-top: 20px;
+            text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.5); /* 添加文字阴影以增强可读性 */
+        }
+        a {
+            color: #1a0dab;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            text-decoration: underline;
+            color: #660099;
+        }
+        table {
+            width: 80%;
+            margin: auto;
+            border-collapse: collapse;
+            background-color: #fff;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1), 0 6px 20px rgba(0,0,0,0.19);
+            border-radius: 8px;
+            transition: all 0.3s ease;
+        }
+        th, td {
+            border: 1px solid #ccc;
+            padding: 15px;
+            text-align: center;
+            font-size: 15px;
+        }
+        th {
+            background-color: #f0f0f0;
+            font-weight: 600;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+        tr:hover {
+            background-color: #e8e8e8;
+            transition: background-color 0.3s ease;
+        }
+        /* 添加平滑滚动效果 */
+        html {
+            scroll-behavior: smooth;
+        }
+                /* 模态框样式 */
+        .modal {
+            display: none; /* 默认隐藏 */
+            position: fixed; /* 固定定位 */
+            z-index: 1; /* 置于顶层 */
+            left: 0;
+            top: 0;
+            width: 100%; /* 全宽 */
+            height: 100%; /* 全高 */
+            overflow: auto; /* 允许滚动 */
+            background-color: rgb(0,0,0); /* 背景颜色 */
+            background-color: rgba(0,0,0,0.4); /* 背景颜色，带有透明度 */
+        }
+        /* 模态框内容样式 */
+        .modal-content {
+            background-color: #fefefe;
+            margin: 5% auto; /* 15%从顶部和自动居中 */
+            padding: 20px;
+            border: 1px solid #888;
+            width: 80%; /* 宽度 */
+        }
+        /* 关闭按钮样式 */
+        .close {
+            color: #aaa;
+            float: right;
+            font-size: 28px;
+            font-weight: bold;
+        }
+        .close:hover,
+        .close:focus {
+            color: black;
+            text-decoration: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1><a href="http://nsdb.imcce.fr/obspos/obsindhe.htm" target="_blank">NSDB.imcce(跳转原网站)</a></h1>
+    
+    <button id="infoButton" style="display: block; margin: 20px auto; padding: 10px 20px; font-size: 18px; background-color: #1a0dab; color: #fff; border: none; border-radius: 5px; cursor: pointer; transition: background-color 0.3s ease;">网页介绍</button>
+    <div id="myModal" class="modal">
+        <!-- 模态框内容 -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h2>本网页是NDSB.imcce网页中关于Astrometric positions内容的本地化展示。<br />汇总了二级页面内的所有内容，包括reference、content、data</h2>
+            <img src="data/1.png" height="300px" >
+            <h2>注意！！对于部分content中references里提及的原文章链接没有收纳，需移步原网站</h2>
+
+            <img src="data/2.png" width="50%" >
+        </div>
+    </div>
+    <table>
+        <tr>
+            <th>目录</th>
+            <th>说明</th>
+        </tr>
+        <tr>
+            <td><a href="data/mmapomai.html">Satellites of Mars</a></td>
+            <td><a href="data/mmapomai.html">火星卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/mjupoinn.html">Inner satellites of Jupiter</a></td>
+            <td><a href="data/mjupoinn.html">木星的内部卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/mjupogal.html">Galilean satellites</a></td>
+            <td><a href="data/mjupogal.html">伽利略卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/mjupoout.html">Outer satellites of Jupiter</a></td>
+            <td><a href="data/mjupoout.html">木星的外层卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/msapoinn.html">Inner satellites of Saturn</a></td>
+            <td><a href="data/msapoinn.html">土星的内部卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/msapomai.html">Main satellites of Saturn</a></td>
+            <td><a href="data/msapomai.html">土星的主要卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/msapoout.html">Outer satellites of Saturn</a></td>
+            <td><a href="data/msapoout.html">土星的外卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/murpoinn.html">Inner satellites of Uranus</a></td>
+            <td><a href="data/murpoinn.html">天王星的内卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/murpomai.html">Main satellites of Uranus</a></td>
+            <td><a href="data/murpomai.html">天王星的主要卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/murpoout.html">Outer satellites of Uranus</a></td>
+            <td><a href="data/murpoout.html">天王星的外卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/mnepoinn.html">Inner satellites of Neptune</a></td>
+            <td><a href="data/mnepoinn.html">海王星的内部卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/mnepomai.html">Satellites of Neptune: Triton, Nereide</a></td>
+            <td><a href="data/mnepomai.html">海王星卫星：海卫一、海卫一</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/mnepoout.html">Outer satellites of Neptune</a></td>
+            <td><a href="data/mnepoout.html">海王星的外卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/mplpomai.html">Satellites of Pluto</a></td>
+            <td><a href="data/mplpomai.html">冥王星卫星</a></td>
+        </tr>
+        <tr>
+            <td><a href="data/abin/abin0000.html">Asteroids with Satellites</a></td>
+            <td><a href="data/abin/abin0000.html">带卫星的小行星</a></td>
+        </tr>
+    </table>
+
+    <script>
+        // 获取模态框元素
+        var modal = document.getElementById("myModal");
+
+        // 获取打开模态框的按钮元素
+        var btn = document.getElementById("infoButton");
+
+        // 获取关闭模态框的<span>元素
+        var span = document.getElementsByClassName("close")[0];
+
+        // 点击按钮打开模态框
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // 点击<span> (x), 关闭模态框
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // 点击模态框外部，关闭模态框
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>
