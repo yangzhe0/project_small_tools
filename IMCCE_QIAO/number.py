@@ -2,10 +2,10 @@ import matplotlib.pyplot as plt
 import numpy as np
 
 # 更新的数据
-categories_full = ['S1-8', 'S9', 'U1-5', 'N1', 'N2','J1-8']
-qiao_data_full = [3261, 1288, 14636, 7116, 402,648]  # QIAO数据
-total_data_full = [127065, 8152, 45683, 17223, 3252,55062]  # 总数据
-qiao_percentages_full = [3, 16, 32, 41, 12,1]  # QIAO占比百分比
+categories_full = ['J6-J13','S1-S8', 'S9', 'U1-5', 'N1', 'N2']
+qiao_data_full = [639,3261, 1288, 14636, 7116, 402]  # QIAO数据
+total_data_full = [26147,127065, 8152, 45683, 17223, 3252]  # 总数据
+qiao_percentages_full = [2,3, 16, 32, 41, 12]  # QIAO占比百分比
 
 # 设置柱状图
 x_full = np.arange(len(categories_full))  # X轴的类别位置

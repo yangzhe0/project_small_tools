@@ -1,955 +1,438 @@
-planet,file,dates,lines(txt),total(html),total(html)-lines(txt),type,observatory
-,mjupogal,,0,0,,,no informations
-,mjupoinn,,0,0,,,no informations
-,mjupoout,,0,0,,,no informations
-,mmapomai,,0,0,,,no informations
-,mnepoinn,,0,0,,,no informations
-,mnepomai,,0,0,,,no informations
-,mnepoout,,0,0,,,no informations
-,mplpomai,,0,0,,,no informations
-,msapoinn,,0,0,,,no informations
-,msapomai,,0,0,,,no informations
-,msapoout,,0,0,,,no informations
-,murpoinn,,0,0,,,no informations
-,murpomai,,0,0,,,no informations
-,murpoout,,0,0,,,no informations
-,abin0000,,0,0,,,no informations
-,abin0001,2003-2009,12,12,0,position,"250 - Hubble Space Telescope; 304 - Las Campanas, Chile"
-,abin0002,2005-2005,1,1,0,position,250 - Hubble Space Telescope
-,abin0003,2006-2008,6,6,0,position,250 - Hubble Space Telescope
-,abin0004,2005-2009,8,8,0,position,"250 - Hubble Space Telescope; 568 - Mauna Kea   (W.M. Keck observatory, Hawaii, USA)"
-,abin0005,2006-2010,8,8,0,position,"250 - Hubble Space Telescope; 568 - Mauna Kea (W.M. Keck observatory, Hawaii, USA)"
-,abin0006,2001 - 2001,16,16,0,position,"304 - Las Campanas, Chile; 568 - Mauna Kea   (W.M. Keck observatory, Hawaii, USA)"
-,abin0007,2003-2008,7,7,0,position,250 - Hubble Space Telescope
-,abin0008,2001-2007,9,9,0,position,250 - Hubble Space Telescope
-,abin0009,2001-2010,14,14,0,position,250 - Hubble Space Telescope
-,abin0010,2014-2014,38,38,0,position,"309 - Cerro Paranal ESO, Chile"
-,abin0011,2006 - 2008,7,7,0,position,"309 - Cerro Paranal (ESO, Chile); 568 - Mauna Kea (the Keck observatory, Hawaii, USA)"
-,abin0012,2001-2001,15,15,0,position,662 - Lick Observatory; 675 - Palomar Mountain
-,abin0013,2007-2007,4,4,0,position,511 - Haute Provence
-,abin0014,2003-2005,26,26,0,position,"309 - Cerro Paranal (The European Southern Observatory, Paranal, Chile); 568 - Mauna Kea (W.M. Keck observatory, Hawaii, USA)."
-,abin0015,2001 - 2006,46,46,0,position,"309 - Cerro Paranal (European Southern Observatory, Chile),; 568 - Mauna Kea (W.M. Keck  observatory, Gemini Observatory, Hawaii, USA),; 662 - Lick Observatory, Mount Hamilton; 675 - Palomar Mountain"
-,abin0016,1998 - 2007,34,34,0,position,"309 - Cerro Paranal (European Southern Observatory, Chile),; 568 - Mauna Kea (Keck  observatory, Hawaii, USA),; 568 - Mauna Kea (CFHT)"
-,abin0017,2003 - 2006,23,23,0,position,"309 - Cerro Paranal (European Southern Observatory, Chile),; 568 - Mauna Kea (Keck  observatory, Hawaii, USA),; 568 - Mauna Kea (Gemini observatory, Hawaii, USA)"
-,abin0018,2003-2006,10,10,0,position,"309 - Cerro Paranal (European Southern Observatory, Chile),; 568 - Mauna Kea (Gemini Observatory, Hawaii, USA)"
-,abin0019,2003 - 2006,11,11,0,position,"309 - Cerro Paranal (European Southern Observatory, Chile),; 568 - Mauna Kea (Keck  observatory, Hawaii, USA); 568 - Mauna Kea (Gemini observatory, Hawaii, USA)"
-,abin0020,2003 - 2004,25,25,0,position,"309 - Cerro Paranal (European Southern Observatory, Chile),; 568 - Mauna Kea (Gemini Observatory, Hawaii, USA)"
-,abin0021,2004 - 2005,25,25,0,position,"309 - Cerro Paranal (European Southern Observatory, Chile)"
-,abin0022,2003 - 2006,11,11,0,position,"309 - Cerro Paranal (European Southern Observatory, Chile)"
-,abin0023,2003 - 2004,14,14,0,position,"309 - Cerro Paranal (European Southern Observatory, Chile); 568 - Mauna Kea (W.M. Keck observatory, Hawaii, USA)"
-,abin0024,1998-2007,44,44,0,position,"309 - Cerro Paranal (European Southern Observatory, Chile); 568 - Mauna Kea (W.M. Keck observatory, the CanadaFranceHawaii Telescope, Hawaii, USA)"
-,abin0025,2008-2008,15,15,0,position,"568 - Mauna Kea (W.M.Keck observatory, Hawaii, USA)"
-,abin0026,2001-2013,92,92,0,position,"250 - HST; 568 - Mauna Kea (Keck observatory, Gemini observatory); 309 - Cerro Paranal (ESO, Chile)"
-,abin0027,2011 - 2011,8,8,0,position,115 - Zelenchukskaya (SAO RAS)
-,abin0028,2005-2008,62,62,0,position,"568 - Mauna Kea (W.M.Keck observatory, Hawaii, USA); 250 - Hubble Space Telescope (HST)"
-,abin0029,2001-2010,88,88,0,position,"568 - Mauna Kea (CFHT, Gemini Observatory, Hawaii, USA); I11 - Gemini South observatory, Cerro Pachon; 309 - European Southern Observatory (ESO, Chile),; 675 - Palomar Mountain; 695 - Kitt Peak (WIYN Observatory).; 696 - Whipple Observatory, Mt. Hopkins (MMT observatory); 950 - La Palma (4.2-m William Herschel Telescope); 809 - La Silla Observatory"
-,abin0030,2001-2011,65,65,0,relative,"309 - Cerro Paranal (European Southern Observatory, Chile); 568 - Mauna Kea (Keck observatory); 250 - HST"
-,abin0031,2001 - 2006,18,18,0,position,250 - Hubble Space Telescope
-,abin0032,2006-2010,10,10,0,position,"250 - Hubble Space Telescope; 568 - Mauna Kea   (W.M. Keck observatory, Hawaii, USA)"
-,abin0033,2009,16,16,0,position,"568 - Mauna Kea   (W.M. Keck observatory, Hawaii, USA)"
-,abin0034,2014,2,2,0,position,"568 - Mauna Kea   (W.M. Keck observatory, Hawaii, USA)"
-,abin0035,2006-2008,7,7,0,position,250 - Hubble Space Telescope
-,abin0036,2011-2011,4,4,0,position,250 - Hubble Space Telescope
-,abin0037,2001-2002,4,4,0,position,250 - Hubble Space Telescope
-,abin0038,1998-2004,7,7,0,position,"250 - Hubble Space Telescope; 304 - Las Companas, Chile"
-,abin0039,2002-2002,2,2,0,position,250 - Hubble Space Telescope
-,abin0040,2005-2011,52,52,0,position,"568 - Mauna Kea (CFHT, Gemini Observatory, Hawaii, USA); 695 - Kitt Peak National Observatory, USA"
-,abin0041,2006-2006,5,5,0,position,250 - Hubble Space Telescope (HST)
-,abin0042,2006-2006,5,5,0,position,250 - Hubble Space Telescope (HST)
-,abin0043,2006-2008,6,6,0,position,250 - Hubble Space Telescope (HST)
-,abin0044,2006-2007,5,5,0,position,250 - Hubble Space Telescope (HST)
-,abin0045,2006-2007,7,7,0,position,250 - Hubble Space Telescope (HST)
-,abin0046,2002-2007,7,7,0,position,250 - Hubble Space Telescope (HST)
-,abin0047,2003-2008,6,6,0,position,250 - Hubble Space Telescope (HST)
-,abin0048,2006-2007,6,6,0,position,250 - Hubble Space Telescope (HST)
-,abin0049,20012002,9,9,0,relative,"568 - Mauna Kea (W.M.Keck observatory, Hawaii, USA); 675 - Palomar Mountain (California)"
-,abin0050,2010 - 2010,7,7,0,position,"568 - Mauna Kea (Keck observatory, Gemini obs.); 309 - Cerro Paranal (European Southern Observatory, Chile)"
-,abin0051,2006-2013,8,8,0,position,250 - Hubble Space Telescope
-,abin0052,2009-2013,12,12,0,position,"250 - Hubble Space Telescope; 568 - Mauna Kea (W.M. Keck observatory, Gemini observatory, Hawaii, USA)"
-,abin0053,2003-2005,5,5,0,position,"304 - Las Campanas Observatory, Chile"
-,abin0054,2003-2005,15,15,0,position,"304 - Las Campanas Observatory, Chile"
-,abin0055,2005-2005,5,5,0,position,"568 - Mauna Kea   (W.M. Keck observatory, Hawaii, USA)"
-,abin0056,2005-2005,3,3,0,position,"568 - Mauna Kea   (W.M. Keck observatory, Hawaii, USA)"
-,abin0057,20032010,60,60,0,position,"568 - Mauna Kea (CFHT, Gemini Observatory, Hawaii, USA)"
-,abin0058,2015-2015,5,5,0,position,250 - Hubble Space Telescope
-,abin0059,2005-2007,9,9,0,position,250 - Hubble Space Telescope
-,abin0060,2005-2005,1,1,0,position,250 - Hubble Space Telescope
-,abin0061,2005-2005,1,1,0,position,250 - Hubble Space Telescope
-,abin0062,2005-2005,1,1,0,position,250 - Hubble Space Telescope
-,abin0063,2006-2006,1,1,0,position,250 - Hubble Space Telescope
-,abin0064,2004-2004,1,1,0,position,"309, ESO, Cerro Paranal"
-,abin0065,2005-2005,6,6,0,position,"250 - Hubble Space Telescope; 568 - Mauna Kea (W.M. Keck observatory, Hawaii, USA)"
-,abin0066,2004-2004,1,1,0,position,250 - Hubble Space Telescope
-,abin0067,2003-2003,1,1,0,position,250 - Hubble Space Telescope
-,abin0068,2003-2003,1,1,0,position,568 - Mauna Kea
-,abin0069,2003-2003,1,1,0,position,568 - Mauna Kea
-,abin0070,2003-2003,1,1,0,position,568 - Mauna Kea
-,abin0071,2003-2003,1,1,0,position,"309 - ESO, Cerro Paranal"
-,abin0072,2012-2012,1,1,0,position,250 - Hubble Space Telescope
-,abin0073,2002-2011,49,49,0,position,"568 - Mauna Kea (CFHT, Gemini Observatory, Hawaii, USA)"
-,abin0074,2001-2001,3,3,0,position,568 - Mauna Kea
-,abin0075,2002-2002,1,1,0,position,568 - Mauna Kea
-,abin0076,2002-2002,2,2,0,position,"250 - Hubble Space Telescope; Reference.; Brown, M. E.; Trujillo, C. A.; (26308) 1998 SM_165.; IAU Circ., No. 7807, #1 (2002).; <a href=""http://adsabs.harvard.edu/abs/2002IAUC.7807....1B"">2002IAUC.7807....1B</a>"
-,abin0077,2001-2001,1,1,0,position,no informations
-,abin0078,2001-2001,2,2,0,position,no informations
-,abin0079,2001-2001,2,2,0,position,568 - Mauna Kea
-,abin0080,2007-2011,24,24,0,position,"568 - Mauna Kea; I11 - Gemini South Observatory, Cerro Pachon, Chile; 250 - Hubble Space Telescope"
-,abin0081,2006-2011,13,13,0,position,568 - Mauna Kea W.M. Keck observatory
-,abin0082,1998-1998,5,5,0,position,568 - Mauna Kea
-,abin0083,2008-2008,1,1,0,position,250 - Hubble Space Telescope
-,abin0084,2008-2008,1,1,0,position,250 - Hubble Space Telescope
-,abin0085,2008-2008,1,1,0,position,250 - Hubble Space Telescope
-,abin0086,2008-2008,1,1,0,position,250 - Hubble Space Telescope
-,abin0087,2008-2008,1,1,0,position,250 - Hubble Space Telescope
-,abin0088,2008-2008,1,1,0,position,568 -  Mauna Kea
-,abin0089,2004-2004,3,3,0,position,309 - Cerro Paranal
-,abin0090,2012-2012,1,1,0,position,568 - Hawaii's Maunakea
-,abin0091,2015-2016,3,3,0,position,"309 the ESO, Cerro Paranal"
-,abin0092,2001-2001,1,1,0,position,250 - Hubble Space Telescope
-,abin0093,2001-2001,1,1,0,position,568 - Mauna Kea
-,abin0094,2006-2006,1,1,0,position,568 - Mauna Kea
-,abin0095,2009 - 2009,1,1,0,position,568 - Mauna Kea
-,abin0096,2007 - 2007,1,1,0,position,250 - Hubble Space Telescope
-,abin0097,2007-2007,1,1,0,position,"309 - ESO, Cerro Paranal, Chile"
-,abin0098,2006-2008,7,7,0,position,"250 - Hubble Space Telescope; 568 - Keck LGS, Mauna Kea"
-,abin0099,2008-2008,1,1,0,position,568 - Mauna Kea
-,abin0100,2012-2012,1,1,0,position,250 - Hubble Space Telescope
-,abin0101,2006-2006,1,1,0,position,250 - Hubble Space Telescope
-,abin0102,2006-2006,1,1,0,position,250 - Hubble Space Telescope
-,abin0103,2006-2006,1,1,0,position,250 - Hubble Space Telescope
-,abin0104,2006-2006,1,1,0,position,250 - Hubble Space Telescope
-,abin0105,2007-2007,1,1,0,position,250 - Hubble Space Telescope
-,abin0106,2006-2006,1,1,0,position,388 - Tokyo-Mitaka
-,abin0107,2007-2007,1,1,0,position,250 - Hubble Space Telescope
-,abin0108,2007-2007,1,1,0,position,250 - Hubble Space Telescope
-,abin0109,2007-2007,1,1,0,position,250 - Hubble Space Telescope
-,abin0110,2006-2006,1,1,0,position,250 - Hubble Space Telescope
-,abin0111,2004-2010,47,47,0,position,"568 - Mauna Kea (CFHT, Gemini Observatory, Hawaii, USA); Reference; Parker, Alex H.; Kavelaars, J. J.; Petit, Jean-Marc; Jones, Lynne; Gladman,; Brett; Parker, Joel; CHARACTERIZATION OF SEVEN ULTRA-WIDE TRANS-NEPTUNIAN BINARIES; The Astrophysical Journal, 743:1 (20pp), 2011; <a href=""http://adsabs.harvard.edu/abs/2011ApJ...743....1P"">2011ApJ...743....1P</a>"
-,abin0112,2003-2003,1,1,0,position,"304 - Las Campanas, Chile"
-,abin0113,2007-2007,1,1,0,position,250 - Hubble Space Telescope
-,abin0114,2007-2007,1,1,0,position,250 - Hubble Space Telescope
-,abin0115,2006-2011,66,66,0,position,"568 - Mauna Kea (CFHT, Gemini Observatory, Hawaii, USA)"
-,abin0116,2006-2011,56,56,0,position,"568 - Mauna Kea (CFHT, Gemini Observatory, Hawaii, USA)"
-,abin0117,2002-2002,1,1,0,position,250 - Hubble Space Telescope
-,abin0118,2007 - 2007,8,8,0,position,"309 - ESO, Cerro Paranal, Chile"
-,abin0119,2009-2010,18,18,0,position,I08 - Cerro Burek
-,abin0120,2009-2010,8,8,0,position,250 - Hubble Space Telescope
-,abin0121,2013-2017,7,7,0,position,568 - Mauna Kea; 250 - HST
-,abin0122,2003-2003,1,1,0,position,250 - Hubble Space Telescope
-,abin0123,2006-2006,1,1,0,position,250 - Hubble Space Telescope
-,abin0124,2005-2005,1,1,0,position,"568 - Mauna Kea, Hawaii"
-,abin0125,2003-2003,1,1,0,position,"250 - Hubble Space Telescope; Reference.; Noll, K. S.; Stephens, D. C.; Cruikshank, D.; Grundy, W.; Romanishin, W.; Tegler, S..; 1999 RZ_253; IAUC 8143, 2003; <a href=""http://adsabs.harvard.edu/abs/2003IAUC.8143....1N"">2003IAUC.8143....1N</a>"
-,abin0126,2007-2007,1,1,0,position,250 - Hubble Space Telescope
-,abin0127,2006-2006,1,1,0,position,250 - Hubble Space Telescope
-,abin0128,2006-2006,1,1,0,position,250 - Hubble Space Telescope
-,abin0129,2014-2014,1,1,0,position,250 - Hubble Space Telescope
-,abin0130,2016-2017,2,2,0,position,"304 -  Las Campanas Observatory, Chile."
-,abin0131,2001 - 2016,80,80,0,position,"250 - Hubble Space Telescope; 309 - Cerro Paranal (European Southern Observatory, Chile),; 568 - Mauna Kea (Keck  observatory, Hawaii, USA),; 568 - Mauna Kea (Gemini observatory, Hawaii, USA)"
-,abin0132,2015 - 2016,11,11,0,position,"309 - Cerro Paranal (European Southern Observatory, Chile),"
-,abin0133,2017-2017,1,1,0,position,"304 -  Las Campanas Observatory, Chile."
-,abin0134,2010-2010,15,15,0,position,568 -  Mauna Kea
-,abin0135,2017,1,1,0,position,several positions
-,abin0136,2017,4,4,0,position,250 - Hubble Space Telescope
-,abin0137,2015,2,2,0,position,250 - Hubble Space Telescope
-,abin0138,2017-2018,28,28,0,position,115 - Caucasian Mountain Observatory of; Sternberg State Astronomical Institute of; Lomonosov Moscow State University
-,abin0139,2006-2015,6,6,0,position,250 - HST
-,abin0140,2005-2015,12,12,0,position,250 - HST; 309 - Cerro Paranal; 568 - Mauna Kea
-,abin0141,2006-2014,7,7,0,position,250 - HST; 568 - Mauna Kea
-,abin0142,2006-2016,14,14,0,position,250 - HST; 568 - Mauna Kea
-,abin0143,2007-2017,7,7,0,position,250 - HST; 568 - Mauna Kea
-,abin0144,2007-2015,5,5,0,position,250 - HST; 568 - Mauna Kea
-,abin0145,2006-2017,11,11,0,position,250 - HST; 568 - Mauna Kea
-,abin0146,2009-2013,10,10,0,position,250 - HST; 568 - Mauna Kea
-,abin0147,2003-2015,7,7,0,position,250 - HST
-,abin0148,2008-2013,6,6,0,position,250 - HST; 568 - Mauna Kea
-,abin0149,2001-2013,16,16,0,position,250 - HST; 568 - Mauna Kea
-,abin0150,2002-2015,10,10,0,position,250 - HST; 568 - Mauna Kea
-,abin0151,2006-2017,6,6,0,position,250 - HST; 568 - Mauna Kea
-,abin0152,2006-2017,10,10,0,position,250 - HST; 568 - Mauna Kea
-,abin0153,2006-2009,8,8,0,position,250 - HST; 568 - Mauna Kea
-,abin0154,2008-2017,5,5,0,position,250 - HST; 568 - Mauna Kea
-,abin0155,2006-2014,6,6,0,position,250 - HST
-,abin0156,2008-2018,8,8,0,position,250 - HST; 568 - Mauna Kea
-,abin0157,2018,1,1,0,position,250 - Hubble Space Telescope
-,abin0158,2019,2,2,0,position,309 - Cerro Paranal
-,abin0159,2019,5,5,0,position,309 - Cerro Paranal
-,abin0160,2008-2018,30,30,0,position,309 - Cerro Paranal; 568 - Mauna Kea
-,abin0161,2001-2005,14,14,0,position,568 - Mauna Kea
-,abin0162,2021,2,2,0,position,"E28 - Kuriwa Observatory, Hawkesbury Heights; Q69 - Hazelbrook; San Ardo (California, USA); Bradley (California, USA)"
-,abin0163,2018-2021,9,9,0,position,250 - Hubble Space Telescope
-,abin0164,2009-2017,43,43,0,position,568 - Mauna Kea; 309 - Cerro Paranal; Starfire Optical Range (SOR)
-,abin0165,2016-2017,17,17,0,position,Starfire Optical Range (SOR)
-,abin0166,"1980, 2017-2019",19,19,0,position,309 - Cerro Paranal
-,abin0167,2007-2018,12,12,0,position,250 - Hubble Space Telescope
-,abin0168,2018,1,1,0,position,several positions
-,abin0169,2014-2014,390,390,0,position,"309 - Cerro Paranal ESO, Chile"
-,abin0170,2001 - 2022,113,113,0,position,"020 - Nice (Calern, Observatoire de la Cote d’Azur); 309 - Cerro Paranal; 568 - MaunaKea"
-,abin0171,2003-2014,40,40,0,position,309 - Cerro Paranal; 568 - MaunaKea
-,abinSummary,,0,0,,,no informations
-,outtabAll,,0,0,,,no informations
-J,jg0001,1891-1978,1606,5281,3675,relative,no informations
-J,jg0002,1998-1998,8,8,0,relative,084 - Pulkovo
-J,jg0003,1998-1998,11,11,0,absolute,808 - El Leoncito
-J,jg0004,1983-1985,144,144,0,absolute,089 - Nikolaev
-J,jg0005,1998-1998,218,218,0,absolute,689 - Flagstaff
-J,jg0006,1999-1999,224,224,0,absolute,689 - Flagstaff
-J,jg0007,1891-1891,420,420,0,relative,051 - Cape
-J,jg0008,1901-1902,738,738,0,relative,051 - Cape
-J,jg0009,1902-1906,808,808,0,relative,"786 - U.S. Naval Obs., Washington"
-J,jg0010,1995-1995,535,364,-171,relative,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-J,jg0011,1962-1998,1314,1314,0,absolute,089 - Nikolaev
-J,jg0012,1983-1983,8,8,0,absolute,"809 - European Southern Observatory, La Silla"
-J,jg0013,1891-1978,1138,3916,2778,relative,79 - Bordeaux-Floirac; 99 - Bucarest; 126 - Cape of Good Hope; 234 - Greenwich; 251 - Helsingfors; 267 - Johannesburg; 299 - La Silla; 311 - Leiden; 369 - Mc Cormick Obs.; 410 - Nicolaiev; 447 - Paris; 480 - Pulkovo; 490 - Rio de Janeiro; 615 - U.S. Naval Obs.; 618 - Uccle; 675 - Yerkes Obs.; 679 - Zo-Se
-J,jg0014,1990-1992,209,209,0,relative,"ESO: European Southern Obs. Chile; BMD: Bowie Maryland USA; GEA: Grup d'Estuds Astron. No. Spain; RCI: Reggio Calabria Italy; ORM: Oak Ridge Obs. Mass. USA; CAT: Catania Astrophys. Obs. Sicily; TOK: Tokyo Obs. Japan; NIC: Nice Obs. France; TER: Collurania Obs. Teramo Italy; CAF: Calern, Cote d'Azur France; KAV: Vainu Bappu Obs. Kavalur India; PRI: Providence Rhode Island USA; HAN: Harastua Norway; OHP: Obs. Haute-Provence France; PAR: Paris Obs. France; BSP: Barcelona Spain; KAK: Kakuda Japan; ZNL: Zoetermeer Netherlands; SFC: San Francisco Cal. USA; DAC: Devon Ast. Obs. Alberta Canada; BNZ: Adams Obs. Blenheim N. Zealand; LOW: Lowell Obs. Flagstaff Ariz. USA; VIA: Victoria NSW Australia; PIC: Pic du Midi France; RIO: Rio de Janeiro Brazil; BOR: Bordeaux Univ. Obs. France; MEU: Meudon Obs. France; CNR: Cluj-Napoca Obs. Romania; SSA: Siding Spring Obs. Australia; MKH: Mauna Kea, Hawaii; TOC: Toronto Ontario Canada; BRB: Brasopolis Brazil; DNC: Durham North Carolina USA; BER: Berlin Germany; HEG: Heuweiler Germany; ESS: Essen Germany; HNY: Holtsville New York USA; TMR: Timisoara Romania; TPK: Topeka Kansas USA; BEL: Belgrade Obs. Serbia"
-J,jg0016,1976-1981,419,419,0,relative,084 - Pulkovo
-J,jg0017,1994-1997,66,66,0,relative,250 - Hubble Space Telescope
-J,jg0018,1973-1977,10,10,0,absolute,"786 - U.S. Naval Obs., Washington"
-J,jg0019,2001-2005,727,727,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-J,jg0020,1997-1997,26,26,0,relative (heliocentric),210 - Alma-Ata; 168 - Kourovskaya; 083 - Golosseevo-Kiev; 084 - Pulkovo; 095 - Crimea-Nauchnij; K01 - Dushak-Erekdag (see comments); K02 - Voronezh  (see comments)
-J,jg0021,1997-1997,16,26,10,relative,210 - Alma-Ata; 168 - Kourovskaya; 083 - Golosseevo-Kiev; 084 - Pulkovo; 095 - Crimea-Nauchnij; K01 - Dushak-Erekdag (see comments); K02 - Voronezh  (see comments)
-J,jg0022,2005-2006,229,229,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-J,jg0023,2006-2007,85,85,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-J,jg0024,1986-1997,658,658,0,absolute,950 - La Palma
-J,jg0025,1996-1997,270,270,0,relative,see observatories list in the comments
-J,jg0026,1997-1997,31,31,0,relative,see observatories list in the relevant article.
-J,jg0027,2002-2003,340,340,0,relative,see observatories list with the coordinates; in the relevant article.
-J,jg0028,2003-2003,31,31,0,relative,see observatories list with the coordinates; in the relevant article.
-J,jg0029,1997-1997,200,200,0,relative,see observatories list in the reference
-J,jg0030,1986-2005,316,316,0,relative,084 - Pulkovo
-J,jg0031,1986-2005,256,256,0,relative,084 - Pulkovo
-J,jg0032,1974-1979,448,448,0,absolute,084 - Pulkovo
-J,jg0033,1984-1986,196,196,0,relative,84 - Pulkovo; 129 - Ordubad
-J,jg0034,"1974-1978, 2004",875,875,0,relative,84 - Pulkovo
-J,jg0035,2009-2009,86,86,0,relative,see observatories list with the coordinates; in the relevant article.
-J,jg0036,2009-2009,10,10,0,relative,see observatories list with the coordinates; in the relevant article.
-J,jg0037,2002-2010,526,526,0,relative,286 - Yunnan Observatory
-J,jg0038,2009-2009,354,354,0,relative,see observatories coordinates below.
-J,jg0039,2009-2009,14,14,0,relative,see observatories coordinates below.
-J,jg0040,2000-2012,1847,1847,0,absolute,689 - Flagstaff
-J,jg0041,2013-2015,330,330,0,absolute,689 - Flagstaff
-J,jg0042,2002-2002,9,9,0,absolute,"673-Table Mountain Observatory, Wrightwood, California"
-J,jg0043,1967-1998,3782,3782,0,absolute,"786 - U.S. Naval Obs., Washington (since 1893)"
-J,jg0044,2009-2011,140,140,0,absolute,084 - Pulkovo
-J,jg0045,2013-2015,154,154,0,absolute,084 - Pulkovo
-J,jg0046,1987-1987,9,9,0,absolute,286 - Yunnan Observatory
-J,jg0047,2014-2015,554,554,0,relative,see observatories coordinates below.
-J,jg0048,2014-2015,55,55,0,relative,see observatories coordinates below.
-J,jg0049,2014-2015,27,27,0,relative,"220 - Vainu Bappu Observatory, Kavalur"
-J,jg0050,2016-2018,104,104,0,relative-APPROX,IAU-874 OPD - Itajuba/MG-Brazil; IAU-X57 FOZ - Foz do Iguacu/PR-Brazi; FEG - Guaratinguet ́a/SP-Brazil; GOA - Vitoria/ES-Brazil; UTF - Curitiba/PR-Brazil; IAU-511 OHP - Haute de Province/France
-J,jg0051,2014-2015,36,36,0,relative-APPROX,IAU-874 OPD - Itajuba/MG-Brazil
-J,jg0052,1990-1993,64,64,0,relative,248 - Hipparcos
-J,jg0053,1990-1993,29,29,0,absolute,248 - Hipparcos
-J,jg0054,2016-2017,761,761,0,absolute,084 - Pulkovo
-J,jg0055,2016-2017,854,854,0,relative,084 - Pulkovo
-J,jg0056,2013-2015,148,148,0,relative,084 - Pulkovo
-J,jg0057,2009-2015,53,53,0,relative,see observatories coordinates below.
-J,jg0058,2014-2015,2,2,0,relative,see observatories coordinates below.
-J,jg0059,2018,452,452,0,absolute,084 - Pulkovo
-J,jg0060,2018,671,671,0,relative,084 - Pulkovo
-J,jg0061,2014-2015,47,47,0,relative,see observatories coordinates below.
-J,jg0062,2009-2009,25,25,0,relative,see observatories coordinates below.
-J,jg0063,1985-1985,121,121,0,relative,see observatories coordinates below.
-J,jg0064,1985-1985,26,26,0,relative,see observatories coordinates below.
-J,jg0065,1990-1992,286,286,0,relative,see observatories coordinates below.
-J,jg0066,1990-1992,70,70,0,relative,see observatories coordinates below.
-J,jg0067,2021-2021,78,78,0,relative,see observatories coordinates below.
-J,jg0068,2021-2021,7,7,0,relative,see observatories below.
-J,jg0069,2015-2017,209,209,0,absolute,258 - Gaia
-J,jg0070,2021-2021,2,2,0,relative,"D19 - Hong Kong Space Museum, Sai Kung, New Territories, Hong Kong"
-J,jg0071,1991-1991,2,2,0,relative,SERGA
-J,jg0072,2017,1,1,0,absolute,"874 - Observatorio do Pico dos Dias, Itajuba; X57 - Polo Astronomico CMF, Foz do Iguacu; W95 - Observatorio Panameno, San Pedro de Atacama"
-J,jg0073,2014-2019,295,295,0,absolute,258 - Gaia
-J,jg0074,2016-2021,5,5,0,absolute,"24 stations in North and South America, Hawaii, and South Korea"
-J,ji0001,1998-1998,35,35,0,relative,B18 - Pik Terskol
-J,ji0002,1999-2000,160,160,0,relative,9999 - Pik Terskol
-J,ji0003,1995-1995,171,171,0,relative,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-J,ji0004,2000-2000,123,123,0,relative,9999 - Pik Terskol
-J,ji0005,1988-1988,156,114,-42,relative,675 - Palomar Mountain
-J,ji0006,1981-1981,9,9,0,relative,"689 - U.S. Naval Observatory, Flagstaff"
-J,ji0007,1977-1977,10,10,0,absolute,"780 - Leander McCormick Observatory, Charlottesville"
-J,ji0008,1976-1978,6,6,0,absolute,"711 - McDonald Observatory, Fort Davis"
-J,ji0009,1976-1978,24,24,0,relative,"711 - McDonald Observatory, Fort Davis"
-J,ji0010,1967-1967,90,90,0,absolute,88 - Kottomia
-J,ji0011,1954-1954,41,41,0,absolute,"711 - McDonald Observatory, Fort Davis"
-J,ji0012,"1994,1996",10,10,0,relative,250 - Hubble Space Telescope
-J,ji0013,1995-2001,664,664,0,absolute,874 - Itajuba
-J,ji0014,2001-2002,58,58,0,relative,B18 - Terskol
-J,ji0015,2015-2015,54,54,0,absolute,586 - Pic du Midi
-J,ji0016,1999-2001,303,303,0,relative,B18 - Terskol
-J,ji0017,2000-2001,289,289,0,absolute,Cassini space probe
-J,ji0018,2009-2009,1,1,0,relative,see observatories coordinates below.
-J,jo0001,1998-1998,115,115,0,absolute,689 - Flagstaff
-J,jo0002,1999-2000,133,133,0,absolute,689 - Flagstaff
-J,jo0003,1997-1999,14,14,0,absolute,"673 - Table Mountain Observatory, Wrightwood"
-J,jo0004,2000-2000,60,60,0,absolute,"106 - Crni vrh.; 568 - Mauna Kea.; 691 - Steward Observatory, Kitt Peak-Spacewatch.; 704 - Lincoln Laboratory Experimental Test System, New Mexico.; 732 - Oaxaca.; 809 - European Southern Observatory, La Silla."
-J,jo0005,"1992-1993 : 2,",96,96,0,absolute,"413 - Siding Spring; 704 - Lincoln Laboratory Experimental Test System, New Mexico.; 696 - Whipple Observatory, Mt. Hopkins; 699 - Lowell Observatory-LONEOS"
-J,jo0006,1999-1999,9,9,0,absolute,"835 - Drum Hill Station, Chelmsford"
-J,jo0007,2001-2001,6,6,0,absolute,"644 - Palomar Mountain/NEAT; 691 - Steward Observatory, Kitt Peak-Spacewatch"
-J,jo0008,"1993, 1998, 2001-2002",230,230,0,absolute,"185 - Observatoire astronomique jurassien-Vicques; 365 - Kashihara, Uto Observatory; 568 - Mauna Kea; 608 - Haleakala-AMOS; 636 - Essen; 644 - Palomar Mountain/NEAT; 691 - Steward Observatory, Kitt Peak-Spacewatch; 699 - Lowell Observatory-LONEOS; 704 - LINEAR, Lincoln Laboratory ETS, New Mexico"
-J,jo0010,"J6: 1905.08.23-1906.02.15, J7: 1905.10.22-1906.01.26",1433,1433,0,absolute,"000 - Greenwich; 024 - Heidelberg-Konigstuhl; 029 - Hamburg-Bergedorf; 078 - Johannesburg; 087 - Helwan; 210 - Alma-Ata; 261 - Palomar Mountain-DSS; 309 - Cerro Paranal; 381 - Tokyo-Kiso; 511 - Haute Provence; 662 - Lick Observatory, Mount Hamilton; 672 - Mount Wilson; 690 - Lowell Observatory, Flagstaff; 693 - Catalina Station, Tucson; 695 - Kitt Peak; 711 - McDonald Observatory, Fort Davis; 754 - Yerkes Observatory, Williams Bay; 760 - Goethe Link Observatory, Brooklyn; 786 - U.S. Naval Obs., Washington (since 1893); 801 - Oak Ridge Observatory; 803 - Taunton; 809 - European Southern Observatory, La Silla; 822 - Cordoba; 999 - Bordeaux-Floirac; Reference.; 0 - No reference"
-J,jo0011,1952-1952,6,6,0,absolute,822 - Cordoba
-J,jo0012,1967-1969,13,13,0,absolute,"662 - Lick Observatory, Mount Hamilton"
-J,jo0013,1973-1973,4,4,0,absolute,"711 - McDonald Observatory, Fort Davis"
-J,jo0014,1989-1990,72,72,0,absolute,"711 - McDonald Observatory, Fort Davis"
-J,jo0015,1990-1992,84,84,0,absolute,"711 - McDonald Observatory, Fort Davis"
-J,jo0016,1994-1995,190,190,0,absolute,"711 - McDonald Observatory, Fort Davis"
-J,jo0017,1990-1992,53,53,0,absolute,381 - Tokyo-Kiso
-J,jo0018,1992-1993,42,42,0,absolute,"413 - Siding Spring Observatory; 809 - European Southern Observatory, La Silla"
-J,jo0019,2002-2002,3,3,0,absolute,644 - Palomar Mountain/NEAT
-J,jo0020,1980-1981,11,11,0,absolute,"690 Lowell Observatory, Flagstaff"
-J,jo0021,2002-2003,10,10,0,absolute,"704 - Lincoln Laboratory ETS, New Mexico"
-J,jo0022,1993-2003,288,288,0,absolute,"291 - LPL/Spacewatch II; 309 - Cerro Paranal; 333 - Desert Eagle Observatory; 413 - Siding Spring Observatory; 568 - Mauna Kea; 608 - Haleakala-NEAT/MSSS (Haleakala-AMOS); 644 - Palomar Mountain/NEAT; 673 - Table Mountain Observatory, Wrightwood; 699 - Lowell Observatory-LONEOS; 704 - Lincoln Laboratory ETS, New Mexico; 807 - Cerro Tololo Observatory, La Serena; 1029 - (H29) - Ivywood Observatory"
-J,jo0023,2003-2003,120,120,0,absolute,"291 - LPL/Spacewatch II; 568 - Mauna Kea; 608 - Haleakala-NEAT/MSSS (Haleakala-AMOS); 644 - Palomar Mountain/NEAT; 699 - Lowell Observatory-LONEOS; 704 - Lincoln Laboratory ETS, New Mexico"
-J,jo0024,"1998-1998, 2002-2002",64,64,0,absolute,"304 - Las Campanas Observatory; 699 - Lowell Observatory-LONEOS; 704 - Lincoln Laboratory ETS, New Mexico"
-J,jo0025,"1992, 1993, 2003",52,52,0,absolute,"568 - Mauna Kea; 691 - Steward Observatory, Kitt Peak-Spacewatch; 938 - Linhaceira"
-J,jo0026,"1998, 2003",39,39,0,absolute,"568 - Mauna Kea; 704 - Lincoln Laboratory ETS, New Mexico; 807 - Cerro Tololo Observatory, La Serena"
-J,jo0027,2003-2003,47,54,7,absolute,"291 - LPL/Spacewatch II; 568 - Mauna Kea; 608 - Haleakala-AMOS (NEAT/MSSS); 644 - Palomar Mountain/NEAT; 704 - Lincoln Laboratory ETS, New Mexico"
-J,jo0028,2003-2003,36,36,0,absolute,"608 - Haleakala-AMOS (NEAT/MSSS); 691 - Steward Observatory, Kitt Peak; 703 - Catalina Sky Survey"
-J,jo0029,"1951,1975,1976",13,13,0,absolute,"672 - Mount Wilson; 675 - Palomar Mountain; 691 - Steward Observatory, Kitt Peak-Spacewatch; 693 - Catalina Station, Tucson"
-J,jo0030,1951-1951,6,6,0,absolute,"660 - Leuschner Observatory, Berkeley"
-J,jo0031,1968-1968,6,6,0,absolute,999 - Bordeaux-Floirac
-J,jo0032,1968-1968,4,4,0,absolute,"673 - Table Mountain Observatory, Wrightwood"
-J,jo0033,1999-2002,162,162,0,absolute,094 - Crimea-Simeis; 115 - Zelenchukskaya
-J,jo0034,2001-2005,315,315,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-J,jo0035,1986-2005,1226,1226,0,absolute,"095 - Crimea-Nauchnij; 106 - Crni Vrh; 119 - Abastuman; 120 - Visnjan; 138 - Village-Neuf; 185 - Observatoire Astronomique Jurassien-Vicques; 224 - Ottmarsheim; 303 - Merida; 333 - Desert Eagle Observatory; 365 - Uto Observatory; 415 - Kambah, near Canberra; 511 - Haute Provence; 565 - Bassano Bresciano; 568 - Mauna Kea; 599 - Campo Imperatore-CINEOS; 608 - Haleakala-AMOS; 644 - Palomar Mountain/NEAT; 673 - Table Mountain Observatory, Wrightwood; 678 - Fountain Hills; 689 - U.S. Naval Observatory, Flagstaff; 691 - Steward Observatory, Kitt Peak-Spacewatch; 695 - Kitt Peak; 699 - Lowell Observatory-LONEOS; 703 - Catalina Sky Survey; 704 - Lincoln Laboratory ETS, New Mexico; 732 - Oaxaca; 739 - Sunflower Observatory, Olathe; 757 - High Point; 809 - European Southern Observatory, La Silla; 888 - Gekko; 910 - Caussols-ODAS; 919 - Desert Beaver Observatory; 926 - Tenagra II Observatory; 938 - Linhaceira; A13 - Observatoire Naef, Marly; E12 - Siding Spring Survey; G96 - Mt. Lemmon Survey"
-J,jo0036,2006-2006,221,221,0,absolute,"415 - Kambah, near Canberra; 691 - Steward Observatory, Kitt Peak-Spacewatch; 699 - Lowell Observatory-LONEOS; 703 - Catalina Sky Survey; G96 - Mt. Lemmon Survey; H06 - New Mexico Skies Observatory"
-J,jo0037,2006-2006,98,98,0,absolute,"415 - Kambah, near Canberra; 644 - Palomar Mountain/NEAT; 673 - Table Mountain Observatory, Wrightwood"
-J,jo0038,1995-1998,120,120,0,absolute,874 - Itajuba
-J,jo0039,2006-2006,70,70,0,absolute,"415 - Kambah, near Canberra; 703 - Catalina Sky Survey; E12 - Siding Spring Survey"
-J,jo0040,2005-2006,70,70,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-J,jo0041,2007-2007,20,20,0,absolute,"415 - Kambah, near Canberra"
-J,jo0042,2007-2007,77,77,0,absolute,"415 - Kambah, near Canberra; 704 - Lincoln Laboratory ETS, New Mexico; D29 - Purple Mountain Observatory, XuYi Station; D35 - Lulin Observatory"
-J,jo0043,2007-2007,32,32,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-J,jo0044,2007-2007,154,154,0,absolute,"415 - Kambah, near Canberra; 704 - Lincoln Laboratory ETS, New Mexico"
-J,jo0045,2008-2008,136,136,0,absolute,"415 - Kambah, near Canberra"
-J,jo0046,2000-2008,719,719,0,absolute,"415 - Kambah, near Canberra; 568 - Mauna Kea; 673 - Table Mountain Observatory, Wrightwood; 689 - U.S. Naval Observatory, Flagstaff; 704 - Lincoln Laboratory ETS, New Mexico"
-J,jo0047,2008-2009,303,303,0,absolute,"415 - Kambah, near Canberra; 673 - Table Mountain Observatory, Wrightwood; 689 - U.S. Naval Observatory, Flagstaff; 691 - Steward Observatory, Kitt Peak-Spacewatch; 703 - Catalina Sky Survey; 704 - Lincoln Laboratory ETS, New Mexico; E12 - Siding Spring Survey; J75 - OAM Observatory, La Sagra"
-J,jo0048,2009-2011,283,283,0,absolute,"106 - Crni Vrh; 198 - Wildberg; 415 - Kambah, near Canberra; 673 - Table Mountain Observatory, Wrightwood; 689 - U.S. Naval Observatory, Flagstaff; 691 - Steward Observatory, Kitt Peak-Spacewatch; 703 - Catalina Sky Survey; 704 - Lincoln Laboratory ETS, New Mexico; 809 - European Southern Observatory, La Silla; D29 - Purple Mountain Observatory, XuYi Station; E10 - Siding Spring-Faulkes Telescope South; E12 - Siding Spring Survey; F51 - Pan-STARRS 1, Haleakala; G68 - Sierra Stars Observatory, Markleeville; H15 - ISON-NM Observatory, Mayhill; H82 - CBA-NOVAC Observatory, Front Royal; I77 - CEAMIG-REA Observatory, Belo Horizonte; J37 - Huelva; J75 - OAM Observatory, La Sagra"
-J,jo0049,2010-2010,57,57,0,absolute,C51 - WISE (satellite)
-J,jo0050,"1996,2005,2009-2012",459,459,0,absolute,"106 - Crni Vrh; 608 - Haleakala-AMOS; 673 - Table Mountain Observatory, Wrightwood; 689 - U.S. Naval Observatory, Flagstaff; 691 - Steward Observatory, Kitt Peak-Spacewatch; 703 - Catalina Sky Survey; 704 - Lincoln Laboratory ETS, New Mexico; 874 - Itajuba; A50 - Andrushivka Astronomical Observatory; B01 - Taunus Observatory, Frankfurt; C73 - Galati Observatory; D29 - Purple Mountain Observatory, XuYi Station; E07 - Murrumbateman; E12 - Siding Spring Survey; G96 - Mt. Lemmon Survey; H06 - RAS Observatory, Mayhill; H15 - ISON-NM Observatory, Mayhill; H21 - Astronomical Research Observatory, Westfield; J37 - Huelva; J43 - Conway; J75 - OAM Observatory, La Sagra"
-J,jo0051,2010-2010,12,12,0,absolute,C51 - WISE (satellite)
-J,jo0052,"1914,1987,2010-2012",41,41,0,absolute,"381 - Tokyo-Kiso; 662 - Lick Observatory, Mount Hamilton; 673 - Table Mountain Observatory, Wrightwood; 704 - Lincoln Laboratory ETS, New Mexico; 809 - European Southern Observatory, La Silla; E07 - Murrumbateman; E10 - Siding Spring-Faulkes Telescope South; J43 - Oukaimeden Observatory, Marrakech"
-J,jo0053,2012-2012,17,17,0,absolute,689 - Flagstaff
-J,jo0054,2010-2015,960,960,0,absolute,"106 - Crni Vrh; 300 - Bisei Spaceguard Center-BATTeRS; 461 - University of Szeged, Piszkesteto Stn. (Konkoly); 673 - Table Mountain Observatory, Wrightwood; 689 - U.S. Naval Observatory, Flagstaff; 691 - Steward Observatory, Kitt Peak-Spacewatch; 695 - Kitt Peak; 703 - Catalina Sky Survey; 704 - Lincoln Laboratory ETS, New Mexico; 850 - Cordell-Lorenz Observatory, Sewanee; 926 - Tenagra II Observatory, Nogales; 958 - Observatoire de Dax; C73 - Galati Observatory; C77 - Bernezzo Observatory; D00 - ISON-Kislovodsk Observatory; D29 - Purple Mountain Observatory, XuYi Station; E07 - Murrumbateman; F51 - Pan-STARRS 1, Haleakala; G36 - Calar Alto-CASADO; G84 - Mount Lemmon SkyCenter; G96 - Mt. Lemmon Survey; H06 - iTelescope Observatory, Mayhill; H21 - Astronomical Research Observatory, Westfield; I41 - Palomar Mountain--PTF; I89 - iTelescope Observatory, Nerpio; J04 - ESA Optical Ground Station, Tenerife; J43 - Oukaimeden Observatory, Marrakech; K33 - San Defendente; U69 - iTelescope SRO Observatory, Auberry; V37 - McDonald Observatory-LCOGT ELP; Y00 - SONEAR Observatory, Oliveira"
-J,jo0055,2014-2014,9,9,0,absolute,C51 - WISE (satellite)
-J,jo0056,1995-2014,3613,3613,0,absolute,"511 - Haute Provence; 809 - European Southern Observatory, La Silla; 874 - Itajuba"
-J,jo0057,2013-2015,120,120,0,absolute,689-Flagstaff
-J,jo0058,2010-2010,2,2,0,absolute,"673-Table Mountain Observatory, Wrightwood, California"
-J,jo0059,2014-2016,1343,1343,0,absolute,"106 - Crni Vrh; 691 - Steward Observatory, Kitt Peak; 703 - Catalina Sky Survey; C41 - MASTER-II Observatory, Kislovodsk; C95 - SATINO Remote Observatory, Haute Provence; D29 - Purple Mountain Observatory, XuYi Station; E07 - Murrumbateman; F51 - Pan-STARRS 1, Haleakala; G36 - Calar Alto-CASADO; G40 - Slooh.com Canary Islands Observatory; G45 - Space Surveillance Telescope, Atom Site; G80 - Sierra Remote Observatories, Auberry; G96 - Mt. Lemmon Survey; H15 - ISON-NM Observatory, Mayhill; I41 - Palomar Mountain--PTF; J43 - Oukaimeden Observatory, Marrakech; T05 - ATLAS-HKO, Haleakala; W88 - Slooh.com Chile Observatory, La Dehesa; Y00 - SONEAR Observatory, Oliveira; Z22 - MASTER-IAC Observatory, Tenerife; Z80 - Northolt Branch Observatory"
-J,jo0060,2015-2016,36,36,0,absolute,C51 - WISE (satellite)
-J,jo0061,1906-1907,66,66,0,absolute,"000 - Royal Observatory, Greenwich"
-J,jo0062,2015-2018,890,890,0,absolute,"118 - Astronomical and Geophysical Observatory, Modra; 673 - Table Mountain Observatory, Wrightwood; 691 - Steward Observatory, Kitt Peak; 703 - Catalina Sky Survey; D29 - Purple Mountain Observatory, XuYi Station; F51 - Pan-STARRS 1, Haleakala; G36 - Calar Alto-CASADO; G40 - Slooh.com Canary Islands Observatory; G96 - Mt. Lemmon Survey; H15 - ISON-NM Observatory, Mayhill; J43 - Oukaïmeden Observatory, Marrakech; K95 - MASTER-SAAO Observatory, Sutherland; T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa; W98 - Polonia Observatory, San Pedro de Atacama; Y00 - SONEAR Observatory, Oliveira; Z22 - MASTER-IAC Observatory, Tenerife; Z80 - Northolt Branch Observatory; Z84 - Calar Alto-Schmidt"
-J,jo0063,2017,8,8,0,absolute,C51 - WISE (satellite)
-J,jo0064,2017-2018,320,320,0,absolute,"D29 - Purple Mountain Observatory, XuYi Station; F51 - Pan-STARRS 1, Haleakala; G36 - Calar Alto-CASADO; G40 - Slooh.com Canary Islands Observatory; G96 - Mt. Lemmon Survey; J43 - Oukaimeden Observatory, Marrakech; T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa; W88 - Slooh.com Chile Observatory, La Dehesa; Y00 - SONEAR Observatory, Oliveira; Z80 - Northolt Branch Observatory"
-J,jo0065,"2011, 2013, 2017-2019",35,35,0,absolute,"568 - Mauna Kea; 691 - Steward Observatory, Kitt Peak-Spacewatch; C95 - SATINO Remote Observatory, Haute Provence; W84 - Cerro Tololo-DECam; W88 - Slooh.com Chile Observatory, La Dehesa; References.; MPC 112833"
-J,jo0066,1987-1993,33,33,0,absolute,083 - Golosseevo-Kiev; 186 - Kitab; 188 - Majdanak
-J,jo0067,2017-2019,130,130,0,absolute,"C95 - SATINO Remote Observatory, Haute Provence; I41 - Palomar Mountain--ZTF; T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa; W88 - Slooh.com Chile Observatory, La Dehesa; X74 - Observatorio Campo dos Amarais; References.; MPC 115063-115064, 115988-115989"
-J,jo0068,2020,144,144,0,absolute,"C95 - SATINO Remote Observatory, Haute Provence; I41 - Palomar Mountain--ZTF; T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa; W76 - CHILESCOPE Observatory, Rio Hurtad; References.; MPC 125595-125597, 127455"
-J,jo0069,2014-2017,1712,1712,0,absolute,258 - Gaia
-J,jo0070,"1986, 2005-2022",1880,1880,0,absolute,"106 - Crni Vrh; 291 - LPL/Spacewatch II; 309 - Cerro Paranal; 415 - Kambah; 644 - Palomar Mountain/NEAT; 673 - Table Mountain Observatory, Wrightwood; 688 - Lowell Observatory, Anderson Mesa Station; 691 - Steward Observatory, Kitt Peak-Spacewatch; 704 - Lincoln Laboratory ETS, New Mexico; 809 - European Southern Observatory, La Silla; 938 - Linhaceira; C73 - Galati Observatory; D29 - Purple Mountain Observatory, XuYi Station; F51 - Pan-STARRS 1, Haleakala; G34 - Oberfrauendorf; G36 - Calar Alto-CASADO; G92 - Jarnac Observatory, Vail; G96 - Mt. Lemmon Survey; I41 - Palomar Mountain--ZTF; I52 - Steward Observatory, Mt. Lemmon Station; J04 - ESA Optical Ground Station, Tenerife; J75 - OAM Observatory, La Sagra; K83 - Beppe Forti Astronomical Observatory, Montelupo; L01 - Visnjan Observatory, Tican; M22 - ATLAS South Africa, Sutherland; T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa; W68 - ATLAS Chile, Rio Hurtado; W84 - Cerro Tololo-DECam; W88 - Slooh.com Chile Observatory, La Dehesa; X74 - Observatorio Campo dos Amarais; Y00 - SONEAR Observatory, Oliveira; Z80 - Northolt Branch Observatory; References.; MPC 132404, 136722-136726, 141297-141303, 142128-142135"
-J,jo0071,2020-2021,11,11,0,absolute,C51 - WISE (satellite)
-J,jo0072,2016-2018,267,267,0,absolute,286 - Yunnan Astronomical Observatory
-J,jo0073,2016-2018,372,372,0,absolute,286 - Yunnan Astronomical Observatory
-J,jo0074,"1986, 2006-2022",1212,1212,0,absolute,"106 - Crni Vrh; 415 - Kambah; 568 - Mauna Kea; 673 - Table Mountain Observatory, Wrightwood; 688 - Lowell Observatory, Anderson Mesa Station; 691 - Steward Observatory, Kitt Peak-Spacewatch; 703 - Catalina Sky Survey; 704 - Lincoln Laboratory ETS, New Mexico; 850 - Cordell-Lorenz Observatory, Sewanee; 926 - Tenagra II Observatory, Nogales; D00 - ASC-Kislovodsk Observatory; D29 - Purple Mountain Observatory, XuYi Station; F51 - Pan-STARRS 1, Haleakala; G36 - Calar Alto-CASADO; G40 - Slooh.com Canary Islands Observatory; G96 - Mt. Lemmon Survey; I41 - Palomar Mountain--ZTF; J43 - Ouka&#239;meden Observatory, Marrakech; M22 - ATLAS South Africa, Sutherland; T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa; V00 - Kitt Peak-Bok; V30 - Heaven on Earth Observatory, Mayhill; W68 - ATLAS Chile, Rio Hurtado; X74 - Observatorio Campo dos Amarais; Z80 - Northolt Branch Observatory; References.; MPC 158689&#8211;158702"
-J,jo0075,2010-2022,85,85,0,absolute,C51 - WISE (satellite)
-J,jo0076,2017,33,33,0,absolute,"C41 - MASTER-II Observatory, Kislovodsk (CMO SAI); References.; Emelyanov N. V. et al. (2020); Results of Astrometric Observations of Distant Satellites of Jupiter with the New Telescope of the Caucasian; Mountain Observatory, Sternberg Astronomical Institute, Moscow State University.; Solar System Research. Vol. 54. P. 520&#8211;523.; <A HREF=""../../../../cgi-bin/ObsArticleByCode.cgi?code=2020SoSyR__54__520E"">2020SoSyR__54__520E</a>"
-J,jo0077,2014-2019,3756,3756,0,absolute,258 - Gaia
-J,jo0078,2015-2021,911,911,0,absolute,"286 - Yunnan Observatory; O44 - Lijiang Station, Yunnan Observatories; O49 - Purple Mountain Observatory, Yaoan Station"
-J,jo1001,1975-2000,10,10,0,absolute,"675  - Palomar Mountain; 695 - Steward Observatory, Kitt Peak Station; 568 - Mauna Kea"
-J,jo1002,1999-2000,20,20,0,absolute,"687 - Northern Arizona University, Flagstaff; 809 - ESO, La Silla; 309 - Cerro Paranal"
-J,jo1003,2000-2001,283,283,0,absolute,568 - Mauna Kea
-J,jo1004,2000-2000,26,26,0,absolute,"568 - Mauna Kea,; 809 - European Southern Observatory, La Silla"
-J,jo1005,2001-2001,28,28,0,absolute,"568 - Mauna Kea; 696 - Whipple Observatory, Mt. Hopkins; 950 - La Palma"
-J,jo1006,2001-2001,22,22,0,absolute,568 - Mauna Kea
-J,jo1007,2001-2001,5,5,0,absolute,568 - Mauna Kea
-J,jo1008,2001-2001,4,4,0,absolute,568 - Mauna Kea
-J,jo1009,2001-2001,8,8,0,absolute,568 - Mauna Kea
-J,jo1010,2001-2002,109,109,0,absolute,568 - Mauna Kea
-J,jo1011,2002-2002,16,16,0,absolute,568 - Mauna Kea
-J,jo1012,2002-2002,12,12,0,absolute,568 - Mauna Kea
-J,jo1013,2003-2003,14,14,0,absolute,950 - La Palma
-J,jo1014,2002-2003,9,9,0,absolute,568 - Mauna Kea; 675 - Palomar
-J,jo1015,2003-2003,69,69,0,absolute,568 - Mauna Kea
-J,jo1016,2002-2003,19,19,0,absolute,568 - Mauna Kea; 675 - Palomar Mountain
-J,jo1017,2003-2003,8,8,0,absolute,568 - Mauna Kea
-J,jo1018,2002-2003,46,46,0,absolute,568 - Mauna Kea
-J,jo1019,2003-2003,8,8,0,absolute,568 - Mauna Kea
-J,jo1020,2003-2003,78,78,0,absolute,568 - Mauna Kea
-J,jo1021,2003-2003,20,20,0,absolute,568 - Mauna Kea; 695 - Kitt Peak
-J,jo1022,2003-2003,2,2,0,absolute,568 - Mauna Kea
-J,jo1023,2003-2003,14,14,0,absolute,568 - Mauna Kea; 695 - Kitt Peak
-J,jo1024,2003-2003,31,31,0,absolute,568 - Mauna Kea
-J,jo1025,2003-2003,78,78,0,absolute,568 - Mauna Kea
-J,jo1026,2002-2003,143,143,0,absolute,568 - Mauna Kea; 675 - Palomar Mountain
-J,jo1027,2003-2003,21,21,0,absolute,568 - Mauna Kea
-J,jo1028,2003-2003,47,47,0,absolute,568 - Mauna Kea
-J,jo1029,2003-2003,32,32,0,absolute,568 - Mauna Kea
-J,jo1030,2003-2003,8,8,0,absolute,309 - Paranal; 568 - Mauna Kea
-J,jo1031,2003-2003,2,2,0,absolute,568 - Mauna Kea
-J,jo1032,2002-2003,50,50,0,absolute,568 - Mauna Kea
-J,jo1033,2003-2004,29,29,0,absolute,568 - Mauna Kea; 675 - Palomar Mountain
-J,jo1034,2003-2004,10,10,0,absolute,568 - Mauna Kea; 675 - Palomar Mountain
-J,jo1035,2000-2005,131,131,0,absolute,"291 - LPL/Spacewatch II; 304 - Las Campanas Observatory; 568 - Mauna Kea; 644 - Palomar Mountain/NEAT; 675 - Palomar Mountain; 691 - Steward Observatory, Kitt Peak-Spacewatch; 695 - Kitt Peak; 950 - La Palma"
-J,jo1036,2000-2005,5,5,0,absolute,695 - Kitt Peak; 807 - Cerro Tololo
-J,jo1037,2007-2007,4,4,0,absolute,568 - Mauna Kea
-J,jo1038,2009-2009,19,19,0,absolute,568 - Mauna Kea; 675 - Palomar Mountain
-J,jo1039,2009-2009,3,3,0,absolute,"691 - Steward Observatory, Kitt Peak-Spacewatch"
-J,jo1040,2010-2010,3,3,0,absolute,G96 - Mt. Lemmon Survey
-J,jo1041,2010-2010,8,8,0,absolute,C51 - WISE (satellite)
-J,jo1042,2010-2011,212,212,0,absolute,568 - Mauna Kea; 675 - Palomar Mountain
-J,jo1043,2011-2011,26,26,0,absolute,304 - Las Campanas Observatory.
-J,jo1044,2011-2011,45,45,0,absolute,"304 - Las Campanas Observatory.; 691 - Steward Observatory, Kitt Peak-Spacewatch; E07 - Murrumbateman; G96 - Mt. Lemmon Survey"
-J,jo1045,"2003,2011",53,53,0,absolute,568 - Mauna Kea; 304 -
-J,jo1046,2010-2011,19,19,0,absolute,304 - Las Campanas Observatory
-J,jo1047,2011-2011,2,2,0,absolute,E07 - Murrumbateman
-J,jo1048,2006-2011,478,478,0,absolute,"304 - Las Campanas Observatory; 415 - Kambah; 568 - Mauna Kea; 675 - Palomar Mountain; 691 - Steward Observatory, Kitt Peak-Spacewatch; 695 - Kitt Peak; 807 - Cerro Tololo Observatory, La Serena; E07 - Murrumbateman"
-J,jo1049,2012-2015,59,59,0,absolute,"691 - Steward Observatory, Kitt Peak-Spacewatch; C95 - SATINO Remote Observatory, Haute Provence; E07 - Murrumbateman; F51 - Pan-STARRS 1, Haleakala"
-J,jo1050,2010-2011,19,19,0,absolute,304 - Las Campanas Observatory
-J,jo1051,2008-2010,53,53,0,absolute,"809 - European Southern Observatory, La Silla; 874 - Itajuba"
-J,jo1052,2015-2016,29,29,0,absolute,"691 - Steward Observatory, Kitt Peak-Spacewatch; F51 - Pan-STARRS 1, Haleakala; G96 - Mt. Lemmon Survey"
-J,jo1053,"2012, 2016-2017",160,160,0,absolute,"304 - Las Campanas Observatory; 568 - Mauna Kea; 688 - Lowell Observatory, Anderson Mesa Station; 807 - Cerro Tololo Observatory, La Serena; F51 - Pan-STARRS 1, Haleakala; G36 - Calar Alto-CASADO; G96 - Mt. Lemmon Survey"
-J,jo1054,2016-2018,271,271,0,absolute,"304 - Las Campanas Observatory; 568 - Mauna Kea; 807 - Cerro Tololo Observatory, La Serena; G37 - Lowell Observatory-Discovery Channel Telescope; T12 - Mauna Kea-UH/Tholen NEO Follow-Up (2.24-m)"
-J,jo1055,"2010–2011, 2016-2017",219,219,0,absolute,304 - Las Campanas Observatory; 568 - Mauna Kea; W84 - Cerro Tololo-DECam
-J,jo1056,2001-2018,437,437,0,absolute,"304 - Las Campanas Observatory; 568 - Mauna Kea; 675 - Palomar Mountain; 807 - Cerro Tololo Observatory, La Serena; W84 - Cerro Tololo-DECam"
-J,jo1057,2015-2017,92,92,0,absolute,258 - Gaia
-J,jo1058,2000-2021,250,250,0,absolute,"304 - Las Campanas Observatory; 568 - Mauna Kea; 691 - Steward Observatory, Kitt Peak-Spacewatch; 807 - Cerro Tololo Observatory, La Serena; D29 - Purple Mountain Observatory, XuYi Station; F51 - Pan-STARRS 1, Haleakala; G36 - Calar Alto-CASADO; G96 - Mt. Lemmon Survey; V00 - Kitt Peak-Bok; W84 - Cerro Tololo-DECam"
-J,jo1059,2003-2022,314,314,0,absolute,"304 - Las Campanas Observatory; 568 - Mauna Kea; 807 - Cerro Tololo Observatory, La Serena; G37 - Lowell Discovery Telescope; T12 - Mauna Kea-UH/Tholen NEO Follow-Up (2.24-m); T14 - Mauna Kea-UH/Tholen NEO Follow-Up (CFHT); W84 - Cerro Tololo-DECam"
-J,jo1060,2010,8,8,0,absolute,C51 - WISE (satellite)
-J,jo1061,2014-2019,238,238,0,absolute,258 - Gaia
-M,mm0001,1877-1982,4912,4912,0,relative,"0 - Greenwich                                      (  10 obs); 1 - Crowborough (Ealing)                           ( 159 obs); 7 - Paris                                          (   1 obs); 84 - Pulkovo                                        ( 310 obs); 85 - Kiev                                           ( 230 obs); 105 - Moscow                                         (   2 obs); 119 - Abastuman                                      ( 216 obs); 135 - Kasan                                          (  11 obs); 192 - Tashkent                                       (  12 obs); 481 - (=972) Dun Echt                                (  16 obs); 503 - Cambridge                                      (  58 obs); 522 - Strasbourg                                     (  29 obs); 662 - Lick Observatory, Mount Hamilton               (1718 obs); 672 - Mount Wilson                                   (  12 obs); 689 - U.S. Naval Observatory, Flagstaff              (  10 obs); 711 - McDonald Observatory, Fort Davis               (  22 obs); 742 - Drake University, Des Moines (Morrison Observ.)(  55 obs); 754 - Yerkes Observatory, Williams Bay               (  28 obs); 786 - U.S. Naval Obs., Washington (since 1893)       (1045 obs); 787 - U.S. Naval Obs., Washington (before 1893)      ( 534 obs); 802 - Harvard Observatory, Cambridge                 ( 415 obs); 981 - Armagh (Sherrington, Bray, Ireland)            (  11 obs); 996 - Oxford                                         (   8 obs)"
-M,mm0002,1877-1877,15,15,0,relative,0 - Greenwich; 996 - Oxford
-M,mm0003,1879-1879,14,14,0,relative,785 - Princeton
-M,mm0004,1884-1884,5,5,0,relative,7 - Paris
-M,mm0005,1894-1894,20,20,0,relative,"780 - Leander McCormick Observatory, Charlottesville"
-M,mm0006,"1978-1988 (1978: 10, 1986: 126, 1988: 548)",684,684,0,relative,"84 - Pulkovo                                        ( 10); 94 - Crimea-Simeis, Telescope - Zeiss-600           (  3); 114 - Engelhardt Observatory, Zelenchukskaya Station.; Telescope - AZT-14. Refractor 16"". Zeiss-600.  (108); 129 - Ordubad                                        (126); 188 - Shokin Majdanak, Telescope - Zeiss-1000        (307); 193 - Sanglok, Telescope - Zeiss-1000                ( 11); 820 - Tarija, Telescope - Zeiss-600                  (119)"
-M,mm0007,1986-1886,173,173,0,relative,129 - Ordubad
-M,mm0008,1986-1886,6,6,0,relative,119 - Abastuman
-M,mm0009,1988-1988,365,365,0,relative,"84 - Pulkovo, 26-inch refractor                     ( 61); 129 - Ordubad                                        (304)"
-M,mm0010,1988-1988,813,813,0,relative,586 - Pic-du-Midi
-M,mm0011,1988-1988,200,200,0,relative,188 - Shokin Majdanak
-M,mm0012,1988-1988,166,166,0,relative,950 - La Palma
-M,mm0013,1988-1988,37,37,0,relative,119 - Abastuman
-M,mm0014,1988-1988,23,23,0,relative,"771 - Boyeros Observatory, Havana"
-M,mm0015,1988-1988,205,205,0,relative,85 - Kiev
-M,mm0016,1988-1988,1299,1299,0,absolute,188 - Shokin Majdanak
-M,mm0017,1971-1989,402,402,0,absolute,"1 - Mariner 9:  82,; 2 - Viking  1: 163,; 3 - Viking  2: 112,; 5 - Phobos  2:  45"
-M,mm0018,1988-1988,267,267,0,relative,"689 - U.S. Naval Observatory, Flagstaff       : 145,; 786 - U.S. Naval Obs., Washington (since 1893): 122"
-M,mm0019,1963-1988,1148,416,-732,absolute,"083 - Golosseevo-Kiev,; 186 - Kitab,; 188 - Shokin Majdanak"
-M,mm0020,2004-2005,36,36,0,absolute,Mars Express
-M,mm0021,1995-2003,326,326,0,absolute,874 - Itajuba
-M,mm0022,2004-2007,69,69,0,absolute,Mars Express
-M,mm0023,1973-1988,248,248,0,absolute,84 - Pulkovo; 129 - Ordubad
-M,mm0024,1986-1988,391,391,0,relative,84 - Pulkovo; 129 - Ordubad
-M,mm0025,1986-1988,206,206,0,relative,84 - Pulkovo; 129 - Ordubad
-M,mm0026,2003-2003,15,15,0,absolute,"673 - Table Mountain Observatory, Wrightwood"
-M,mm0027,1971-1997,874,874,0,absolute,"786 - U.S. Naval Obs., Washington (since 1893)"
-M,mm0028,1967-1986,470,470,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-M,mm0029,2004-2014,581,581,0,absolute,MARS EXPRESS probe
-M,mm0030,1971-1971,122,122,0,absolute,"786 - U.S. Naval Obs., Washington"
-M,mm0031,2008-2011,261,261,0,absolute,MARS EXPRESS probe
-M,mm0032,2008-2011,261,261,0,absolute,MARS EXPRESS probe
-M,mm0033,1988,254,254,0,absolute,820 - Tarija
-M,mm0034,2014-2016,182,182,0,"relative, absolute",MARS EXPRESS probe
-M,mm0035,2011-2013,151,151,0,"relative, absolute",MARS EXPRESS probe
-M,mm0036,2014-2016,295,295,0,"relative, absolute",MARS EXPRESS probe
-M,mm0037,2009-2017,261,261,0,relative,MARS EXPRESS probe
-M,mm0038,2015-2016,7,7,0,absolute,258 - Gaia
-M,mm0039,2014-2019,29,29,0,absolute,258 - Gaia
-N,ni0001,1997-1997,75,75,0,relative,250 - Hubble Space Telescope
-N,ni0002,1991-1991,8,8,0,relative,"809 - European Southern Observatory, La Silla"
-N,ni0003,2000-2002,66,66,0,absolute,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-N,ni0004,2004-2009,10,10,0,relative,Hubble Space Telescope (HST)
-N,ni0005,2004-2016,36,36,0,relative,Hubble Space Telescope (HST)
-N,nm0001,2001-2001,3,3,0,absolute,"673 -Table Mountain Observatory, Wrightwood"
-N,nm0002,2001-2001,3,3,0,relative,"673 -Table Mountain Observatory, Wrightwood"
-N,nm0003,1989-1994,433,433,0,relative,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-N,nm0004,1995-1997,759,759,0,relative,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-N,nm0005,1999-1999,3,3,0,absolute,"673 -Table Mountain Observatory, Wrightwood"
-N,nm0006,1999-1999,3,3,0,relative,"673 -Table Mountain Observatory, Wrightwood"
-N,nm0007,1998-1999,124,124,0,absolute,689 - Flagstaff
-N,nm0008,1984-1986,56,56,0,relative,"689 - U.S. Naval Observatory, Flagstaff"
-N,nm0009,1975-1977,28,28,0,relative,"689 - U.S. Naval Observatory, Flagstaff"
-N,nm0010,1979-1983,114,114,0,relative,"689 - U.S. Naval Observatory, Flagstaff"
-N,nm0011,1877-1877,29,29,0,relative,"787 - U.S. Naval Obs., Washington"
-N,nm0012,2001-2005,323,323,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-N,nm0013,2000-2002,66,66,0,absolute,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-N,nm0014,2005-2006,144,144,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-N,nm0015,1996-2006,943,943,0,absolute,"337 - Sheshan, formerly Zo-Se"
-N,nm0016,1990-1990,5,5,0,absolute,188 - Majdanak
-N,nm0017,1986-1993,54,54,0,absolute,119 - Abastumani
-N,nm0018,1995-2007,95,95,0,absolute,999 Bordeaux-Floirac
-N,nm0019,2007-2009,1095,1095,0,absolute,"327 - Peking Observatory, Xinglong Station; 337 - Sheshan, formerly Zo-Se"
-N,nm0020,1970,3,3,0,absolute,999 - Bordeaux-Floirac
-N,nm0021,1875-1877,122,123,1,relative,"787 - U.S. Naval Obs., Washington"
-N,nm0022,1899-1901,21,21,0,relative,084 - Pulkovo
-N,nm0025,1939,30,30,0,relative,"077-Yale-Columbia Station, Johannesburg"
-N,nm0026,1940-1942,43,43,0,relative,"077-Yale-Columbia Station, Johannesburg"
-N,nm0027,1866-1868,18,18,0,relative,"802 - Harvard Observatory, Cambridge"
-N,nm0028,1883-1888,68,68,0,relative,H80 - Halsted observatory
-N,nm0029,1889,18,18,0,relative,780 - Leander McCormick Observatory
-N,nm0030,1894-1897,133,139,6,relative,662 - Lick Observatory
-N,nm0031,1896-1897,85,85,0,relative,"690 - Lowell Observatory; References.; 1. Drew D. A. (1897); Micrometric measures of the satellite of Neptune.; Astronomical Journal. V. 17. Iss. 401. P. 131-132.; <A HREF=""../../../../cgi-bin/ObsArticleByCode.cgi?code=1897AJ_____17__131D"">1897AJ_____17__131D</a>"
-N,nm0032,1898-1898,36,36,0,relative,690 - Lowell Observatory
-N,nm0033,1897-1899,326,330,4,relative,754 - Yerkes Observatory
-N,nm0034,"1898-1899, 1901-1902",52,52,0,relative,662 - Lick Observatory
-N,nm0035,1898-1900,39,39,0,relative,"662 - Lick Observatory, Mount Hamilton"
-N,nm0036,1899-1900,129,129,0,relative,"786 - U.S. Naval Obs., Washington"
-N,nm0037,1904-1908,100,100,0,relative,"786 - U.S. Naval Obs., Washington"
-N,nm0039,1902-1903,40,40,0,relative,"786 - U.S. Naval Obs., Washington; References.; 1. Dinwiddie W. W. (1903); Observations of the satellite of Neptune.; Astronomical Journal. V. 23. Iss. 542-543. P. 144-144.; <A HREF=""../../../../cgi-bin/ObsArticleByCode.cgi?code=1903AJ_____23__144D"">1903AJ_____23__144D</a>"
-N,nm0040,1903-1908,294,295,1,relative,"000 - Royal Observatory, Greenwich; References."
-N,nm0041,1903-1922,986,989,3,relative,"754 - Yerkes Observatory, Williams Bay"
-N,nm0042,1847,24,24,0,relative,"802 - Harvard Observatory, Cambridge"
-N,nm0043,1908-1910,64,64,0,relative,"786 - U.S. Naval Observatory, Washington"
-N,nm0044,1911,72,72,0,relative,"786 - U.S. Naval Observatory, Washington"
-N,nm0045,"1912-1913, 1918-1919",282,282,0,relative,"786 - U.S. Naval Observatory, Washington; References.; Hall, A., Jr.; Burton, H. E.(1919); Observations of the satellite of Neptune; Astronomical Journal. V. 32. Iss. 759. P. 113-116.; <A HREF=""../../../../cgi-bin/ObsArticleByCode.cgi?code=1919AJ_____32__113B"">1919AJ_____32__113B</a>"
-N,nm0046,,84,84,0,1919-1923,"786 - U.S. Naval Obs., Washington"
-N,nm0047,1920-1920,46,46,0,relative,"786 - U.S. Naval Obs., Washington"
-N,nm0048,1883-1884,31,31,0,relative,"007 - Paris; References.; Henry P., Boinot A., Sy F. (1886); Observations des satellites de Mars, Uranus et Neptune.; Bulletin Astronomique. Serie I. V. 3. P. 488-493.; <A HREF=""../../../../cgi-bin/ObsArticleByCode.cgi?code=1886BuAsI___3__488H"">1886BuAsI___3__488H</a>"
-N,nm0050,1848,4,4,0,relative,992 - Liverpool
-N,nm0051,1847,4,5,1,relative,"Cambridge; References.; Lassell W. (1849); Observations of Lassell's satellite of Neptune.; Monthly Notices of the Royal Astronomical Society. V. 9. P. 103.; <A HREF=""../../../../cgi-bin/ObsArticleByCode.cgi?code=1849MNRAS___9__103L"">1849MNRAS___9__103L</a>"
-N,nm0052,1849-1849,5,5,0,relative,992 - Liverpool
-N,nm0053,"1849-1852, 1856",92,140,48,relative,992 - Liverpool
-N,nm0054,1863,20,20,0,relative,992 - Liverpool
-N,nm0055,1874,61,61,0,relative,"787 - U.S. Naval Obs., Washington"
-N,nm0056,1873,33,33,0,relative,"787 - U.S. Naval Obs., Washington"
-N,nm0057,1885-1886,3,3,0,relative,968 - Haverhill (Mr. Wigglesworth's Observatory)
-N,nm0058,1899,12,12,0,relative,"000 - Royal Observatory, Greenwich; References."
-N,nm0059,1896-1898,28,28,0,relative,"000 - Royal Observatory, Greenwich; References."
-N,nm0060,1905-1906,32,32,0,relative,"754 - Yerkes Observatory, Williams Bay"
-N,nm0061,1905,6,6,0,relative,"662 - Lick Observatory, Mount Hamilton"
-N,nm0062,1894-1906,388,388,0,relative,"786 - U.S. Naval Obs., Washington"
-N,nm0063,1911-1912,85,85,0,relative,"786 - U.S. Naval Obs., Washington"
-N,nm0064,1909-1910,59,59,0,relative,"000 - Royal Observatory, Greenwich"
-N,nm0065,1899-1920,101,101,0,relative,084 - Pulkovo
-N,nm0068,1892-1895,320,320,0,relative,"662 - Lick Observatory, Mount Hamilton"
-N,nm0069,1899-1901,361,361,0,relative,"754 - Yerkes Observatory, Williams Bay"
-N,nm0070,1923,118,118,0,relative,084 - Pulkovo
-N,nm0071,1884-1884,21,21,0,relative,7 - Paris
-N,nm0072,1902-1903,51,51,0,relative,"662 -  Lick Observatory, Mount Hamilton"
-N,nm0073,1886-1887,27,27,0,relative,20 - Nice
-N,nm0074,1903-1905,13,13,0,relative,522 - Strasbourg
-N,nm0075,1928-1928,15,15,0,relative,"662 - Lick Observatory, Mount Hamilton"
-N,nm0076,1901-1903,223,223,0,relative,"754 - Yerkes Observatory, Williams Bay"
-N,nm0077,2000-2012,874,874,0,absolute,689 - Flagstaff
-N,nm0078,2013 - 2014,116,116,0,absolute,689 - Flagstaff
-N,nm0079,2001-2012,201,201,0,absolute,"673 -Table Mountain Observatory, Wrightwood, California"
-N,nm0080,"1899-1900, 1902, 1907",60,60,0,relative,"000 - Royal Observatory, Greenwich"
-N,nm0081,2014-2016,755,755,0,absolute,286 - Yunnan Observatory
-N,nm0082,2006,34,34,0,absolute,"327 - Peking Observatory, Xinglong Station"
-N,nm0083,1963-1990,10,10,0,absolute,083 - Golosseevo-Kiev; 188 - Majdanak
-N,nm0084,2013-2019,1135,1135,0,absolute,286 - Yunnan Observatory
-N,nm0085,2005-2009,2299,2299,0,absolute,"337 - Sheshan, formerly Zo-Se"
-N,nm0086,2010-2014,604,604,0,absolute,"337 - Sheshan, formerly Zo-Se"
-N,nm0087,2014-2017,153,153,0,absolute,258 - Gaia
-N,nm0088,1996-2006,1006,1006,0,absolute,337 - Sheshan station of the Shanghai Astronomical Observatory
-N,nm0089,2014-2019,468,468,0,absolute,258 - Gaia
-N,nm1001,1993-1998,174,174,0,relative,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-N,nm1002,1993-1998,230,230,0,absolute,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-N,nm1003,2001-2001,3,3,0,absolute,568 - Mauna Kea
-N,nm1004,2002-2002,3,3,0,absolute,"807 - Cerro Tololo Observatory, La Serena"
-N,nm1005,1949-1949,7,7,0,absolute,"711 - McDonald Observatory, Fort Davis"
-N,nm1006,1949-1969,44,44,0,relative,"711 - McDonald Observatory, Fort Davis"
-N,nm1007,1977-1984,17,17,0,relative,"568 - Mauna Kea; 711 - McDonald Observatory, Fort Davis; 809 - European Southern Observatory, La Silla"
-N,nm1008,1987-1987,5,5,0,relative,"809 - European Southern Observatory, La Silla"
-N,nm1009,1987-1987,4,4,0,absolute,"807 - Cerro Tololo Observatory, La Serena"
-N,nm1010,2003-2003,1,1,0,absolute,568 Mauna Kea
-N,nm1011,2004-2004,7,7,0,absolute,"415 - Kambah, near Canberra"
-N,nm1012,2006-2006,21,21,0,absolute,"415 - Kambah, near Canberra; 213 - Observatorio Montcabre; Reference.; MPC (Minor Planets Circular) 57110,57416,57417"
-N,nm1014,"2002,2006",84,84,0,absolute,"415 - Kambah, near Canberra; 644 - Palomar Mountain/NEAT; D35 - Lulin Observatory"
-N,nm1015,2007-2007,11,11,0,absolute,"415 - Kambah, near Canberra"
-N,nm1016,2007-2007,45,45,0,absolute,"415 - Kambah, near Canberra"
-N,nm1017,2007-2008,12,12,0,absolute,"415 - Kambah, near Canberra"
-N,nm1018,2008-2008,17,17,0,absolute,"415 - Kambah, near Canberra"
-N,nm1019,2006-2007,112,112,0,absolute,"327 - Peking Observatory, Xinglong Station"
-N,nm1020,2009-2009,20,20,0,absolute,"415 - Kambah; 673 - Table Mountain Observatory, Wrightwood"
-N,nm1021,2009-2010,9,9,0,absolute,"415 - Kambah; 673 - Table Mountain Observatory, Wrightwood"
-N,nm1022,2011-2011,55,55,0,absolute,"673 - Table Mountain Observatory, Wrightwood; E07 - Murrumbateman"
-N,nm1023,2011-2012,11,11,0,absolute,"673 - Table Mountain Observatory, Wrightwood; E07 - Murrumbateman"
-N,nm1024,1992-2014,902,902,0,absolute,"809 - European Southern Observatory, La Silla; 874 - Itajuba"
-N,nm1025,2012-2017,150,150,0,absolute,327 - Xinglong station of National Astronomical Observatory; O44 - Lijiang station of Yunnan Astronomical Observatory
-N,nm1026,2000-2010,140,140,0,absolute,511- Haute Provence
-N,nm1027,2012-2014,91,91,0,absolute,"673 - Table Mountain Observatory, Wrightwood; C95 - SATINO Remote Observatory, Haute Provence; E07 - Murrumbateman; G37 - Lowell Observatory-Discovery Channel Telescope"
-N,nm1028,2013-2016,71,71,0,absolute,"E07 - Murrumbateman; F51 - Pan-STARRS 1, Haleakala; G40 - Slooh.com Canary Islands Observatory; W84 - Cerro Tololo-DECam"
-N,nm1029,2017-2017,2,2,0,absolute,Z80 - Northolt Branch Observatory
-N,nm1030,2018-2018,9,9,0,absolute,"D29 - Purple Mountain Observatory, XuYi Station; I41 - Palomar Mountain--ZTF"
-N,nm1031,2018-2018,2,2,0,absolute,G40 - Slooh.com Canary Islands Observatory
-N,nm1032,2006-2007,140,140,0,absolute,"327 - Peking Observatory, Xinglong Station"
-N,nm1033,2018,3,3,0,absolute,G40 - Slooh.com Canary Islands Observatory
-N,nm1034,2014-2017,193,193,0,absolute,258 - Gaia
-N,nm1035,2003-2021,159,159,0,absolute,"215 - Buchloe; 644 - Palomar Mountain/NEAT; 695 - Kitt Peak; D29 - Purple Mountain Observatory, XuYi Station; F51 - Pan-STARRS 1, Haleakala; I41 - Palomar Mountain--ZTF; T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa; W84 - Cerro Tololo-DECam; W88 - Slooh.com Chile Observatory, La Dehesa; Z80 - Northolt Branch Observatory"
-N,nm1036,2014-2019,498,498,0,absolute,258 - Gaia
-N,no0001,2001-2002,57,57,0,absolute,"309 - Cerro Paranal; 568 - Mauna Kea; 807 - Cerro Tololo Observatory, La Serena"
-N,no0002,2001-2003,40,40,0,absolute,"304 - Las Campanas Observatory; 568 - Mauna Kea; 807 - Cerro Tololo Observatory, La Serena"
-N,no0003,2002-2003,40,40,0,absolute,"304 - Las Campanas Observatory; 309 - Cerro Paranal; 568 - Mauna Kea; 807 - Cerro Tololo Observatory, La Serena; 950 - La Palma"
-N,no0004,"1999, 2003",6,6,0,absolute,304 - Las Campanas Observatory; 568 - Mauna Kea
-N,no0005,2004-2004,27,27,0,absolute,304 - Las Campanas Observatory; 568 - Mauna Kea
-N,no0006,2004-2004,12,12,0,absolute,309 - Cerro Paranal; 568 - Mauna Kea
-N,no0007,2009-2009,43,31,-12,absolute,568 - Mauna Kea
-N,no0008,2010-2010,8,8,0,absolute,309 - Cerro Paranal
-N,no0009,2015-2015,9,9,0,absolute,W84 - Cerro Tololo-DECam
-N,no0010,2017,2,2,0,absolute,Z80 - Northolt Branch Observatory
-P,pm0001,1992-1993,60,60,0,relative,250 - Hubble Space Telescope
-P,pm0002,1998-1998,5,5,0,absolute,250 - Hubble Space Telescope
-P,pm0003,2005-2006,8,8,0,relative,250 - Hubble Space Telescope
-P,pm0004,2002-2003,12,36,24,relative,250 - Hubble Space Telescope
-P,pm0005,2006-2006,2,2,0,relative,309 - Cerro Paranal
-P,pm0006,2006-2006,4,4,0,relative,"E15 - Magellan Observatory, near Goulburn"
-P,pm0007,2006-2011,7,7,0,relative,HST
-P,pm0008,1992-2010,899,899,0,relative,250 - Hubble Space Telescope
-P,pm0009,1965-1979,24,24,0,relative,"689 - U.S. Naval Observatory, Flagstaff; 711 - McDonald Observatory, Fort Davis; 807 - Cerro Tololo Observatory, La Serena; 301 - Mont Megantic"
-P,pm0010,2006-1012,2773,2773,0,relative,250 - HST
-P,pm0011,2006-1012,120,120,0,relative,250 - HST
-P,pm0012,1980-1984,17,17,0,relative,"493 - Calar Alto; 568 - Mauna Kea; 696 - Whipple Observatory, Mt. Hopkins; W74 - Danish Telescope, La Silla"
-P,pm0013,1984-1985,56,56,0,relative,568 - Mauna Kea
-P,pm0014,1991-1993,28,28,0,relative,250 - HST
-P,pm0015,2005,2,2,0,relative,250 - HST
-P,pm0016,2008,1,1,0,relative,"181 - Observatoire des Makes, Saint-Louis"
-P,pm0017,2012,1,1,0,relative,568 - Mauna Kea
-S,si0001,1981-1985,270,270,0,relative,"809 - La Silla (ESO, Chile); 568 - Mauna Kea (CFH, Hawaii)"
-S,si0002,1985-1987,22,22,0,relative,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-S,si0003,1995-1996,346,124,-222,relative,"874 - Itajuba (Laboratorio Nacional de Astrofisica, Brazil)"
-S,si0004,1980-1980,80,80,0,relative,"LPL, 014 - Marseilles"
-S,si0005,2004-2016,890,890,0,absolute,Cassini space probe
-S,si0006,2014,5,5,0,absolute,Cassini space probe
-S,si0007,2015,5,5,0,absolute,258 - Gaia
-S,si0008,2014-2019,594,594,0,absolute,258 - Gaia
-S,si1001,1966-1980,107,107,0,relative,"711 - McDonald; 693 - Catalina Station, Tucson; 586 - Pic du Midi; 689 - U.S. Naval Observatory, Flagstaff; 786 - U.S. Naval Observatory; 693 - Catalina Station, Tucson; 511 - Haute Provence; 672 - Mount Wilson; 704 - New Mexico State University; 1000 - not idenified"
-S,si1002,1990-1990,5,5,0,relative,675 - Palomar Mountain
-S,si1003,1995-1995,43,45,2,relative,262 - ESO at La Silla; 1000 - HST
-S,si1004,1995-1995,39,39,0,relative,262 - ESO at La Silla; 1000 - HST
-S,si1005,2000-2000,53,53,0,relative,675 - Palomar Mountain
-S,si1006,1994-2002,349,349,0,relative,250 - Hubble Space Telescope
-S,si1007,"2013, 2015",22,22,0,absolute,Cassini space probe
-S,si1008,2004-2013,2580,2580,0,absolute,Cassini space probe
-S,sm0001,1906-1906,5,5,0,absolute,"800 - Harvard Observatory, Arequipa; 754 - Yerkes Observatory,Williams Bay"
-S,sm0002,1908-1922,494,494,0,relative,084 - Pulkovo
-S,sm0003,1977-1977,2,2,0,absolute,689 - Flagstaff Station of USNO
-S,sm0004,1977-1977,29,29,0,absolute,012 - Observatoire Royal de Belgique (Uccle)
-S,sm0005,1982-1982,41,41,0,absolute,"136 - Engelhardt Observatory, Kasan"
-S,sm0006,1983-1985,92,92,0,absolute,089 - Nikolaev
-S,sm0007,1973-1974,14,14,0,absolute,084 - Pulkovo
-S,sm0008,1986-1986,21,21,0,absolute,089 - Nikolaev
-S,sm0009,1980-1980,312,312,0,absolute,083 - Golosseevo-Kiev
-S,sm0010,1973-1984,745,745,0,absolute,084 - Pulkovo
-S,sm0011,1975-1981,473,473,0,absolute,084 - Pulkovo
-S,sm0012,1976-1982,540,540,0,relative,084 - Pulkovo
-S,sm0013,1994-1995,128,128,0,relative,084 - Pulkovo - 084
-S,sm0014,1994-1995,109,109,0,relative,084 - Pulkovo
-S,sm0015,1995-1996,36,36,0,relative,084 - Pulkovo
-S,sm0016,1996-1996,37,37,0,relative,084 - Pulkovo - 084
-S,sm0017,1996-1996,23,23,0,relative,084 - Pulkovo - 084
-S,sm0018,1995-1995,2536,2536,0,relative,073 - Bucharest
-S,sm0019,1985-1993,136,136,0,absolute,999 - Bordeaux-Floirac
-S,sm0020,1982-1988,813,813,0,relative,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-S,sm0021,1990-1994,278,278,0,relative,950 - La Palma - 950
-S,sm0022,1995-1997,304,304,0,relative,950 - La Palma
-S,sm0023,1998-1999,412,412,0,absolute,689 - Flagstaff
-S,sm0024,1999-1999,387,387,0,absolute,689 - Flagstaff
-S,sm0025,1984-1984,20,20,0,absolute,"119 - Abastumani, Georgia"
-S,sm0026,1984-1984,14,14,0,relative,"119 - Abastumani, Georgia"
-S,sm0027,1984-1984,4,4,0,absolute,"119 - Abastumani, Georgia"
-S,sm0028,1984-1984,4,4,0,relative,"119 - Abastumani, Georgia"
-S,sm0029,1994-1999,290,290,0,relative,084 - Pulkovo
-S,sm0030,1995-2000,73,73,0,relative,084 - Pulkovo
-S,sm0031,1963-1984,640,640,0,absolute,083 - Golosseevo-Kiev
-S,sm0032,1976-1984,44,44,0,absolute,083 - Golosseevo-Kiev
-S,sm0033,1998-1998,18,18,0,absolute,808 - El Leoncito
-S,sm0034,1874-1989,26145,26393,248,"relative, absolute","077 - Yale-Columbia Station, Johannesburg ;; 078 - Johannesburg;; 084 - Pulkovo;; 089 - Nikolaev;; 094 - Crimea-Simeis;; 097 - Wise Observatory, Mitzpeh Ramon;; 114 - Engelhardt Observatory, Zelenchukskaya Station;; 119 - Abastuman;; 129 - Ordubad;; 136 - Engelhardt Observatory, Kasan;; 286 - Yunnan Observatory;; 387 - Tokyo-Dodaira;; 501 - Herstmonceux;; 536 - Berlin-Babelsberg;; 559 - Serra La Nave;; 673 - Table Mountain Observatory, Wrightwood;; 688 - Lowell Observatory, Anderson Mesa Station;; 690 - Lowell Observatory, Flagstaff;; 702 - Joint Obs. for cometary research, Socorro;; 711 - McDonald Observatory, Fort Davis;; 754 - Yerkes Observatory, Williams Bay;; 780 - Leander McCormick Observatory, Charlottesville;; 786 - U.S. Naval Obs., Washington (since 1893);; 787 - U.S. Naval Obs., Washington (before 1893);; 801 - Oak Ridge Observatory;; 809 - European Southern Observatory, La Silla;; 950 - La Palma;; 999 - Bordeaux-Floirac;; Ordubad.; Observer: Levitskaya T.I.; Telescope: lunar-planet telescope, D=700 mm, F=10313 mm; Bordeaux.; Observers: Soulie G., Dupouy Mr., Teulet Mr., Broqua Mr., Dulou Mr.; Telescope: 33 cm refractor"
-S,sm0035,1966-1989,5707,5707,0,absolute,"084 - Pulkovo;; 089 - Nikolaev;; 094 - Crimea-Simeis;; 114 - Engelhardt Observatory, Zelenchukskaya Station;; 119 - Abastuman;; 136 - Engelhardt Observatory, Kasan;; 286 - Yunnan Observatory;; 501 - Herstmonceux;; 673 - Table Mountain Observatory, Wrightwood;; 688 - Lowell Observatory, Anderson Mesa Station;; 711 - McDonald Observatory, Fort Davis;; 780 - Leander McCormick Observatory, Charlottesville;; 809 - European Southern Observatory, La Silla;; 950 - La Palma;; 999 - Bordeaux-Floirac;; Bordeaux.; Observers: Soulie G., Dupouy Mr., Teulet Mr., Broqua Mr., Dulou Mr.; Telescope: 33 cm refractor"
-S,sm0036,1874-1984,20686,20686,0,relative,"077 - Yale-Columbia Station, Johannesburg ;; 078 - Johannesburg;; 084 - Pulkovo;; 097 - Wise Observatory, Mitzpeh Ramon;; 119 - Abastuman;; 129 - Ordubad;; 387 - Tokyo-Dodaira;; 536 - Berlin-Babelsberg;; 559 - Serra La Nave;; 690 - Lowell Observatory, Flagstaff;; 702 - Joint Obs. for cometary research, Socorro;; 754 - Yerkes Observatory, Williams Bay;; 780 - Leander McCormick Observatory, Charlottesville;; 786 - U.S. Naval Obs., Washington (since 1893);; 787 - U.S. Naval Obs., Washington (before 1893);; 801 - Oak Ridge Observatory;; 999 - Bordeaux-Floirac;; Ordubad.; Observer: Levitskaya T.I.; Telescope: lunar-planet telescope, D=700 mm, F=10313 mm"
-S,sm0037,1973-1986,500,500,0,absolute,089 - Nikolaev
-S,sm0038,1990-1997,130,130,0,absolute,089 - Nikolaev
-S,sm0039,1995-1995,11408,6006,-5402,relative,874 - Itajuba
-S,sm0040,2001-2001,3,3,0,absolute,761 - Zephyrhills
-S,sm0041,1996-2000,1311,913,-398,relative,286 - Yunnan Observatory
-S,sm0042,1999-2001,182,182,0,relative,084 - Pulkovo
-S,sm0043,2000-2001,364,364,0,absolute,689 - Flagstaff
-S,sm0044,"1980, 1995-1996",64,64,0,relative,"005 - Meudon; 025 - Stuttgart; 073 - Bucharest; 095 - Crimea-Nauchnij; 130 - Lumezzane; 156 - Catania Astrophysical Observatory; 262 - European Southern Observatory, La Silla-DSS; 387 - Tokyo-Dodaira; 511 - Haute Provence; 559 - Serra La Nave; 586 - Pic du Midi; 780 - Leander McCormick Observatory, Charlottesville; 874 - Itajuba; 999 - Bordeaux-Floirac"
-S,sm0045,1995-1999,3165,2059,-1106,relative,"874 - Itajuba (Laboratorio Nacional de Astrofisica, Brazil)"
-S,sm0046,1970-1972,776,776,0,relative,388 - Tokyo-Mitaka
-S,sm0047,1990-1990,53,53,0,relative,123 - Byurakan
-S,sm0048,1977-1977,2,2,0,absolute,"786 - U.S. Naval Obs., Washington"
-S,sm0049,1999-2005,1239,1239,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-S,sm0050,2004-2006,321,321,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-S,sm0051,2006-2007,154,154,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-S,sm0052,1987-1997,730,730,0,absolute,950 - La Palma
-S,sm0053,1995-2001,130,130,0,absolute,999 - Bordeaux-Floirac
-S,sm0054,1999-2007,216,216,0,absolute,999 - Bordeaux-Floirac
-S,sm0055,2002-2006,2154,2154,0,relative,286 - Yunnan Observatory
-S,sm0056,1981-1981,8,8,0,absolute,"690 - Lowell Observatory, Flagstaff"
-S,sm0057,1990-1990,230,230,0,absolute,188 - Majdanak
-S,sm0058,"1972-1984, 2004-2008",1340,1340,0,absolute,084 - Pulkovo
-S,sm0059,"1976, 1995, 2004 - 2005",80,80,0,relative,084 - Pulkovo
-S,sm0060,1999-2008,2467,2467,0,relative,084 - Pulkovo
-S,sm0061,2008-2009,183,183,0,absolute,084 - Pulkovo
-S,sm0062,2008-2009,355,355,0,relative,084 - Pulkovo
-S,sm0063,2000-2012,2935,2935,0,absolute,689 - Flagstaff
-S,sm0064,1972 - 1973,116,116,0,absolute,084 - Pulkovo
-S,sm0065,2013 - 2015,456,456,0,absolute,689 - Flagstaff
-S,sm0066,2001- 2012,671,671,0,absolute,"673 -Table Mountain Observatory, Wrightwood, California"
-S,sm0067,1974-1998,3946,3946,0,absolute,"786 - U.S. Naval Obs., Washington (since 1893)"
-S,sm0068,2004-2012,7032,7032,0,absolute,Cassini space probe
-S,sm0069,"1875, 1877-1879, 1882-1885",481,481,0,relative,"000 - Royal Observatory, Greenwich"
-S,sm0070,2009-2010,2,2,0,relative,286 - Yunnan Observatory
-S,sm0071,1987-1988,92,92,0,absolute,286 - Yunnan Observatory; 334 - Tsingtao
-S,sm0072,2008-2009,26,26,0,relative,see below
-S,sm0073,2005-2012,2303,2303,0,absolute,Cassini space probe
-S,sm0074,1961-1990,1384,1384,0,absolute,083 - Golosseevo-Kiev; 186 - Kitab; 188 - Majdanak
-S,sm0075,1972-1974,375,375,0,absolute,084 - Pulkovo
-S,sm0076,1990-1992,51,51,0,relative,248 - Hipparcos
-S,sm0077,1990-1992,19,19,0,absolute,248 - Hipparcos
-S,sm0078,2013-2016,260,260,0,absolute,Cassini space probe
-S,sm0079,1961-1990,1398,1398,0,absolute,083 - Golosseevo-Kiev; 186 - Kitab; 188 - Majdanak
-S,sm0080,1983-1990,27,27,0,absolute,186 - Kitab
-S,sm0081,2019,11,11,0,absolute,"G40 - Slooh.com Canary Islands Observatory; T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa"
-S,sm0082,2019-2020,21,21,0,absolute,"T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa; W84 - Cerro Tololo-DECam"
-S,sm0083,2020,9,9,0,absolute,C51 - WISE (satellite)
-S,sm0084,1972-2007,6487,6487,0,absolute,084 - Pulkovo; 119 - Abastuman
-S,sm0085,2014-2017,1865,1865,0,absolute,258 - Gaia
-S,sm0086,2004-2014,3169,3169,0,absolute,337 - Sheshan station of Shanghai Observatory
-S,sm0087,2014-2019,4685,4685,0,absolute,258 - Gaia
-S,sm0088,2022-2023,67,67,0,absolute,"M22 - ATLAS South Africa, Sutherland; T08 - ATLAS-MLO, Mauna Loa; W68 - ATLAS Chile, Rio Hurtado"
-S,so0001,1968-1976,10,10,0,absolute,"094 - Crimea-Simeis;; 711 - McDonald Observatory, Fort Davis;"
-S,so0002,1998-1998,9,9,0,absolute,9999 - Pik Terskol
-S,so0003,1998-1999,38,38,0,absolute,689 - Flagstaff
-S,so0004,1999-1999,19,19,0,absolute,689 - Flagstaff
-S,so0005,1995-1997,7,7,0,absolute,950 - La Palma
-S,so0006,1995-1997,46,46,0,absolute,874 - Itajuba
-S,so0007,2000-2000,22,22,0,absolute,"691 - Spacewatch.; 696 - Mt. Hopkins.; 699 - LONEOS.; 704 - Lincoln Laboratory Experimental Test System, New Mexico."
-S,so0008,2000-2000,9,9,0,absolute,"699 - LONEOS.; 704 - Lincoln Laboratory Experimental Test System, New Mexico."
-S,so0009,2001-2001,6,6,0,absolute,"673 - Table Mountain Observatory, Wrightwood"
-S,so0010,2001-2001,20,20,0,absolute,"673 - Table Mountain Observatory, Wrightwood; 691 - Steward Observatory, Kitt Peak-Spacewatch; 704 - Lincoln Laboratory ETS, New Mexico"
-S,so0011,2001-2001,3,3,0,absolute,761 - Zephyrhills
-S,so0013,2002-2002,3,3,0,absolute,"673 - Table Mountain Observatory, Wrightwood"
-S,so0014,2002-2002,3,3,0,absolute,"673 - Table Mountain Observatory, Wrightwood"
-S,so0015,2002-2003,22,22,0,absolute,"704 - Lincoln Laboratory ETS, New Mexico; 673 - Table Mountain Observatory, Wrightwood"
-S,so0016,1998-2003,38,38,0,absolute,"704 - Lincoln Laboratory ETS, New Mexico; 673 - Table Mountain Observatory, Wrightwood; 699 - Lowell Observatory-LONEOS"
-S,so0017,2003-2003,16,16,0,absolute,"673 - Table Mountain Observatory, Wrightwood"
-S,so0018,1998-1999,64,64,0,absolute,511 - Haute Provence
-S,so0019,1904-1989,197,197,0,absolute,"0 - Greenwich; 074 - Boyden Observatory, Bloemfontein; 662 - Lick Observatory, Mount Hamilton; 672 - Mount Wilson; 689 - U.S. Naval Observatory, Flagstaff; 690 - Lowell Observatory, Flagstaff; 695 - Kitt Peak; 711 - McDonald Observatory, Fort Davis; 754 - Yerkes Observatory, Williams Bay; 809 - European Southern Observatory, La Silla; 822 - Cordoba; 999 - Bordeaux-Floirac"
-S,so0020,2003-2003,2,2,0,absolute,673 - Table Mountain Observatory
-S,so0021,2003-2003,34,34,0,absolute,"291 - LPL/Spacewatch II; 673 - Table Mountain Observatory; 704 - Lincoln Laboratory ETS, New Mexico"
-S,so0022,2004-2004,5,5,0,absolute,"673 - Table Mountain Observatory, Wrightwood"
-S,so0023,2001-2005,101,101,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-S,so0024,1994-2005,227,237,10,absolute,"133 - Les Tardieux; 215 - Buchloe; 415 - Kambah, near Canberra; 566 - Haleakala-NEAT/GEODSS; 568 - Mauna Kea; 644 - Palomar Mountain/NEAT; 673 - Table Mountain Observatory, Wrightwood; 675 - Palomar Mountain; 691 - Steward Observatory, Kitt Peak-Spacewatch; 695 - Kitt Peak; 699 - Lowell Observatory-LONEOS; 703 - Catalina Sky Survey; 704 - Lincoln Laboratory ETS, New Mexico; 809 - European Southern Observatory, La Silla"
-S,so0025,2003-2005,210,210,0,absolute,286 - Yunnan Observatory
-S,so0026,2005-2006,146,146,0,absolute,"143 - Gnosca; 415 - Kambah, near Canberra; 568 - Mauna Kea; 691 - Steward Observatory, Kitt Peak-Spacewatch; 704 - Lincoln Laboratory ETS, New Mexico; E12 - Siding Spring Survey; G96 - Mt. Lemmon Survey; H06 - New Mexico Skies Observatory"
-S,so0027,2003-2004,115,115,0,absolute,"Sheshan Station (E 121 deg 11' 03.3'', N 31 deg 05' 46.1''); near the Shanghai Astronomical Observatory (SHAO); (337 - Zo-Se)"
-S,so0028,2006-2006,10,10,0,absolute,"415 - Kambah, near Canberra; 691 - Steward Observatory, Kitt Peak-Spacewatch; 704 - Lincoln Laboratory ETS, New Mexico; Reference.; MPC (Minor Planets Circular) 57946, 57947."
-S,so0029,2005-2006,29,29,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-S,so0030,2006-2007,88,88,0,absolute,"185 - Observatoire Astronomique Jurassien-Vicques; 415 - Kambah, near Canberra; 691 - Steward Observatory, Kitt Peak-Spacewatch; 704 - Lincoln Laboratory ETS, New Mexico; 958 - Observatoire de Dax; B01 - Taunus Observatory, Frankfurt; Reference.; MPC (Minor Planets Circular) 58097,58523,58764,59029,59305"
-S,so0031,2007-2007,35,35,0,absolute,"415 - Kambah, near Canberra"
-S,so0032,2007-2007,14,14,0,absolute,"415 - Kambah, near Canberra"
-S,so0033,2008-2008,101,101,0,absolute,"415 - Kambah, near Canberra; 673 - Table Mountain Observatory, Wrightwood; 691 - Steward Observatory, Kitt Peak-Spacewatch; 704 - Lincoln Laboratory ETS, New Mexico; A50 - Andrushivka Astronomical Observatory; D35 - Lulin Observatory; J37 - Astrodomi Observatory, Santa Rita"
-S,so0034,2000-2009,180,180,0,absolute,"415 - Kambah, near Canberra; 673 - Table Mountain Observatory, Wrightwood; 683 - Goodricke-Pigott Observatory, Tucson; 689 - U.S. Naval Observatory, Flagstaff; 704 - Lincoln Laboratory ETS, New Mexico"
-S,so0035,2008-2009,65,65,0,absolute,"415 - Kambah, near Canberra; 673 - Table Mountain Observatory, Wrightwood; 689 - U.S. Naval Observatory, Flagstaff; 704 - Lincoln Laboratory ETS, New Mexico; D29 - Purple Mountain Observatory, XuYi Station"
-S,so0036,2010-2011,87,87,0,absolute,"106 - Crni Vrh; 415 - Kambah, near Canberra; 673 - Table Mountain Observatory, Wrightwood; 691 - Steward Observatory, Kitt Peak-Spacewatch; 689 - U.S. Naval Observatory, Flagstaff; 704 - Lincoln Laboratory ETS, New Mexico; D29 - Purple Mountain Observatory, XuYi Station; E07 - Murrumbateman; J37 - Huelva"
-S,so0037,2010-2010,5,5,0,absolute,C51 - WISE (satellite)
-S,so0038,2010-2011,105,105,0,absolute,"691 - Steward Observatory, Kitt Peak-Spacewatch; 689 - U.S. Naval Observatory, Flagstaff; 704 - Lincoln Laboratory ETS, New Mexico; D29 - Purple Mountain Observatory, XuYi Station; E07 - Murrumbateman"
-S,so0039,2005-2008,1173,1173,0,absolute,"327 - Peking Observatory, Xinglong Station (NAO); 337 - Zo-Se  Sheshan Station, near the Shanghai Astronomical Observatory (SHAO)"
-S,so0040,2012-2012,60,60,0,absolute,"673 - Table Mountain Observatory, Wrightwood; 704 - Lincoln Laboratory ETS, New Mexico; E07 - Lincoln Laboratory ETS, New Mexico"
-S,so0041,2011-2014,346,346,0,absolute,"O44 - Lijiang Station, Yunnan Observatories"
-S,so0042,2000-2012,223,223,0,absolute,689 - Flagstaff
-S,so0043,2011-2014,105,105,0,absolute,"673 - Table Mountain Observatory, Wrightwood; 689 - U.S. Naval Observatory, Flagstaff; 704 - Lincoln Laboratory ETS, New Mexico; C41 - MASTER-II Observatory, Kislovodsk; C95 - SATINO Remote Observatory, Haute Provence; D29 - Purple Mountain Observatory, XuYi Station; F51 - Pan-STARRS 1, Haleakala; G36 - Calar Alto-CASADO; H06 - iTelescope Observatory, Mayhill; Y00 - SONEAR Observatory, Oliveira"
-S,so0044,1996-2014,1787,1787,0,absolute,"511 - Haute Provence; 809 - European Southern Observatory, La Silla; 874 - Itajuba"
-S,so0045,2013 - 2014,15,15,0,absolute,689 - Flagstaff
-S,so0046,2002 - 2004,5,5,0,absolute,"673 -Table Mountain Observatory, Wrightwood, California"
-S,so0047,2004-2004,223,223,0,absolute,Cassini space probe
-S,so0048,2015-2016,29,29,0,absolute,"673 - Table Mountain Observatory, Wrightwood; F51 - Pan-STARRS 1, Haleakala; F52 - Pan-STARRS 2, Haleakala; K95 - MASTER-SAAO Observatory, Sutherland; W88 - Slooh.com Chile Observatory, La Dehesa"
-S,so0049,2016-2017,20,20,0,absolute,"673 - Table Mountain Observatory, Wrightwood; T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa; W88 - Slooh.com Chile Observatory, La Dehesa"
-S,so0050,2019,11,11,0,absolute,"T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa; D29 - Purple Mountain Observatory, XuYi Station"
-S,so0051,2014-2017,514,514,0,absolute,258 - Gaia
-S,so0052,"1982, 2004-2021",478,478,0,absolute,"415 - Kambah; 673 - Table Mountain Observatory, Wrightwood; 688 - Lowell Observatory, Anderson Mesa Station; 691 - Steward Observatory, Kitt Peak-Spacewatch; D29 - Purple Mountain Observatory, XuYi Station; E07 - Murrumbateman; G36 - Calar Alto-CASADO; I41 - Palomar Mountain--ZTF; T05 - ATLAS-HKO, Haleakala; T08 - ATLAS-MLO, Mauna Loa; X74 - Observatorio Campo dos Amarais; Z80 - Northolt Branch Observatory"
-S,so0053,2017-2019,6,6,0,absolute,"Hamamatsu, Japan:        137&#176;44'23.0""  E, 34&#176;43'07.0""  N,   17m; Miharu, Japan:           140&#176;26'04.2""  E, 37&#176;25'36.7""  N,  274m; Cerro Pahon, Chile:       70&#176;44'21.7""  W, 30&#176;14'16.9""  S, 2693.9m; Penrith Obs., Australia: 150&#176;44'29.9""  E, 33&#176;45'43.5""  S,   58m; Rockhampton, Australia:  150&#176;30'01.6""  E, 23&#176;16'10.1""  S,   50m; Yass, Australia:         148&#176;58'35.14"" E, 34&#176;51'51.17"" S,  535m; Casleo, Argentina:        69&#176;17'44.9""  W, 31&#176;47'55.6""  S, 2552m"
-S,so0054,2014-2019,1066,1066,0,absolute,258 - Gaia
-S,so1001,2000-2000,16,16,0,absolute,"809 - ESO; 568 - Mauna Kea; 693 - Lunar and Planetary Laboratory, Catalina Station; 697 - Kitt Peak (McGraw-Hill)"
-S,so1002,2000-2000,48,48,0,absolute,"696 - F. L. Whipple Observatory, Mt. Hopkins; 695 - Kitt Peak; 809 - European Southern Observatory, La Silla; 568 - Mauna Kea; 309 - Cerro Paranal"
-S,so1003,2000-2000,93,93,0,absolute,"309 - Cerro Paranal.; 568 - Mauna Kea.; 675 - Palomar.; 691 - Spacewatch.; 695 - Kitt Peak.; 696 - Mt. Hopkins.; 699 - LONEOS.; 704 - Lincoln Laboratory Experimental Test System, New Mexico.; 809 - European Southern Observatory, La Silla."
-S,so1004,2000-2000,9,9,0,absolute,695 - Kitt Peak.
-S,so1005,2001-2001,19,19,0,absolute,675 - Palomar.
-S,so1006,2001-2001,7,2,-5,absolute,309 - Cerro Paranal.
-S,so1007,2001-2001,9,9,0,absolute,950 - La Palma
-S,so1008,2001-2001,62,62,0,absolute,"493 - Calar Alto; 568 - Mauna Kea; 675 - Palomar Mountain; 696 - Whipple Observatory, Mt. Hopkins"
-S,so1009,2001-2001,8,8,0,absolute,309 - Cerro Paranal; 675 - Palomar Mountain
-S,so1010,2002-2002,71,71,0,absolute,493 - Calar Alto; 568 - Mauna Kea
-S,so1011,2003-2003,11,11,0,absolute,568 - Mauna Kea
-S,so1012,2004-2004,13,13,0,absolute,568 - Mauna Kea; 675 - Palomar Mountain
-S,so1013,2004-2005,143,143,0,absolute,568 - Mauna Kea
-S,so1014,2000-2005,150,150,0,absolute,"309 - Cerro Paranal; 568 - Mauna Kea; 673 - Table Mountain Observatory, Wrightwood; 675 - Palomar Mountain; 691 - Steward Observatory, Kitt Peak-Spacewatch; 693 - Catalina Station, Tucson; 695 - Kitt Peak; 696 - Whipple Observatory, Mt. Hopkins; 697 - Kitt Peak, McGraw-Hill; 809 - European Southern Observatory, La Silla; 950 - La Palma"
-S,so1015,2000-2005,59,59,0,absolute,568 - Mauna Kea
-S,so1016,2006-2006,12,12,0,absolute,568 - Mauna Kea
-S,so1017,2005-2006,92,92,0,absolute,"415 - Kambah, near Canberra; 568 - Mauna Kea; 691 - Steward Observatory, Kitt Peak-Spacewatch"
-S,so1018,2004-2006,26,26,0,absolute,568 - Mauna Kea
-S,so1019,2004-2006,125,125,0,absolute,568 - Mauna Kea
-S,so1020,2000-2000,6,6,0,absolute,568 - Mauna Kea
-S,so1021,2006-2006,6,6,0,absolute,568 - Mauna Kea
-S,so1022,2007-2007,163,163,0,absolute,"213 - Observatorio Montcabre; 415 - Kambah, near Canberra; 568 - Mauna Kea; 691 - Steward Observatory, Kitt Peak-Spacewatch; G96 - Mt. Lemmon Survey"
-S,so1023,2006-2007,53,53,0,absolute,568 - Mauna Kea
-S,so1024,2007-2007,5,5,0,absolute,568 - Mauna Kea
-S,so1025,2005-2007,47,47,0,absolute,568 - Mauna Kea
-S,so1026,2007-2008,56,56,0,absolute,"415 - Kambah, near Canberra; 691 - Steward Observatory, Kitt Peak-Spacewatch; G96 - Mt. Lemmon Survey"
-S,so1027,2009-2009,24,24,0,absolute,"291 - LPL/Spacewatch II; 691 - Steward Observatory, Kitt Peak-Spacewatch; H01 - Magdalena Ridge Observatory, Socorro"
-S,so1028,2009-2009,4,4,0,absolute,415 - Kambah
-S,so1029,2005-2011,40,40,0,absolute,"291 - LPL/Spacewatch II; 415 - Kambah; 568 - Mauna Kea; 691 - Steward Observatory, Kitt Peak-Spacewatch; E07 - Murrumbateman"
-S,so1030,2009-2011,70,70,0,absolute,"291 - LPL/Spacewatch II; 691 - Steward Observatory, Kitt Peak-Spacewatch; E07 - Murrumbateman"
-S,so1031,2012-2012,62,62,0,absolute,"691 - Steward Observatory, Kitt Peak-Spacewatch; E07 - Murrumbateman; F51 - Pan-STARRS 1, Haleakala"
-S,so1032,2013-2014,48,48,0,absolute,"E07 - Murrumbateman; F51 - Pan-STARRS 1, Haleakala"
-S,so1033,"2001-2002, 2007-2009",133,133,0,absolute,"511 - Haute Provence; 809 - European Southern Observatory, La Silla"
-S,so1034,2014-2015,77,77,0,absolute,"E07 - Murrumbateman; F51 - Pan-STARRS 1, Haleakala; F52 - Pan-STARRS 2, Haleakala; W84 - Cerro Tololo-DECam"
-S,so1035,2008,22,22,0,absolute,568 - Mauna Kea
-S,so1036,2004-2007,434,434,0,absolute,568 - Mauna Kea
-S,so1037,2013-2019,243,243,0,absolute,568 - Mauna Kea; W84 - Cerro Tololo-DECam
-S,so1038,2015-2017,124,124,0,absolute,258 - Gaia
-S,so1039,2004-2021,232,232,0,absolute,"568 - Mauna Kea; 691 - Steward Observatory, Kitt Peak-Spacewatch; D29 - Purple Mountain Observatory, XuYi Station; W84 - Cerro Tololo-DECam"
-S,so1040,2005-2021,69,69,0,absolute,568 - Mauna Kea
-S,so1041,2015-2019,341,341,0,absolute,258 - Gaia
-U,ui0001,1994-1994,130,130,0,relative,HST
-U,ui0002,2004-2004,135,135,0,absolute,874 - Itajuba
-U,um0001,1983-1988,333,1287,954,relative,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-U,um0002,1989-1994,368,1472,1104,relative,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-U,um0003,1995-1998,750,2598,1848,relative,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-U,um0004,1999-1999,12,12,0,absolute,"673 -Table Mountain Observatory, Wrightwood"
-U,um0005,2001-2001,9,9,0,absolute,"673 -Table Mountain Observatory, Wrightwood"
-U,um0006,1998-1999,221,221,0,absolute,689 - Flagstaff
-U,um0007,1982-1998,4822,3093,-1729,absolute,874 - Itajuba (Laboratorio Nacional de Astrofisica)
-U,um0008,2003-2003,12,12,0,absolute,413 - Siding Spring Observatory
-U,um0009,1987-1994,315,209,-106,absolute,119 - Abastuman
-U,um0010,1987-1994,195,195,0,relative,119 - Abastuman
-U,um0011,1987-1994,91,91,0,relative,119 - Abastuman
-U,um0012,1990-1990,44,44,0,relative,123 - Byurakan
-U,um0013,1990-1991,139,514,375,relative,950 - La Palma
-U,um0014,1926-1926,64,64,0,relative,192 - Tashkent
-U,um0015,1984-1986,139,139,0,relative,"689 - U.S. Naval Observatory, Flagstaff"
-U,um0016,1975-1977,133,133,0,relative,"689 - U.S. Naval Observatory, Flagstaff"
-U,um0017,1975-1975,5,5,0,absolute,"807 - Cerro Tololo Observatory, La Serena"
-U,um0018,1979-1983,377,377,0,relative,"689 - U.S. Naval Observatory, Flagstaff"
-U,um0019,1982-1985,1004,1004,0,relative,874 - Itajuba
-U,um0020,1981-1985,76,76,0,relative,"687 - Northern Arizona University, Flagstaff"
-U,um0021,1980-1980,34,24,-10,absolute,"809 - European Southern Observatory, La Silla"
-U,um0022,1977-1979,58,58,0,relative,586 - Pic du Midi
-U,um0023,1981-1981,82,82,0,relative,"809 - European Southern Observatory, La Silla"
-U,um0024,1980-1980,30,30,0,relative,"586 - Pic du Midi; 809 - European Southern Observatory, La Silla"
-U,um0025,1966-1967,39,24,-15,absolute,999 - Bordeaux-Floirac
-U,um0026,1949-1949,8,8,0,relative,503 - Cambridge
-U,um0027,1964-1977,156,156,0,relative,371 - Tokyo-Okayama
-U,um0028,1947-1948,30,30,0,relative,503 - Cambridge
-U,um0029,1948-1973,133,133,0,relative,"711 - McDonald Observatory, Fort Davis; H - University Hawaii; 693 - Catalina Station, Tucson; Reference.; Whitaker E., Greenberg R. (1973); Eccentricity and inclination of Miranda's orbit.; Communications of the Lunar and Planetary Laboratory.; N. 194. P. 70-80.; <A HREF=""../../../../cgi-bin/ObsArticleByCode.cgi?code=1973CoLPL__10___70W"">1973CoLPL__10___70W</a>"
-U,um0030,1948-1966,473,473,0,absolute,"711 - McDonald Observatory, Fort Davis; 703 - Catalina Sky Survey"
-U,um0031,1948-1964,804,804,0,relative,"711 - McDonald Observatory, Fort Davis"
-U,um0032,1847-1871,279,279,0,relative,084 - Pulkovo
-U,um0033,1877-1877,19,19,0,relative,"787 - U.S. Naval Obs., Washington"
-U,um0034,1977-1882,1260,1267,7,relative,"586 - Pic du Midi; 511 - Haute Provence; 809 - European Southern Observatory, La Silla; 568 - Mauna Kea (CFH)"
-U,um0035,1974-1974,25,25,0,absolute,"711 - McDonald Observatory, Fort Davis"
-U,um0036,1966-1966,28,28,0,absolute,"695 - Kitt Peak; 693 - Catalina Station, Tucson"
-U,um0037,1966-1966,56,56,0,relative,"695 - Kitt Peak; 693 - Catalina Station, Tucson"
-U,um0038,1927-1927,82,82,0,relative,536 - Berlin-Babelsberg
-U,um0039,1970-1971,55,31,-24,absolute,999 - Bordeaux-Floirac
-U,um0040,1973-1974,134,78,-56,absolute,999 - Bordeaux-Floirac
-U,um0041,1919-1922,115,115,0,relative,"754 - Yerkes Observatory, Williams Bay"
-U,um0042,1968-1969,122,73,-49,absolute,999 - Bordeaux-Floirac
-U,um0043,1908-1925,301,301,0,relative,"786 - U.S. Naval Observatory, Washington D.C."
-U,um0044,1883-1884,71,71,0,relative,007 - Paris
-U,um0045,1887-1887,13,13,0,relative,020 - Nice
-U,um0046,1900-1907,477,477,0,relative,"786 - U.S. Naval Observatory, Washington D.C."
-U,um0047,1985-1986,445,445,0,relative,Voyager 2 spacecraft centered positions
-U,um0048,1894-1897,184,184,0,relative,"662 - Lick Observatory, Mount Hamilton"
-U,um0049,1894-1895,127,127,0,relative,"662 - Lick Observatory, Mount Hamilton"
-U,um0050,1896-1898,60,60,0,relative,"662 - Lick Observatory, Mount Hamilton"
-U,um0051,1898-1901,292,292,0,relative,"662 - Lick Observatory, Mount Hamilton"
-U,um0052,1903-1903,122,122,0,relative,"662 - Lick Observatory, Mount Hamilton"
-U,um0053,1904-1914,296,296,0,relative,"662 - Lick Observatory, Mount Hamilton"
-U,um0054,1900-1900,69,69,0,relative,"786 - U.S. Naval Obs., Washington"
-U,um0055,1901-1901,152,152,0,relative,"786 - U.S. Naval Obs., Washington"
-U,um0056,1902-1902,129,129,0,relative,"786 - U.S. Naval Obs., Washington"
-U,um0057,1908-1910,58,58,0,relative,"786 - U.S. Naval Obs., Washington"
-U,um0058,1908-1910,15,15,0,relative,"786 - U.S. Naval Obs., Washington"
-U,um0059,1920-1922,58,58,0,relative,"786 - U.S. Naval Obs., Washington"
-U,um0060,1876-1878,82,82,0,relative,"786 - U.S. Naval Obs., Washington"
-U,um0061,1907-1918,555,555,0,relative,"754 - Yerkes Observatory, Williams Bay"
-U,um0062,1880-1892,350,350,0,relative,"786 - U.S. Naval Obs., Washington (since 1893); 787 - U.S. Naval Obs., Washington (before 1893)"
-U,um0063,1914-1914,20,20,0,relative,"662 - Lick Observatory, Mount Hamilton"
-U,um0064,1911-1911,51,51,0,relative,"786 - U.S. Naval Obs., Washington"
-U,um0065,1907-1907,92,92,0,relative,"786 - U.S. Naval Obs., Washington"
-U,um0066,1904-1904,70,70,0,relative,"786 - U.S. Naval Obs., Washington"
-U,um0067,1903-1903,52,52,0,relative,"786 - U.S. Naval Obs., Washington"
-U,um0068,1913-1914,16,16,0,relative,192 - Tashkent
-U,um0069,1880-1880,39,38,-1,relative,768 - Dearborn Observatory
-U,um0070,1875-1879,293,293,0,relative,"786 - U.S. Naval Obs., Washington (since 1893); 787 - U.S. Naval Obs., Washington (before 1893)"
-U,um0071,1874-1874,126,126,0,relative,"787 - U.S. Naval Obs., Washington (before 1893)"
-U,um0072,1872-1874,57,57,0,relative,(???) Birr Castle
-U,um0073,1863-1865,143,143,0,relative,"Malta, latitude 25 deg 55'"
-U,um0074,1856-1857,51,51,0,relative,no information (m.b. Bradstones near Liverpool)
-U,um0075,1852-1853,131,131,0,relative,Valetta
-U,um0076,1849-1849,12,12,0,relative,no information
-U,um0077,1851-1851,47,47,0,relative,no information
-U,um0078,1863-1864,65,65,0,relative,no information
-U,um0079,1849-1849,4,4,0,relative,no information
-U,um0080,1847-1847,33,33,0,relative,no information
-U,um0081,1848-1848,12,12,0,relative,no information
-U,um0082,1866-1868,58,58,0,relative,"802 - Harvard Observatory, Cambridge"
-U,um0083,1837-1837,26,26,0,relative,532 - Munich
-U,um0084,1787-1832,108,108,0,relative,no informations
-U,um0085,2007-2011,120,120,0,absolute,084 - Pulkovo
-U,um0086,2007-2011,86,86,0,relative,084 - Pulkovo
-U,um0087,2008-2011,62,62,0,absolute,084 - Pulkovo
-U,um0088,1998-2007,2358,2358,0,absolute,"327 - Peking Observatory, Xinglong Station (NAO); 337 - Zo-Se  Sheshan Station, near the Shanghai Astronomical Observatory(SHAO)"
-U,um0090,2000-2012,893,893,0,absolute,689 - Flagstaff
-U,um0101,1999-2005,396,396,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-U,um0102,2007-2008,12,12,0,absolute,084 - Pulkovo
-U,um0103,2007-2008,10,10,0,relative,084 - Pulkovo
-U,um0109,2004-2004,287,287,0,absolute,874 - Itajuba
-U,um0110,2004-2006,179,179,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-U,um0111,2005-2005,20,20,0,absolute,"B05 - Ka-Dar Observatory, Barybino"
-U,um0112,2005-2005,14,14,0,relative,"B05 - Ka-Dar Observatory, Barybino"
-U,um0113,2006-2006,3,3,0,absolute,"689 - U.S. Naval Observatory, Flagstaff"
-U,um0114,1992-1997,147,147,0,absolute,950 - La Palma
-U,um0115,2007-2007,29,29,0,absolute,F65 - Haleakala-Faulkes Telescope North
-U,um0116,2007-2007,30,30,0,relative,F65 - Haleakala-Faulkes Telescope North
-U,um0117,2007-2007,5,5,0,relative,"1 - Flavored Meson Observatory, PO Box 6356, Kent, WA 98064, USA; 2 - Indian Hill Observatory, PO Box 11, Chagrin Falls, OH 44022, USA; 3 - Dept. de Fisica y Matematicas, Universidad de Monterrey,; Av. I. Morones Prieto 4500 Pte., Garza Garcia, N.L. Mexico 66238"
-U,um0118,1990-1990,58,58,0,absolute,188 - Majdanak
-U,um0119,2007-2008,36,36,0,relative,see observatories list with the coordinates; in the relevant article.
-U,um0120,2007-2008,5,5,0,relative,see observatories list with the coordinates; in the relevant article.
-U,um0121,1995-2007,235,235,0,absolute,999 Bordeaux-Floirac
-U,um0122,2013 - 2015,191,191,0,absolute,689 - Flagstaff
-U,um0123,2001- 2009,263,263,0,absolute,"673 - Table Mountain Observatory, Wrightwood, California"
-U,um0124,1982-1991,2702,2702,0,absolute,874 - Itajuba (Pico dos Dias Observatory)
-U,um0125,1992-2011,9797,9797,0,absolute,874 - Itajuba (Pico dos Dias Observatory)
-U,um0126,1883,6,6,0,relative,"000 - Royal Observatory, Greenwich"
-U,um0127,2008-2011,62,62,0,absolute,084 - Pulkovo
-U,um0128,2007-2016,294,294,0,absolute,084 - Pulkovo
-U,um0129,1990-1990,24,24,0,absolute,286 - Yunnan Observatory
-U,um0130,1963-1963,15,15,0,absolute,083 - Golosseevo-Kiev
-U,um0131,2014-2016,3332,3332,0,absolute,286 - Yunnan Observatory
-U,um0132,1979-1985,3,3,0,absolute,186 - Kitab
-U,um0133,1963-1990,77,77,0,absolute,083 - Golosseevo-Kiev; 188 - Majdanak
-U,um0134,2015-2018,23,23,0,relative,"874 - Observatorio do Pico dos Dias, Itajuba"
-U,um0135,2008-2014,1915,1915,0,absolute,"337 - Sheshan, formerly Zo-Se"
-U,um0136,2014-2016,757,757,0,absolute,258 - Gaia
-U,um0137,2014-2020,1744,1744,0,absolute,258 - Gaia
-U,um0138,1982-2011,17729,17729,0,absolute,874 - Itajuba (Pico dos Dias Observatory)
-U,uo0001,1984-1998,39,39,0,absolute,675 - Palomar Mountain; 1001 - The University of Hawaii - ???; 950 - La Palma - 950; 709 - Cloudcroft (???); 696 - Whipple Observatory (Mt. Hopkins) - 696; 568 - Mauna Kea - 568; 1002 - Anglo-Australian Observatory - ???; 807 - Cerro Tololo Interamerican Observatory - 807
-U,uo0002,1999-2000,38,38,0,absolute,"568 - Mauna Kea; 675 - Palomar Mountain; 695 - Kitt Peak; 950 - La Palma; 809 - ESO, La Silla"
-U,uo0003,2000-2000,8,8,0,absolute,"675 - Palomar.; 809 - European Southern Observatory, La Silla."
-U,uo0004,2000-2000,23,23,0,absolute,"568 - Mauna Kea; 691 - Steward Observatory, Kitt Peak-Spacewatch"
-U,uo0005,2001-2001,4,4,0,absolute,"568 - Mauna Kea; 807 - Cerro Tololo Observatory, La Serena"
-U,uo0006,2002-2002,8,8,0,absolute,695 - Kitt Peak
-U,uo0007,2001-2001,24,24,0,absolute,"309 - Cerro Paranal.; 568 - Mauna Kea.; 675 - Palomar Mountain.; 807 - Cerro Tololo Observatory, La Serena"
-U,uo0008,2002-2002,7,7,0,absolute,493 - Calar Alto
-U,uo0009,2003-2003,13,13,0,absolute,568 - Mauna Kea
-U,uo0010,2001-2003,46,46,0,absolute,304 - Las Campanas; 309 - Cerro Paranal; 675 - Palomar Mountain; 568 - Mauna Kea; 807 - Cerro Tololo.
-U,uo0011,2002-2002,3,3,0,absolute,309 - Cerro Paranal
-U,uo0012,2004-2004,3,3,0,absolute,705 Apache Point
-U,uo0013,1997-2003,219,219,0,absolute,"309 - Cerro Paranal; 413 - Siding Spring Observatory; 493 - Calar Alto; 568 - Mauna Kea; 675 - Palomar Mountain; 691 - Steward Observatory, Kitt Peak-Spacewatch; 695 - Kitt Peak; 696 - Whipple Observatory, Mt. Hopkins; 709 - W & B Observatory, Cloudcroft; 807 - Cerro Tololo Observatory, La Serena; 809 - European Southern Observatory, La Silla; 829 - Complejo Astronomico El Leoncito; 950 - La Palma"
-U,uo0014,2004-2005,16,16,0,absolute,309 - Cerro Paranal; 675 - Palomar Mountain
-U,uo0015,2006-2006,28,28,0,absolute,"415 - Kambah, near Canberra"
-U,uo0016,2008-2008,16,16,0,absolute,675 - Palomar Mountain; 807 - Cerro Tololo
-U,uo0017,1999-2004,3,3,0,absolute,309 - Cerro Paranal; 568 - Mauna Kea
-U,uo0018,2011-2011,57,57,0,absolute,E07 - Murrumbateman
-U,uo0019,2011-2012,4,4,0,absolute,E07 - Murrumbateman
-U,uo0020,2001-2012,165,165,0,absolute,304 - Las Campanas Observatory; 309 - Cerro Paranal; 493 - Calar Alto; 568 - Mauna Kea; 675 - Palomar Mountain; E07 - Murrumbateman
-U,uo0021,2012-2014,75,75,0,absolute,"809 - European Southern Observatory, La Silla; C95 - SATINO Remote Observatory, Haute Provence; E07 - Murrumbateman; G96 - Mt. Lemmon Survey; H07 - 7300 Observatory, Cloudcroft; V30 - Heaven on Earth Observatory, Mayhill"
-U,uo0022,2007-2008,35,35,0,absolute,"809 - European Southern Observatory, La Silla"
-U,uo0023,2012-2016,85,85,0,absolute,"691 - Steward Observatory, Kitt Peak; C95 - SATINO Remote Observatory, Haute Provence; E07 - Murrumbateman; F51 - Pan-STARRS 1, Haleakala"
-U,uo0024,2010,6,6,0,absolute,568 - Mauna Kea
-U,uo0025,2014-2016,123,123,0,absolute,258 - Gaia
-U,uo0026,2014-2019,183,183,0,absolute,258 - Gaia
+planet,file,planetil,dates
+J,jo0001,jo0,1998-1998
+J,jo0002,jo0,1999-2000
+J,jo0003,jo0,1997-1999
+J,jo0004,jo0,2000-2000
+J,jo0005,jo0,1992-1993
+J,jo0006,jo0,1999-1999
+J,jo0007,jo0,2001-2001
+J,jo0008,jo0,"1993,1998,2001-2002"
+J,jo0011,jo0,1952-1952
+J,jo0012,jo0,1967-1969
+J,jo0013,jo0,1973-1973
+J,jo0014,jo0,1989-1990
+J,jo0015,jo0,1990-1992
+J,jo0016,jo0,1994-1995
+J,jo0017,jo0,1990-1992
+J,jo0018,jo0,1992-1993
+J,jo0019,jo0,2002-2002
+J,jo0020,jo0,1980-1981
+J,jo0021,jo0,2002-2003
+J,jo0022,jo0,1993-2003
+J,jo0023,jo0,2003-2003
+J,jo0024,jo0,"1998-1998,2002-2002"
+J,jo0027,jo0,2003-2003
+J,jo0028,jo0,2003-2003
+J,jo0029,jo0,"1951,1975-1976"
+J,jo0030,jo0,1951-1951
+J,jo0031,jo0,1968-1968
+J,jo0032,jo0,1968-1968
+J,jo0033,jo0,1999-2002
+J,jo0034,jo0,2001-2005
+J,jo0035,jo0,1986-2005
+J,jo0036,jo0,2006-2006
+J,jo0037,jo0,2006-2006
+J,jo0038,jo0,1995-1998
+J,jo0039,jo0,2006-2006
+J,jo0040,jo0,2005-2006
+J,jo0041,jo0,2007-2007
+J,jo0042,jo0,2007-2007
+J,jo0043,jo0,2007-2007
+J,jo0044,jo0,2007-2007
+J,jo0045,jo0,2008-2008
+J,jo0046,jo0,2000-2008
+J,jo0047,jo0,2008-2009
+J,jo0048,jo0,2009-2011
+J,jo0049,jo0,2010-2010
+J,jo0050,jo0,"1996,2005,2009-2012"
+J,jo0051,jo0,2010-2010
+J,jo0052,jo0,"1914,1987,2010-2012"
+J,jo0053,jo0,2012-2012
+J,jo0054,jo0,2010-2015
+J,jo0055,jo0,2014-2014
+J,jo0056,jo0,1995-2014
+J,jo0057,jo0,2013-2015
+J,jo0058,jo0,2010-2010
+J,jo0059,jo0,2014-2016
+J,jo0060,jo0,2015-2016
+J,jo0061,jo0,1906-1907
+J,jo0062,jo0,2015-2018
+J,jo0063,jo0,2017
+J,jo0064,jo0,2017-2018
+J,jo0065,jo0,"2011,2013,2017-2019"
+J,jo0066,jo0,1987-1993
+J,jo0067,jo0,2017-2019
+J,jo0068,jo0,2020
+J,jo0069,jo0,2014-2017
+J,jo0070,jo0,"1986,2005-2022"
+J,jo0071,jo0,2020-2021
+J,jo0072,jo0,2016-2018
+J,jo0073,jo0,2016-2018
+J,jo0074,jo0,"1986,2006-2022"
+J,jo0075,jo0,2010-2022
+J,jo0076,jo0,2017
+J,jo0077,jo0,2014-2019
+J,jo0078,jo0,2015-2021
+N,nm0001,nm0,2001-2001
+N,nm0002,nm0,2001-2001
+N,nm0003,nm0,1989-1994
+N,nm0004,nm0,1995-1997
+N,nm0005,nm0,1999-1999
+N,nm0006,nm0,1999-1999
+N,nm0007,nm0,1998-1999
+N,nm0008,nm0,1984-1986
+N,nm0009,nm0,1975-1977
+N,nm0010,nm0,1979-1983
+N,nm0011,nm0,1877-1877
+N,nm0012,nm0,2001-2005
+N,nm0013,nm0,2000-2002
+N,nm0014,nm0,2005-2006
+N,nm0016,nm0,1990-1990
+N,nm0017,nm0,1986-1993
+N,nm0018,nm0,1995-2007
+N,nm0020,nm0,1970
+N,nm0021,nm0,1875-1877
+N,nm0022,nm0,1899-1901
+N,nm0025,nm0,1939
+N,nm0026,nm0,1940-1942
+N,nm0027,nm0,1866-1868
+N,nm0028,nm0,1883-1888
+N,nm0029,nm0,1889
+N,nm0030,nm0,1894-1897
+N,nm0031,nm0,1896-1897
+N,nm0032,nm0,1898-1898
+N,nm0033,nm0,1897-1899
+N,nm0034,nm0,"1898-1899,1901-1902"
+N,nm0035,nm0,1898-1900
+N,nm0036,nm0,1899-1900
+N,nm0037,nm0,1904-1908
+N,nm0039,nm0,1902-1903
+N,nm0040,nm0,1903-1908
+N,nm0041,nm0,1903-1922
+N,nm0042,nm0,1847
+N,nm0043,nm0,1908-1910
+N,nm0044,nm0,1911
+N,nm0045,nm0,"1912-1913,1918-1919"
+N,nm0046,nm0,
+N,nm0047,nm0,1920-1920
+N,nm0048,nm0,1883-1884
+N,nm0050,nm0,1848
+N,nm0051,nm0,1847
+N,nm0052,nm0,1849-1849
+N,nm0053,nm0,"1849-1852,1856"
+N,nm0054,nm0,1863
+N,nm0055,nm0,1874
+N,nm0056,nm0,1873
+N,nm0057,nm0,1885-1886
+N,nm0058,nm0,1899
+N,nm0059,nm0,1896-1898
+N,nm0060,nm0,1905-1906
+N,nm0061,nm0,1905
+N,nm0062,nm0,1894-1906
+N,nm0063,nm0,1911-1912
+N,nm0064,nm0,1909-1910
+N,nm0065,nm0,1899-1920
+N,nm0068,nm0,1892-1895
+N,nm0069,nm0,1899-1901
+N,nm0070,nm0,1923
+N,nm0071,nm0,1884-1884
+N,nm0072,nm0,1902-1903
+N,nm0073,nm0,1886-1887
+N,nm0074,nm0,1903-1905
+N,nm0075,nm0,1928-1928
+N,nm0076,nm0,1901-1903
+N,nm0077,nm0,2000-2012
+N,nm0078,nm0,2013-2014
+N,nm0079,nm0,2001-2012
+N,nm0080,nm0,"1899-1900,1902,1907"
+N,nm0081,nm0,2014-2016
+N,nm0083,nm0,1963-1990
+N,nm0087,nm0,2014-2017
+N,nm0089,nm0,2014-2019
+N,nm1001,nm1,1993-1998
+N,nm1002,nm1,1993-1998
+N,nm1003,nm1,2001-2001
+N,nm1004,nm1,2002-2002
+N,nm1005,nm1,1949-1949
+N,nm1006,nm1,1949-1969
+N,nm1007,nm1,1977-1984
+N,nm1008,nm1,1987-1987
+N,nm1009,nm1,1987-1987
+N,nm1010,nm1,2003-2003
+N,nm1011,nm1,2004-2004
+N,nm1012,nm1,2006-2006
+N,nm1014,nm1,2002-2006
+N,nm1015,nm1,2007-2007
+N,nm1016,nm1,2007-2007
+N,nm1017,nm1,2007-2008
+N,nm1018,nm1,2008-2008
+N,nm1020,nm1,2009-2009
+N,nm1021,nm1,2009-2010
+N,nm1022,nm1,2011-2011
+N,nm1023,nm1,2011-2012
+N,nm1024,nm1,1992-2014
+N,nm1026,nm1,2000-2010
+N,nm1027,nm1,2012-2014
+N,nm1028,nm1,2013-2016
+N,nm1029,nm1,2017-2017
+N,nm1030,nm1,2018-2018
+N,nm1031,nm1,2018-2018
+N,nm1033,nm1,2018
+N,nm1034,nm1,2014-2017
+N,nm1035,nm1,2003-2021
+N,nm1036,nm1,2014-2019
+S,sm0001,sm0,1906-1906
+S,sm0002,sm0,1908-1922
+S,sm0003,sm0,1977-1977
+S,sm0004,sm0,1977-1977
+S,sm0005,sm0,1982-1982
+S,sm0006,sm0,1983-1985
+S,sm0007,sm0,1973-1974
+S,sm0008,sm0,1986-1986
+S,sm0009,sm0,1980-1980
+S,sm0010,sm0,1973-1984
+S,sm0011,sm0,1975-1981
+S,sm0012,sm0,1976-1982
+S,sm0013,sm0,1994-1995
+S,sm0014,sm0,1994-1995
+S,sm0015,sm0,1995-1996
+S,sm0016,sm0,1996-1996
+S,sm0017,sm0,1996-1996
+S,sm0018,sm0,1995-1995
+S,sm0019,sm0,1985-1993
+S,sm0020,sm0,1982-1988
+S,sm0021,sm0,1990-1994
+S,sm0022,sm0,1995-1997
+S,sm0023,sm0,1998-1999
+S,sm0024,sm0,1999-1999
+S,sm0025,sm0,1984-1984
+S,sm0026,sm0,1984-1984
+S,sm0027,sm0,1984-1984
+S,sm0028,sm0,1984-1984
+S,sm0029,sm0,1994-1999
+S,sm0030,sm0,1995-2000
+S,sm0031,sm0,1963-1984
+S,sm0032,sm0,1976-1984
+S,sm0033,sm0,1998-1998
+S,sm0034,sm0,1874-1989
+S,sm0035,sm0,1966-1989
+S,sm0036,sm0,1874-1984
+S,sm0037,sm0,1973-1986
+S,sm0038,sm0,1990-1997
+S,sm0039,sm0,1995-1995
+S,sm0040,sm0,2001-2001
+S,sm0041,sm0,1996-2000
+S,sm0042,sm0,1999-2001
+S,sm0043,sm0,2000-2001
+S,sm0044,sm0,"1980,1995-1996"
+S,sm0045,sm0,1995-1999
+S,sm0046,sm0,1970-1972
+S,sm0047,sm0,1990-1990
+S,sm0048,sm0,1977-1977
+S,sm0049,sm0,1999-2005
+S,sm0050,sm0,2004-2006
+S,sm0051,sm0,2006-2007
+S,sm0052,sm0,1987-1997
+S,sm0053,sm0,1995-2001
+S,sm0054,sm0,1999-2007
+S,sm0055,sm0,2002-2006
+S,sm0056,sm0,1981-1981
+S,sm0057,sm0,1990-1990
+S,sm0058,sm0,"1972-1984,2004-2008"
+S,sm0059,sm0,"1976,1995,2004-2005"
+S,sm0060,sm0,1999-2008
+S,sm0061,sm0,2008-2009
+S,sm0062,sm0,2008-2009
+S,sm0063,sm0,2000-2012
+S,sm0064,sm0,1972-1973
+S,sm0065,sm0,2013-2015
+S,sm0066,sm0,2001-2012
+S,sm0067,sm0,1974-1998
+S,sm0068,sm0,2004-2012
+S,sm0069,sm0,"1875,1877-1879,1882-1885"
+S,sm0070,sm0,2009-2010
+S,sm0072,sm0,2008-2009
+S,sm0073,sm0,2005-2012
+S,sm0074,sm0,1961-1990
+S,sm0075,sm0,1972-1974
+S,sm0076,sm0,1990-1992
+S,sm0077,sm0,1990-1992
+S,sm0078,sm0,2013-2016
+S,sm0079,sm0,1961-1990
+S,sm0080,sm0,1983-1990
+S,sm0081,sm0,2019
+S,sm0082,sm0,2019-2020
+S,sm0083,sm0,2020
+S,sm0084,sm0,1972-2007
+S,sm0085,sm0,2014-2017
+S,sm0087,sm0,2014-2019
+S,so0001,so0,1968-1976
+S,so0002,so0,1998-1998
+S,so0003,so0,1998-1999
+S,so0004,so0,1999-1999
+S,so0005,so0,1995-1997
+S,so0006,so0,1995-1997
+S,so0007,so0,2000-2000
+S,so0008,so0,2000-2000
+S,so0009,so0,2001-2001
+S,so0010,so0,2001-2001
+S,so0011,so0,2001-2001
+S,so0013,so0,2002-2002
+S,so0014,so0,2002-2002
+S,so0015,so0,2002-2003
+S,so0016,so0,1998-2003
+S,so0017,so0,2003-2003
+S,so0018,so0,1998-1999
+S,so0019,so0,1904-1989
+S,so0020,so0,2003-2003
+S,so0021,so0,2003-2003
+S,so0022,so0,2004-2004
+S,so0023,so0,2001-2005
+S,so0024,so0,1994-2005
+S,so0025,so0,2003-2005
+S,so0026,so0,2005-2006
+S,so0028,so0,2006-2006
+S,so0029,so0,2005-2006
+S,so0030,so0,2006-2007
+S,so0031,so0,2007-2007
+S,so0032,so0,2007-2007
+S,so0033,so0,2008-2008
+S,so0034,so0,2000-2009
+S,so0035,so0,2008-2009
+S,so0036,so0,2010-2011
+S,so0037,so0,2010-2010
+S,so0038,so0,2010-2011
+S,so0040,so0,2012-2012
+S,so0041,so0,2011-2014
+S,so0042,so0,2000-2012
+S,so0043,so0,2011-2014
+S,so0044,so0,1996-2014
+S,so0045,so0,2013-2014
+S,so0046,so0,2002-2004
+S,so0047,so0,2004-2004
+S,so0048,so0,2015-2016
+S,so0049,so0,2016-2017
+S,so0050,so0,2019
+S,so0051,so0,2014-2017
+S,so0052,so0,"1982,2004-2021"
+S,so0053,so0,2017-2019
+S,so0054,so0,2014-2019
+U,um0001,um0,1983-1988
+U,um0002,um0,1989-1994
+U,um0003,um0,1995-1998
+U,um0004,um0,1999-1999
+U,um0005,um0,2001-2001
+U,um0006,um0,1998-1999
+U,um0007,um0,1982-1998
+U,um0008,um0,2003-2003
+U,um0009,um0,1987-1994
+U,um0010,um0,1987-1994
+U,um0011,um0,1987-1994
+U,um0012,um0,1990-1990
+U,um0013,um0,1990-1991
+U,um0014,um0,1926-1926
+U,um0015,um0,1984-1986
+U,um0016,um0,1975-1977
+U,um0017,um0,1975-1975
+U,um0018,um0,1979-1983
+U,um0019,um0,1982-1985
+U,um0020,um0,1981-1985
+U,um0021,um0,1980-1980
+U,um0022,um0,1977-1979
+U,um0023,um0,1981-1981
+U,um0024,um0,1980-1980
+U,um0025,um0,1966-1967
+U,um0026,um0,1949-1949
+U,um0027,um0,1964-1977
+U,um0028,um0,1947-1948
+U,um0029,um0,1948-1973
+U,um0030,um0,1948-1966
+U,um0031,um0,1948-1964
+U,um0032,um0,1847-1871
+U,um0033,um0,1877-1877
+U,um0034,um0,1977-1882
+U,um0035,um0,1974-1974
+U,um0036,um0,1966-1966
+U,um0037,um0,1966-1966
+U,um0038,um0,1927-1927
+U,um0039,um0,1970-1971
+U,um0040,um0,1973-1974
+U,um0041,um0,1919-1922
+U,um0042,um0,1968-1969
+U,um0043,um0,1908-1925
+U,um0044,um0,1883-1884
+U,um0045,um0,1887-1887
+U,um0046,um0,1900-1907
+U,um0047,um0,1985-1986
+U,um0048,um0,1894-1897
+U,um0049,um0,1894-1895
+U,um0050,um0,1896-1898
+U,um0051,um0,1898-1901
+U,um0052,um0,1903-1903
+U,um0053,um0,1904-1914
+U,um0054,um0,1900-1900
+U,um0055,um0,1901-1901
+U,um0056,um0,1902-1902
+U,um0057,um0,1908-1910
+U,um0058,um0,1908-1910
+U,um0059,um0,1920-1922
+U,um0060,um0,1876-1878
+U,um0061,um0,1907-1918
+U,um0062,um0,1880-1892
+U,um0063,um0,1914-1914
+U,um0064,um0,1911-1911
+U,um0065,um0,1907-1907
+U,um0066,um0,1904-1904
+U,um0067,um0,1903-1903
+U,um0068,um0,1913-1914
+U,um0069,um0,1880-1880
+U,um0070,um0,1875-1879
+U,um0071,um0,1874-1874
+U,um0072,um0,1872-1874
+U,um0073,um0,1863-1865
+U,um0074,um0,1856-1857
+U,um0075,um0,1852-1853
+U,um0076,um0,1849-1849
+U,um0077,um0,1851-1851
+U,um0078,um0,1863-1864
+U,um0079,um0,1849-1849
+U,um0080,um0,1847-1847
+U,um0081,um0,1848-1848
+U,um0082,um0,1866-1868
+U,um0083,um0,1837-1837
+U,um0084,um0,1787-1832
+U,um0085,um0,2007-2011
+U,um0086,um0,2007-2011
+U,um0087,um0,2008-2011
+U,um0090,um0,2000-2012
+U,um0101,um0,1999-2005
+U,um0102,um0,2007-2008
+U,um0103,um0,2007-2008
+U,um0109,um0,2004-2004
+U,um0110,um0,2004-2006
+U,um0111,um0,2005-2005
+U,um0112,um0,2005-2005
+U,um0113,um0,2006-2006
+U,um0114,um0,1992-1997
+U,um0115,um0,2007-2007
+U,um0116,um0,2007-2007
+U,um0117,um0,2007-2007
+U,um0118,um0,1990-1990
+U,um0119,um0,2007-2008
+U,um0120,um0,2007-2008
+U,um0121,um0,1995-2007
+U,um0122,um0,2013-2015
+U,um0123,um0,2001-2009
+U,um0124,um0,1982-1991
+U,um0125,um0,1992-2011
+U,um0126,um0,1883
+U,um0127,um0,2008-2011
+U,um0128,um0,2007-2016
+U,um0130,um0,1963-1963
+U,um0131,um0,2014-2016
+U,um0132,um0,1979-1985
+U,um0133,um0,1963-1990
+U,um0134,um0,2015-2018
+U,um0136,um0,2014-2016
+U,um0137,um0,2014-2020
+U,um0138,um0,1982-2011
