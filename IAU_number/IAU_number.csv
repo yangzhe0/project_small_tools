@@ -1,44 +1,27 @@
 IAU number,IAU name,Provisional designation,Year discovered,Discoverer(s)/spacecraft mission,References,Satellite
+LV,,S/2003 J18,2003,B. Gladman,IAUC 8116,Jupiter
+LXI,,S/2003 J19,2003,B. Gladman,IAUC 8125,Jupiter
+,,S/2003 J16,2003,B. Gladman,IAUC 8116,Jupiter
+L,Herse,S/2003 J17,2003,"B. Gladman, J. Kavelaars, J.-M. Petit, and L. Allen",IAUC 8116,Jupiter
+XL,Mneme,S/2003 J21,2003,"B. Gladman, L. Allen",IAUC 8138,Jupiter
+LII,,S/2010 J2,2010,C. Veillet,IAUC 9222,Jupiter
+VI,Himalia,,1904,C.D. Perrine,IAU WGPSN,Jupiter
+VII,Elara,,1905,C.D. Perrine,IAU WGPSN,Jupiter
+XIII,Leda,,1974,C.T. Kowal,IAU WGPSN,Jupiter
+XVIII,Themisto,S/1975 J1 = S/2000 J1,2000,"C.T. Kowal, E. Roemer (1975), S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier (2000)",IAUC 7525,Jupiter
+V,Amalthea,,1892,E.E. Barnard,IAU WGPSN,Jupiter
 I,Io,,1610,Galileo,IAU WGPSN,Jupiter
 II,Europa,,1610,Galileo,IAU WGPSN,Jupiter
 III,Ganymede,,1610,Galileo,IAU WGPSN,Jupiter
 IV,Callisto,,1610,Galileo,IAU WGPSN,Jupiter
-V,Amalthea,,1892,E.E. Barnard,IAU WGPSN,Jupiter
-VI,Himalia,,1904,C.D. Perrine,IAU WGPSN,Jupiter
-VII,Elara,,1905,C.D. Perrine,IAU WGPSN,Jupiter
+XVII,Callirrhoe,S/1999 J1,1999,"J.V. Scotti, T.B. Spahr, R.S. McMillan, J.A. Larsen, J. Montani, A.E. Gleason, T. Gehrels",IAUC 7460,Jupiter
 VIII,Pasiphae,,1908,P.J. Melotte,IAU WGPSN,Jupiter
+LI,,S/2010 J1,2010,"R. Jacobson, M. Brozovic, B. Gladman, M. Alexandersen",IAUC 9222,Jupiter
 IX,Sinope,,1914,S.B. Nicholson,IAU WGPSN,Jupiter
 X,Lysithea,,1938,S.B. Nicholson,IAU WGPSN,Jupiter
 XI,Carme,,1938,S.B. Nicholson,IAU WGPSN,Jupiter
 XII,Ananke,,1951,S.B. Nicholson,IAU WGPSN,Jupiter
-XIII,Leda,,1974,C.T. Kowal,IAU WGPSN,Jupiter
-XIV,Thebe,S/1979 J2,1979,Voyager Science Team,IAU WGPSN,Jupiter
-XV,Adrastea,S/1979 J1,1979,Voyager Science Team,IAU WGPSN,Jupiter
-XVI,Metis,S/1979 J3,1979,Voyager Science Team,IAU WGPSN,Jupiter
-XVII,Callirrhoe,S/1999 J1,1999,"J.V. Scotti, T.B. Spahr, R.S. McMillan, J.A. Larsen, J. Montani, A.E. Gleason, T. Gehrels",IAUC 7460,Jupiter
-XVIII,Themisto,S/1975 J1 = S/2000 J1,1975,"C.T. Kowal, E. Roemer (1975), S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier (2000)",IAUC 7525,Jupiter
-XIX,Megaclite,S/2000 J8,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
-XX,Taygete,S/2000 J9,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
-XXI,Chaldene,S/2000 J10,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
-XXII,Harpalyke,S/2000 J5,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
-XXIII,Kalyke,S/2000 J2,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
-XXIV,Iocaste,S/2000 J3,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
-XXV,Erinome,S/2000 J4,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
-XXVI,Isonoe,S/2000 J6,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
-XXVII,Praxidike,S/2000 J7,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
-XXVIII,Autonoe,S/2001 J1,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
-XXIX,Thyone,S/2001 J2,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
-XXX,Hermippe,S/2001 J3,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
-XXXI,Aitne,S/2001 J11,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
-XXXII,Eurydome,S/2001 J4,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
-XXXIII,Euanthe,S/2001 J7,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
-XXXIV,Euporie,S/2001 J10,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
-XXXV,Orthosie,S/2001 J9,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
-XXXVI,Sponde,S/2001 J5,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
-XXXVII,Kale,S/2001 J8,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
-XXXVIII,Pasithee,S/2001 J6,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
 XXXIX,Hegemone,S/2003 J8,2003,S.S. Sheppard,IAUC 8088,Jupiter
-XL,Mneme,S/2003 J21,2003,"B. Gladman, L. Allen",IAUC 8138,Jupiter
 XLI,Aoede,S/2003 J7,2003,S.S. Sheppard,IAUC 8087,Jupiter
 XLII,Thelxinoe,S/2003 J22,2003,S.S. Sheppard,IAUC 8276,Jupiter
 XLIII,Arche,S/2002 J1,2002,S.S. Sheppard,IAUC 8035,Jupiter
@@ -47,19 +30,9 @@ XLV,Helike,S/2003 J6,2003,S.S. Sheppard,IAUC 8087,Jupiter
 XLVI,Carpo,S/2003 J20,2003,S.S. Sheppard,IAUC 8125,Jupiter
 XLVII,Eukelade,S/2003 J1,2003,S.S. Sheppard,IAUC 8087,Jupiter
 XLVIII,Cyllene,S/2003 J13,2003,S.S. Sheppard,IAUC 8116,Jupiter
-XLIX,Kore,S/2003 J14,2003,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8116,Jupiter
-L,Herse,S/2003 J17,2003,"B. Gladman, J. Kavelaars, J.-M. Petit, and L. Allen",IAUC 8116,Jupiter
-LI,,S/2010 J1,2010,"R. Jacobson, M. Brozovic, B. Gladman, M. Alexandersen",IAUC 9222,Jupiter
-LII,,S/2010 J2,2010,C. Veillet,IAUC 9222,Jupiter
-LIII,Dia,S/2000 J11,2000,"S.S. Sheppard, D.C. Jewitt, Y. Fernandez, G. Magnier",IAUC 7555,Jupiter
 LIV,,S/2016 J1,2016,S.S. Sheppard,MPEC 2017-L08,Jupiter
-LV,,S/2003 J18,2003,B. Gladman,IAUC 8116,Jupiter
 LVI,,S/2011 J2,2011,S.S. Sheppard,CBET 3002/IAUC 9252,Jupiter
-LVII,Eirene,S/2003 J5,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8087,Jupiter
-LVIII,Philophrosyne,S/2003 J15,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8116,Jupiter
 LIX,,S/2017 J1,2017,S.S. Sheppard,MPEC 2017-L47,Jupiter
-LX,Eupheme,S/2003 J3,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8087,Jupiter
-LXI,,S/2003 J19,2003,B. Gladman,IAUC 8125,Jupiter
 LXII,Valetudo,S/2016 J2,2016,S.S. Sheppard,MPEC 2018-O09,Jupiter
 LXIII,,S/2017 J2,2017,S.S. Sheppard,MPEC 2018-O10,Jupiter
 LXIV,,S/2017 J3,2017,S.S. Sheppard,MPEC 2018-O11,Jupiter
@@ -76,12 +49,12 @@ LXXII,,S/2011 J1,2011,S.S. Sheppard,CBET 3002/IAUC 9252,Jupiter
 ,,S/2003 J9,2003,S.S. Sheppard,IAUC 8089,Jupiter
 ,,S/2003 J10,2003,S.S. Sheppard,IAUC 8089,Jupiter
 ,,S/2003 J12,2003,S.S. Sheppard,IAUC 8089,Jupiter
-,,S/2003 J16,2003,B. Gladman,IAUC 8116,Jupiter
 ,,S/2003 J23,2003,S.S. Sheppard,IAUC 8281,Jupiter
-,,S/2003 J24,2003,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, B.J. Gladman, C. Veillet",MPEC 2021-V333,Jupiter
 ,,S/2011 J3,2011,S.S. Sheppard,MPEC 2022-Y69,Jupiter
 ,,S/2016 J3,2016,S.S. Sheppard,MPEC 2023-A13,Jupiter
 ,,S/2016 J4,2016,S.S. Sheppard,MPEC 2023-B96,Jupiter
+,,S/2017 J10,2017,S.S. Sheppard,MPEC 2025-H210,Jupiter
+,,S/2017 J11,2017,S.S. Sheppard,MPEC 2025-H211,Jupiter
 ,,S/2018 J2,2018,S.S. Sheppard,MPEC 2022-Y68,Jupiter
 ,,S/2018 J3,2018,S.S. Sheppard,MPEC 2023-B38,Jupiter
 ,,S/2018 J4,2018,S.S. Sheppard,MPEC 2023-B51,Jupiter
@@ -89,29 +62,64 @@ LXXII,,S/2011 J1,2011,S.S. Sheppard,CBET 3002/IAUC 9252,Jupiter
 ,,S/2021 J2,2021,S.S. Sheppard,MPEC 2023-B37,Jupiter
 ,,S/2021 J3,2021,S.S. Sheppard,MPEC 2023-B39,Jupiter
 ,,S/2021 J4,2021,S.S. Sheppard,MPEC 2023-B40,Jupiter
-,,S/2021 J5,2021,"S.S. Sheppard, D.J. Tholen, C. Trujillo",MPEC 2023-B41,Jupiter
-,,S/2021 J6,2021,"S.S. Sheppard, D.J. Tholen, C. Trujillo",MPEC 2023-B50,Jupiter
 ,,S/2022 J1,2022,S.S. Sheppard,MPEC 2023-D44,Jupiter
 ,,S/2022 J2,2022,S.S. Sheppard,MPEC 2023-D45,Jupiter
 ,,S/2022 J3,2022,S.S. Sheppard,MPEC 2023-D46,Jupiter
-I,Mimas,,1789,W. Herschel,IAU WGPSN,Saturn
-II,Enceladus,,1789,W. Herschel,IAU WGPSN,Saturn
-III,Tethys,,1684,G.D. Cassini,IAU WGPSN,Saturn
-IV,Dione,,1684,G.D. Cassini,IAU WGPSN,Saturn
-V,Rhea,,1672,G.D. Cassini,IAU WGPSN,Saturn
-VI,Titan,,1655,C. Huygens,IAU WGPSN,Saturn
-VII,Hyperion,,1848,"W.C Bond, G.P. Bond, W. Lassell",IAU WGPSN,Saturn
-VIII,Iapetus,,1671,G.D. Cassini,IAU WGPSN,Saturn
-IX,Phoebe,,1898,W.H. Pickering,IAU WGPSN,Saturn
-X,Janus,S/1980 S1,"1966","A. Dollfus (1966), D. Pascu (1980)",IAU WGPSN,Saturn
-XI,Epimetheus,S/1980 S3,"1977","J. Fountain, S. Larson (1977), D. Cruikshank (1980)",IAU WGPSN,Saturn
-XII,Helene,S/1980 S6,1980,P. Laques and J. Lecacheux,IAU WGPSN,Saturn
-XIII,Telesto,S/1980 S13,1980,"B.A. Smith, H. Reitsema, S.M. Larson, J. Fountain",IAU WGPSN,Saturn
-XIV,Calypso,S/1980 S25,1980,"D. Pascu, P.K. Seidelmann, W. Baum, D. Currie",IAU WGPSN,Saturn
-XV,Atlas,S/1980 S28,1980,Voyager Science Team,IAU WGPSN,Saturn
-XVI,Prometheus,S/1980 S27,1980,Voyager Science Team,IAU WGPSN,Saturn
-XVII,Pandora,S/1980 S26,1980,Voyager Science Team,IAU WGPSN,Saturn
-XVIII,Pan,S/1981 S13,1990,M.R. Showalter,IAU WGPSN,Saturn
+LVII,Eirene,S/2003 J5,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8087,Jupiter
+LVIII,Philophrosyne,S/2003 J15,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8116,Jupiter
+LX,Eupheme,S/2003 J3,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8087,Jupiter
+XXVIII,Autonoe,S/2001 J1,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+XXIX,Thyone,S/2001 J2,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+XXX,Hermippe,S/2001 J3,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+XXXI,Aitne,S/2001 J11,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+XXXII,Eurydome,S/2001 J4,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+XXXIII,Euanthe,S/2001 J7,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+XXXIV,Euporie,S/2001 J10,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+XXXV,Orthosie,S/2001 J9,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+XXXVI,Sponde,S/2001 J5,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+XXXVII,Kale,S/2001 J8,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+XXXVIII,Pasithee,S/2001 J6,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+XLIX,Kore,S/2003 J14,2003,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8116,Jupiter
+,,S/2003 J24,2003,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, B.J. Gladman, C. Veillet",MPEC 2021-V333,Jupiter
+LIII,Dia,S/2000 J11,2000,"S.S. Sheppard, D.C. Jewitt, Y. Fernandez, G. Magnier",IAUC 7555,Jupiter
+XIX,Megaclite,S/2000 J8,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+XX,Taygete,S/2000 J9,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+XXI,Chaldene,S/2000 J10,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+XXII,Harpalyke,S/2000 J5,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+XXIII,Kalyke,S/2000 J2,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+XXIV,Iocaste,S/2000 J3,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+XXV,Erinome,S/2000 J4,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+XXVI,Isonoe,S/2000 J6,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+XXVII,Praxidike,S/2000 J7,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+,,S/2021 J5,2021,"S.S. Sheppard, D.J. Tholen, C. Trujillo",MPEC 2023-B41,Jupiter
+,,S/2021 J6,2021,"S.S. Sheppard, D.J. Tholen, C. Trujillo",MPEC 2023-B50,Jupiter
+XIV,Thebe,S/1979 J2,1979,Voyager Science Team,IAU WGPSN,Jupiter
+XV,Adrastea,S/1979 J1,1979,Voyager Science Team,IAU WGPSN,Jupiter
+XVI,Metis,S/1979 J3,1979,Voyager Science Team,IAU WGPSN,Jupiter
+I,Phobos,,1877,A. Hall,IAU WGPSN,Mars
+II,Deimos,,1877,A. Hall,IAU WGPSN,Mars
+II,Nereid,,1949,G.P. Kuiper,IAU WGPSN,Neptune
+XII,Laomedeia,S/2002 N3,2002,"J. Kavelaars, M. Holman, T. Grav, W. Fraser, D. Milisavljevic",IAUC 8047,Neptune
+XIII,Neso,S/2002 N4,2002,"M. Holman, J. Kavelaars, T. Grav, W. Fraser, D. Milisavljevic",IAUC 8213,Neptune
+,,S/2002 N5,2002,"M. Holman, J.J. Kavelaars, T. Grav, W. Fraser",MPEC 2024-D114,Neptune
+IX,Halimede,S/2002 N1,2002,"M. Holman, J.J. Kavelaars, T. Grav, W. Fraser, D. Milisavljevic",IAUC 8047,Neptune
+XIV,Hippocamp,S/2004 N1,2013,"M.R. Showalter, I. de Pater, J.J. Lissauer, R.S. French",CBET 3586,Neptune
+X,Psamathe,S/2003 N1,2003,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8193,Neptune
+,,S/2021 N1,2021,"S.S. Sheppard, D.J. Tholen, C. Trujillo, P.S. Lykawka",MPEC 2024-D112,Neptune
+XI,Sao,S/2002 N2,2002,"T. Grav, M. Holman, J. Kavelaars, W. Fraser, D. Milisavljevic",IAUC 8047,Neptune
+III,Naiad,S/1989 N6,1989,Voyager Science Team,IAU WGPSN,Neptune
+IV,Thalassa,S/1989 N5,1989,Voyager Science Team,IAU WGPSN,Neptune
+V,Despina,S/1989 N3,1989,Voyager Science Team,IAU WGPSN,Neptune
+VI,Galatea,S/1989 N4,1989,Voyager Science Team,IAU WGPSN,Neptune
+VII,Larissa,S/1989 N2,1989,Voyager Science Team,IAU WGPSN,Neptune
+VIII,Proteus,S/1989 N1,1989,Voyager Science Team,IAU WGPSN,Neptune
+I,Triton,,1846,W. Lassell,IAU WGPSN,Neptune
+II,Nix,S/2005 P2,2005,"H.A. Weaver, S.A. Stern, M.J. Mutchler, A.J. Steffl, M.W. Buie, W.J. Merline, J.R. Spencer, E.F. Young, L.A. Young",IAUC 8625,Pluto
+III,Hydra,S/2005 P1,2005,"H.A. Weaver, S.A. Stern, M.J. Mutchler, A.J. Steffl, M.W. Buie, W.J. Merline, J.R. Spencer, E.F. Young, L.A. Young",IAUC 8625,Pluto
+I,Charon,S/1978 P1,1978,J.W. Christy,IAU WGPSN,Pluto
+IV,Kerberos,S/2011 (134340) 1,2011,"M.R. Showalter, D.P. Hamilton, S.A. Stern, H.A. Weaver, A.J. Steffl, L.A. Young",IAUC 9221,Pluto
+V,Styx,S/2012 (134340) 1,2012,"M.R. Showalter, H.A. Weaver, S.A. Stern, A.J. Steffl, M.W. Buie, W.J. Merline, M.J. Mutchler, R. Soummer, H.B. Throop",IAUC 9253,Pluto
+X,Janus,S/1980 S1,1980,"A. Dollfus (1966), D. Pascu (1980)",IAU WGPSN,Saturn
 XIX,Ymir,S/2000 S1,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7512,Saturn
 XX,Paaliaq,S/2000 S2,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7512,Saturn
 XXI,Tarvos,S/2000 S4,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7513,Saturn
@@ -119,16 +127,159 @@ XXII,Ijiraq,S/2000 S6,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M.
 XXIII,Suttungr,S/2000 S12,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7548,Saturn
 XXIV,Kiviuq,S/2000 S5,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7521,Saturn
 XXV,Mundilfari,S/2000 S9,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7538,Saturn
-XXVI,Albiorix,S/2000 S11,2000,M. Holman,IAUC 7545,Saturn
 XXVII,Skathi,S/2000 S8,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7538,Saturn
 XXVIII,Erriapus,S/2000 S10,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7539,Saturn
 XXIX,Siarnaq,S/2000 S3,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7513,Saturn
 XXX,Thrymr,S/2000 S7,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7538,Saturn
-XXXI,Narvi,S/2003 S1,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8116,Saturn
+XIII,Telesto,S/1980 S13,1980,"B.A. Smith, H. Reitsema, S.M. Larson, J. Fountain",IAU WGPSN,Saturn
+VI,Titan,,1655,C. Huygens,IAU WGPSN,Saturn
 XXXII,Methone,S/2004 S1,2004,Cassini Imaging Science Team,IAUC 8389,Saturn
 XXXIII,Pallene,S/2004 S2,2004,Cassini Imaging Science Team,IAUC 8389,Saturn
 XXXIV,Polydeuces,S/2004 S5,2004,Cassini Imaging Science Team,IAUC 8432,Saturn
 XXXV,Daphnis,S/2005 S1,2005,Cassini Imaging Science Team,IAUC 8524,Saturn
+XLIX,Anthe,S/2007 S4,2007,Cassini Imaging Science Team,IAUC 8857,Saturn
+LIII,Aegaeon,S/2008 S1,2008,Cassini Imaging Science Team,IAUC 9023,Saturn
+,,S/2009 S1,2009,Cassini Imaging Science Team,IAUC 9091,Saturn
+,,S/2004 S7,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
+,,S/2004 S12,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
+,,S/2004 S13,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
+,,S/2004 S17,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
+XIV,Calypso,S/1980 S25,1980,"D. Pascu, P.K. Seidelmann, W. Baum, D. Currie",IAU WGPSN,Saturn
+,,S/2004 S40,2004,"D.C. Jewitt, S.S. Sheppard, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J24,Saturn
+,,S/2004 S48,2004,"D.C. Jewitt, S.S. Sheppard, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J166,Saturn
+,,S/2004 S52,2004,"D.C. Jewitt, S.S. Sheppard, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J179,Saturn
+,,S/2004 S45,2004,"D.C. Jewitt, S.S. Sheppard, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J47,Saturn
+,,S/2019 S4,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J36,Saturn
+,,S/2019 S5,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J43,Saturn
+,,S/2019 S6,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J55,Saturn
+,,S/2019 S7,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J57,Saturn
+,,S/2019 S12,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J67,Saturn
+,,S/2019 S14,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J83,Saturn
+,,S/2019 S19,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J174,Saturn
+,,S/2019 S1,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, C. Veillet, M. Alexandersen",MPEC 2021-W14,Saturn
+,,S/2019 S2,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J25,Saturn
+,,S/2019 S3,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J26,Saturn
+,,S/2019 S8,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J58,Saturn
+,,S/2019 S10,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J61,Saturn
+,,S/2019 S13,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J69,Saturn
+,,S/2019 S15,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J84,Saturn
+,,S/2019 S16,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J171,Saturn
+,,S/2019 S20,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J175,Saturn
+,,S/2019 S28,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2019 S30,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2019 S36,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2019 S38,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2019 S39,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S2,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J27,Saturn
+,,S/2020 S3,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J35,Saturn
+,,S/2020 S4,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J38,Saturn
+,,S/2020 S5,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J39,Saturn
+,,S/2020 S6,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J68,Saturn
+,,S/2020 S7,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J82,Saturn
+,,S/2020 S9,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J178,Saturn
+,,S/2020 S10,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-K04,Saturn
+,,S/2020 S14,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S15,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S18,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S21,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S25,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S28,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S29,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S32,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S35,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S36,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S37,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2020 S40,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S4,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S11,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S12,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S14,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S15,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S26,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S28,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S31,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S35,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S36,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S37,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S38,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S39,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S40,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S41,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S44,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2023 S48,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+,,S/2019 S22,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2019 S23,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2019 S26,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2019 S32,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2019 S35,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2019 S37,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2019 S41,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2019 S44,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S11,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S12,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S13,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S16,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S17,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S19,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S20,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S22,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S23,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S24,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S30,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S31,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S33,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S34,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S38,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S39,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S41,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S42,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S43,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2020 S44,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S1,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S2,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S3,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S5,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S6,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S7,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S8,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S9,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S10,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S13,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S16,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S17,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S18,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S19,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S20,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S21,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S22,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S23,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S24,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S25,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S27,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S29,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S30,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S32,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S33,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S34,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S42,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S43,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S45,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S46,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S47,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S49,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+,,S/2023 S50,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+III,Tethys,,1684,G.D. Cassini,IAU WGPSN,Saturn
+IV,Dione,,1684,G.D. Cassini,IAU WGPSN,Saturn
+V,Rhea,,1672,G.D. Cassini,IAU WGPSN,Saturn
+VIII,Iapetus,,1671,G.D. Cassini,IAU WGPSN,Saturn
+XI,Epimetheus,S/1980 S3,1980,"J. Fountain, S. Larson (1977), D. Cruikshank (1980)",IAU WGPSN,Saturn
+XXVI,Albiorix,S/2000 S11,2000,M. Holman,IAUC 7545,Saturn
+XVIII,Pan,S/1981 S13,1990,M.R. Showalter,IAU WGPSN,Saturn
+XII,Helene,S/1980 S6,1980,P. Laques and J. Lecacheux,IAU WGPSN,Saturn
+,,S/2006 S1,2006,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8727,Saturn
+,,S/2006 S3,2006,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8727,Saturn
+,,S/2007 S2,2007,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8836,Saturn
+,,S/2007 S3,2007,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8836,Saturn
 XXXVI,Aegir,S/2004 S10,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8523,Saturn
 XXXVII,Bebhionn,S/2004 S11,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8523,Saturn
 XXXVIII,Bergelmir,S/2004 S15,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8523,Saturn
@@ -142,11 +293,50 @@ XLV,Kari,S/2006 S2,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
 XLVI,Loge,S/2006 S5,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
 XLVII,Skoll,S/2006 S8,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
 XLVIII,Surtur,S/2006 S7,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
-XLIX,Anthe,S/2007 S4,2007,Cassini Imaging Science Team,IAUC 8857,Saturn
 L,Jarnsaxa,S/2006 S6,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
 LI,Greip,S/2006 S4,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
 LII,Tarqeq,S/2007 S1,2007,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8836,Saturn
-LIII,Aegaeon,S/2008 S1,2008,Cassini Imaging Science Team,IAUC 9023,Saturn
+,,S/2020 S8,2020,"S.S Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J167,Saturn
+,,S/2019 S17,2019,"S.S. Sheppard, , D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J172,Saturn
+XXXI,Narvi,S/2003 S1,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8116,Saturn
+,,S/2019 S9,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman",MPEC 2023-J59,Saturn
+,,S/2004 S46,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J60,Saturn
+,,S/2004 S50,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J169,Saturn
+,,S/2019 S11,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J63,Saturn
+,,S/2019 S18,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J173,Saturn
+,,S/2004 S54,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2004 S55,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2004 S56,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2004 S57,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2004 S58,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2004 S59,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2004 S60,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2004 S61,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2005 S6,2005,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2005 S7,2005,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2006 S21,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2006 S22,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2006 S23,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2006 S24,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2006 S25,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2006 S26,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2006 S27,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2006 S28,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2006 S29,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2007 S10,2007,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2007 S11,2007,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2019 S24,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2019 S25,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2019 S27,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2019 S29,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2019 S31,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2019 S33,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2019 S34,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2019 S40,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2019 S42,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2019 S43,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2020 S26,2020,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+,,S/2020 S27,2020,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
 LIV,Gridr,S/2004 S20,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T126,Saturn
 LV,Angrboda,S/2004 S22,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T128,Saturn
 LVI,Skrymir,S/2004 S23,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T129,Saturn
@@ -160,10 +350,6 @@ LXIII,Thiazzi,S/2004 S33,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-
 LXIV,,S/2004 S34,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T156,Saturn
 LXV,Alvaldi,S/2004 S35,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T157,Saturn
 LXVI,Geirrod,S/2004 S38,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T160,Saturn
-,,S/2004 S7,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
-,,S/2004 S12,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
-,,S/2004 S13,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
-,,S/2004 S17,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
 ,,S/2004 S21,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T127,Saturn
 ,,S/2004 S24,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T131,Saturn
 ,,S/2004 S28,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T135,Saturn
@@ -171,208 +357,57 @@ LXVI,Geirrod,S/2004 S38,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T
 ,,S/2004 S36,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T158,Saturn
 ,,S/2004 S37,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T159,Saturn
 ,,S/2004 S39,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T161,Saturn
-,,S/2004 S40,2004,"D.C. Jewitt, S.S. Sheppard, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J24,Saturn
+,,S/2007 S7,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2023-J80,Saturn
+,,S/2004 S44,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-J46,Saturn
+,,S/2006 S15,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-J163,Saturn
+,,S/2006 S17,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-J165,Saturn
+,,S/2007 S9,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-K02,Saturn
 ,,S/2004 S41,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J37,Saturn
 ,,S/2004 S42,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J41,Saturn
 ,,S/2004 S43,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J45,Saturn
-,,S/2004 S44,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-J46,Saturn
-,,S/2004 S45,2004,"D.C. Jewitt, S.S. Sheppard, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J47,Saturn
-,,S/2004 S46,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J60,Saturn
 ,,S/2004 S47,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J62,Saturn
-,,S/2004 S48,2004,"D.C. Jewitt, S.S. Sheppard, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J166,Saturn
 ,,S/2004 S49,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J168,Saturn
-,,S/2004 S50,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J169,Saturn
 ,,S/2004 S51,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J177,Saturn
-,,S/2004 S52,2004,"D.C. Jewitt, S.S. Sheppard, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J179,Saturn
 ,,S/2004 S53,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-K03,Saturn
-,,S/2004 S54,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2004 S55,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2004 S56,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2004 S57,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2004 S58,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2004 S59,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2004 S60,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2004 S61,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
 ,,S/2005 S4,2005,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J79,Saturn
 ,,S/2005 S5,2005,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J85,Saturn
-,,S/2005 S6,2005,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2005 S7,2005,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2006 S1,2006,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8727,Saturn
-,,S/2006 S3,2006,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8727,Saturn
 ,,S/2006 S9,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J22,Saturn
 ,,S/2006 S10,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J42,Saturn
 ,,S/2006 S11,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J48,Saturn
 ,,S/2006 S12,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J49,Saturn
 ,,S/2006 S13,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J56,Saturn
 ,,S/2006 S14,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J64,Saturn
-,,S/2006 S15,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-J163,Saturn
 ,,S/2006 S16,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J164,Saturn
-,,S/2006 S17,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-J165,Saturn
 ,,S/2006 S18,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J170,Saturn
 ,,S/2006 S19,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J176,Saturn
 ,,S/2006 S20,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-K118,Saturn
-,,S/2006 S21,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2006 S22,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2006 S23,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2006 S24,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2006 S25,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2006 S26,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2006 S27,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2006 S28,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2006 S29,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2007 S2,2007,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8836,Saturn
-,,S/2007 S3,2007,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8836,Saturn
 ,,S/2007 S5,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J34,Saturn
 ,,S/2007 S6,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J40,Saturn
-,,S/2007 S7,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2023-J80,Saturn
 ,,S/2007 S8,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J81,Saturn
-,,S/2007 S9,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-K02,Saturn
-,,S/2007 S10,2007,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2007 S11,2007,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2009 S1,2009,"Cassini Imaging Science Team",IAUC 9091,Saturn
-,,S/2019 S1,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, C. Veillet, M. Alexandersen",MPEC 2021-W14,Saturn
-,,S/2019 S2,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J25,Saturn
-,,S/2019 S3,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J26,Saturn
-,,S/2019 S4,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J36,Saturn
-,,S/2019 S5,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J43,Saturn
-,,S/2019 S6,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J55,Saturn
-,,S/2019 S7,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J57,Saturn
-,,S/2019 S8,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J58,Saturn
-,,S/2019 S9,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman",MPEC 2023-J59,Saturn
-,,S/2019 S10,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J61,Saturn
-,,S/2019 S11,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J63,Saturn
-,,S/2019 S12,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J67,Saturn
-,,S/2019 S13,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J69,Saturn
-,,S/2019 S14,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J83,Saturn
-,,S/2019 S15,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J84,Saturn
-,,S/2019 S16,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J171,Saturn
-,,S/2019 S17,2019,"S.S. Sheppard, , D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J172,Saturn
-,,S/2019 S18,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J173,Saturn
-,,S/2019 S19,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J174,Saturn
-,,S/2019 S20,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J175,Saturn
 ,,S/2019 S21,2019,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-K05,Saturn
-,,S/2019 S22,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2019 S23,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2019 S24,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2019 S25,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2019 S26,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2019 S27,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2019 S28,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2019 S29,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2019 S30,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2019 S31,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2019 S32,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2019 S33,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2019 S34,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2019 S35,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2019 S36,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2019 S37,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2019 S38,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2019 S39,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2019 S40,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2019 S41,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2019 S42,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2019 S43,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2019 S44,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
 ,,S/2020 S1,2020,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J21,Saturn
-,,S/2020 S2,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J27,Saturn
-,,S/2020 S3,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J35,Saturn
-,,S/2020 S4,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J38,Saturn
-,,S/2020 S5,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J39,Saturn
-,,S/2020 S6,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J68,Saturn
-,,S/2020 S7,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J82,Saturn
-,,S/2020 S8,2020,"S.S Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J167,Saturn
-,,S/2020 S9,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J178,Saturn
-,,S/2020 S10,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-K04,Saturn
-,,S/2020 S11,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S12,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S13,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S14,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S15,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S16,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S17,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S18,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S19,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S20,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S21,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S22,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S23,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S24,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S25,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S26,2020,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2020 S27,2020,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
-,,S/2020 S28,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S29,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S30,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S31,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S32,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S33,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S34,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S35,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S36,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S37,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S38,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S39,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S40,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2020 S41,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S42,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S43,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2020 S44,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S1,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S2,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S3,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S4,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S5,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S6,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S7,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S8,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S9,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S10,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S11,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S12,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S13,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S14,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S15,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S16,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S17,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S18,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S19,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S20,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S21,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S22,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S23,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S24,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S25,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S26,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S27,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S28,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S29,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S30,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S31,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S32,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S33,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S34,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S35,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S36,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S37,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S38,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S39,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S40,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S41,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S42,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S43,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S44,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S45,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S46,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S47,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S48,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
-,,S/2023 S49,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-,,S/2023 S50,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
-I,Ariel,,1851,W. Lassell,IAU WGPSN,Uranus
-II,Umbriel,,1851,W. Lassell,IAU WGPSN,Uranus
-III,Titania,,1787,W. Herschel,IAU WGPSN,Uranus
-IV,Oberon,,1787,W. Herschel,IAU WGPSN,Uranus
+XV,Atlas,S/1980 S28,1980,Voyager Science Team,IAU WGPSN,Saturn
+XVI,Prometheus,S/1980 S27,1980,Voyager Science Team,IAU WGPSN,Saturn
+XVII,Pandora,S/1980 S26,1980,Voyager Science Team,IAU WGPSN,Saturn
+I,Mimas,,1789,W. Herschel,IAU WGPSN,Saturn
+II,Enceladus,,1789,W. Herschel,IAU WGPSN,Saturn
+VII,Hyperion,,1848,"W.C Bond, G.P. Bond, W. Lassell",IAU WGPSN,Saturn
+IX,Phoebe,,1898,W.H. Pickering,IAU WGPSN,Saturn
+XX,Stephano,S/1999 U2,1999,"B. Gladman, M. Holman, J.J. Kavelaars, J.-M. Petit, H. Scholl",IAUC 7230,Uranus
+XVI,Caliban,S/1997 U1,1997,"B.J. Gladman, P.D. Nicholson, J.A. Burns, J.J. Kavelaars",IAU WGPSN,Uranus
+XXIV,Ferdinand,S/2001 U2,2001,"D. Milisavljevic, M. Holman, J.J. Kavelaars, T. Grav",IAUC 8213,Uranus
+XXV,Perdita,S/1986 U10,1986,E. Karkoschka,IAUC 7171,Uranus
 V,Miranda,,1948,G. Kuiper,IAU WGPSN,Uranus
+XIX,Setebos,S/1999 U1,1999,"J.J. Kavelaars, B. Gladman, M. Holman, J.-M. Petit, H. Scholl",IAUC 7230,Uranus
+XXII,Francisco,S/2001 U3,2001,"J.J. Kavelaars, M. Holman, D. Milisavljevic, T. Grav","IAUC 8216, IAUC 7980",Uranus
+,,S/2025 U1,2025,"M. El Moutamid, M. Hedman, M. Showalter, M. Tiscareno, I. de Pater, J. Lissauer, D. Souami",CBET 5593,Uranus
+XVIII,Prospero,S/1999 U3,1999,"M. Holman, J.J. Kavelaars, B. Gladman, J.-M. Petit, H. Scholl",IAUC 7248,Uranus
+XXI,Trinculo,S/2001 U1,2001,"M. Holman, J.J. Kavelaars, D. Milisavljevic",IAUC 7980,Uranus
+XXVI,Mab,S/2003 U1,2003,"M.R. Showalter, J.J. Lissauer",IAUC 8209,Uranus
+XXVII,Cupid,S/2003 U2,2003,"M.R. Showalter, J.J. Lissauer",IAUC 8209,Uranus
+XVII,Sycorax,S/1997 U2,1997,"P.D. Nicholson, B.J. Gladman, J.A. Burns, J.J. Kavelaars",IAU WGPSN,Uranus
+,,S/2023 U1,2023,S.S. Sheppard,MPEC 2024-D113,Uranus
+XXIII,Margaret,S/2003 U3,2003,"S.S. Sheppard, D.C. Jewitt",IAUC 8217,Uranus
 VI,Cordelia,S/1986 U7,1986,Voyager Science Team,IAU WGPSN,Uranus
 VII,Ophelia,S/1986 U8,1986,Voyager Science Team,IAU WGPSN,Uranus
 VIII,Bianca,S/1986 U9,1986,Voyager Science Team,IAU WGPSN,Uranus
@@ -383,36 +418,7 @@ XII,Portia,S/1986 U1,1986,Voyager Science Team,IAU WGPSN,Uranus
 XIII,Rosalind,S/1986 U4,1986,Voyager Science Team,IAU WGPSN,Uranus
 XIV,Belinda,S/1986 U5,1986,Voyager Science Team,IAU WGPSN,Uranus
 XV,Puck,S/1985 U1,1985,Voyager Science Team,IAU WGPSN,Uranus
-XVI,Caliban,S/1997 U1,1997,"B.J. Gladman, P.D. Nicholson, J.A. Burns, J.J. Kavelaars",IAU WGPSN,Uranus
-XVII,Sycorax,S/1997 U2,1997,"P.D. Nicholson, B.J. Gladman, J.A. Burns, J.J. Kavelaars",IAU WGPSN,Uranus
-XVIII,Prospero,S/1999 U3,1999,"M. Holman, J.J. Kavelaars, B. Gladman, J.-M. Petit, H. Scholl",IAUC 7248,Uranus
-XIX,Setebos,S/1999 U1,1999,"J.J. Kavelaars, B. Gladman, M. Holman, J.-M. Petit, H. Scholl",IAUC 7230,Uranus
-XX,Stephano,S/1999 U2,1999,"B. Gladman, M. Holman, J.J. Kavelaars, J.-M. Petit, H. Scholl",IAUC 7230,Uranus
-XXI,Trinculo,S/2001 U1,2001,"M. Holman, J.J. Kavelaars, D. Milisavljevic",IAUC 7980,Uranus
-XXII,Francisco,S/2001 U3,2001,"J.J. Kavelaars, M. Holman, D. Milisavljevic, T. Grav","IAUC 8216, IAUC 7980",Uranus
-XXIII,Margaret,S/2003 U3,2003,"S.S. Sheppard, D.C. Jewitt",IAUC 8217,Uranus
-XXIV,Ferdinand,S/2001 U2,2001,"D. Milisavljevic, M. Holman, J.J. Kavelaars, T. Grav",IAUC 8213,Uranus
-XXV,Perdita,S/1986 U10,1986,E. Karkoschka,IAUC 7171,Uranus
-XXVI,Mab,S/2003 U1,2003,"M.R. Showalter, J.J. Lissauer",IAUC 8209,Uranus
-XXVII,Cupid,S/2003 U2,2003,"M.R. Showalter, J.J. Lissauer",IAUC 8209,Uranus
-I,Triton,,1846,W. Lassell,IAU WGPSN,Neptune
-II,Nereid,,1949,G.P. Kuiper,IAU WGPSN,Neptune
-III,Naiad,S/1989 N6,1989,Voyager Science Team,IAU WGPSN,Neptune
-IV,Thalassa,S/1989 N5,1989,Voyager Science Team,IAU WGPSN,Neptune
-V,Despina,S/1989 N3,1989,Voyager Science Team,IAU WGPSN,Neptune
-VI,Galatea,S/1989 N4,1989,Voyager Science Team,IAU WGPSN,Neptune
-VII,Larissa,S/1989 N2,1989,Voyager Science Team,IAU WGPSN,Neptune
-VIII,Proteus,S/1989 N1,1989,Voyager Science Team,IAU WGPSN,Neptune
-IX,Halimede,S/2002 N1,2002,"M. Holman, J.J. Kavelaars, T. Grav, W. Fraser, D. Milisavljevic",IAUC 8047,Neptune
-X,Psamathe,S/2003 N1,2003,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8193,Neptune
-XI,Sao,S/2002 N2,2002,"T. Grav, M. Holman, J. Kavelaars, W. Fraser, D. Milisavljevic",IAUC 8047,Neptune
-XII,Laomedeia,S/2002 N3,2002,"J. Kavelaars, M. Holman, T. Grav, W. Fraser, D. Milisavljevic",IAUC 8047,Neptune
-XIII,Neso,S/2002 N4,2002,"M. Holman, J. Kavelaars, T. Grav, W. Fraser, D. Milisavljevic",IAUC 8213,Neptune
-XIV,Hippocamp,S/2004 N1,2013,"M.R. Showalter, I. de Pater, J.J. Lissauer, R.S. French",CBET 3586,Neptune
-I,Charon,S/1978 P1,1978,J.W. Christy,IAU WGPSN,Pluto
-II,Nix,S/2005 P2,2005,"H.A. Weaver, S.A. Stern, M.J. Mutchler, A.J. Steffl, M.W. Buie, W.J. Merline, J.R. Spencer, E.F. Young, L.A. Young",IAUC 8625,Pluto
-III,Hydra,S/2005 P1,2005,"H.A. Weaver, S.A. Stern, M.J. Mutchler, A.J. Steffl, M.W. Buie, W.J. Merline, J.R. Spencer, E.F. Young, L.A. Young",IAUC 8625,Pluto
-IV,Kerberos,S/2011 (134340) 1,2011,"M.R. Showalter, D.P. Hamilton, S.A. Stern, H.A. Weaver, A.J. Steffl, L.A. Young",IAUC 9221,Pluto
-V,Styx,S/2012 (134340) 1,2012,"M.R. Showalter, H.A. Weaver, S.A. Stern, A.J. Steffl, M.W. Buie, W.J. Merline, M.J. Mutchler, R. Soummer, H.B. Throop",IAUC 9253,Pluto
-I,Phobos,,1877,A. Hall,IAU WGPSN,Mars
-II,Deimos,,1877,A. Hall,IAU WGPSN,Mars
+III,Titania,,1787,W. Herschel,IAU WGPSN,Uranus
+IV,Oberon,,1787,W. Herschel,IAU WGPSN,Uranus
+I,Ariel,,1851,W. Lassell,IAU WGPSN,Uranus
+II,Umbriel,,1851,W. Lassell,IAU WGPSN,Uranus
