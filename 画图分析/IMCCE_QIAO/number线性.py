@@ -13,7 +13,6 @@ width_full = 0.35  # 柱状图的宽度
 
 # 创建图表并使用普通纵轴
 fig_full_linear, ax_full_linear = plt.subplots(figsize=(10, 6))
-ax_full_linear.set_yscale("symlog", linthresh=30000, base=2)
 
 # 绘制QIAO数据和总数据的柱状图
 rects2_full_linear = ax_full_linear.bar(x_full + width_full/2, total_data_full, width_full, label='Total Data', color='lightgray', alpha=0.55, zorder=2)
@@ -47,4 +46,4 @@ ax_full_linear.grid(True, which="both", axis="y", linestyle="--", alpha=0.35, zo
 
 # 显示图表
 plt.tight_layout()
-plt.savefig('number.png', dpi=300)
+plt.savefig('number线性.png', dpi=300)
