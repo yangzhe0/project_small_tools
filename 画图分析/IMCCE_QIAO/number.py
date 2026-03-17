@@ -1,5 +1,29 @@
 import matplotlib.pyplot as plt
 import numpy as np
+from matplotlib import font_manager as fm
+
+
+def _set_chinese_font():
+    candidates = [
+        "Microsoft YaHei",
+        "微软雅黑",
+        "SimHei",
+        "黑体",
+        "Noto Sans CJK SC",
+        "Source Han Sans SC",
+        "Arial Unicode MS",
+    ]
+    for name in candidates:
+        try:
+            fm.findfont(fm.FontProperties(family=name), fallback_to_default=False)
+            plt.rcParams["font.sans-serif"] = [name]
+            plt.rcParams["axes.unicode_minus"] = False
+            return
+        except Exception:
+            continue
+
+
+_set_chinese_font()
 
 # 更新的数据
 categories_full = ['J6-J13','S1-S8', 'S9', 'U1-5', 'N1', 'N2']
@@ -16,8 +40,8 @@ fig_full_linear, ax_full_linear = plt.subplots(figsize=(10, 6))
 ax_full_linear.set_yscale("symlog", linthresh=30000, base=2)
 
 # 绘制QIAO数据和总数据的柱状图
-rects2_full_linear = ax_full_linear.bar(x_full + width_full/2, total_data_full, width_full, label='Total Data', color='lightgray', alpha=0.55, zorder=2)
-rects1_full_linear = ax_full_linear.bar(x_full - width_full/2, qiao_data_full, width_full, label='QIAO Data', color='blue', zorder=3)
+rects2_full_linear = ax_full_linear.bar(x_full + width_full/2, total_data_full, width_full, label='NSDC总数据量', color='lightgray', alpha=0.55, zorder=2)
+rects1_full_linear = ax_full_linear.bar(x_full - width_full/2, qiao_data_full, width_full, label='本团队数据量', color='blue', zorder=3)
 
 # 添加比例标签和数量标签
 for rect, qiao_percent, qiao_val, total_val in zip(rects1_full_linear, qiao_percentages_full, qiao_data_full, total_data_full):
@@ -37,8 +61,8 @@ for rect, total_val in zip(rects2_full_linear, total_data_full):
                             ha='center', va='bottom', fontsize=10, color='#444444')
 
 # 设置图表标题和标签
-ax_full_linear.set_xlabel('Plant Categories')
-ax_full_linear.set_ylabel('Data Count')
+ax_full_linear.set_xlabel('太阳系巨行星部分天然卫星', fontsize=13)
+ax_full_linear.set_ylabel('数据量')
 ax_full_linear.set_title('QIAO Observational vs Total Observational', fontsize=16)
 ax_full_linear.set_xticks(x_full)
 ax_full_linear.set_xticklabels(categories_full)
@@ -47,4 +71,4 @@ ax_full_linear.grid(True, which="both", axis="y", linestyle="--", alpha=0.35, zo
 
 # 显示图表
 plt.tight_layout()
-plt.savefig('number.png', dpi=300)
+plt.savefig("number.png", dpi=300, bbox_inches="tight")
