@@ -1,0 +1,469 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Codex CLI 命令速查表</title>
+  <style>
+    :root {
+      --bg: #f5f6fa;
+      --surface: #ffffff;
+      --surface2: #f0f1f7;
+      --border: #dde0ee;
+      --accent: #2457d6;
+      --accent2: #0f9e83;
+      --accent3: #d48a00;
+      --text: #1a1d2e;
+      --text-muted: #6b72a0;
+      --red: #d63b3b;
+      --green: #0f9e83;
+      --tag-bg: #eef2fb;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: 'Segoe UI', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      min-height: 100vh;
+      padding: 40px 20px 80px;
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 48px;
+    }
+    .header .logo {
+      display: inline-flex;
+      align-items: center;
+      gap: 12px;
+      margin-bottom: 16px;
+    }
+    .header .logo-icon {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, var(--accent), var(--accent2));
+      border-radius: 14px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 24px;
+      font-weight: 700;
+      color: #fff;
+    }
+    .header h1 {
+      font-size: 2rem;
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--accent), var(--accent2));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .header .subtitle {
+      color: var(--text-muted);
+      font-size: 0.95rem;
+      margin-top: 6px;
+    }
+
+    .legend {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-bottom: 36px;
+      flex-wrap: wrap;
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.82rem;
+      color: var(--text-muted);
+    }
+    .dot {
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+    }
+    .dot-high { background: var(--red); }
+    .dot-medium { background: var(--accent3); }
+    .dot-low { background: var(--green); }
+
+    .section {
+      max-width: 960px;
+      margin: 0 auto 36px;
+    }
+    .section-title {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 14px;
+      padding-left: 4px;
+    }
+    .section-title::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .cmd-table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+    }
+    .cmd-table thead tr {
+      background: var(--surface2);
+    }
+    .cmd-table th {
+      padding: 12px 18px;
+      text-align: left;
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      border-bottom: 1px solid var(--border);
+    }
+    .cmd-table tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s;
+    }
+    .cmd-table tbody tr:last-child { border-bottom: none; }
+    .cmd-table tbody tr:hover { background: var(--surface2); }
+    .cmd-table td {
+      padding: 14px 18px;
+      font-size: 0.9rem;
+      vertical-align: middle;
+    }
+
+    .td-priority {
+      width: 36px;
+      text-align: center;
+    }
+
+    .cmd {
+      display: inline-block;
+      background: var(--tag-bg);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 3px 10px;
+      font-family: 'Cascadia Code', 'Consolas', 'Courier New', monospace;
+      font-size: 0.85rem;
+      color: var(--accent2);
+      white-space: nowrap;
+    }
+
+    .badge {
+      display: inline-block;
+      padding: 2px 8px;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 600;
+    }
+    .badge-core { background: #fdeaea; color: var(--red); }
+    .badge-session { background: #e6f1fd; color: #2e7fd6; }
+    .badge-config { background: #eeebfe; color: #5b4ef0; }
+    .badge-dev { background: #e6f7f3; color: var(--green); }
+    .badge-bill { background: #fdf5e0; color: var(--accent3); }
+
+    .freq {
+      color: var(--accent3);
+      font-size: 0.85rem;
+      letter-spacing: 1px;
+    }
+    .freq-empty { color: var(--border); }
+
+    .note {
+      max-width: 960px;
+      margin: 0 auto 28px;
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 16px 18px;
+      color: var(--text-muted);
+      line-height: 1.7;
+      font-size: 0.9rem;
+    }
+    .note strong { color: var(--text); }
+
+    footer {
+      text-align: center;
+      margin-top: 56px;
+      color: var(--text-muted);
+      font-size: 0.8rem;
+    }
+
+    @media (max-width: 640px) {
+      .cmd-table th:nth-child(4),
+      .cmd-table td:nth-child(4) { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<div class="header">
+  <div class="logo">
+    <div class="logo-icon">C</div>
+    <h1>Codex CLI 命令速查表</h1>
+  </div>
+  <p class="subtitle">基于本机 codex --help 实测整理 · Codex CLI Reference</p>
+</div>
+
+<div class="legend">
+  <div class="legend-item"><span class="dot dot-high"></span> 高频 / 核心</div>
+  <div class="legend-item"><span class="dot dot-medium"></span> 中频 / 常用</div>
+  <div class="legend-item"><span class="dot dot-low"></span> 低频 / 按需</div>
+</div>
+
+<div class="note">
+  <strong>说明：</strong>本页内容已按本机 <span class="cmd">codex --help</span> 和 <span class="cmd">codex help</span> 核对。
+  当前核对到的是顶层 CLI 命令和启动参数；没有在本机帮助输出里确认到 <span class="cmd">/help</span>、<span class="cmd">/clear</span> 这类 Claude 风格斜杠命令，所以这里不写成那种格式。
+</div>
+
+<div class="section">
+  <div class="section-title">核心 · 每天必用</div>
+  <table class="cmd-table">
+    <thead>
+      <tr>
+        <th class="td-priority"></th>
+        <th>命令</th>
+        <th>作用说明</th>
+        <th>类别</th>
+        <th>频次</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="td-priority"><span class="dot dot-high"></span></td>
+        <td><span class="cmd">codex --help</span></td>
+        <td>查看总帮助；这是本机核对命令最直接的入口</td>
+        <td><span class="badge badge-core">核心</span></td>
+        <td><span class="freq">★★★★★</span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-high"></span></td>
+        <td><span class="cmd">codex</span></td>
+        <td>启动交互式 CLI；不带子命令时进入主交互流程</td>
+        <td><span class="badge badge-session">交互</span></td>
+        <td><span class="freq">★★★★★</span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-high"></span></td>
+        <td><span class="cmd">codex "你的任务"</span></td>
+        <td>带初始提示启动会话，适合直接从具体任务开始</td>
+        <td><span class="badge badge-session">交互</span></td>
+        <td><span class="freq">★★★★★</span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-high"></span></td>
+        <td><span class="cmd">codex help</span></td>
+        <td>实际存在的 help 子命令；与 <span class="cmd">--help</span> 同样用于查看帮助</td>
+        <td><span class="badge badge-core">核心</span></td>
+        <td><span class="freq">★★★★<span class="freq-empty">★</span></span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">执行 · 非交互命令</div>
+  <table class="cmd-table">
+    <thead>
+      <tr>
+        <th class="td-priority"></th>
+        <th>命令</th>
+        <th>作用说明</th>
+        <th>类别</th>
+        <th>频次</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">codex exec</span></td>
+        <td>非交互方式运行 Codex 任务</td>
+        <td><span class="badge badge-dev">执行</span></td>
+        <td><span class="freq">★★★★<span class="freq-empty">★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">codex review</span></td>
+        <td>非交互式代码审查入口</td>
+        <td><span class="badge badge-dev">审查</span></td>
+        <td><span class="freq">★★★<span class="freq-empty">★★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">codex apply</span></td>
+        <td>把最近一次 Codex 产生的 diff 应用到本地工作树</td>
+        <td><span class="badge badge-dev">补丁</span></td>
+        <td><span class="freq">★★★<span class="freq-empty">★★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-low"></span></td>
+        <td><span class="cmd">codex exec -h</span></td>
+        <td>查看具体子命令的帮助，比总帮助更精确</td>
+        <td><span class="badge badge-core">帮助</span></td>
+        <td><span class="freq">★★<span class="freq-empty">★★★</span></span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">会话 · 恢复与分叉</div>
+  <table class="cmd-table">
+    <thead>
+      <tr>
+        <th class="td-priority"></th>
+        <th>命令</th>
+        <th>作用说明</th>
+        <th>类别</th>
+        <th>频次</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">codex resume</span></td>
+        <td>恢复之前的交互会话</td>
+        <td><span class="badge badge-session">会话</span></td>
+        <td><span class="freq">★★★★<span class="freq-empty">★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">codex resume --last</span></td>
+        <td>直接继续最近一次会话</td>
+        <td><span class="badge badge-session">会话</span></td>
+        <td><span class="freq">★★★★<span class="freq-empty">★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">codex fork</span></td>
+        <td>从已有会话分叉出新会话</td>
+        <td><span class="badge badge-session">会话</span></td>
+        <td><span class="freq">★★★<span class="freq-empty">★★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-low"></span></td>
+        <td><span class="cmd">codex fork --last</span></td>
+        <td>直接从最近一次会话分叉</td>
+        <td><span class="badge badge-session">会话</span></td>
+        <td><span class="freq">★★<span class="freq-empty">★★★</span></span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">配置 · 账号与集成</div>
+  <table class="cmd-table">
+    <thead>
+      <tr>
+        <th class="td-priority"></th>
+        <th>命令</th>
+        <th>作用说明</th>
+        <th>类别</th>
+        <th>频次</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">codex login</span></td>
+        <td>管理登录流程</td>
+        <td><span class="badge badge-config">账号</span></td>
+        <td><span class="freq">★★★<span class="freq-empty">★★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-low"></span></td>
+        <td><span class="cmd">codex logout</span></td>
+        <td>删除本地保存的认证凭据</td>
+        <td><span class="badge badge-config">账号</span></td>
+        <td><span class="freq">★★<span class="freq-empty">★★★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">codex mcp</span></td>
+        <td>管理外部 MCP 服务器</td>
+        <td><span class="badge badge-config">集成</span></td>
+        <td><span class="freq">★★★<span class="freq-empty">★★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-low"></span></td>
+        <td><span class="cmd">codex mcp-server</span></td>
+        <td>把 Codex 作为 MCP server 启动（stdio）</td>
+        <td><span class="badge badge-config">集成</span></td>
+        <td><span class="freq">★★<span class="freq-empty">★★★</span></span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section">
+  <div class="section-title">常用参数 · 启动选项</div>
+  <table class="cmd-table">
+    <thead>
+      <tr>
+        <th class="td-priority"></th>
+        <th>参数 / 命令</th>
+        <th>作用说明</th>
+        <th>类别</th>
+        <th>频次</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">-m, --model</span></td>
+        <td>指定使用的模型</td>
+        <td><span class="badge badge-bill">参数</span></td>
+        <td><span class="freq">★★★<span class="freq-empty">★★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">-C, --cd &lt;DIR&gt;</span></td>
+        <td>指定工作目录作为 agent 根目录</td>
+        <td><span class="badge badge-bill">参数</span></td>
+        <td><span class="freq">★★★<span class="freq-empty">★★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">-s, --sandbox</span></td>
+        <td>设置沙箱模式：read-only / workspace-write / danger-full-access</td>
+        <td><span class="badge badge-bill">安全</span></td>
+        <td><span class="freq">★★★<span class="freq-empty">★★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-medium"></span></td>
+        <td><span class="cmd">-a, --ask-for-approval</span></td>
+        <td>设置审批策略：untrusted / on-request / never</td>
+        <td><span class="badge badge-bill">安全</span></td>
+        <td><span class="freq">★★★<span class="freq-empty">★★</span></span></td>
+      </tr>
+      <tr>
+        <td class="td-priority"><span class="dot dot-low"></span></td>
+        <td><span class="cmd">--search</span></td>
+        <td>开启实时网页搜索能力</td>
+        <td><span class="badge badge-bill">网络</span></td>
+        <td><span class="freq">★★<span class="freq-empty">★★★</span></span></td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<footer>
+  <p>Codex CLI · 已按本机 codex --help 核对 · 更新于 2026-04-17</p>
+</footer>
+
+</body>
+</html>

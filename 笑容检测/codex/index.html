@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>笑容识别小程序</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;600;700;800&family=Noto+Sans+SC:wght@400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+  <div class="ambient ambient-a"></div>
+  <div class="ambient ambient-b"></div>
+
+  <main class="shell">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">Smile Detector Mini</p>
+        <h1>笑一笑，我来帮你识别</h1>
+        <p class="subhead">
+          打开摄像头后，小程序会实时分析面部关键点和表情系数，给出笑容分数、当前状态和简单可视化反馈。
+        </p>
+        <div class="hero-actions">
+          <button id="startButton" class="button primary">开启识别</button>
+          <button id="stopButton" class="button secondary" disabled>停止</button>
+          <button id="mirrorButton" class="button ghost">镜像: 开</button>
+        </div>
+        <p class="mini-note">
+          说明：页面只在你的浏览器里处理画面；首次启动会从官方 CDN 加载识别模型资源。
+        </p>
+      </div>
+
+      <div class="hero-stats">
+        <article class="stat-card accent">
+          <span class="stat-label">笑容分数</span>
+          <strong id="smileValue" class="stat-value">0</strong>
+          <span id="moodText" class="stat-foot">等待启动</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">识别状态</span>
+          <strong id="statusText" class="stat-value small">待机中</strong>
+          <span id="statusHint" class="stat-foot">点击“开启识别”后开始分析</span>
+        </article>
+        <article class="stat-card">
+          <span class="stat-label">面部数量 / FPS</span>
+          <strong class="stat-value small"><span id="faceCount">0</span> / <span id="fpsValue">0</span></strong>
+          <span class="stat-foot">建议正对镜头并保持光线充足</span>
+        </article>
+      </div>
+    </section>
+
+    <section class="workspace">
+      <article class="panel viewer-panel">
+        <div class="panel-head">
+          <div>
+            <p class="panel-kicker">实时预览</p>
+            <h2>摄像头与关键点</h2>
+          </div>
+          <span id="liveBadge" class="live-badge idle">未开始</span>
+        </div>
+
+        <div class="viewer">
+          <video id="video" class="preview is-mirrored" autoplay muted playsinline></video>
+          <canvas id="overlay" class="preview overlay is-mirrored"></canvas>
+          <div id="viewerMask" class="viewer-mask">
+            <p>点击“开启识别”并允许摄像头权限</p>
+          </div>
+        </div>
+
+        <div class="viewer-footer">
+          <div>
+            <span class="footer-label">当前判断</span>
+            <strong id="verdictText">等待启动</strong>
+          </div>
+          <div>
+            <span class="footer-label">建议</span>
+            <strong id="tipText">先启动摄像头，再看分数变化</strong>
+          </div>
+        </div>
+      </article>
+
+      <aside class="panel insight-panel">
+        <div class="panel-head">
+          <div>
+            <p class="panel-kicker">数据面板</p>
+            <h2>笑容细节</h2>
+          </div>
+        </div>
+
+        <div class="score-block">
+          <div class="score-row">
+            <span>笑容强度</span>
+            <strong id="scoreCaption">0 / 100</strong>
+          </div>
+          <div class="meter">
+            <div id="scoreFill" class="meter-fill"></div>
+          </div>
+        </div>
+
+        <div class="metric-list">
+          <div class="metric-item">
+            <div class="metric-row">
+              <span>左侧嘴角</span>
+              <strong id="leftSmileValue">0%</strong>
+            </div>
+            <div class="mini-meter"><div id="leftSmileFill" class="mini-fill"></div></div>
+          </div>
+
+          <div class="metric-item">
+            <div class="metric-row">
+              <span>右侧嘴角</span>
+              <strong id="rightSmileValue">0%</strong>
+            </div>
+            <div class="mini-meter"><div id="rightSmileFill" class="mini-fill"></div></div>
+          </div>
+
+          <div class="metric-item">
+            <div class="metric-row">
+              <span>张嘴程度</span>
+              <strong id="jawOpenValue">0%</strong>
+            </div>
+            <div class="mini-meter"><div id="jawOpenFill" class="mini-fill warm"></div></div>
+          </div>
+        </div>
+
+        <div class="callout">
+          <p class="callout-title">识别逻辑</p>
+          <p id="logicText" class="callout-body">
+            系统会结合左右嘴角上扬分值为主，再参考张嘴等干扰项，输出一个更稳定的笑容评分。
+          </p>
+        </div>
+      </aside>
+    </section>
+  </main>
+
+  <script type="module" src="./app.js"></script>
+</body>
+</html>
