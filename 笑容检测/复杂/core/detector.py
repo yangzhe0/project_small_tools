@@ -1,18 +1,39 @@
 import cv2
 import mediapipe as mp
 import numpy as np
+from pathlib import Path
+from urllib.request import urlretrieve
 
 class SmileDetector:
+    MODEL_URL = (
+        "https://storage.googleapis.com/mediapipe-models/face_landmarker/"
+        "face_landmarker/float16/latest/face_landmarker.task"
+    )
+
     def __init__(self, min_detection_confidence=0.5, min_tracking_confidence=0.5):
-        self.mp_face_mesh = mp.solutions.face_mesh
-        self.face_mesh = self.mp_face_mesh.FaceMesh(
-            max_num_faces=1,
-            refine_landmarks=True,
-            min_detection_confidence=min_detection_confidence,
-            min_tracking_confidence=min_tracking_confidence
-        )
-        self.mp_drawing = mp.solutions.drawing_utils
-        self.mp_drawing_styles = mp.solutions.drawing_styles
+        self.use_legacy_api = hasattr(mp, "solutions")
+        if self.use_legacy_api:
+            self.mp_face_mesh = mp.solutions.face_mesh
+            self.face_mesh = self.mp_face_mesh.FaceMesh(
+                max_num_faces=1,
+                refine_landmarks=True,
+                min_detection_confidence=min_detection_confidence,
+                min_tracking_confidence=min_tracking_confidence
+            )
+            self.mp_drawing = mp.solutions.drawing_utils
+            self.mp_drawing_styles = mp.solutions.drawing_styles
+        else:
+            model_path = self._ensure_face_landmarker_model()
+            base_options = mp.tasks.BaseOptions(model_asset_buffer=model_path.read_bytes())
+            options = mp.tasks.vision.FaceLandmarkerOptions(
+                base_options=base_options,
+                running_mode=mp.tasks.vision.RunningMode.IMAGE,
+                num_faces=1,
+                min_face_detection_confidence=min_detection_confidence,
+                min_face_presence_confidence=min_tracking_confidence,
+                min_tracking_confidence=min_tracking_confidence,
+            )
+            self.face_landmarker = mp.tasks.vision.FaceLandmarker.create_from_options(options)
         
         # Key landmarks for smile detection
         # Lips: 61 (left corner), 291 (right corner)
@@ -27,6 +48,14 @@ class SmileDetector:
         self.LEFT_EAR = 234
         self.RIGHT_EAR = 454
 
+    def _ensure_face_landmarker_model(self):
+        model_dir = Path(__file__).resolve().parent / "models"
+        model_dir.mkdir(exist_ok=True)
+        model_path = model_dir / "face_landmarker.task"
+        if not model_path.exists():
+            urlretrieve(self.MODEL_URL, model_path)
+        return model_path
+
     def process_frame(self, frame):
         """
         Process the frame to detect face and smile.
@@ -37,23 +66,30 @@ class SmileDetector:
             smile_ratio: A float representing the smile intensity
         """
         # Convert the BGR image to RGB
-        image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        image.flags.writeable = False
-        
-        results = self.face_mesh.process(image)
-        
-        image.flags.writeable = True
-        image = cv2.cvtColor(image, cv2.COLOR_RGB2BGR)
+        rgb_image = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
+
+        if self.use_legacy_api:
+            rgb_image.flags.writeable = False
+            results = self.face_mesh.process(rgb_image)
+            rgb_image.flags.writeable = True
+            faces = results.multi_face_landmarks
+        else:
+            mp_image = mp.Image(image_format=mp.ImageFormat.SRGB, data=rgb_image)
+            results = self.face_landmarker.detect(mp_image)
+            faces = results.face_landmarks
+
+        image = cv2.cvtColor(rgb_image, cv2.COLOR_RGB2BGR)
         
         is_smiling = False
         smile_ratio = 0.0
         landmarks_list = []
 
-        if results.multi_face_landmarks:
-            for face_landmarks in results.multi_face_landmarks:
+        if faces:
+            for face_landmarks in faces:
                 # Extract landmarks
                 h, w, _ = frame.shape
-                landmarks_list = [(lm.x * w, lm.y * h) for lm in face_landmarks.landmark]
+                landmarks = face_landmarks.landmark if self.use_legacy_api else face_landmarks
+                landmarks_list = [(lm.x * w, lm.y * h) for lm in landmarks]
                 
                 # Calculate smile metrics
                 left_corner = np.array(landmarks_list[self.LEFT_CORNER])
@@ -66,6 +102,8 @@ class SmileDetector:
                 
                 # Face width (for normalization)
                 face_width = np.linalg.norm(left_ear - right_ear)
+                if face_width == 0:
+                    continue
                 
                 # Mouth width
                 mouth_width = np.linalg.norm(left_corner - right_corner)
@@ -103,4 +141,4 @@ class SmileDetector:
                 if smile_ratio > 4.8: # Initial guess
                     is_smiling = True
                     
-        return image, results.multi_face_landmarks, is_smiling, smile_ratio
+        return image, faces, is_smiling, smile_ratio

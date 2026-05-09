@@ -5,7 +5,7 @@
 ## ✨ 功能特点
 
 - 🎯 **专注天体物理**：自动搜索 GAIA、系外行星、恒星物理等相关论文
-- 🤖 **AI 中文摘要**：使用官方 Gemini 2.5 Flash 模型生成 200 字内中文总结
+- 🤖 **AI 中文摘要**：使用官方 Gemini Flash 模型生成 Markdown 中文简报
 - 📅 **每日更新**：获取最新提交的论文
 - 🔍 **智能去重**：避免重复论文
 - 💾 **自动保存**：生成的文件自动保存到本地
@@ -33,13 +33,18 @@ set GEMINI_API_KEY=your_api_key_here
 export GEMINI_API_KEY=your_api_key_here
 ```
 
-**方法2：直接修改代码**
+也可以在项目根目录创建本地 `.env` 文件：
 
-在 `arxiv_briefing.py` 文件中找到这一行：
-```python
-api_key = "REDACTED_GOOGLE_API_KEY"
+```text
+GEMINI_API_KEY=your_api_key_here
+HTTP_PROXY=http://127.0.0.1:7897
+HTTPS_PROXY=http://127.0.0.1:7897
+ARXIV_REQUEST_DELAY=6
 ```
-替换为你的 API Key。
+
+`.env` 已加入 `.gitignore`，不会提交到版本库。未设置 API Key 时仍会生成简报，但会使用论文原始英文摘要。
+
+程序会把当天获取到的 Arxiv 论文元数据缓存到 `.cache/`，同一天重复运行会优先使用缓存，减少触发 Arxiv 限流的概率。
 
 ### 3. 运行系统
 
@@ -96,7 +101,7 @@ arxiv_work_flow/
 ├── requirements.txt       # 依赖包列表
 ├── run_briefing.bat      # Windows 批处理文件
 ├── README.md             # 说明文档
-└── arxiv_briefing_*.txt  # 生成的简报文件
+└── arxiv_briefing_*.md   # 生成的 Markdown 简报文件
 ```
 
 ## ⚙️ 自定义配置
@@ -122,7 +127,7 @@ max_results_per_query = 2
 ## 🛠️ 技术实现
 
 - **Arxiv API**: 使用官方 XML API 获取论文数据
-- **Gemini AI**: 使用官方 `google-genai` 库调用 Gemini 2.5 Flash 模型
+- **Gemini AI**: 使用官方 `google-genai` 库调用 Gemini Flash 模型
 - **Python 3.9+**: 支持现代 Python 特性
 - **错误处理**: 完善的异常处理和重试机制
 

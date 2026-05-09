@@ -1,243 +1,351 @@
-import requests
-import xml.etree.ElementTree as ET
+import json
 import os
 import re
-from datetime import datetime
-from typing import List, Dict
+import sys
 import time
+import xml.etree.ElementTree as ET
+from datetime import datetime
 
-# 使用官方 google-genai 库
+import requests
 from google import genai
+from google.genai import errors as genai_errors
 
-class ArxivBriefingGenerator:
-    def __init__(self, gemini_api_key: str):
-        """初始化简报生成器"""
-        self.gemini_api_key = gemini_api_key
-        # 设置环境变量
-        os.environ['GEMINI_API_KEY'] = gemini_api_key
-        # 初始化客户端
-        self.client = genai.Client()
-        
-    def fetch_arxiv_papers(self, query: str, max_results: int = 5) -> List[Dict]:
-        """
-        从 Arxiv 获取论文数据
-        
-        Args:
-            query: 搜索查询
-            max_results: 最大结果数量
-            
-        Returns:
-            论文列表，包含标题、摘要、链接等信息
-        """
-        try:
-            # 构建 Arxiv API URL
-            url = f'http://export.arxiv.org/api/query'
-            params = {
-                'search_query': query,
-                'start': 0,
-                'max_results': max_results,
-                'sortBy': 'submittedDate',
-                'sortOrder': 'descending'
+
+# 讲解时可以先看这里：这些是整个程序的主要配置。
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+MODEL_NAME = "gemini-flash-latest"
+MAX_PAPERS = 5
+CACHE_DIR = os.path.join(BASE_DIR, ".cache")
+ARXIV_API_URL = "https://export.arxiv.org/api/query"
+ARXIV_QUERY = (
+    "cat:astro-ph OR cat:astro-ph.EP OR cat:astro-ph.SR OR "
+    "cat:astro-ph.GA OR cat:astro-ph.CO OR cat:astro-ph.HE"
+)
+ARXIV_USER_AGENT = os.getenv("ARXIV_USER_AGENT", "arxiv-briefing/1.0 (personal research briefing)")
+
+
+def setup() -> None:
+    """准备运行环境：修复 Windows 控制台编码，并读取 .env 配置。"""
+    if hasattr(sys.stdout, "reconfigure"):
+        sys.stdout.reconfigure(encoding="utf-8", errors="replace")
+        sys.stderr.reconfigure(encoding="utf-8", errors="replace")
+
+    env_file = os.path.join(BASE_DIR, ".env")
+    if not os.path.exists(env_file):
+        return
+
+    # .env 每行形如 KEY=VALUE，用来放 API Key 和代理配置。
+    with open(env_file, "r", encoding="utf-8") as f:
+        for line in f:
+            line = line.strip()
+            if not line or line.startswith("#") or "=" not in line:
+                continue
+            key, value = line.split("=", 1)
+            os.environ[key.strip()] = value.strip().strip('"').strip("'")
+
+
+def clean_text(text: str) -> str:
+    """把 Arxiv 返回的换行和多余空格压成普通句子。"""
+    return re.sub(r"\s+", " ", text or "").strip()
+
+
+def clean_markdown(text: str) -> str:
+    """保留 Markdown 换行，只去掉行尾空格和过多空行。"""
+    text = (text or "").replace("\r\n", "\n").replace("\r", "\n").strip()
+    lines = [line.rstrip() for line in text.split("\n")]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(lines)).strip()
+
+
+def fetch_arxiv_papers(max_results: int) -> list[dict]:
+    """从 Arxiv 获取论文。遇到 429 限流时等待后重试。"""
+    params = {
+        "search_query": ARXIV_QUERY,
+        "start": 0,
+        "max_results": max_results,
+        "sortBy": "submittedDate",
+        "sortOrder": "descending",
+    }
+    headers = {"User-Agent": ARXIV_USER_AGENT}
+
+    print("正在请求 Arxiv...")
+    response = None
+    for attempt in range(4):
+        response = requests.get(ARXIV_API_URL, params=params, headers=headers, timeout=30)
+        if response.status_code != 429:
+            break
+
+        retry_after = response.headers.get("Retry-After")
+        if retry_after and retry_after.isdigit():
+            wait_seconds = int(retry_after)
+        else:
+            wait_seconds = min(180, 60 * (attempt + 1))
+
+        print(f"Arxiv 返回 429 Too Many Requests，等待 {wait_seconds} 秒后重试...")
+        time.sleep(wait_seconds)
+
+    if response is None:
+        raise RuntimeError("Arxiv 请求未发出")
+    if response.status_code == 429:
+        raise RuntimeError("Arxiv 仍在限流：请稍后再试，或检查是否有代理/多任务共享同一个出口 IP")
+
+    response.raise_for_status()
+
+    # Arxiv API 返回 Atom XML，所以这里用 ElementTree 解析。
+    root = ET.fromstring(response.content)
+    papers = []
+    for entry in root.findall("{http://www.w3.org/2005/Atom}entry"):
+        title = entry.findtext("{http://www.w3.org/2005/Atom}title", "")
+        summary = entry.findtext("{http://www.w3.org/2005/Atom}summary", "")
+        link = entry.findtext("{http://www.w3.org/2005/Atom}id", "")
+        published = entry.findtext("{http://www.w3.org/2005/Atom}published", "")
+        updated = entry.findtext("{http://www.w3.org/2005/Atom}updated", "")
+        authors = [
+            clean_text(author.findtext("{http://www.w3.org/2005/Atom}name", ""))
+            for author in entry.findall("{http://www.w3.org/2005/Atom}author")
+        ]
+        categories = [
+            category.attrib.get("term", "")
+            for category in entry.findall("{http://www.w3.org/2005/Atom}category")
+        ]
+
+        papers.append(
+            {
+                "title": clean_text(title),
+                "summary": clean_text(summary),
+                "link": link.strip(),
+                "published": published[:10],
+                "updated": updated[:10],
+                "authors": [author for author in authors if author],
+                "categories": [category for category in categories if category],
             }
-            
-            print(f"正在获取 Arxiv 论文数据...")
-            response = requests.get(url, params=params, timeout=30)
-            response.raise_for_status()
-            
-            # 解析 XML 响应
-            root = ET.fromstring(response.content)
-            papers = []
-            
-            for entry in root.findall('{http://www.w3.org/2005/Atom}entry'):
-                try:
-                    title_elem = entry.find('{http://www.w3.org/2005/Atom}title')
-                    summary_elem = entry.find('{http://www.w3.org/2005/Atom}summary')
-                    link_elem = entry.find('{http://www.w3.org/2005/Atom}id')
-                    published_elem = entry.find('{http://www.w3.org/2005/Atom}published')
-                    
-                    if title_elem is not None and summary_elem is not None and link_elem is not None:
-                        paper = {
-                            'title': title_elem.text.strip(),
-                            'summary': summary_elem.text.strip(),
-                            'link': link_elem.text.strip(),
-                            'published': published_elem.text.strip() if published_elem is not None else 'Unknown'
-                        }
-                        papers.append(paper)
-                        
-                except Exception as e:
-                    print(f"解析论文条目时出错: {e}")
-                    continue
-            
-            print(f"成功获取 {len(papers)} 篇论文")
-            return papers
-            
-        except Exception as e:
-            print(f"获取 Arxiv 数据时出错: {e}")
-            return []
-    
-    def clean_text(self, text: str) -> str:
-        """清理文本，移除多余的空白字符"""
-        if not text:
-            return ""
-        # 移除多余的空白字符和换行
-        text = re.sub(r'\s+', ' ', text)
-        return text.strip()
-    
-    def generate_summary(self, abstract: str, title: str = "") -> str:
-        """
-        使用 Gemini API 生成中文摘要
-        
-        Args:
-            abstract: 论文摘要
-            title: 论文标题
-            
-        Returns:
-            中文摘要
-        """
-        try:
-            # 清理文本
-            clean_abstract = self.clean_text(abstract)
-            clean_title = self.clean_text(title)
-            
-            # 构建提示词
-            prompt = f"""请用中文总结以下论文，要求：
-1. 字数控制在200字以内
-2. 突出论文的主要贡献和创新点
-3. 使用简洁明了的语言
-4. 重点关注GAIA望远镜、观测星表、天体物理等相关内容
+        )
 
-论文标题：{clean_title}
+    print(f"获取到 {len(papers)} 篇论文")
+    return papers
+
+
+def load_or_fetch_papers() -> list[dict]:
+    """优先读取当天缓存；没有缓存时才请求 Arxiv。"""
+    os.makedirs(CACHE_DIR, exist_ok=True)
+    today = datetime.now().strftime("%Y%m%d")
+    cache_file = os.path.join(CACHE_DIR, f"arxiv_papers_{today}.json")
+
+    if os.path.exists(cache_file):
+        with open(cache_file, "r", encoding="utf-8") as f:
+            papers = json.load(f)
+        print(f"已读取缓存：{cache_file}")
+        return papers
+
+    papers = fetch_arxiv_papers(max_results=MAX_PAPERS * 3)
+    with open(cache_file, "w", encoding="utf-8") as f:
+        json.dump(papers, f, ensure_ascii=False, indent=2)
+    return papers
+
+
+def summary_cache_path(paper: dict) -> str:
+    """用 Arxiv id 生成稳定的摘要缓存文件名。"""
+    paper_id = paper["link"].rstrip("/").split("/")[-1].replace(":", "_")
+    return os.path.join(CACHE_DIR, f"summary_{paper_id}.md")
+
+
+def extract_response_text(response) -> str:
+    """只读取 Gemini 响应中的文本部分，避开 SDK 对 thought_signature 的警告。"""
+    texts = []
+    for candidate in getattr(response, "candidates", []) or []:
+        content = getattr(candidate, "content", None)
+        for part in getattr(content, "parts", []) or []:
+            text = getattr(part, "text", None)
+            if text:
+                texts.append(text)
+    return "\n".join(texts).strip()
+
+
+def summarize_with_gemini(client: genai.Client, paper: dict) -> str:
+    """调用 Gemini，把英文摘要改写成中文简报。"""
+    cache_file = summary_cache_path(paper)
+    if os.path.exists(cache_file):
+        with open(cache_file, "r", encoding="utf-8") as f:
+            return f.read().strip()
+
+    prompt = f"""请用中文总结以下论文，要求：
+1. 使用 Markdown 格式
+2. 严格按下面三个小节输出：
+   - **一句话概括**
+   - **主要贡献**
+   - **创新点**
+3. “主要贡献”和“创新点”必须使用项目符号列表
+4. 总字数控制在 250 字以内
+5. 不要输出额外标题，不要重复“中文总结”
+
+论文标题：{paper["title"]}
 
 论文摘要：
-{clean_abstract}
+{paper["summary"]}
 
 中文总结："""
 
-            print(f"正在生成摘要: {clean_title[:50]}...")
-            
-            # 使用官方 google-genai 库
-            response = self.client.models.generate_content(
-                model="gemini-2.5-flash",
-                contents=prompt
-            )
-            
-            # 添加延迟避免API限制
-            time.sleep(1)
-            
-            return response.text.strip()
-            
-        except Exception as e:
-            print(f"生成摘要时出错: {e}")
-            return f"摘要生成失败: {str(e)}"
-    
-    def create_briefing(self, papers: List[Dict]) -> str:
-        """
-        创建简报内容
-        
-        Args:
-            papers: 论文列表
-            
-        Returns:
-            格式化的简报内容
-        """
-        if not papers:
-            return "【Arxiv 每日论文简报】\n\n今日未找到相关论文。"
-        
-        date = datetime.now().strftime('%Y-%m-%d')
-        briefing = f"【Arxiv 每日论文简报】{date}\n"
-        briefing += "=" * 50 + "\n\n"
-        
-        for i, paper in enumerate(papers, 1):
-            briefing += f"📄 论文 {i}:\n"
-            briefing += f"标题：{paper['title']}\n"
-            briefing += f"链接：{paper['link']}\n"
-            briefing += f"发表日期：{paper['published'][:10]}\n"
-            briefing += f"总结：{paper['summary']}\n"
-            briefing += "-" * 40 + "\n\n"
-        
-        briefing += "（以上内容由 AI 自动生成，请注意核实）\n"
-        briefing += f"生成时间：{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}"
-        
-        return briefing
-    
-    def generate_daily_briefing(self, max_papers: int = 5) -> str:
-        """
-        生成每日简报
-        
-        Args:
-            max_papers: 最大论文数量
-            
-        Returns:
-            完整的简报内容
-        """
-        # 构建搜索查询，专注于GAIA和天体物理相关
-        queries = [
-            "cat:astro-ph",
-            "cat:astro-ph.EP", 
-            "cat:astro-ph.SR",
-            "cat:astro-ph.GA",
-            "cat:astro-ph.CO",
-            "cat:astro-ph.HE"
-        ]
-        
-        all_papers = []
-        
-        for query in queries:
-            papers = self.fetch_arxiv_papers(query, max_results=2)
-            all_papers.extend(papers)
-            
-            # 避免重复
-            if len(all_papers) >= max_papers:
-                break
-        
-        # 去重并限制数量
-        seen_titles = set()
-        unique_papers = []
-        for paper in all_papers:
-            if paper['title'] not in seen_titles:
-                seen_titles.add(paper['title'])
-                unique_papers.append(paper)
-                if len(unique_papers) >= max_papers:
-                    break
-        
-        # 为每篇论文生成中文摘要
-        print("正在生成中文摘要...")
-        for paper in unique_papers:
-            paper['summary'] = self.generate_summary(paper['summary'], paper['title'])
-        
-        # 创建简报
-        briefing = self.create_briefing(unique_papers)
-        return briefing
-
-def main():
-    """主函数"""
-    print("🚀 Arxiv 论文每日简报系统启动")
-    print("=" * 50)
-    
-    # 使用你提供的 API Key
-    api_key = "REDACTED_GOOGLE_API_KEY"
-    
+    print(f"正在总结：{paper['title'][:50]}...")
     try:
-        # 创建简报生成器
-        generator = ArxivBriefingGenerator(api_key)
-        
-        # 生成简报
-        briefing = generator.generate_daily_briefing(max_papers=5)
-        
-        # 输出简报
-        print("\n" + "=" * 50)
-        print("📋 每日简报生成完成")
-        print("=" * 50)
-        print(briefing)
-        
-        # 保存到文件
-        filename = f"arxiv_briefing_{datetime.now().strftime('%Y%m%d_%H%M%S')}.txt"
-        with open(filename, 'w', encoding='utf-8') as f:
-            f.write(briefing)
-        print(f"\n💾 简报已保存到文件: {filename}")
-        
+        response = client.models.generate_content(model=MODEL_NAME, contents=prompt)
+        time.sleep(1)
+        summary = clean_markdown(extract_response_text(response))
+        if not summary:
+            summary = fallback_summary(paper)
+    except genai_errors.ClientError as e:
+        print(f"Gemini 调用失败，使用原始摘要兜底：{short_error_message(e)}")
+        summary = fallback_summary(paper)
     except Exception as e:
-        print(f"❌ 生成简报时出错: {e}")
+        print(f"Gemini 网络或代理异常，使用原始摘要兜底：{short_error_message(e)}")
+        summary = fallback_summary(paper)
+
+    with open(cache_file, "w", encoding="utf-8") as f:
+        f.write(summary)
+    return summary
+
+
+def fallback_summary(paper: dict) -> str:
+    """Gemini 额度不足时，仍输出规范 Markdown 结构。"""
+    abstract = clean_text(paper.get("original_summary") or paper.get("summary", ""))
+    short_abstract = abstract[:320] + ("..." if len(abstract) > 320 else "")
+    return "\n".join(
+        [
+            "**一句话概括**",
+            "",
+            short_abstract,
+            "",
+            "**主要贡献**",
+            "",
+            "- 原始摘要已保留，建议阅读下方英文摘要确认研究目标、方法和结论。",
+            "",
+            "**创新点**",
+            "",
+            "- 当前 AI 摘要暂不可用，暂未自动提取创新点。",
+        ]
+    )
+
+
+def short_error_message(error: Exception) -> str:
+    """把 SDK 的大段 JSON 错误压成适合控制台展示的一句话。"""
+    status_code = getattr(error, "status_code", None)
+    message = str(error).splitlines()[0]
+    if "RESOURCE_EXHAUSTED" in message:
+        return f"{status_code or 429} Gemini 额度或频率受限"
+    if "UNAVAILABLE" in message:
+        return f"{status_code or 503} Gemini 服务繁忙"
+    return message[:120]
+
+
+def markdown_escape(text: str) -> str:
+    """避免标题里的竖线破坏 Markdown 表格。"""
+    return clean_text(text).replace("|", "\\|")
+
+
+def build_briefing(papers: list[dict]) -> str:
+    """把论文列表拼成结构化 Markdown 简报。"""
+    now = datetime.now()
+    lines = [
+        f"# Arxiv 每日论文简报",
+        "",
+        f"> 生成日期：{now.strftime('%Y-%m-%d %H:%M:%S')}  ",
+        f"> 论文数量：{len(papers)} 篇  ",
+        f"> 主题范围：天体物理、系外行星、恒星物理、星系、宇宙学、高能天体物理",
+        "",
+        "## 今日速览",
+        "",
+        "| 序号 | 标题 | 分类 | 日期 |",
+        "| --- | --- | --- | --- |",
+    ]
+
+    for index, paper in enumerate(papers, 1):
+        categories = ", ".join(paper.get("categories", [])) or "N/A"
+        published = paper.get("published", "")[:10] or "N/A"
+        lines.append(
+            f"| {index} | {markdown_escape(paper['title'])} | {markdown_escape(categories)} | {published} |"
+        )
+
+    lines.extend(["", "## 论文简报", ""])
+
+    for index, paper in enumerate(papers, 1):
+        authors = paper.get("authors", [])
+        author_text = ", ".join(authors[:6]) if authors else "N/A"
+        if len(authors) > 6:
+            author_text += f" 等 {len(authors)} 人"
+
+        categories = ", ".join(paper.get("categories", [])) or "N/A"
+        published = paper.get("published", "")[:10] or "N/A"
+        updated = paper.get("updated", "")[:10] or published
+        original_summary = clean_text(paper.get("original_summary") or paper.get("summary", ""))
+
+        lines.extend(
+            [
+                f"### {index}. {paper['title']}",
+                "",
+                f"- **Arxiv 链接**：[{paper['link']}]({paper['link']})",
+                f"- **发表日期**：{published}",
+                f"- **更新日期**：{updated}",
+                f"- **作者**：{author_text}",
+                f"- **分类**：{categories}",
+                "",
+                "#### 中文简报",
+                "",
+                paper["summary"],
+                "",
+                "#### 建议关注点",
+                "",
+                "- 这篇论文的核心问题是什么，是否和自己的研究方向有关。",
+                "- 它使用的数据、模型或观测手段是否值得复用。",
+                "- 结论是否依赖特定假设，后续阅读原文时应重点核查。",
+                "",
+                "<details>",
+                "<summary>原始英文摘要</summary>",
+                "",
+                original_summary,
+                "",
+                "</details>",
+                "",
+                "---",
+                "",
+            ]
+        )
+
+    lines.extend(
+        [
+            "## 使用说明",
+            "",
+            "- 中文简报由 Gemini 根据 Arxiv 摘要自动生成，只适合作为快速筛选材料。",
+            "- 正式引用、报告或组会分享前，应打开 Arxiv 原文核对方法、数据和结论。",
+            "- 如果当天重复运行程序，会优先使用 `.cache/` 中的 Arxiv 元数据缓存，减少触发限流。",
+        ]
+    )
+    return "\n".join(lines)
+
+
+def main() -> None:
+    setup()
+    print("Arxiv 论文每日简报系统启动")
+
+    api_key = os.getenv("GEMINI_API_KEY")
+    if not api_key:
+        raise RuntimeError("请先在 .env 中设置 GEMINI_API_KEY")
+
+    client = genai.Client(api_key=api_key)
+
+    papers = load_or_fetch_papers()[:MAX_PAPERS]
+    for paper in papers:
+        paper["original_summary"] = paper["summary"]
+        paper["summary"] = summarize_with_gemini(client, paper)
+
+    briefing = build_briefing(papers)
+    filename = os.path.join(BASE_DIR, f"arxiv_briefing_{datetime.now().strftime('%Y%m%d_%H%M%S')}.md")
+    with open(filename, "w", encoding="utf-8") as f:
+        f.write(briefing)
+
+    print("\n" + briefing)
+    print(f"\n简报已保存到文件：{filename}")
+
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except Exception as e:
+        print(f"程序运行失败：{e}")
