@@ -1,0 +1,992 @@
+System Type,Primary Body,Orbit Class,IAU number,IAU name,Provisional designation,Year discovered,Discoverer(s)/spacecraft mission,References,Satellite
+Planetary Moon,Mars,Major / Dwarf Planet,I,Phobos,,1877,A. Hall,IAU WGPSN,Mars
+Planetary Moon,Mars,Major / Dwarf Planet,II,Deimos,,1877,A. Hall,IAU WGPSN,Mars
+Planetary Moon,Jupiter,Major / Dwarf Planet,I,Io,,1610,Galileo,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,II,Europa,,1610,Galileo,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,III,Ganymede,,1610,Galileo,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,IV,Callisto,,1610,Galileo,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,V,Amalthea,,1892,E.E. Barnard,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,VI,Himalia,,1904,C.D. Perrine,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,VII,Elara,,1905,C.D. Perrine,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,VIII,Pasiphae,,1908,P.J. Melotte,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,IX,Sinope,,1914,S.B. Nicholson,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,X,Lysithea,,1938,S.B. Nicholson,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XI,Carme,,1938,S.B. Nicholson,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XII,Ananke,,1951,S.B. Nicholson,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XIII,Leda,,1974,C.T. Kowal,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XIV,Thebe,S/1979 J2,1979,Voyager Science Team,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XV,Adrastea,S/1979 J1,1979,Voyager Science Team,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XVI,Metis,S/1979 J3,1979,Voyager Science Team,IAU WGPSN,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XVII,Callirrhoe,S/1999 J1,1999,"J.V. Scotti, T.B. Spahr, R.S. McMillan, J.A. Larsen, J. Montani, A.E. Gleason, T. Gehrels",IAUC 7460,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XVIII,Themisto,S/1975 J1 = S/2000 J1,2000,"C.T. Kowal, E. Roemer (1975), S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier (2000)",IAUC 7525,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XIX,Megaclite,S/2000 J8,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XX,Taygete,S/2000 J9,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXI,Chaldene,S/2000 J10,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXII,Harpalyke,S/2000 J5,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXIII,Kalyke,S/2000 J2,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXIV,Iocaste,S/2000 J3,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXV,Erinome,S/2000 J4,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXVI,Isonoe,S/2000 J6,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXVII,Praxidike,S/2000 J7,2000,"S.S. Sheppard, D.C. Jewitt, Y.R. Fernandez, G. Magnier",IAUC 7555,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXVIII,Autonoe,S/2001 J1,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXIX,Thyone,S/2001 J2,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXX,Hermippe,S/2001 J3,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXXI,Aitne,S/2001 J11,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXXII,Eurydome,S/2001 J4,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXXIII,Euanthe,S/2001 J7,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXXIV,Euporie,S/2001 J10,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXXV,Orthosie,S/2001 J9,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXXVI,Sponde,S/2001 J5,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXXVII,Kale,S/2001 J8,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXXVIII,Pasithee,S/2001 J6,2001,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2002-J54,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XXXIX,Hegemone,S/2003 J8,2003,S.S. Sheppard,IAUC 8088,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XL,Mneme,S/2003 J21,2003,"B. Gladman, L. Allen",IAUC 8138,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XLI,Aoede,S/2003 J7,2003,S.S. Sheppard,IAUC 8087,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XLII,Thelxinoe,S/2003 J22,2003,S.S. Sheppard,IAUC 8276,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XLIII,Arche,S/2002 J1,2002,S.S. Sheppard,IAUC 8035,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XLIV,Kallichore,S/2003 J11,2003,S.S. Sheppard,IAUC 8089,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XLV,Helike,S/2003 J6,2003,S.S. Sheppard,IAUC 8087,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XLVI,Carpo,S/2003 J20,2003,S.S. Sheppard,IAUC 8125,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XLVII,Eukelade,S/2003 J1,2003,S.S. Sheppard,IAUC 8087,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XLVIII,Cyllene,S/2003 J13,2003,S.S. Sheppard,IAUC 8116,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,XLIX,Kore,S/2003 J14,2003,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8116,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,L,Herse,S/2003 J17,2003,"B. Gladman, J. Kavelaars, J.-M. Petit, and L. Allen",IAUC 8116,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LI,,S/2010 J1,2010,"R. Jacobson, M. Brozovic, B. Gladman, M. Alexandersen",IAUC 9222,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LII,,S/2010 J2,2010,C. Veillet,IAUC 9222,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LIII,Dia,S/2000 J11,2000,"S.S. Sheppard, D.C. Jewitt, Y. Fernandez, G. Magnier",IAUC 7555,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LIV,,S/2016 J1,2016,S.S. Sheppard,MPEC 2017-L08,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LV,,S/2003 J18,2003,B. Gladman,IAUC 8116,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LVI,,S/2011 J2,2011,S.S. Sheppard,CBET 3002/IAUC 9252,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LVII,Eirene,S/2003 J5,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8087,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LVIII,Philophrosyne,S/2003 J15,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8116,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LIX,,S/2017 J1,2017,S.S. Sheppard,MPEC 2017-L47,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LX,Eupheme,S/2003 J3,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8087,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXI,,S/2003 J19,2003,B. Gladman,IAUC 8125,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXII,Valetudo,S/2016 J2,2016,S.S. Sheppard,MPEC 2018-O09,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXIII,,S/2017 J2,2017,S.S. Sheppard,MPEC 2018-O10,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXIV,,S/2017 J3,2017,S.S. Sheppard,MPEC 2018-O11,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXV,Pandia,S/2017 J4,2017,S.S. Sheppard,MPEC 2018-O12,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXVI,,S/2017 J5,2017,S.S. Sheppard,MPEC 2018-O13,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXVII,,S/2017 J6,2017,S.S. Sheppard,MPEC 2018-O14,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXVIII,,S/2017 J7,2017,S.S. Sheppard,MPEC 2018-O15,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXIX,,S/2017 J8,2017,S.S. Sheppard,MPEC 2018-O16,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXX,,S/2017 J9,2017,S.S. Sheppard,MPEC 2018-O17,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXXI,Ersa,S/2018 J1,2018,S.S. Sheppard,MPEC 2018-O18,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXXII,,S/2011 J1,2011,S.S. Sheppard,CBET 3002/IAUC 9252,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,LXXIII,,S/2003 J2,2003,S.S. Sheppard,IAUC 8087,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2003 J4,2003,S.S. Sheppard,IAUC 8087,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2003 J9,2003,S.S. Sheppard,IAUC 8089,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2003 J10,2003,S.S. Sheppard,IAUC 8089,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2003 J12,2003,S.S. Sheppard,IAUC 8089,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2003 J16,2003,B. Gladman,IAUC 8116,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2003 J23,2003,S.S. Sheppard,IAUC 8281,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2003 J24,2003,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, B.J. Gladman, C. Veillet",MPEC 2021-V333,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2010 J3,2010,S.S. Sheppard,MPEC 2026-G43,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2010 J4,2010,S.S. Sheppard,MPEC 2026-G48,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2010 J5,2010,"E. J. Ashton, M. Beaudoin, B. J. Gladman, S. Deen",MPEC 2026-G65,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2010 J6,2010,S.S. Sheppard,MPEC 2026-G66,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2011 J3,2011,S.S. Sheppard,MPEC 2022-Y69,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2011 J4,2011,S.S. Sheppard,MPEC 2026-F09,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2011 J5,2011,S.S. Sheppard,MPEC 2026-F12,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2011 J6,2011,S.S. Sheppard,MPEC 2026-G44,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2016 J3,2016,S.S. Sheppard,MPEC 2023-A13,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2016 J4,2016,S.S. Sheppard,MPEC 2023-B96,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2017 J10,2017,S.S. Sheppard,MPEC 2025-H210,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2017 J11,2017,S.S. Sheppard,MPEC 2025-H211,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2017 J12,2017,S.S. Sheppard,MPEC 2026-G45,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2017 J13,2017,S.S. Sheppard,MPEC 2026-G46,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2017 J14,2017,S.S. Sheppard,MPEC 2026-G47,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2017 J15,2017,S.S. Sheppard,MPEC 2026-G49,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2017 J16,2017,S.S. Sheppard,MPEC 2026-G50,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2017 J17,2017,S.S. Sheppard,MPEC 2026-G51,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2017 J18,2017,S.S. Sheppard,MPEC 2026-G52,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2018 J2,2018,S.S. Sheppard,MPEC 2022-Y68,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2018 J3,2018,S.S. Sheppard,MPEC 2023-B38,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2018 J4,2018,S.S. Sheppard,MPEC 2023-B51,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2018 J5,2018,S.S. Sheppard,MPEC 2026-F10,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2021 J1,2021,S.S. Sheppard,MPEC 2023-A14,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2021 J2,2021,S.S. Sheppard,MPEC 2023-B37,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2021 J3,2021,S.S. Sheppard,MPEC 2023-B39,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2021 J4,2021,S.S. Sheppard,MPEC 2023-B40,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2021 J5,2021,"S.S. Sheppard, D.J. Tholen, C. Trujillo",MPEC 2023-B41,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2021 J6,2021,"S.S. Sheppard, D.J. Tholen, C. Trujillo",MPEC 2023-B50,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2021 J7,2021,S.S. Sheppard,MPEC 2026-G67,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2021 J8,2021,"S.S. Sheppard, D.J. Tholen, C. Trujillo",MPEC 2026-G73,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2022 J1,2022,S.S. Sheppard,MPEC 2023-D44,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2022 J2,2022,S.S. Sheppard,MPEC 2023-D45,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2022 J3,2022,S.S. Sheppard,MPEC 2023-D46,Jupiter
+Planetary Moon,Jupiter,Major / Dwarf Planet,,,S/2024 J1,2024,"S.S. Sheppard, D.J. Tholen",MPEC 2026-F11,Jupiter
+Planetary Moon,Saturn,Major / Dwarf Planet,I,Mimas,,1789,W. Herschel,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,II,Enceladus,,1789,W. Herschel,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,III,Tethys,,1684,G.D. Cassini,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,IV,Dione,,1684,G.D. Cassini,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,V,Rhea,,1672,G.D. Cassini,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,VI,Titan,,1655,C. Huygens,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,VII,Hyperion,,1848,"W.C Bond, G.P. Bond, W. Lassell",IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,VIII,Iapetus,,1671,G.D. Cassini,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,IX,Phoebe,,1898,W.H. Pickering,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,X,Janus,S/1980 S1,1980,"A. Dollfus (1966), D. Pascu (1980)",IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XI,Epimetheus,S/1980 S3,1980,"J. Fountain, S. Larson (1977), D. Cruikshank (1980)",IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XII,Helene,S/1980 S6,1980,P. Laques and J. Lecacheux,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XIII,Telesto,S/1980 S13,1980,"B.A. Smith, H. Reitsema, S.M. Larson, J. Fountain",IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XIV,Calypso,S/1980 S25,1980,"D. Pascu, P.K. Seidelmann, W. Baum, D. Currie",IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XV,Atlas,S/1980 S28,1980,Voyager Science Team,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XVI,Prometheus,S/1980 S27,1980,Voyager Science Team,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XVII,Pandora,S/1980 S26,1980,Voyager Science Team,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XVIII,Pan,S/1981 S13,1990,M.R. Showalter,IAU WGPSN,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XIX,Ymir,S/2000 S1,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7512,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XX,Paaliaq,S/2000 S2,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7512,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXI,Tarvos,S/2000 S4,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7513,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXII,Ijiraq,S/2000 S6,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7521,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXIII,Suttungr,S/2000 S12,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7548,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXIV,Kiviuq,S/2000 S5,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7521,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXV,Mundilfari,S/2000 S9,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7538,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXVI,Albiorix,S/2000 S11,2000,M. Holman,IAUC 7545,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXVII,Skathi,S/2000 S8,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7538,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXVIII,Erriapus,S/2000 S10,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7539,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXIX,Siarnaq,S/2000 S3,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7513,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXX,Thrymr,S/2000 S7,2000,"B. Gladman, J. Kavelaars, J.-M. Petit, H. Scholl, M. Holman, B.G. Marsden, P. Nicholson, J.A. Burns",IAUC 7538,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXXI,Narvi,S/2003 S1,2003,"S.S. Sheppard, D.C. Jewitt, and J. Kleyna",IAUC 8116,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXXII,Methone,S/2004 S1,2004,Cassini Imaging Science Team,IAUC 8389,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXXIII,Pallene,S/2004 S2,2004,Cassini Imaging Science Team,IAUC 8389,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXXIV,Polydeuces,S/2004 S5,2004,Cassini Imaging Science Team,IAUC 8432,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXXV,Daphnis,S/2005 S1,2005,Cassini Imaging Science Team,IAUC 8524,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXXVI,Aegir,S/2004 S10,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXXVII,Bebhionn,S/2004 S11,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXXVIII,Bergelmir,S/2004 S15,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XXXIX,Bestla,S/2004 S18,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XL,Farbauti,S/2004 S9,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XLI,Fenrir,S/2004 S16,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XLII,Fornjot,S/2004 S8,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XLIII,Hati,S/2004 S14,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XLIV,Hyrrokkin,S/2004 S19,2004,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XLV,Kari,S/2006 S2,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XLVI,Loge,S/2006 S5,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XLVII,Skoll,S/2006 S8,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XLVIII,Surtur,S/2006 S7,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,XLIX,Anthe,S/2007 S4,2007,Cassini Imaging Science Team,IAUC 8857,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,L,Jarnsaxa,S/2006 S6,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LI,Greip,S/2006 S4,2006,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8727,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LII,Tarqeq,S/2007 S1,2007,"S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8836,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LIII,Aegaeon,S/2008 S1,2008,Cassini Imaging Science Team,IAUC 9023,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LIV,Gridr,S/2004 S20,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T126,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LV,Angrboda,S/2004 S22,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T128,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LVI,Skrymir,S/2004 S23,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T129,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LVII,Gerd,S/2004 S25,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T132,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LVIII,,S/2004 S26,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T133,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LIX,Eggther,S/2004 S27,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T134,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LX,,S/2004 S29,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T136,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LXI,Beli,S/2004 S30,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T137,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LXII,Gunnlod,S/2004 S32,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LXIII,Thiazzi,S/2004 S33,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LXIV,,S/2004 S34,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T156,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LXV,Alvaldi,S/2004 S35,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T157,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LXVI,Geirrod,S/2004 S38,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T160,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,LXVII,,S/2004 S7,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S12,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S13,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S17,2005,"D. Jewitt, S. Sheppard, J. Kleyna",IAUC 8523,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S21,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T127,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S24,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T131,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S28,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T135,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S31,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S36,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T158,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S37,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T159,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S39,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2019-T161,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S40,2004,"D.C. Jewitt, S.S. Sheppard, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J24,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S41,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J37,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S42,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J41,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S43,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J45,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S44,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-J46,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S45,2004,"D.C. Jewitt, S.S. Sheppard, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J47,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S46,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J60,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S47,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J62,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S48,2004,"D.C. Jewitt, S.S. Sheppard, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J166,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S49,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J168,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S50,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J169,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S51,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J177,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S52,2004,"D.C. Jewitt, S.S. Sheppard, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J179,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S53,2004,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-K03,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S54,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S55,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S56,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S57,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S58,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S59,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S60,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2004 S61,2004,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2005 S4,2005,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J79,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2005 S5,2005,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J85,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2005 S6,2005,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2005 S7,2005,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S1,2006,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8727,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S3,2006,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8727,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S9,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J22,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S10,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J42,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S11,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J48,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S12,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J49,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S13,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J56,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S14,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J64,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S15,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-J163,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S16,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J164,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S17,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-J165,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S18,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J170,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S19,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J176,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S20,2006,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-K118,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S21,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S22,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S23,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S24,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S25,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S26,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S27,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S28,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2006 S29,2006,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2007 S2,2007,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8836,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2007 S3,2007,"S. Sheppard, D. Jewitt, J. Kleyna",IAUC 8836,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2007 S5,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J34,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2007 S6,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J40,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2007 S7,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",MPEC 2023-J80,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2007 S8,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J81,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2007 S9,2007,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman",MPEC 2023-K02,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2007 S10,2007,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2007 S11,2007,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2009 S1,2009,Cassini Imaging Science Team,IAUC 9091,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2009 S2,2009,Cassini Imaging Science Team,MPEC 2026-M19,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S1,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, C. Veillet, M. Alexandersen",MPEC 2021-W14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S2,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J25,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S3,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J26,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S4,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J36,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S5,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J43,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S6,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J55,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S7,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J57,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S8,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J58,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S9,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman",MPEC 2023-J59,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S10,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J61,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S11,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J63,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S12,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J67,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S13,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J69,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S14,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J83,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S15,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J84,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S16,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J171,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S17,2019,"S.S. Sheppard, , D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J172,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S18,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J173,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S19,2019,"E.J. Ashton, B.J. Gladman",MPEC 2023-J174,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S20,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J175,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S21,2019,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-K05,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S22,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S23,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S24,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S25,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S26,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S27,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S28,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S29,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S30,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S31,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S32,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S33,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S34,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S35,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S36,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S37,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S38,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S39,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S40,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S41,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S42,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S43,2019,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2019 S44,2019,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S1,2020,"S.S. Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J21,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S2,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J27,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S3,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J35,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S4,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J38,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S5,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J39,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S6,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J68,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S7,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J82,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S8,2020,"S.S Sheppard, D.C. Jewitt, J. Kleyna, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J167,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S9,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-J178,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S10,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2023-K04,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S11,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S12,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S13,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S14,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S15,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S16,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S17,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S18,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S19,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S20,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S21,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S22,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S23,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S24,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S25,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S26,2020,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S27,2020,"S.S. Sheppard, D.C. Jewitt, E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, J. Kleyna",MPEC 2025-E155,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S28,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S29,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S30,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S31,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S32,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S33,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S34,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S35,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S36,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S37,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S38,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S39,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S40,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S41,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S42,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S43,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S44,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S45,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-F14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S46,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-F14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S47,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-F14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S48,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-F14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2020 S49,2020,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2026-G74,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S1,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S2,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S3,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S4,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S5,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S6,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S7,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S8,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S9,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S10,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S11,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S12,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S13,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S14,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S15,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S16,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S17,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S18,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S19,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S20,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S21,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S22,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S23,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S24,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S25,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S26,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S27,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S28,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S29,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S30,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S31,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S32,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S33,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S34,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S35,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S36,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S37,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S38,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S39,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S40,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S41,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S42,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S43,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S44,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S45,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S46,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S47,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S48,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2025-E154,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S49,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S50,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2025-E153,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S51,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-F14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S52,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-F14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S53,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-F14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S54,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-F14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S55,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-F14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S56,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-F14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S57,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-F14,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S58,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-G68,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S59,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-G69,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S60,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-G70,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S61,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-G71,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S62,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen, W.C. Fraser, S.M. Lawler, J.J. Kavelaars",MPEC 2026-G72,Saturn
+Planetary Moon,Saturn,Major / Dwarf Planet,,,S/2023 S63,2023,"E.J. Ashton, B.J. Gladman, J.-M. Petit, M. Alexandersen",MPEC 2026-G75,Saturn
+Planetary Moon,Uranus,Major / Dwarf Planet,I,Ariel,,1851,W. Lassell,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,II,Umbriel,,1851,W. Lassell,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,III,Titania,,1787,W. Herschel,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,IV,Oberon,,1787,W. Herschel,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,V,Miranda,,1948,G. Kuiper,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,VI,Cordelia,S/1986 U7,1986,Voyager Science Team,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,VII,Ophelia,S/1986 U8,1986,Voyager Science Team,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,VIII,Bianca,S/1986 U9,1986,Voyager Science Team,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,IX,Cressida,S/1986 U3,1986,Voyager Science Team,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,X,Desdemona,S/1986 U6,1986,Voyager Science Team,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XI,Juliet,S/1986 U2,1986,Voyager Science Team,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XII,Portia,S/1986 U1,1986,Voyager Science Team,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XIII,Rosalind,S/1986 U4,1986,Voyager Science Team,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XIV,Belinda,S/1986 U5,1986,Voyager Science Team,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XV,Puck,S/1985 U1,1985,Voyager Science Team,IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XVI,Caliban,S/1997 U1,1997,"B.J. Gladman, P.D. Nicholson, J.A. Burns, J.J. Kavelaars",IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XVII,Sycorax,S/1997 U2,1997,"P.D. Nicholson, B.J. Gladman, J.A. Burns, J.J. Kavelaars",IAU WGPSN,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XVIII,Prospero,S/1999 U3,1999,"M. Holman, J.J. Kavelaars, B. Gladman, J.-M. Petit, H. Scholl",IAUC 7248,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XIX,Setebos,S/1999 U1,1999,"J.J. Kavelaars, B. Gladman, M. Holman, J.-M. Petit, H. Scholl",IAUC 7230,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XX,Stephano,S/1999 U2,1999,"B. Gladman, M. Holman, J.J. Kavelaars, J.-M. Petit, H. Scholl",IAUC 7230,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XXI,Trinculo,S/2001 U1,2001,"M. Holman, J.J. Kavelaars, D. Milisavljevic",IAUC 7980,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XXII,Francisco,S/2001 U3,2001,"J.J. Kavelaars, M. Holman, D. Milisavljevic, T. Grav","IAUC 8216, IAUC 7980",Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XXIII,Margaret,S/2003 U3,2003,"S.S. Sheppard, D.C. Jewitt",IAUC 8217,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XXIV,Ferdinand,S/2001 U2,2001,"D. Milisavljevic, M. Holman, J.J. Kavelaars, T. Grav",IAUC 8213,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XXV,Perdita,S/1986 U10,1986,E. Karkoschka,IAUC 7171,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XXVI,Mab,S/2003 U1,2003,"M.R. Showalter, J.J. Lissauer",IAUC 8209,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XXVII,Cupid,S/2003 U2,2003,"M.R. Showalter, J.J. Lissauer",IAUC 8209,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,XXVIII,,S/2025 U1,2025,"M. El Moutamid, M. Hedman, M. Showalter, M. Tiscareno, I. de Pater, J. Lissauer, D. Souami",CBET 5593,Uranus
+Planetary Moon,Uranus,Major / Dwarf Planet,,,S/2023 U1,2023,S.S. Sheppard,MPEC 2024-D113,Uranus
+Planetary Moon,Neptune,Major / Dwarf Planet,I,Triton,,1846,W. Lassell,IAU WGPSN,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,II,Nereid,,1949,G.P. Kuiper,IAU WGPSN,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,III,Naiad,S/1989 N6,1989,Voyager Science Team,IAU WGPSN,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,IV,Thalassa,S/1989 N5,1989,Voyager Science Team,IAU WGPSN,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,V,Despina,S/1989 N3,1989,Voyager Science Team,IAU WGPSN,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,VI,Galatea,S/1989 N4,1989,Voyager Science Team,IAU WGPSN,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,VII,Larissa,S/1989 N2,1989,Voyager Science Team,IAU WGPSN,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,VIII,Proteus,S/1989 N1,1989,Voyager Science Team,IAU WGPSN,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,IX,Halimede,S/2002 N1,2002,"M. Holman, J.J. Kavelaars, T. Grav, W. Fraser, D. Milisavljevic",IAUC 8047,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,X,Psamathe,S/2003 N1,2003,"S.S. Sheppard, D.C. Jewitt, J. Kleyna",IAUC 8193,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,XI,Sao,S/2002 N2,2002,"T. Grav, M. Holman, J. Kavelaars, W. Fraser, D. Milisavljevic",IAUC 8047,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,XII,Laomedeia,S/2002 N3,2002,"J. Kavelaars, M. Holman, T. Grav, W. Fraser, D. Milisavljevic",IAUC 8047,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,XIII,Neso,S/2002 N4,2002,"M. Holman, J. Kavelaars, T. Grav, W. Fraser, D. Milisavljevic",IAUC 8213,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,XIV,Hippocamp,S/2004 N1,2013,"M.R. Showalter, I. de Pater, J.J. Lissauer, R.S. French",CBET 3586,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,,,S/2002 N5,2002,"M. Holman, J.J. Kavelaars, T. Grav, W. Fraser",MPEC 2024-D114,Neptune
+Planetary Moon,Neptune,Major / Dwarf Planet,,,S/2021 N1,2021,"S.S. Sheppard, D.J. Tholen, C. Trujillo, P.S. Lykawka",MPEC 2024-D112,Neptune
+Planetary Moon,Pluto,Major / Dwarf Planet,I,Charon,S/1978 P1,1978,J.W. Christy,IAU WGPSN,Pluto
+Planetary Moon,Pluto,Major / Dwarf Planet,II,Nix,S/2005 P2,2005,"H.A. Weaver, S.A. Stern, M.J. Mutchler, A.J. Steffl, M.W. Buie, W.J. Merline, J.R. Spencer, E.F. Young, L.A. Young",IAUC 8625,Pluto
+Planetary Moon,Pluto,Major / Dwarf Planet,III,Hydra,S/2005 P1,2005,"H.A. Weaver, S.A. Stern, M.J. Mutchler, A.J. Steffl, M.W. Buie, W.J. Merline, J.R. Spencer, E.F. Young, L.A. Young",IAUC 8625,Pluto
+Planetary Moon,Pluto,Major / Dwarf Planet,IV,Kerberos,S/2011 (134340) 1,2011,"M.R. Showalter, D.P. Hamilton, S.A. Stern, H.A. Weaver, A.J. Steffl, L.A. Young",IAUC 9221,Pluto
+Planetary Moon,Pluto,Major / Dwarf Planet,V,Styx,S/2012 (134340) 1,2012,"M.R. Showalter, H.A. Weaver, S.A. Stern, A.J. Steffl, M.W. Buie, W.J. Merline, M.J. Mutchler, R. Soummer, H.B. Throop",IAUC 9253,Pluto
+Small-Body Moon,22 Kalliope (A852 WA),Main-belt Asteroid,1,Linus,(22) Kalliope I Linus,2001,"Merline and Menard (2001), IAUC 7703; Margot and Brown (2001), IAUC 7703","Merline and Menard (2001), IAUC 7703; Margot and Brown (2001), IAUC 7703",Small-Body
+Small-Body Moon,31 Euphrosyne (A854 RA),Main-belt Asteroid,,,31,2019,"Vernazza et al. (2019), CBET 4627","Vernazza et al. (2019), CBET 4627",Small-Body
+Small-Body Moon,41 Daphne (A856 KA),Main-belt Asteroid,,Peneius,S/2008 (41) 1,2008,"Conrad et al. (2008), IAUC 8930","Conrad et al. (2008), IAUC 8930",Small-Body
+Small-Body Moon,45 Eugenia (A857 MA),Main-belt Asteroid,1,Petit-Prince,(45) Eugenia I Petit-Prince,1998,"Merline et al. (1999), IAUC 7129","Merline et al. (1999), IAUC 7129",Small-Body
+Small-Body Moon,45 Eugenia (A857 MA),Main-belt Asteroid,,,S/2004 (45) 1,2004,"Marchis et al. (2007), IAUC 8817","Marchis et al. (2007), IAUC 8817",Small-Body
+Small-Body Moon,87 Sylvia (A866 KA),Outer Main-belt Asteroid,1,Romulus,(87) Sylvia I Romulus,2001,"Brown and Margot (2001), IAUC 7588","Brown and Margot (2001), IAUC 7588",Small-Body
+Small-Body Moon,87 Sylvia (A866 KA),Outer Main-belt Asteroid,2,Remus,(87) Sylvia II Remus,2004,"Marchis et al. (2005), Nature 436","Marchis et al. (2005), Nature 436",Small-Body
+Small-Body Moon,90 Antiope (A866 TA),Main-belt Asteroid,,,S/2000 (90) 1,2000,"Merline et al. (2000), IAUC 7503","Merline et al. (2000), IAUC 7503",Small-Body
+Small-Body Moon,93 Minerva (A867 QA),Main-belt Asteroid,1,Aegis,(93) Minerva I Aegis,2009,"Marchis et al. (2009), IAUC 9069","Marchis et al. (2009), IAUC 9069",Small-Body
+Small-Body Moon,93 Minerva (A867 QA),Main-belt Asteroid,2,Gorgoneion,(93) Minerva II Gorgoneion,2009,"Marchis et al. (2009), IAUC 9069","Marchis et al. (2009), IAUC 9069",Small-Body
+Small-Body Moon,107 Camilla (A868 WA),Outer Main-belt Asteroid,,,S/2001 (107) 1,2001,"Storrs et al. (2001), IAUC 7599","Storrs et al. (2001), IAUC 7599",Small-Body
+Small-Body Moon,107 Camilla (A868 WA),Outer Main-belt Asteroid,,,S/2016 (107) 1,2016,"Marsset et al. (2016), IAUC 9282","Marsset et al. (2016), IAUC 9282",Small-Body
+Small-Body Moon,121 Hermione (A872 JA),Outer Main-belt Asteroid,,,S/2002 (121) 1,2002,"Merline et al. (2002), IAUC 7980","Merline et al. (2002), IAUC 7980",Small-Body
+Small-Body Moon,130 Elektra (A873 DA),Main-belt Asteroid,,,S/2003 (130) 1,2003,"Merline et al. (2003), IAUC 8183","Merline et al. (2003), IAUC 8183",Small-Body
+Small-Body Moon,130 Elektra (A873 DA),Main-belt Asteroid,,,S/2014 (130) 1,2014,"Yang et al. (2014), CBET 4036","Yang et al. (2014), CBET 4036",Small-Body
+Small-Body Moon,130 Elektra (A873 DA),Main-belt Asteroid,,,130,2021,"Berdeu et al. (2021), CBET 5066","Berdeu et al. (2021), CBET 5066",Small-Body
+Small-Body Moon,216 Kleopatra (A880 GB),Main-belt Asteroid,1,Alexhelios,(216) Kleopatra I Alexhelios,2008,"Marchis et al. (2008), IAUC 8980","Marchis et al. (2008), IAUC 8980",Small-Body
+Small-Body Moon,216 Kleopatra (A880 GB),Main-belt Asteroid,2,Cleoselene,(216) Kleopatra II Cleoselene,2008,"Marchis et al. (2008), IAUC 8980","Marchis et al. (2008), IAUC 8980",Small-Body
+Small-Body Moon,243 Ida (A884 SB),Main-belt Asteroid,1,Dactyl,(243) Ida I Dactyl,1993,"Belton et al. (1994), IAUC 5948","Belton et al. (1994), IAUC 5948",Small-Body
+Small-Body Moon,283 Emma (A889 CA),Main-belt Asteroid,,,S/2003 (283) 1,2003,"Merline et al. (2003), IAUC 8165","Merline et al. (2003), IAUC 8165",Small-Body
+Small-Body Moon,317 Roxane (A891 RD),Main-belt Asteroid,1,Olympias,(317) Roxane I Olympias,2009,"Merline et al. (2009), CBET 2054","Merline et al. (2009), CBET 2054",Small-Body
+Small-Body Moon,379 Huenna (A894 AA),Main-belt Asteroid,,,S/2003 (379) 1,2003,"Margot (2003), IAUC 8182","Margot (2003), IAUC 8182",Small-Body
+Small-Body Moon,617 Patroclus (A906 UL),Jupiter Trojan,1,Menoetius,(617) Patroclus I Menoetius,2001,"Merline et al. (2001), IAUC 7741","Merline et al. (2001), IAUC 7741",Small-Body
+Small-Body Moon,624 Hektor (A907 CF),Jupiter Trojan,1,Skamandrios,(624) Hektor I Skamandrios,2006,"Marchis et al. (2006), IAUC 8732","Marchis et al. (2006), IAUC 8732",Small-Body
+Small-Body Moon,702 Alauda (A910 OA),Main-belt Asteroid,1,Pichi unem,(702) Alauda I Pichi unem,2007,"Rojo and Margot (2007), CBET 1016","Rojo and Margot (2007), CBET 1016",Small-Body
+Small-Body Moon,761 Brendelia (A913 RE),Main-belt Asteroid,,,761,2024,"Colazo et al. (2024), CBET 5435","Colazo et al. (2024), CBET 5435",Small-Body
+Small-Body Moon,762 Pulcova (A913 RD),Main-belt Asteroid,,,762,2000,"Merline et al. (2000), DPS 2000","Merline et al. (2000), DPS 2000",Small-Body
+Small-Body Moon,809 Lundia (A915 PF),Main-belt Asteroid,,,809,2005,"Kryszczynska et al. (2005), CBET 239","Kryszczynska et al. (2005), CBET 239",Small-Body
+Small-Body Moon,854 Frostia (A916 GO),Main-belt Asteroid,,,854,2004,"Behrend et al. (2004), IAUC 8389","Behrend et al. (2004), IAUC 8389",Small-Body
+Small-Body Moon,939 Isberga (A920 TD),Main-belt Asteroid,,,939,2006,"Molnar et al. (2008), MPB 35","Molnar et al. (2008), MPB 35",Small-Body
+Small-Body Moon,1016 Anitra (A924 CG),Main-belt Asteroid,,,1016,2016,"Frederick et al. (2016), MPB 43","Frederick et al. (2016), MPB 43",Small-Body
+Small-Body Moon,1052 Belgica (1925 VD),Main-belt Asteroid,,,1052,2012,"Franco et al. (2013), CBET 3372","Franco et al. (2013), CBET 3372",Small-Body
+Small-Body Moon,1089 Tama (1927 WB),Main-belt Asteroid,,,1089,2003,"Behrand et al. (2004), IAUC 8265","Behrand et al. (2004), IAUC 8265",Small-Body
+Small-Body Moon,1139 Atami (1929 XE),Mars-crossing Asteroid,,,1139,2005,"Manzini et al. (2006), CBET 430","Manzini et al. (2006), CBET 430",Small-Body
+Small-Body Moon,1313 Berna (1933 QG),Main-belt Asteroid,,,1313,2004,"Behrand et al. (2004), IAUC 8292","Behrand et al. (2004), IAUC 8292",Small-Body
+Small-Body Moon,1338 Duponta (1934 XA),Main-belt Asteroid,,,1338,2007,"Gajdos et al. (2007), CBET 910","Gajdos et al. (2007), CBET 910",Small-Body
+Small-Body Moon,1453 Fennia (1938 ED1),Inner Main-belt Asteroid,,,1453,2007,"Warner et al. (2007), CBET 1150","Warner et al. (2007), CBET 1150",Small-Body
+Small-Body Moon,1480 Aunus (1938 DK),Main-belt Asteroid,,,1480,2020,"Benishek et al. (2020), CBET 4789","Benishek et al. (2020), CBET 4789",Small-Body
+Small-Body Moon,1509 Esclangona (1938 YG),Inner Main-belt Asteroid,,,S/2003 (1509) 1,2003,"Merline et al. (2003), IAUC 8075","Merline et al. (2003), IAUC 8075",Small-Body
+Small-Body Moon,1526 Mikkeli (1939 TF),Main-belt Asteroid,,,1526,2020,"Benishek et al. (2021), CBET 4927","Benishek et al. (2021), CBET 4927",Small-Body
+Small-Body Moon,1626 Sadeya (1927 AA),Main-belt Asteroid,,,1626,2020,"Benishek et al. (2020), CBET 4893","Benishek et al. (2020), CBET 4893",Small-Body
+Small-Body Moon,1717 Arlon (1954 AC),Main-belt Asteroid,,,1717,2005,"Cooney et al. (2006), CBET 369; Brinsfield (2009), MPB 36","Cooney et al. (2006), CBET 369; Brinsfield (2009), MPB 36",Small-Body
+Small-Body Moon,1727 Mette (1965 BA),Mars-crossing Asteroid,,,1727,2013,"Warner and Stephens (2013), MPB 40","Warner and Stephens (2013), MPB 40",Small-Body
+Small-Body Moon,1770 Schlesinger (1967 JR),Main-belt Asteroid,,,1770,2016,http://echo.jpl.nasa.gov/~lance/binary.neas.html,http://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,1798 Watts (1949 GC),Main-belt Asteroid,,,1798,2017,"Pray et al. (2017), CBET 4374","Pray et al. (2017), CBET 4374",Small-Body
+Small-Body Moon,1803 Zwicky (1967 CA),Main-belt Asteroid,,,1803,2021,"Polakis et al. (2021), CBET 4942","Polakis et al. (2021), CBET 4942",Small-Body
+Small-Body Moon,1830 Pogson (1968 HA),Main-belt Asteroid,,,1830,2007,"Higgins et al. (2007), CBET 957","Higgins et al. (2007), CBET 957",Small-Body
+Small-Body Moon,1862 Apollo (1932 HA),Apollo,,,1862,2005,"Ostro et al. (2005), IAUC 8627","Ostro et al. (2005), IAUC 8627",Small-Body
+Small-Body Moon,1866 Sisyphus (1972 XA),Apollo,,,1866,1985,http://echo.jpl.nasa.gov/~lance/binary.neas.html,http://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,1879 Broederstroom (1935 UN),Main-belt Asteroid,,,1879,2024,"Benishek et al. (2024), CBET 5373","Benishek et al. (2024), CBET 5373",Small-Body
+Small-Body Moon,1934 Jeffers (1972 XB),Main-belt Asteroid,,,1934,2024,"Pravec et al. (2025), CBET 5502","Pravec et al. (2025), CBET 5502",Small-Body
+Small-Body Moon,1990 Pilcher (1956 EE),Main-belt Asteroid,,,1990,2022,"Benishek et al. (2023), CBET 5244","Benishek et al. (2023), CBET 5244",Small-Body
+Small-Body Moon,2006 Polonskaya (1973 SB3),Main-belt Asteroid,,,2006,2005,"Pray et al. (2005), IAUC 8630","Pray et al. (2005), IAUC 8630",Small-Body
+Small-Body Moon,2019 van Albada (1935 SX1),Main-belt Asteroid,,,2019,2019,"Benishek et al. (2019), CBET 4689","Benishek et al. (2019), CBET 4689",Small-Body
+Small-Body Moon,2037 Tripaxeptalis (1973 UB),Main-belt Asteroid,,,2037,2022,"Benishek et al. (2023), CBET 5213","Benishek et al. (2023), CBET 5213",Small-Body
+Small-Body Moon,2044 Wirt (1950 VE),Mars-crossing Asteroid,,,2044,2005,"Pray et al. (2006), CBET 353","Pray et al. (2006), CBET 353",Small-Body
+Small-Body Moon,2047 Smetana (1971 UA1),Inner Main-belt Asteroid,,,2047,2012,"Warner (2013), MPB 40","Warner (2013), MPB 40",Small-Body
+Small-Body Moon,2070 Humason (1964 TQ),Main-belt Asteroid,,,2070,2018,"Benishek et al. (2019), CBET 4599","Benishek et al. (2019), CBET 4599",Small-Body
+Small-Body Moon,2080 Jihlava (1976 DG),Main-belt Asteroid,,,2080,2024,"Benishek et al. (2024), CBET 5396","Benishek et al. (2024), CBET 5396",Small-Body
+Small-Body Moon,2121 Sevastopol (1971 ME),Main-belt Asteroid,,,2121,2010,"Higgins et al. (2010), CBET 2427","Higgins et al. (2010), CBET 2427",Small-Body
+Small-Body Moon,2131 Mayall (1975 RA),Inner Main-belt Asteroid,,,2131,2009,"Warner et al. (2009), CBET 2105","Warner et al. (2009), CBET 2105",Small-Body
+Small-Body Moon,2171 Kiev (1973 QD1),Main-belt Asteroid,,,2171,2020,"Romeuf et al. (2020), CBET 4794","Romeuf et al. (2020), CBET 4794",Small-Body
+Small-Body Moon,2178 Kazakhstania (1972 RA2),Main-belt Asteroid,,,2178,2018,"Benishek et al. (2018), CBET 4563","Benishek et al. (2018), CBET 4563",Small-Body
+Small-Body Moon,2242 Balaton (1936 TG),Main-belt Asteroid,,,2242,2015,"Marchini et al. (2016), MPB 43","Marchini et al. (2016), MPB 43",Small-Body
+Small-Body Moon,2280 Kunikov (1971 SL2),Main-belt Asteroid,,,2280,2024,"Benishek et al. (2024), CBET 5371","Benishek et al. (2024), CBET 5371",Small-Body
+Small-Body Moon,2337 Boubin (1976 UH1),Main-belt Asteroid,,,2337,2018,"Benishek et al. (2019), CBET 4592","Benishek et al. (2019), CBET 4592",Small-Body
+Small-Body Moon,2343 Siding Spring (1979 MD4),Main-belt Asteroid,,,2343,2015,"Pollock et al. (2015), CBET 4206","Pollock et al. (2015), CBET 4206",Small-Body
+Small-Body Moon,2449 Kenos (1978 GC),Mars-crossing Asteroid,,,2449,2015,"Warner (2015), MPB 42","Warner (2015), MPB 42",Small-Body
+Small-Body Moon,2478 Tokai (1981 JC),Main-belt Asteroid,,,2478,2007,"Higgins et al. (2007), CBET 824","Higgins et al. (2007), CBET 824",Small-Body
+Small-Body Moon,2486 Metsahovi (1939 FY),Main-belt Asteroid,,,2486,2006,"Pikler et al. (2007), CBET 860; Pray et al. (2017), CBET 4356","Pikler et al. (2007), CBET 860; Pray et al. (2017), CBET 4356",Small-Body
+Small-Body Moon,2491 Tvashtri (1977 CB),Inner Main-belt Asteroid,,,2491,2018,"Warner (2018), CBET 4516","Warner (2018), CBET 4516",Small-Body
+Small-Body Moon,2500 Alascattalo (1926 GC),Main-belt Asteroid,,,2500,2020,"Benishek et al. (2020), CBET 4791","Benishek et al. (2020), CBET 4791",Small-Body
+Small-Body Moon,2516 Roman (1964 VY),Main-belt Asteroid,,,2516,2019,"Benishek et al. (2019), CBET 4704","Benishek et al. (2019), CBET 4704",Small-Body
+Small-Body Moon,2535 Hameenlinna (1939 DH),Main-belt Asteroid,,,2535,2015,"Benishek et al. (2016), CBET 4262","Benishek et al. (2016), CBET 4262",Small-Body
+Small-Body Moon,2577 Litva (1975 EE3),Mars-crossing Asteroid,,,2577,2009,"Warner et al. (2009), CBET 1715; Warner et al. (2009), MPB 36","Warner et al. (2009), CBET 1715; Warner et al. (2009), MPB 36",Small-Body
+Small-Body Moon,2577 Litva (1975 EE3),Mars-crossing Asteroid,,,S/2012 (2577) 1,2012,"Merline et al. (2013), IAUC 9267; Merline et al. (2013), CBET 3765","Merline et al. (2013), IAUC 9267; Merline et al. (2013), CBET 3765",Small-Body
+Small-Body Moon,2602 Moore (1982 BR),Main-belt Asteroid,,,2602,2019,"Warner et al. (2019), MPB 46","Warner et al. (2019), MPB 46",Small-Body
+Small-Body Moon,2623 Zech (A919 SA),Main-belt Asteroid,,,2623,2014,"Pray et al. (2014), CBET 4012","Pray et al. (2014), CBET 4012",Small-Body
+Small-Body Moon,2635 Huggins (1982 DS),Main-belt Asteroid,,,2635,2024,"Benishek et al. (2025), CBET 5525","Benishek et al. (2025), CBET 5525",Small-Body
+Small-Body Moon,2680 Mateo (1975 NF),Main-belt Asteroid,,,2680,2024,"Durkee et al. (2025), CBET 5490","Durkee et al. (2025), CBET 5490",Small-Body
+Small-Body Moon,2691 Sersic (1974 KB),Main-belt Asteroid,,,2691,2011,"Oey et al. (2011), CBET 2766","Oey et al. (2011), CBET 2766",Small-Body
+Small-Body Moon,2754 Efimov (1966 PD),Main-belt Asteroid,,,2754,2006,"Pray et al. (2006), CBET 617","Pray et al. (2006), CBET 617",Small-Body
+Small-Body Moon,2815 Soma (1982 RL),Main-belt Asteroid,,,2815,2011,"Pollock et al. (2011), CBET 2705","Pollock et al. (2011), CBET 2705",Small-Body
+Small-Body Moon,2825 Crosby (1938 SD1),Main-belt Asteroid,,,2825,2017,"Pray et al. (2017), CBET 4371","Pray et al. (2017), CBET 4371",Small-Body
+Small-Body Moon,2847 Parvati (1959 CC1),Main-belt Asteroid,,,2847,2021,"Benishek et al. (2021), CBET 5083","Benishek et al. (2021), CBET 5083",Small-Body
+Small-Body Moon,2860 Pasacentennium (1978 TA),Main-belt Asteroid,,,2860,2022,"Benishek et al. (2022), CBET 5116","Benishek et al. (2022), CBET 5116",Small-Body
+Small-Body Moon,2871 Schober (1981 QC2),Main-belt Asteroid,,,2871,2022,"Benishek et al. (2023), CBET 5215","Benishek et al. (2023), CBET 5215",Small-Body
+Small-Body Moon,2873 Binzel (1982 FR),Main-belt Asteroid,,,2873,2019,"Vachier et al. (2019), CBET 4628","Vachier et al. (2019), CBET 4628",Small-Body
+Small-Body Moon,2883 Barabashov (1978 RG6),Main-belt Asteroid,,,2883,2019,"Durkee et al. (2020), CBET 4722","Durkee et al. (2020), CBET 4722",Small-Body
+Small-Body Moon,2966 Korsunia (1977 EB2),Main-belt Asteroid,,,2966,2023,"Benishek et al. (2023), CBET 5269","Benishek et al. (2023), CBET 5269",Small-Body
+Small-Body Moon,3034 Climenhaga (A917 SE),Main-belt Asteroid,,,3034,2009,"Oey et al. (2013), MPB 40","Oey et al. (2013), MPB 40",Small-Body
+Small-Body Moon,3073 Kursk (1979 SW11),Main-belt Asteroid,,,3073,2006,"Kusnirak et al. (2007), CBET 792","Kusnirak et al. (2007), CBET 792",Small-Body
+Small-Body Moon,3076 Garber (1982 RB1),Main-belt Asteroid,,,3076,2022,"Benishek et al. (2022), CBET 5170","Benishek et al. (2022), CBET 5170",Small-Body
+Small-Body Moon,3122 Florence (1981 ET3),Amor,,,3122,2017,https://cneos.jpl.nasa.gov/news/news199.html,https://cneos.jpl.nasa.gov/news/news199.html,Small-Body
+Small-Body Moon,3122 Florence (1981 ET3),Amor,,,3122,2017,https://cneos.jpl.nasa.gov/news/news199.html,https://cneos.jpl.nasa.gov/news/news199.html,Small-Body
+Small-Body Moon,3169 Ostro (1981 LA),Inner Main-belt Asteroid,,,3169,2005,"Descamps et al. (2005), CBET 320","Descamps et al. (2005), CBET 320",Small-Body
+Small-Body Moon,3187 Dalian (1977 TO3),Main-belt Asteroid,,,3187,2022,"Conjat et al. (2023), CBET 5201","Conjat et al. (2023), CBET 5201",Small-Body
+Small-Body Moon,3220 Murayama (1951 WF),Main-belt Asteroid,,,3220,2024,"Benishek et al. (2025), CBET 5507","Benishek et al. (2025), CBET 5507",Small-Body
+Small-Body Moon,3255 Tholen (1980 RA),Mars-crossing Asteroid,,,3255,2024,"Benishek et al. (2025), CBET 5505","Benishek et al. (2025), CBET 5505",Small-Body
+Small-Body Moon,3309 Brorfelde (1982 BH),Inner Main-belt Asteroid,,,3309,2005,"Warner et al. (2005), CBET 279","Warner et al. (2005), CBET 279",Small-Body
+Small-Body Moon,3336 Grygar (1971 UX),Main-belt Asteroid,,,3336,2024,"Benishek et al. (2024), CBET 5462","Benishek et al. (2024), CBET 5462",Small-Body
+Small-Body Moon,3378 Susanvictoria (A922 WB),Main-belt Asteroid,,,3378,2017,"Pray et al. (2017), CBET 4459","Pray et al. (2017), CBET 4459",Small-Body
+Small-Body Moon,3390 Demanet (1984 ES1),Main-belt Asteroid,,,3390,2021,"Benishek et al. (2021), CBET 4956","Benishek et al. (2021), CBET 4956",Small-Body
+Small-Body Moon,3433 Fehrenbach (1963 TJ1),Main-belt Asteroid,,,3433,2015,"Pray et al. (2015), CBET 4201","Pray et al. (2015), CBET 4201",Small-Body
+Small-Body Moon,3523 Arina (1975 TV2),Main-belt Asteroid,,,3523,2021,"Benishek et al. (2021), CBET 4967","Benishek et al. (2021), CBET 4967",Small-Body
+Small-Body Moon,3548 Eurybates (1973 SO),Jupiter Trojan,,,S/2018 (3548) 1,2018,"Noll et al. (2020), MPEC 2020-A113","Noll et al. (2020), MPEC 2020-A113",Small-Body
+Small-Body Moon,3643 Tienchanglin (1978 UN2),Main-belt Asteroid,,,3643,2024,"Augustin et al. (2024), CBET 5385","Augustin et al. (2024), CBET 5385",Small-Body
+Small-Body Moon,3657 Ermolova (1978 ST6),Main-belt Asteroid,,,3657,2020,"Pray et al. (2020), CBET 4861","Pray et al. (2020), CBET 4861",Small-Body
+Small-Body Moon,3658 Feldman (1982 TR),Main-belt Asteroid,,,3658,2024,"Benishek et al. (2024), CBET 5479","Benishek et al. (2024), CBET 5479",Small-Body
+Small-Body Moon,3669 Vertinskij (1982 UO7),Main-belt Asteroid,,,3669,2020,"Christmann et al. (2020), CBET 4749","Christmann et al. (2020), CBET 4749",Small-Body
+Small-Body Moon,3671 Dionysus (1984 KD),Apollo,,,S/1997 (3671) 1,1997,"Mottola et al. (1997), IAUC 6680","Mottola et al. (1997), IAUC 6680",Small-Body
+Small-Body Moon,3673 Levy (1985 QS),Main-belt Asteroid,,,3673,2007,"Pray et al. (2007), CBET 1165","Pray et al. (2007), CBET 1165",Small-Body
+Small-Body Moon,3749 Balam (1982 BG1),Main-belt Asteroid,,,S/2002 (3749) 1,2002,"Merline et al. (2002), IAUC 7827","Merline et al. (2002), IAUC 7827",Small-Body
+Small-Body Moon,3749 Balam (1982 BG1),Main-belt Asteroid,,,3749,2007,"Marchis et al. (2008), CBET 1297","Marchis et al. (2008), CBET 1297",Small-Body
+Small-Body Moon,3782 Celle (1986 TE),Main-belt Asteroid,,,3782,2001,"Ryan et al. (2003), IAUC 8128","Ryan et al. (2003), IAUC 8128",Small-Body
+Small-Body Moon,3792 Preston (1985 FA),Main-belt Asteroid,,,3792,2016,"Benishek et al. (2017), MPB 44","Benishek et al. (2017), MPB 44",Small-Body
+Small-Body Moon,3841 Dicicco (1983 VG7),Main-belt Asteroid,,,3841,2014,"Klinglesmith et al. (2015), MPB 42","Klinglesmith et al. (2015), MPB 42",Small-Body
+Small-Body Moon,3865 Lindbloom (1988 AY4),Main-belt Asteroid,,,3865,2020,"Stephens et al. (2020), CBET 4892","Stephens et al. (2020), CBET 4892",Small-Body
+Small-Body Moon,3868 Mendoza (4575 P-L),Main-belt Asteroid,,,3868,2009,"Oey et al. (2009), CBET 1835","Oey et al. (2009), CBET 1835",Small-Body
+Small-Body Moon,3873 Roddy (1984 WB),Mars-crossing Asteroid,,,3873,2012,"Warner (2013), MPB 40","Warner (2013), MPB 40",Small-Body
+Small-Body Moon,3905 Doppler (1984 QO),Main-belt Asteroid,,,3905,2013,"Hayes-Gehrke et al. (2014), MPB 41","Hayes-Gehrke et al. (2014), MPB 41",Small-Body
+Small-Body Moon,3912 Troja (1988 SG),Main-belt Asteroid,,,3912,2021,"Benishek et al. (2021), CBET 5060","Benishek et al. (2021), CBET 5060",Small-Body
+Small-Body Moon,3951 Zichichi (1986 CK1),Main-belt Asteroid,,,3951,2006,"Antonini et al. (2011), CBET 2698","Antonini et al. (2011), CBET 2698",Small-Body
+Small-Body Moon,3959 Irwin (1954 UN2),Main-belt Asteroid,,,3959,2022,"Benishek et al. (2023), CBET 5219","Benishek et al. (2023), CBET 5219",Small-Body
+Small-Body Moon,3969 Rossi (1978 TQ8),Main-belt Asteroid,,,3969,2024,"Benishek et al. (2024), CBET 5449","Benishek et al. (2024), CBET 5449",Small-Body
+Small-Body Moon,3982 Kastel' (1984 JP1),Main-belt Asteroid,,,3982,2005,"Pravec et al. (2005), IAUC 8609","Pravec et al. (2005), IAUC 8609",Small-Body
+Small-Body Moon,4029 Bridges (1982 KC1),Main-belt Asteroid,,,4029,2006,"Higgins et al. (2006), CBET 507","Higgins et al. (2006), CBET 507",Small-Body
+Small-Body Moon,4092 Tyr (1986 TJ4),Main-belt Asteroid,,,4092,2020,"Garcia et al. (2020), CBET 4850","Garcia et al. (2020), CBET 4850",Small-Body
+Small-Body Moon,4272 Entsuji (1977 EG5),Main-belt Asteroid,,,4272,2015,"Benishek et al. (2015), CBET 4158","Benishek et al. (2015), CBET 4158",Small-Body
+Small-Body Moon,4288 Tokyotech (1989 TQ1),Main-belt Asteroid,,,4288,2019,"Augustin et al. (2019), CBET 4705","Augustin et al. (2019), CBET 4705",Small-Body
+Small-Body Moon,4296 van Woerkom (1935 SA2),Main-belt Asteroid,,,4296,2016,"Pravec et al. (2017), CBET 4342","Pravec et al. (2017), CBET 4342",Small-Body
+Small-Body Moon,4350 Shibecha (1989 UG1),Main-belt Asteroid,,,4350,2025,"Gout et al. (2025), CBET 5560","Gout et al. (2025), CBET 5560",Small-Body
+Small-Body Moon,4362 Carlisle (1978 PR4),Main-belt Asteroid,,,4362,2021,"Benishek et al. (2021), CBET 4987","Benishek et al. (2021), CBET 4987",Small-Body
+Small-Body Moon,4370 Dickens (1982 SL),Main-belt Asteroid,,,4370,2021,"Benishek et al. (2021), CBET 5071","Benishek et al. (2021), CBET 5071",Small-Body
+Small-Body Moon,4383 Suruga (1989 XP),Main-belt Asteroid,,,4383,2013,"Warner (2013), MPB 40","Warner (2013), MPB 40",Small-Body
+Small-Body Moon,4411 Kochibunkyo (1990 AF),Main-belt Asteroid,,,4411,2022,"Benishek et al. (2022), CBET 5114","Benishek et al. (2022), CBET 5114",Small-Body
+Small-Body Moon,4435 Holt (1983 AG2),Mars-crossing Asteroid,,,4435,2017,"Stephens et al. (2018), CBET 4480","Stephens et al. (2018), CBET 4480",Small-Body
+Small-Body Moon,4440 Tchantches (1984 YV),Inner Main-belt Asteroid,,,4440,2005,"Warner (2013), MPB 40","Warner (2013), MPB 40",Small-Body
+Small-Body Moon,4492 Debussy (1988 SH),Main-belt Asteroid,,,4492,2002,"Behrend et al. (2004), IAUC 8354","Behrend et al. (2004), IAUC 8354",Small-Body
+Small-Body Moon,4494 Marimo (1988 TK1),Main-belt Asteroid,,,4494,2022,"Benishek et al. (2022), CBET 5124","Benishek et al. (2022), CBET 5124",Small-Body
+Small-Body Moon,4514 Vilen (1972 HX),Main-belt Asteroid,,,4514,2015,"Pray et al. (2015), CBET 4101","Pray et al. (2015), CBET 4101",Small-Body
+Small-Body Moon,4528 Berg (1983 PP),Main-belt Asteroid,,,4528,2022,"Benishek et al. (2022), CBET 5123","Benishek et al. (2022), CBET 5123",Small-Body
+Small-Body Moon,4541 Mizuno (1989 AF),Main-belt Asteroid,,,4541,2015,"Pray et al. (2015), CBET 4097","Pray et al. (2015), CBET 4097",Small-Body
+Small-Body Moon,4607 Seilandfarm (1987 WR),Main-belt Asteroid,,,4607,2009,"Pray et al. (2009), CBET 1716","Pray et al. (2009), CBET 1716",Small-Body
+Small-Body Moon,4666 Dietz (1986 JA1),Main-belt Asteroid,,,4666,2015,"Oey et al. (2015), CBET 4536","Oey et al. (2015), CBET 4536",Small-Body
+Small-Body Moon,4666 Dietz (1986 JA1),Main-belt Asteroid,,,4666,2015,"Oey et al. (2015), CBET 4536","Oey et al. (2015), CBET 4536",Small-Body
+Small-Body Moon,4674 Pauling (1989 JC),Inner Main-belt Asteroid,,,S/2004 (4674) 1,2004,"Merline et al. (2004), IAUC 8297","Merline et al. (2004), IAUC 8297",Small-Body
+Small-Body Moon,4765 Wasserburg (1986 JN1),Inner Main-belt Asteroid,,,4765,2013,"Warner and Stephens (2013), MPB 40","Warner and Stephens (2013), MPB 40",Small-Body
+Small-Body Moon,4786 Tatianina (1985 PE2),Main-belt Asteroid,,,4786,2006,"Pray et al. (2006), CBET 472","Pray et al. (2006), CBET 472",Small-Body
+Small-Body Moon,4788 Simpson (1986 TL1),Main-belt Asteroid,,,4788,2020,"Sogorb et al. (2021), CBET 4902","Sogorb et al. (2021), CBET 4902",Small-Body
+Small-Body Moon,4868 Knushevia (1989 UN2),Inner Main-belt Asteroid,,,4868,2013,"Warner and Stephens (2015), MPB 42","Warner and Stephens (2015), MPB 42",Small-Body
+Small-Body Moon,4901 O Briain (1988 VJ),Main-belt Asteroid,,,4901,2022,"Benishek et al. (2022), CBET 5189","Benishek et al. (2022), CBET 5189",Small-Body
+Small-Body Moon,4951 Iwamoto (1990 BM),Main-belt Asteroid,,,4951,2007,"Reddy et al. (2007), IAUC 8836","Reddy et al. (2007), IAUC 8836",Small-Body
+Small-Body Moon,5037 Habing (6552 P-L),Main-belt Asteroid,,,5037,2020,"Pravec et al. (2020), CBET 4730","Pravec et al. (2020), CBET 4730",Small-Body
+Small-Body Moon,5112 Kusaji (1987 SM13),Main-belt Asteroid,,,5112,2016,"Chiorny et al. (2016), CBET 4336","Chiorny et al. (2016), CBET 4336",Small-Body
+Small-Body Moon,5135 Nibutani (1990 UE),Main-belt Asteroid,,,5135,2020,"Benishek et al. (2020), CBET 4883","Benishek et al. (2020), CBET 4883",Small-Body
+Small-Body Moon,5143 Heracles (1991 VL),Apollo,,,5143,2011,"Taylor et al. (2012), CBET 3176","Taylor et al. (2012), CBET 3176",Small-Body
+Small-Body Moon,5232 Jordaens (1988 PR1),Main-belt Asteroid,,,5232,2024,"Simpson et al. (2024), CBET 5382","Simpson et al. (2024), CBET 5382",Small-Body
+Small-Body Moon,5261 Eureka (1990 MB),Mars-crossing Asteroid,,,5261,2011,"Koehn et al. (2014), MPB 41","Koehn et al. (2014), MPB 41",Small-Body
+Small-Body Moon,5319 Petrovskaya (1985 RK6),Main-belt Asteroid,,,5319,2022,"Benishek et al. (2022), CBET 5180","Benishek et al. (2022), CBET 5180",Small-Body
+Small-Body Moon,5381 Sekhmet (1991 JY),Aten,,,5381,2003,"Nolan et al. (2003), IAUC 8163","Nolan et al. (2003), IAUC 8163",Small-Body
+Small-Body Moon,5402 Kejosmith (1989 UK2),Main-belt Asteroid,,,5402,2018,"Benishek et al. (2018), CBET 4561","Benishek et al. (2018), CBET 4561",Small-Body
+Small-Body Moon,5407 (1992 AX),Mars-crossing Asteroid,,,5407,1997,"Pravec et al. (2000), Icarus 146","Pravec et al. (2000), Icarus 146",Small-Body
+Small-Body Moon,5425 Vojtech (1984 SA1),Main-belt Asteroid,,,5425,2015,"Stephens et al. (2015), CBET 4200","Stephens et al. (2015), CBET 4200",Small-Body
+Small-Body Moon,5426 Sharp (1985 DD),Inner Main-belt Asteroid,,,5426,2014,"Warner et al. (2015), MPB 42","Warner et al. (2015), MPB 42",Small-Body
+Small-Body Moon,5457 Queen's (1980 TW5),Main-belt Asteroid,,,5457,2023,"Manek et al. (2023), CBET 5318","Manek et al. (2023), CBET 5318",Small-Body
+Small-Body Moon,5474 Gingasen (1988 XE1),Main-belt Asteroid,,,5474,2008,"Higgins et al. (2008), MPB 35","Higgins et al. (2008), MPB 35",Small-Body
+Small-Body Moon,5477 Holmes (1989 UH2),Inner Main-belt Asteroid,,,5477,2005,"Warner et al. (2005), CBET 288","Warner et al. (2005), CBET 288",Small-Body
+Small-Body Moon,5481 Kiuchi (1990 CH),Main-belt Asteroid,,,5481,2008,"Kusnirak et al. (2008), CBET 1339","Kusnirak et al. (2008), CBET 1339",Small-Body
+Small-Body Moon,5500 Twilley (1981 WR),Main-belt Asteroid,,,5500,2017,"Conjat et al. (2019), CBET 4706","Conjat et al. (2019), CBET 4706",Small-Body
+Small-Body Moon,5536 Honeycutt (1955 QN),Main-belt Asteroid,,,5536,2016,"Benishek et al. (2016), CBET 4326","Benishek et al. (2016), CBET 4326",Small-Body
+Small-Body Moon,5646 (1990 TR),Amor,,,5646,2012,"Warner (2013), MPB 40","Warner (2013), MPB 40",Small-Body
+Small-Body Moon,5674 Wolff (1986 RW2),Main-belt Asteroid,,,5674,2015,"Aznar et al. (2016), CBET 4272","Aznar et al. (2016), CBET 4272",Small-Body
+Small-Body Moon,5772 Johnlambert (1988 LB),Main-belt Asteroid,,,5772,2021,"Benishek et al. (2021), CBET 5042","Benishek et al. (2021), CBET 5042",Small-Body
+Small-Body Moon,5781 Barkhatova (1990 SM28),Main-belt Asteroid,,,5781,2023,"Benishek et al. (2023), CBET 5255","Benishek et al. (2023), CBET 5255",Small-Body
+Small-Body Moon,5872 Sugano (1989 SL),Main-belt Asteroid,,,5872,2016,"Pray et al. (2016), CBET 4327","Pray et al. (2016), CBET 4327",Small-Body
+Small-Body Moon,5899 Jedicke (1986 AH),Inner Main-belt Asteroid,,,5899,2010,"Warner et al. (2010), CBET 2188","Warner et al. (2010), CBET 2188",Small-Body
+Small-Body Moon,5905 Johnson (1989 CJ1),Inner Main-belt Asteroid,,,5905,2005,"Warner et al. (2005), IAUC 8511","Warner et al. (2005), IAUC 8511",Small-Body
+Small-Body Moon,6016 Carnelli (1991 PA11),Main-belt Asteroid,,,6016,2016,"Benishek et al. (2016), CBET 4316","Benishek et al. (2016), CBET 4316",Small-Body
+Small-Body Moon,6084 Bascom (1985 CT),Main-belt Asteroid,,,6084,2005,"Higgins et al. (2006), CBET 389","Higgins et al. (2006), CBET 389",Small-Body
+Small-Body Moon,6086 Vrchlicky (1987 VU),Main-belt Asteroid,,,6086,2023,"Franco et al. (2024), CBET 5366","Franco et al. (2024), CBET 5366",Small-Body
+Small-Body Moon,6098 Mutojunkyu (1991 UW3),Main-belt Asteroid,,,6098,2024,"Benishek et al. (2024), CBET 5458","Benishek et al. (2024), CBET 5458",Small-Body
+Small-Body Moon,6100 Kunitomoikkansai (1991 VK4),Main-belt Asteroid,,,6100,2016,"Conjat et al. (2018), CBET 4566","Conjat et al. (2018), CBET 4566",Small-Body
+Small-Body Moon,6177 Fecamp (1986 CE2),Main-belt Asteroid,,,6177,2022,"Benishek et al. (2022), CBET 5122","Benishek et al. (2022), CBET 5122",Small-Body
+Small-Body Moon,6186 Zenon (1988 CC2),Main-belt Asteroid,,,6186,2017,"Benishek et al. (2017), CBET 4346","Benishek et al. (2017), CBET 4346",Small-Body
+Small-Body Moon,6186 Zenon (1988 CC2),Main-belt Asteroid,,,6186,2017,"Benishek et al. (2017), CBET 4346","Benishek et al. (2017), CBET 4346",Small-Body
+Small-Body Moon,6244 Okamoto (1990 QF),Main-belt Asteroid,,,6244,2006,"Higgins et al. (2006), CBET 681","Higgins et al. (2006), CBET 681",Small-Body
+Small-Body Moon,6245 Ikufumi (1990 SO4),Main-belt Asteroid,,,6245,2018,"Benishek et al. (2018), CBET 4575","Benishek et al. (2018), CBET 4575",Small-Body
+Small-Body Moon,6265 (1985 TW3),Main-belt Asteroid,,,6265,2007,"Higgins et al. (2007), CBET 1015","Higgins et al. (2007), CBET 1015",Small-Body
+Small-Body Moon,6326 Idamiyoshi (1991 FJ1),Main-belt Asteroid,,,6326,2024,"Miyashita et al. (2025), CBET 5512","Miyashita et al. (2025), CBET 5512",Small-Body
+Small-Body Moon,6369 (1983 UC),Main-belt Asteroid,,,6369,2013,"Pravec et al. (2015), IAU Symposium 318","Pravec et al. (2015), IAU Symposium 318",Small-Body
+Small-Body Moon,6384 Kervin (1989 AM),Inner Main-belt Asteroid,,,6384,2015,"Warner (2016), MPB 43","Warner (2016), MPB 43",Small-Body
+Small-Body Moon,6615 Plutarchos (9512 P-L),Main-belt Asteroid,,,6615,2007,"Oey et al. (2007), MPB 34","Oey et al. (2007), MPB 34",Small-Body
+Small-Body Moon,6708 Bobbievaile (1989 AA5),Main-belt Asteroid,,,6708,2009,"Pray et al. (2009), CBET 1794","Pray et al. (2009), CBET 1794",Small-Body
+Small-Body Moon,6764 Kirillavrov (1981 TM3),Main-belt Asteroid,,,6764,2022,"Polakis et al. (2022), MPB 49(2) 81-83","Polakis et al. (2022), MPB 49(2) 81-83",Small-Body
+Small-Body Moon,6809 Sakuma (1938 DM1),Main-belt Asteroid,,,6809,2025,"Pray et al. (2025), CBET 5533","Pray et al. (2025), CBET 5533",Small-Body
+Small-Body Moon,6974 Solti (1992 MC),Main-belt Asteroid,,,6974,2024,"Benishek et al. (2024), CBET 5376","Benishek et al. (2024), CBET 5376",Small-Body
+Small-Body Moon,7002 Bronshten (1971 OV),Mars-crossing Asteroid,,,7002,2018,"Warner and Stephens (2019), MPB 46","Warner and Stephens (2019), MPB 46",Small-Body
+Small-Body Moon,7088 Ishtar (1992 AA),Amor,,,7088,2005,"Reddy et al. (2006), CBET 384","Reddy et al. (2006), CBET 384",Small-Body
+Small-Body Moon,7089 (1992 FX1),Main-belt Asteroid,,,7089,2024,"Benishek et al. (2024), CBET 5420","Benishek et al. (2024), CBET 5420",Small-Body
+Small-Body Moon,7132 Casulli (1993 SE),Main-belt Asteroid,,,7132,2020,"Franco et al. (2020), http://www.astronomerstelegram.org/?read=13590","Franco et al. (2020), http://www.astronomerstelegram.org/?read=13590",Small-Body
+Small-Body Moon,7187 Isobe (1992 BW),Inner Main-belt Asteroid,,,7187,2012,"Warner (2013), MPB 40","Warner (2013), MPB 40",Small-Body
+Small-Body Moon,7225 Huntress (1983 BH),Main-belt Asteroid,,,7225,2007,"Pray et al. (2008), CBET 1233","Pray et al. (2008), CBET 1233",Small-Body
+Small-Body Moon,7307 Takei (1994 GT9),Main-belt Asteroid,,,7307,2021,"Benishek et al. (2021), CBET 4970","Benishek et al. (2021), CBET 4970",Small-Body
+Small-Body Moon,7335 (1989 JA),Apollo,,,7335,2022,https://echo.jpl.nasa.gov/asteroids/goldstone_asteroid_schedule.html,https://echo.jpl.nasa.gov/asteroids/goldstone_asteroid_schedule.html,Small-Body
+Small-Body Moon,7344 Summerfield (1992 LU),Main-belt Asteroid,,,7344,2017,"Pray et al. (2017), CBET 4412","Pray et al. (2017), CBET 4412",Small-Body
+Small-Body Moon,7355 Bottke (1995 HN2),Main-belt Asteroid,,,7355,2023,"Benishek et al. (2023), CBET 5319","Benishek et al. (2023), CBET 5319",Small-Body
+Small-Body Moon,7369 Gavrilin (1975 AN),Mars-crossing Asteroid,,,7369,2007,"Higgins et al. (2008), MPB 35","Higgins et al. (2008), MPB 35",Small-Body
+Small-Body Moon,7393 Luginbuhl (1984 SL3),Main-belt Asteroid,,,7393,2018,"Warner and Skiff (2019), CBET 4596","Warner and Skiff (2019), CBET 4596",Small-Body
+Small-Body Moon,7500 Sassi (1996 TN),Main-belt Asteroid,,,7500,2024,"Benishek et al. (2024), CBET 5493","Benishek et al. (2024), CBET 5493",Small-Body
+Small-Body Moon,7615 (1996 TA11),Main-belt Asteroid,,,7615,2022,"Conjat et al. (2022), CBET 5199","Conjat et al. (2022), CBET 5199",Small-Body
+Small-Body Moon,7792 (1995 WZ3),Main-belt Asteroid,,,7792,2021,"Pray et al. (2021), CBET 4982","Pray et al. (2021), CBET 4982",Small-Body
+Small-Body Moon,7888 (1993 UC),Apollo,,,7888,2013,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,7889 (1994 LX),Apollo,,,7889,2022,"Warner et al. (2022), MPB 49(4) p262","Warner et al. (2022), MPB 49(4) p262",Small-Body
+Small-Body Moon,7930 (1987 VD),Main-belt Asteroid,,,7930,2024,"Benishek et al. (2024), CBET 5446","Benishek et al. (2024), CBET 5446",Small-Body
+Small-Body Moon,7958 Leakey (1994 LE3),Inner Main-belt Asteroid,,,7958,2012,"Warner et al. (2012), MPB 39","Warner et al. (2012), MPB 39",Small-Body
+Small-Body Moon,8026 Johnmckay (1991 JA1),Inner Main-belt Asteroid,,,8026,2010,"Warner (2011), MPB 38","Warner (2011), MPB 38",Small-Body
+Small-Body Moon,8077 Hoyle (1986 AW2),Main-belt Asteroid,,,8077,2016,"Klinglesmith and  Hendrickx (2016), MPB 43","Klinglesmith and  Hendrickx (2016), MPB 43",Small-Body
+Small-Body Moon,8116 Jeanperrin (1996 HA15),Main-belt Asteroid,,,8116,2007,"Higgins et al. (2007), CBET 1127","Higgins et al. (2007), CBET 1127",Small-Body
+Small-Body Moon,8297 Gerardfaure (1993 QJ4),Main-belt Asteroid,,,8297,2025,"Faure et al. (2025), CBET 5536","Faure et al. (2025), CBET 5536",Small-Body
+Small-Body Moon,8306 Shoko (1995 DY1),Main-belt Asteroid,,,8306,2013,"Pravec et al. (2013), IAUC 9268","Pravec et al. (2013), IAUC 9268",Small-Body
+Small-Body Moon,8373 Stephengould (1992 AB),Outer Main-belt Asteroid,,,8373,2010,"Krugly et al. (2010), CBET 2193","Krugly et al. (2010), CBET 2193",Small-Body
+Small-Body Moon,8474 Rettig (1985 GA1),Main-belt Asteroid,,,8474,2015,"Chiorny et al. (2015), CBET 4122","Chiorny et al. (2015), CBET 4122",Small-Body
+Small-Body Moon,9006 Voytkevych (1982 UA7),Main-belt Asteroid,,,9006,2024,"Benishek et al. (2025), CBET 5526","Benishek et al. (2025), CBET 5526",Small-Body
+Small-Body Moon,9010 Candelo (1984 HM1),Main-belt Asteroid,,,9010,2025,"Benishek et al. (2025), CBET 5528","Benishek et al. (2025), CBET 5528",Small-Body
+Small-Body Moon,9069 Hovland (1993 OV),Inner Main-belt Asteroid,,,9069,2004,"Warner et al. (2011), MPB 38","Warner et al. (2011), MPB 38",Small-Body
+Small-Body Moon,9260 Edwardolson (1953 TA1),Main-belt Asteroid,,,9260,2005,"Jakubik et al. (2005), CBET 270","Jakubik et al. (2005), CBET 270",Small-Body
+Small-Body Moon,9332 (1990 SB1),Main-belt Asteroid,,,9332,2019,"Pravec et al. (2019), CBET 4677","Pravec et al. (2019), CBET 4677",Small-Body
+Small-Body Moon,9474 Cassadrury (1998 QK15),Main-belt Asteroid,,,9474,2020,"Conjat et al. (2020), CBET 4717","Conjat et al. (2020), CBET 4717",Small-Body
+Small-Body Moon,9617 Grahamchapman (1993 FA5),Main-belt Asteroid,,,9617,2006,"Pray et al. (2006), CBET 414","Pray et al. (2006), CBET 414",Small-Body
+Small-Body Moon,9783 Tensho-kan (1994 YD1),Main-belt Asteroid,,,9783,2013,"Pravec et al. (2015), IAU Symposium 318","Pravec et al. (2015), IAU Symposium 318",Small-Body
+Small-Body Moon,9940 (1988 VM3),Main-belt Asteroid,,,9940,2023,"Benishek et al. (2023), CBET 5298","Benishek et al. (2023), CBET 5298",Small-Body
+Small-Body Moon,9972 Minoruoda (1993 KQ),Main-belt Asteroid,,,9972,2017,"Cooney et al. (2017), CBET 4401","Cooney et al. (2017), CBET 4401",Small-Body
+Small-Body Moon,10044 Squyres (1985 RU),Main-belt Asteroid,,,10044,2022,"Benishek et al. (2023), CBET 5202","Benishek et al. (2023), CBET 5202",Small-Body
+Small-Body Moon,10123 Fideoja (1993 FJ16),Main-belt Asteroid,,,10123,2013,"Pravec et al. (2015), IAU Symposium 318","Pravec et al. (2015), IAU Symposium 318",Small-Body
+Small-Body Moon,10132 Lummelunda (1993 FL84),Main-belt Asteroid,,,10132,2017,"Benishek et al. (2018), CBET 4440","Benishek et al. (2018), CBET 4440",Small-Body
+Small-Body Moon,10140 Villon (1993 SX4),Main-belt Asteroid,,,10140,2022,"Benishek et al. (2022), CBET 5130","Benishek et al. (2022), CBET 5130",Small-Body
+Small-Body Moon,10208 Germanicus (1997 QN1),Main-belt Asteroid,,,10208,2007,"Oey et al. (2007), CBET 1087","Oey et al. (2007), CBET 1087",Small-Body
+Small-Body Moon,10424 Gaillard (1999 BD5),Main-belt Asteroid,,,10424,2024,"Gout et al. (2024), CBET 5370","Gout et al. (2024), CBET 5370",Small-Body
+Small-Body Moon,11217 (1999 JC4),Inner Main-belt Asteroid,,,11217,2013,"Warner (2014), MPB 41","Warner (2014), MPB 41",Small-Body
+Small-Body Moon,11264 Claudiomaccone (1979 UC4),Main-belt Asteroid,,,11264,2004,"Krugly et al. (2007), Planetary and Space Science 55","Krugly et al. (2007), Planetary and Space Science 55",Small-Body
+Small-Body Moon,11361 Orbinskij (1998 DD36),Main-belt Asteroid,,,11361,2025,"Benishek et al. (2025), CBET 5553","Benishek et al. (2025), CBET 5553",Small-Body
+Small-Body Moon,11549 (1992 YY),Main-belt Asteroid,,,11549,2023,"Benishek et al. (2023), CBET 5305","Benishek et al. (2023), CBET 5305",Small-Body
+Small-Body Moon,11934 Lundgren (1993 FL4),Main-belt Asteroid,,,11934,2025,"Conjat et al. (2025), CBET 5515","Conjat et al. (2025), CBET 5515",Small-Body
+Small-Body Moon,12008 Kandrup (1996 TY9),Mars-crossing Asteroid,,,12008,2016,"Manzini et al (2017), CBET 4339","Manzini et al (2017), CBET 4339",Small-Body
+Small-Body Moon,12218 Fleischer (1982 RK),Main-belt Asteroid,,,12218,2020,"Pray et al. (2020), CBET 4741","Pray et al. (2020), CBET 4741",Small-Body
+Small-Body Moon,12326 Shirasaki (1992 SF),Main-belt Asteroid,,,12326,2016,"Pray et al. (2017), CBET 4345","Pray et al. (2017), CBET 4345",Small-Body
+Small-Body Moon,13123 Tyson (1994 KA),Main-belt Asteroid,,,13123,2015,"Pravec et al. (2016), Icarus 267","Pravec et al. (2016), Icarus 267",Small-Body
+Small-Body Moon,13920 Montecorvino (1985 PE1),Mars-crossing Asteroid,,,13920,2020,"Pray et al. (2020), CBET 4858","Pray et al. (2020), CBET 4858",Small-Body
+Small-Body Moon,14469 Komatsuataka (1993 RK),Main-belt Asteroid,,,14469,2022,"Benishek et al. (2022), CBET 5190","Benishek et al. (2022), CBET 5190",Small-Body
+Small-Body Moon,15107 Toepperwein (2000 CR49),Main-belt Asteroid,,,15107,2021,"Pravec et al. (2021), CBET 4961","Pravec et al. (2021), CBET 4961",Small-Body
+Small-Body Moon,15268 Wendelinefroger (1990 WF3),Main-belt Asteroid,,,15268,2008,"Oey et al. (2008), CBET 1542","Oey et al. (2008), CBET 1542",Small-Body
+Small-Body Moon,15430 (1998 UR31),Main-belt Asteroid,,,15430,2010,"Oey et al. (2013), MPB 40","Oey et al. (2013), MPB 40",Small-Body
+Small-Body Moon,15700 (1987 QD),Mars-crossing Asteroid,,,15700,2010,"Durkee et al. (2010), CBET 2540","Durkee et al. (2010), CBET 2540",Small-Body
+Small-Body Moon,15745 Yuliya (1991 PM5),Amor,,,15745,2018,"Aznar et al. (2018), CBET 4523","Aznar et al. (2018), CBET 4523",Small-Body
+Small-Body Moon,15822 Genefahnestock (1994 TV15),Inner Main-belt Asteroid,,,15822,2010,"Warner and Pray (2011), MPB 38","Warner and Pray (2011), MPB 38",Small-Body
+Small-Body Moon,16525 Shumarinaiko (1991 CU2),Main-belt Asteroid,,,16525,2013,"Warner and Coley (2013), MPB 40","Warner and Coley (2013), MPB 40",Small-Body
+Small-Body Moon,16635 (1993 QO),Mars-crossing Asteroid,,,16635,2007,"Pray et al. (2007), CBET 1143","Pray et al. (2007), CBET 1143",Small-Body
+Small-Body Moon,16694 (1995 AJ),Main-belt Asteroid,,,16694,2020,"Benishek et al. (2020), CBET 4899","Benishek et al. (2020), CBET 4899",Small-Body
+Small-Body Moon,16974 Iphthime (1998 WR21),Jupiter Trojan,,,16974,2013,https://www.stsci.edu/hst/phase2-public/15142.pro,https://www.stsci.edu/hst/phase2-public/15142.pro,Small-Body
+Small-Body Moon,17081 Jaytee (1999 JT1),Main-belt Asteroid,,,17081,2021,"Vachier et al. (2021), CBET 5044","Vachier et al. (2021), CBET 5044",Small-Body
+Small-Body Moon,17246 Christophedumas (2000 GL74),Main-belt Asteroid,,,S/2004 (17246) 1,2004,"Tamblyn et al. (2004), IAUC 8293","Tamblyn et al. (2004), IAUC 8293",Small-Body
+Small-Body Moon,17251 Vondracek (2000 GA127),Main-belt Asteroid,,,17251,2024,"Benishek et al. (2024), CBET 5406","Benishek et al. (2024), CBET 5406",Small-Body
+Small-Body Moon,17260 Kusnirak (2000 JQ58),Main-belt Asteroid,,,17260,2006,"Higgins et al. (2006), CBET 431","Higgins et al. (2006), CBET 431",Small-Body
+Small-Body Moon,17700 Oleksiygolubov (1997 GM40),Main-belt Asteroid,,,17700,2018,"Pray et al. (2018), CBET 4517","Pray et al. (2018), CBET 4517",Small-Body
+Small-Body Moon,18301 Konyukhov (1979 QZ9),Main-belt Asteroid,,,18301,2023,"Benishek et al. (2023), CBET 5320","Benishek et al. (2023), CBET 5320",Small-Body
+Small-Body Moon,18303 (1980 PU),Main-belt Asteroid,,,18303,2019,"Benishek et al. (2019), CBET 4676","Benishek et al. (2019), CBET 4676",Small-Body
+Small-Body Moon,18527 (1996 VJ30),Main-belt Asteroid,,,18527,2018,"Benishek et al. (2018), CBET 4562","Benishek et al. (2018), CBET 4562",Small-Body
+Small-Body Moon,18890 (2000 EV26),Inner Main-belt Asteroid,,,18890,2014,"Warner (2015), MPB 42","Warner (2015), MPB 42",Small-Body
+Small-Body Moon,19281 (1996 AP3),Main-belt Asteroid,,,19281,2022,"Benishek et al. (2022), CBET 5192","Benishek et al. (2022), CBET 5192",Small-Body
+Small-Body Moon,20325 Julianoey (1998 HO27),Main-belt Asteroid,,,20325,2014,"Pray et al. (2014), CBET 4039","Pray et al. (2014), CBET 4039",Small-Body
+Small-Body Moon,20882 Paulsanchez (2000 VH57),Main-belt Asteroid,,,20882,2018,"Warner et al. (2018), CBET 4570","Warner et al. (2018), CBET 4570",Small-Body
+Small-Body Moon,21436 Chaoyichi (1998 FL116),Main-belt Asteroid,,,21436,2014,"Pravec et al. (2015), IAU Symposium 318","Pravec et al. (2015), IAU Symposium 318",Small-Body
+Small-Body Moon,21527 Horton (1998 MV27),Main-belt Asteroid,,,21527,2019,"Benishek et al. (2019), CBET 4680","Benishek et al. (2019), CBET 4680",Small-Body
+Small-Body Moon,22569 (1998 HK36),Main-belt Asteroid,,,22569,2023,"Benishek et al. (2023), CBET 5294","Benishek et al. (2023), CBET 5294",Small-Body
+Small-Body Moon,22899 Alconrad (1999 TO14),Main-belt Asteroid,1,Juliekaibarreto,(22899) Alconrad I Juliekaibarreto,2003,"Merline et al. (2003), IAUC 8232","Merline et al. (2003), IAUC 8232",Small-Body
+Small-Body Moon,23621 (1996 PA),Mars-crossing Asteroid,,,23621,2017,"Pray et al. (2017), CBET 4436","Pray et al. (2017), CBET 4436",Small-Body
+Small-Body Moon,24106 (1999 VA12),Main-belt Asteroid,,,24106,2020,"Pray et al. (2020), CBET 4866","Pray et al. (2020), CBET 4866",Small-Body
+Small-Body Moon,24465 (2000 SX155),Inner Main-belt Asteroid,,,24465,2016,"Stephens and Warner (2017), MPB 44","Stephens and Warner (2017), MPB 44",Small-Body
+Small-Body Moon,24495 Degroff (2001 AV1),Mars-crossing Asteroid,,,24495,2017,"Stephens et al. (2017), MPB 44","Stephens et al. (2017), MPB 44",Small-Body
+Small-Body Moon,25015 Lairdclose (1998 QN2),Main-belt Asteroid,,,25015,2018,"Benishek et al. (2018), CBET 4553","Benishek et al. (2018), CBET 4553",Small-Body
+Small-Body Moon,25021 Nischaykumar (1998 QV17),Main-belt Asteroid,,,25021,2018,"Pravec et al. (2019), Icarus 333","Pravec et al. (2019), Icarus 333",Small-Body
+Small-Body Moon,26074 Carlwirtz (1977 TD),Mars-crossing Asteroid,,,26074,2013,"Warner (2013), MPB 40","Warner (2013), MPB 40",Small-Body
+Small-Body Moon,26308 (1998 SM165),TransNeptunian Object,,,S/2001 (26308) 1,2001,"Brown and Trujillo (2002), IAUC 7807","Brown and Trujillo (2002), IAUC 7807",Small-Body
+Small-Body Moon,26416 (1999 XM84),Main-belt Asteroid,,,26416,2014,"Pravec et al. (2015), CBET 4088","Pravec et al. (2015), CBET 4088",Small-Body
+Small-Body Moon,26420 (1999 XL103),Main-belt Asteroid,,,26420,2015,"Pravec et al. (2019), Icarus 333","Pravec et al. (2019), Icarus 333",Small-Body
+Small-Body Moon,26471 Tracybecker (2000 AS152),Mars-crossing Asteroid,,,26471,2009,"Warner et al. (2009), CBET 1881","Warner et al. (2009), CBET 1881",Small-Body
+Small-Body Moon,27568 (2000 PT6),Inner Main-belt Asteroid,,,27568,2013,"Warner and Stephens (2013), MPB 40","Warner and Stephens (2013), MPB 40",Small-Body
+Small-Body Moon,27675 Paulmaley (1981 CH),Main-belt Asteroid,,,27675,2017,"Pray et al. (2017), CBET 4361","Pray et al. (2017), CBET 4361",Small-Body
+Small-Body Moon,31345 (1998 PG),Amor,,,31345,1998,"Pravec et al. (2006), Icarus 181","Pravec et al. (2006), Icarus 181",Small-Body
+Small-Body Moon,31346 (1998 PB1),Amor,,,31346,2021,"Pravec et al. (2021), CBET 4978","Pravec et al. (2021), CBET 4978",Small-Body
+Small-Body Moon,31450 Stevepreston (1999 CU9),Main-belt Asteroid,,,31450,2015,"Pray et al. (2015), CBET 4157","Pray et al. (2015), CBET 4157",Small-Body
+Small-Body Moon,31736 (1999 JR73),Main-belt Asteroid,,,31736,2025,"Weber et al. (2025), CBET 5552","Weber et al. (2025), CBET 5552",Small-Body
+Small-Body Moon,32008 Adriangalad (2000 HM53),Main-belt Asteroid,,,32008,2007,"Pravec et al. (2007), CBET 1078","Pravec et al. (2007), CBET 1078",Small-Body
+Small-Body Moon,32039 (2000 JO23),Mars-crossing Asteroid,,,32039,2007,"Pray et al. (2007), CBET 1147","Pray et al. (2007), CBET 1147",Small-Body
+Small-Body Moon,33956 (2000 NN3),Main-belt Asteroid,,,33956,2025,"Swift et al. (2025), CBET 5562","Swift et al. (2025), CBET 5562",Small-Body
+Small-Body Moon,34706 (2001 OP83),Mars-crossing Asteroid,,,34706,2005,"Warner et al. (2006), MPB 33","Warner et al. (2006), MPB 33",Small-Body
+Small-Body Moon,35107 (1991 VH),Apollo,,,S/1997 (35107) 1,1997,"Pravec et al. (1997), IAUC 6607","Pravec et al. (1997), IAUC 6607",Small-Body
+Small-Body Moon,37424 (2001 YA3),Main-belt Asteroid,,,37424,2021,"Benishek et al. (2021), CBET 5081","Benishek et al. (2021), CBET 5081",Small-Body
+Small-Body Moon,38079 (1999 HF),Main-belt Asteroid,,,38079,2020,"Benishek et al. (2020), CBET 4795","Benishek et al. (2020), CBET 4795",Small-Body
+Small-Body Moon,38628 Huya (2000 EB173),TransNeptunian Object,,,38628,2012,"Noll et al. (2012), IAUC 9253","Noll et al. (2012), IAUC 9253",Small-Body
+Small-Body Moon,42355 Typhon (2002 CR46),TransNeptunian Object,1,Echidna,(42355) Typhon I Echidna,2006,"Noll et al. (2006), IAUC 8689","Noll et al. (2006), IAUC 8689",Small-Body
+Small-Body Moon,43008 (1999 UD31),Main-belt Asteroid,,,43008,2014,"Pravec et al. (2015), IAU Symposium 318","Pravec et al. (2015), IAU Symposium 318",Small-Body
+Small-Body Moon,44620 (1999 RS43),Main-belt Asteroid,,,44620,2014,"Pravec et al. (2015), IAU Symposium 318","Pravec et al. (2015), IAU Symposium 318",Small-Body
+Small-Body Moon,46829 McMahon (1998 OS14),Main-belt Asteroid,,,46829,2015,"Pravec et al. (2015), CBET 4114","Pravec et al. (2015), CBET 4114",Small-Body
+Small-Body Moon,47171 Lempo (1999 TC36),TransNeptunian Object,1,Paha,(47171) Lempo I Paha,2001,"Trujillo and Brown (2002), IAUC 7787","Trujillo and Brown (2002), IAUC 7787",Small-Body
+Small-Body Moon,47171 Lempo (1999 TC36),TransNeptunian Object,2,Hiisi,(47171) Lempo II Hiisi,2007,"Benecchi et al. (2010), Icarus 207","Benecchi et al. (2010), Icarus 207",Small-Body
+Small-Body Moon,48470 Wedemeyer (1991 TC2),Inner Main-belt Asteroid,,,48470,2023,"Warner et al. (2023), CBET 5303","Warner et al. (2023), CBET 5303",Small-Body
+Small-Body Moon,48489 (1992 EZ28),Main-belt Asteroid,,,48489,2025,"Augustin et al. (2025), CBET 5563","Augustin et al. (2025), CBET 5563",Small-Body
+Small-Body Moon,48639 (1995 TL8),TransNeptunian Object,,,48639,2002,"Stephens and Noll (2006), AJ 131","Stephens and Noll (2006), AJ 131",Small-Body
+Small-Body Moon,50000 Quaoar (2002 LM60),TransNeptunian Object,1,Weywot,(50000) Quaoar I Weywot,2006,"Brown and Suer (2007), IAUC 8812","Brown and Suer (2007), IAUC 8812",Small-Body
+Small-Body Moon,51356 (2000 RY76),Mars-crossing Asteroid,,,51356,2012,"Warner and Pray (2013), MPB 40","Warner and Pray (2013), MPB 40",Small-Body
+Small-Body Moon,52316 Daveslater (1992 BD),Inner Main-belt Asteroid,,,52316,2012,"Warner (2013), MPB 40","Warner (2013), MPB 40",Small-Body
+Small-Body Moon,53110 (1999 AR7),Amor,,,53110,2015,"Warner (2016), MPB 43","Warner (2016), MPB 43",Small-Body
+Small-Body Moon,53432 (1999 UT55),Mars-crossing Asteroid,,,53432,2013,"Warner (2013), MPB 40","Warner (2013), MPB 40",Small-Body
+Small-Body Moon,54697 (2001 FA70),Mars-crossing Asteroid,,,54697,2016,"Warner (2016), MPB 43","Warner (2016), MPB 43",Small-Body
+Small-Body Moon,55637 Uni (2002 UX25),TransNeptunian Object,,,55637,2005,"Brown and Suer (2007), IAUC 8812","Brown and Suer (2007), IAUC 8812",Small-Body
+Small-Body Moon,57027 (2000 UB59),Outer Main-belt Asteroid,,,57027,2018,"Szabo et al. (2020), ApJS 247","Szabo et al. (2020), ApJS 247",Small-Body
+Small-Body Moon,58534 Logos (1997 CQ29),TransNeptunian Object,1,Zoe,(58534) Logos I Zoe,2001,"Noll et al. (2002), IAUC 7824","Noll et al. (2002), IAUC 7824",Small-Body
+Small-Body Moon,60050 (1999 TJ106),Main-belt Asteroid,,,60050,2025,"Gault et al. (2025), CBET 5569","Gault et al. (2025), CBET 5569",Small-Body
+Small-Body Moon,60458 (2000 CM114),TransNeptunian Object,,,60458,2006,"Noll et al. (2006), IAUC 8689","Noll et al. (2006), IAUC 8689",Small-Body
+Small-Body Moon,60621 (2000 FE8),TransNeptunian Object,,,60621,2007,"Noll et al. (2007), IAUC 8816","Noll et al. (2007), IAUC 8816",Small-Body
+Small-Body Moon,64338 (2001 UU64),Main-belt Asteroid,,,64338,2024,"Conjat et al. (2024), CBET 5481","Conjat et al. (2024), CBET 5481",Small-Body
+Small-Body Moon,65489 Ceto (2003 FX128),TransNeptunian Object,1,Phorcys,(65489) Ceto I Phorcys,2006,"Noll (2006), IAUC 8778","Noll (2006), IAUC 8778",Small-Body
+Small-Body Moon,65803 Didymos (1996 GT),Apollo,1,Dimorphos,(65803) Didymos I Dimorphos,2003,"Pravec et al. (2003), IAUC 8244","Pravec et al. (2003), IAUC 8244",Small-Body
+Small-Body Moon,66063 (1998 RO1),Aten,,,66063,2002,"Pravec et al. (2003), IAUC 8216","Pravec et al. (2003), IAUC 8216",Small-Body
+Small-Body Moon,66391 Moshup (1999 KW4),Aten,1,Squannit,(66391) Moshup I Squannit,2001,"Ostro et al. (2006), Science 314","Ostro et al. (2006), Science 314",Small-Body
+Small-Body Moon,66652 Borasisi (1999 RZ253),TransNeptunian Object,1,Pabu,(66652) Borasisi I Pabu,2003,"Noll et al. (2003), IAUC 8143","Noll et al. (2003), IAUC 8143",Small-Body
+Small-Body Moon,68063 (2000 YJ66),Amor,,,68063,2014,"Warner et al. (2015), MPB 42","Warner et al. (2015), MPB 42",Small-Body
+Small-Body Moon,69230 Hermes (1937 UB),Apollo,,,69230,2003,"Margot et al. (2003), IAUC 8227","Margot et al. (2003), IAUC 8227",Small-Body
+Small-Body Moon,69406 Martz-Kohl (1995 SX48),Inner Main-belt Asteroid,,,69406,2013,"Warner et al. (2014), MPB 41","Warner et al. (2014), MPB 41",Small-Body
+Small-Body Moon,72036 (2000 XM44),Main-belt Asteroid,,,72036,2019,"Benishek et al. (2019), CBET 4632","Benishek et al. (2019), CBET 4632",Small-Body
+Small-Body Moon,76818 Brianenke (2000 RG79),Inner Main-belt Asteroid,,,76818,2005,"Warner et al. (2005), IAUC 8592","Warner et al. (2005), IAUC 8592",Small-Body
+Small-Body Moon,79360 Sila-Nunam (1997 CS29),TransNeptunian Object,1,Nunam,(79360) Sila-Nunam I Nunam,2002,"Stephens and Noll (2006), AJ 131","Stephens and Noll (2006), AJ 131",Small-Body
+Small-Body Moon,79472 Chiorny (1998 AX4),Inner Main-belt Asteroid,,,79472,2012,Warner (2012),Warner (2012),Small-Body
+Small-Body Moon,80218 (1999 VO123),Main-belt Asteroid,,,80218,2012,"Pravec et al. (2015), IAU symposium 318","Pravec et al. (2015), IAU symposium 318",Small-Body
+Small-Body Moon,80806 (2000 CM105),TransNeptunian Object,,,80806,2002,"Stephens and Noll (2006), AJ 131","Stephens and Noll (2006), AJ 131",Small-Body
+Small-Body Moon,82075 (2000 YW134),TransNeptunian Object,,,82075,2002,"Stephens and Noll (2006), AJ 131","Stephens and Noll (2006), AJ 131",Small-Body
+Small-Body Moon,82157 (2001 FM185),TransNeptunian Object,,,82157,2008,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,82256 (2001 KM8),Main-belt Asteroid,,,82256,2023,"Benishek et al. (2024), CBET 5331","Benishek et al. (2024), CBET 5331",Small-Body
+Small-Body Moon,85628 (1998 KV2),Amor,,,85628,2020,"Warner et al. (2020), CBET 4757","Warner et al. (2020), CBET 4757",Small-Body
+Small-Body Moon,85938 (1999 DJ4),Apollo,,,85938,2004,"Pravec et al. (2004), IAUC 8316","Pravec et al. (2004), IAUC 8316",Small-Body
+Small-Body Moon,88611 Teharonhiawako (2001 QT297),TransNeptunian Object,1,Sawiskera,(88611) Teharonhiawako I Sawiskera,2001,"Elliot et al. (2001), IAUC 7733","Elliot et al. (2001), IAUC 7733",Small-Body
+Small-Body Moon,88710 (2001 SL9),Apollo,,,88710,2001,"Pravec et al. (2001), IAUC 7742","Pravec et al. (2001), IAUC 7742",Small-Body
+Small-Body Moon,90482 Orcus (2004 DW),TransNeptunian Object,1,Vanth,(90482) Orcus I Vanth,2005,"Brown and Suer (2007), IAUC 8812","Brown and Suer (2007), IAUC 8812",Small-Body
+Small-Body Moon,97034 (1999 UK7),Mars-crossing Asteroid,,,97034,2023,"Benishek et al. (2023), CBET 5232","Benishek et al. (2023), CBET 5232",Small-Body
+Small-Body Moon,99913 (1997 CZ5),Mars-crossing Asteroid,,,99913,2010,"Higgins et al. (2011), CBET 2648","Higgins et al. (2011), CBET 2648",Small-Body
+Small-Body Moon,100015 Sutcliffe (1989 SR7),Mars-crossing Asteroid,,,100015,2018,"Benishek et al. (2018), CBET 4565","Benishek et al. (2018), CBET 4565",Small-Body
+Small-Body Moon,100624 (1997 TR28),Jupiter Trojan,,,100624,2024,"Ikari et al. (2024), CBET 5388","Ikari et al. (2024), CBET 5388",Small-Body
+Small-Body Moon,109013 (2001 QS4),Main-belt Asteroid,,,109013,2025,"Nosworthy et al. (2025), CBET 5571","Nosworthy et al. (2025), CBET 5571",Small-Body
+Small-Body Moon,114319 (2002 XD58),Mars-crossing Asteroid,,,114319,2005,"Pray et al. (2005), CBET 328","Pray et al. (2005), CBET 328",Small-Body
+Small-Body Moon,118303 (1998 UG),Main-belt Asteroid,,,118303,2022,"Benishek et al. (2023), CBET 5223","Benishek et al. (2023), CBET 5223",Small-Body
+Small-Body Moon,119067 (2001 KP76),TransNeptunian Object,,,119067,2007,"Marchis et al. (2008), IAUC 8922","Marchis et al. (2008), IAUC 8922",Small-Body
+Small-Body Moon,119979 (2002 WC19),TransNeptunian Object,,,119979,2006,"Noll et al. (2007), IAUC 8814","Noll et al. (2007), IAUC 8814",Small-Body
+Small-Body Moon,120347 Salacia (2004 SB60),TransNeptunian Object,1,Actaea,(120347) Salacia I Actaea,2006,"Noll et al. (2006), IAUC 8751","Noll et al. (2006), IAUC 8751",Small-Body
+Small-Body Moon,123509 (2000 WK183),TransNeptunian Object,,,123509,2005,"Noll et al. (2007), IAUC 8811","Noll et al. (2007), IAUC 8811",Small-Body
+Small-Body Moon,134340 Pluto (1930 BM),TransNeptunian Object,1,Charon,(134340) Pluto I Charon,1978,"Smith (1978),  IAUC 3241","Smith (1978),  IAUC 3241",Small-Body
+Small-Body Moon,134340 Pluto (1930 BM),TransNeptunian Object,2,Nix,(134340) Pluto II Nix,2005,"Weaver et al. (2005), IAUC 8625","Weaver et al. (2005), IAUC 8625",Small-Body
+Small-Body Moon,134340 Pluto (1930 BM),TransNeptunian Object,3,Hydra,(134340) Pluto III Hydra,2005,"Weaver et al. (2005), IAUC 8625","Weaver et al. (2005), IAUC 8625",Small-Body
+Small-Body Moon,134340 Pluto (1930 BM),TransNeptunian Object,4,Kerberos,(134340) Pluto IV Kerberos,2011,"Showalter et al. (2011), CBET 2769","Showalter et al. (2011), CBET 2769",Small-Body
+Small-Body Moon,134340 Pluto (1930 BM),TransNeptunian Object,5,Styx,(134340) Pluto V Styx,2012,"Showalter et al. (2012), IAUC 9253","Showalter et al. (2012), IAUC 9253",Small-Body
+Small-Body Moon,134860 (2000 OJ67),TransNeptunian Object,,,134860,2003,"Stephens and Noll (2006), AJ 131","Stephens and Noll (2006), AJ 131",Small-Body
+Small-Body Moon,136108 Haumea (2003 EL61),TransNeptunian Object,1,Hi'iaka,(136108) Haumea I Hi'iaka,2005,"Brown et al. (2005), IAUC 8577","Brown et al. (2005), IAUC 8577",Small-Body
+Small-Body Moon,136108 Haumea (2003 EL61),TransNeptunian Object,2,Namaka,(136108) Haumea II Namaka,2005,"Brown et al. (2005), IAUC 8636","Brown et al. (2005), IAUC 8636",Small-Body
+Small-Body Moon,136199 Eris (2003 UB313),TransNeptunian Object,1,Dysnomia,(136199) Eris I Dysnomia,2005,"Brown et al. (2005), IAUC 8610","Brown et al. (2005), IAUC 8610",Small-Body
+Small-Body Moon,136472 Makemake (2005 FY9),TransNeptunian Object,,,S/2015 (136472) 1,2015,"Parker et al. (2015), CBET 4275","Parker et al. (2015), CBET 4275",Small-Body
+Small-Body Moon,136617 (1994 CC),Apollo,,,136617,2009,"Brozovic et al. (2009), IAUC 9053","Brozovic et al. (2009), IAUC 9053",Small-Body
+Small-Body Moon,136617 (1994 CC),Apollo,,,136617,2009,"Brozovic et al. (2009), IAUC 9053","Brozovic et al. (2009), IAUC 9053",Small-Body
+Small-Body Moon,136993 (1998 ST49),Apollo,,,136993,2012,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,137170 (1999 HF1),Aten,,,137170,1999,"Pravec et al. (2006), Icarus 181","Pravec et al. (2006), Icarus 181",Small-Body
+Small-Body Moon,138095 (2000 DK79),Amor,,,138095,2013,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,139775 (2001 QG298),TransNeptunian Object,,,S/2003 (139775) 1,2003,"Sheppard & Jewitt 2004.  AJ 127, 3023","Sheppard & Jewitt 2004.  AJ 127, 3023",Small-Body
+Small-Body Moon,143649 (2003 QQ47),Apollo,,,143649,2021,"Pravec et al. (2021), CBET 5037","Pravec et al. (2021), CBET 5037",Small-Body
+Small-Body Moon,148780 Altjira (2001 UQ18),TransNeptunian Object,,,148780,2006,"Grundy et al. (2011), Icarus 213","Grundy et al. (2011), Icarus 213",Small-Body
+Small-Body Moon,152830 Dinkinesh (1999 VD57),Main-belt Asteroid,1,Selam,(152830) Dinkinesh I Selam,2025,https://www.nasa.gov/image-article/nasas-lucy-spacecraft-discovers-2nd-asteroid-during-dinkinesh-flyby/,https://www.nasa.gov/image-article/nasas-lucy-spacecraft-discovers-2nd-asteroid-during-dinkinesh-flyby/,Small-Body
+Small-Body Moon,153591 (2001 SN263),Amor,,,153591,2008,"Nolan et al. (2008), CBET 1254","Nolan et al. (2008), CBET 1254",Small-Body
+Small-Body Moon,153591 (2001 SN263),Amor,,,153591,2008,"Nolan et al. (2008), CBET 1254","Nolan et al. (2008), CBET 1254",Small-Body
+Small-Body Moon,153958 (2002 AM31),Apollo,,,153958,2012,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,160091 (2000 OL67),TransNeptunian Object,,,160091,2007,"Marchis et al. (2008), IAUC 8922","Marchis et al. (2008), IAUC 8922",Small-Body
+Small-Body Moon,160256 (2002 PD149),TransNeptunian Object,,,160256,2007,"Noll et al. (2007), IAUC 8866","Noll et al. (2007), IAUC 8866",Small-Body
+Small-Body Moon,162000 (1990 OS),Apollo,,,162000,2003,"Ostro et al. (2003), IAUC 8237","Ostro et al. (2003), IAUC 8237",Small-Body
+Small-Body Moon,162483 (2000 PJ5),Aten,,,162483,2005,,,Small-Body
+Small-Body Moon,163693 Atira (2003 CP20),Atira,,,163693,2017,"Rivera-Valentin et al. (2017), CBET 4347","Rivera-Valentin et al. (2017), CBET 4347",Small-Body
+Small-Body Moon,164121 (2003 YT1),Apollo,,,164121,2004,"Nolan et al. (2004), IAUC 8336","Nolan et al. (2004), IAUC 8336",Small-Body
+Small-Body Moon,174567 Varda (2003 MW12),TransNeptunian Object,1,Ilmare,(174567) Varda I Ilmare,2009,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,175706 (1996 FG3),Apollo,,,175706,1998,"Pravec et al. (1998), IAUC 7074","Pravec et al. (1998), IAUC 7074",Small-Body
+Small-Body Moon,182933 (2002 GZ31),TransNeptunian Object,,,182933,2006,"Noll et al. (2007), IAUC 8815","Noll et al. (2007), IAUC 8815",Small-Body
+Small-Body Moon,185851 (2000 DP107),Apollo,,,S/2000 (185851) 1,2000,"Margot et al. (2002), Science, 296","Margot et al. (2002), Science, 296",Small-Body
+Small-Body Moon,190166 (2005 UP156),Amor,,,190166,2017,"Warner and Harris (2017), CBET 4394","Warner and Harris (2017), CBET 4394",Small-Body
+Small-Body Moon,190208 (2006 AQ),Amor,,,190208,2015,"Warner (2015), MPB 42","Warner (2015), MPB 42",Small-Body
+Small-Body Moon,208996 Achlys (2003 AZ84),TransNeptunian Object,,,208996,2005,"Brown and Suer (2007), IAUC 8812","Brown and Suer (2007), IAUC 8812",Small-Body
+Small-Body Moon,218144 (2002 RL66),Mars-crossing Asteroid,,,218144,2010,"Warner (2010), MPB 37","Warner (2010), MPB 37",Small-Body
+Small-Body Moon,225088 Gonggong (2007 OR10),TransNeptunian Object,1,Xiangliu,(225088) Gonggong I Xiangliu,2010,"Kiss et al. (2017), ApJL 838","Kiss et al. (2017), ApJL 838",Small-Body
+Small-Body Moon,226514 (2003 UX34),Apollo,,,226514,2017,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,229762 G!kun||'homdima (2007 UK126),TransNeptunian Object,1,GÇƒÃ²Ê¼Ã©ÇƒHÃº,(229762) G!kun||'homdima I GÇƒÃ²Ê¼Ã©ÇƒHÃº,2008,Noll et al. (2011),Noll et al. (2011),Small-Body
+Small-Body Moon,250162 (2002 TY57),Amor,,,250162,2018,"Pravec et al. (2018), CBET 4586","Pravec et al. (2018), CBET 4586",Small-Body
+Small-Body Moon,275809 (2001 QY297),TransNeptunian Object,,,275809,2006,"Grundy et al. (2011), Icarus 213","Grundy et al. (2011), Icarus 213",Small-Body
+Small-Body Moon,276049 (2002 CE26),Apollo,,,276049,2004,"Shepard et al. (2004), IAUC 8397","Shepard et al. (2004), IAUC 8397",Small-Body
+Small-Body Moon,285263 (1998 QE2),Amor,,,285263,2013,https://www.jpl.nasa.gov/news/news.php?release=2013-182,https://www.jpl.nasa.gov/news/news.php?release=2013-182,Small-Body
+Small-Body Moon,300163 (2006 VW139),Main-belt Asteroid,,,300163,2011,"Agarwal et al. (2017), Nature, 549","Agarwal et al. (2017), Nature, 549",Small-Body
+Small-Body Moon,303712 (2005 PR21),TransNeptunian Object,,,303712,2007,"Noll et al. (2008), IAUC 8925","Noll et al. (2008), IAUC 8925",Small-Body
+Small-Body Moon,310560 (2001 QL142),Apollo,,,310560,2017,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,311066 (2004 DC),Apollo,,,311066,2006,"Taylor et al. (2006), CBET 535","Taylor et al. (2006), CBET 535",Small-Body
+Small-Body Moon,313538 (2002 YB12),Apollo,,,313538,2025,"Pravec et al. (2025), CBET 5517","Pravec et al. (2025), CBET 5517",Small-Body
+Small-Body Moon,326732 Nice (2003 HB6),Amor,,,326732,2021,"Pravec et al. (2021), CBET 5039","Pravec et al. (2021), CBET 5039",Small-Body
+Small-Body Moon,341520 Mors-Somnus (2007 TY430),TransNeptunian Object,1,Somnus,(341520) Mors-Somnus I Somnus,2007,"Sheppard and Trujillo (2008), IAUC 8962","Sheppard and Trujillo (2008), IAUC 8962",Small-Body
+Small-Body Moon,348400 (2005 JF21),Amor,,,348400,2015,"Naidu et al. (2015), CBET 4139","Naidu et al. (2015), CBET 4139",Small-Body
+Small-Body Moon,350751 (2002 AW),Apollo,,,350751,2022,"Pravec et al. (2022), CBET 5110","Pravec et al. (2022), CBET 5110",Small-Body
+Small-Body Moon,357439 (2004 BL86),Apollo,,,357439,2015,"Pollock et al. (2015), CBET 4063","Pollock et al. (2015), CBET 4063",Small-Body
+Small-Body Moon,363027 (1998 ST27),Aten,,,363027,2001,"Benner et al. (2001), IAUC 7730","Benner et al. (2001), IAUC 7730",Small-Body
+Small-Body Moon,363067 (2000 CO101),Apollo,,,363067,2009,"Taylor et al. (2009), CBET 1957","Taylor et al. (2009), CBET 1957",Small-Body
+Small-Body Moon,363599 (2004 FG11),Apollo,,,363599,2012,"Taylor et al. (2012), CBET 3091","Taylor et al. (2012), CBET 3091",Small-Body
+Small-Body Moon,364171 (2006 JZ81),TransNeptunian Object,,,364171,2006,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,374851 (2006 VV2),Apollo,,,374851,2007,"Benner et al. (2007), IAUC 8826","Benner et al. (2007), IAUC 8826",Small-Body
+Small-Body Moon,385186 (1994 AW1),Amor,,,385186,1994,"Pravec and Hahn (1997), ICarus 127","Pravec and Hahn (1997), ICarus 127",Small-Body
+Small-Body Moon,385446 Manwe (2003 QW111),TransNeptunian Object,1,Thorondor,(385446) Manwe I Thorondor,2006,"Noll et al. (2006), IAUC 8745","Noll et al. (2006), IAUC 8745",Small-Body
+Small-Body Moon,399307 (1991 RJ2),Amor,,,399307,2014,"Warner et al. (2015), MPB 42","Warner et al. (2015), MPB 42",Small-Body
+Small-Body Moon,399774 (2005 NB7),Apollo,,,399774,2008,"Shepard et al. (2008), IAUC 8936","Shepard et al. (2008), IAUC 8936",Small-Body
+Small-Body Moon,410777 (2009 FD),Apollo,,,410777,2015,"Naidu et al. (2015), CBET 4191","Naidu et al. (2015), CBET 4191",Small-Body
+Small-Body Moon,450894 (2008 BT18),Apollo,,,450894,2008,"Benner et al. (2008), CBET 1450","Benner et al. (2008), CBET 1450",Small-Body
+Small-Body Moon,452561 (2005 AB),Amor,,,452561,2005,"Reddy et al. (2005), IAUC 8483","Reddy et al. (2005), IAUC 8483",Small-Body
+Small-Body Moon,458732 (2011 MD5),Apollo,,,458732,2023,"Pravec et al. (2023), CBET 5287","Pravec et al. (2023), CBET 5287",Small-Body
+Small-Body Moon,461852 (2006 GY2),Apollo,,,461852,2006,"Benner et al. (2006), CBET 534","Benner et al. (2006), CBET 534",Small-Body
+Small-Body Moon,469420 (2001 XP254),TransNeptunian Object,,,469420,2008,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,469505 (2003 FE128),TransNeptunian Object,,,469505,2010,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,469514 (2003 QA91),TransNeptunian Object,,,469514,2006,"Noll et al. (2008), Solar System Beyond Neptune, Univ. of Arizona Press.","Noll et al. (2008), Solar System Beyond Neptune, Univ. of Arizona Press.",Small-Body
+Small-Body Moon,469610 (2004 HF79),TransNeptunian Object,,,469610,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,469705 |=Kagara (2005 EF298),TransNeptunian Object,,,469705,2009,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,471165 (2010 HE79),TransNeptunian Object,,,471165,2016,"Pike et al. (2020), arxiv 2001.10144","Pike et al. (2020), arxiv 2001.10144",Small-Body
+Small-Body Moon,481532 (2007 LE),Apollo,,,481532,2012,"Brozovic et al. (2012), CBET 3175","Brozovic et al. (2012), CBET 3175",Small-Body
+Small-Body Moon,488453 (1994 XD),Apollo,,,488453,2005,"Benner et al. (2005), IAUC 8563","Benner et al. (2005), IAUC 8563",Small-Body
+Small-Body Moon,489486 (2007 GS3),Apollo,,,489486,2019,"Pravec et al. (2019), CBET 4701","Pravec et al. (2019), CBET 4701",Small-Body
+Small-Body Moon,494658 (2000 UG11),Apollo,,,494658,2000,"Nolan et al. (2000), IAUC 7518","Nolan et al. (2000), IAUC 7518",Small-Body
+Small-Body Moon,496869 (2000 QU7),Apollo,,,496869,2025,"Pravec et al. (2025), CBET 5537","Pravec et al. (2025), CBET 5537",Small-Body
+Small-Body Moon,505447 (2013 SQ99),TransNeptunian Object,,,505447,2017,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,505476 (2013 UL15),TransNeptunian Object,,,505476,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,506121 (2016 BP81),TransNeptunian Object,,,506121,2017,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,508788 (2000 CQ114),TransNeptunian Object,,,508788,2003,"Stephens et al. (2004), IAUC 8289","Stephens et al. (2004), IAUC 8289",Small-Body
+Small-Body Moon,508869 (2002 VT130),TransNeptunian Object,,,508869,2008,"Noll et al. (2009), IAUC 9075","Noll et al. (2009), IAUC 9075",Small-Body
+Small-Body Moon,511551 (2014 UD225),TransNeptunian Object,,,511551,2017,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,523624 (2008 CT190),TransNeptunian Object,,,523624,2012,"Noll et al. (2018), CBET 4513","Noll et al. (2018), CBET 4513",Small-Body
+Small-Body Moon,523625 (2008 DG17),Apollo,,,523625,2013,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,523756 (2014 WD509),TransNeptunian Object,,,523756,2020,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,523764 (2014 WC510),TransNeptunian Object,,,523764,2018,"Levia et al. (2020), PSJ 1","Levia et al. (2020), PSJ 1",Small-Body
+Small-Body Moon,523775 (2014 YB35),Apollo,,,523775,2015,"Naidu et al. (2015), CBET 4121","Naidu et al. (2015), CBET 4121",Small-Body
+Small-Body Moon,523983 (1999 RY214),TransNeptunian Object,,,523983,2008,"Noll et al. (2009), IAUC 9075","Noll et al. (2009), IAUC 9075",Small-Body
+Small-Body Moon,524217 (2001 RZ143),TransNeptunian Object,,,524217,2005,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,524366 (2001 XR254),TransNeptunian Object,,,524366,2006,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,524531 (2002 XH91),TransNeptunian Object,,,524531,2008,"Noll et al. (2009), IAUC 9046","Noll et al. (2009), IAUC 9046",Small-Body
+Small-Body Moon,525462 (2005 EO304),TransNeptunian Object,,,525462,2005,"Kern and Elliot (2005), IAUC 8526","Kern and Elliot (2005), IAUC 8526",Small-Body
+Small-Body Moon,525816 (2005 SF278),TransNeptunian Object,,,525816,2014,"Benecchi et al. (2018), CBET 4485","Benecchi et al. (2018), CBET 4485",Small-Body
+Small-Body Moon,532037 Chiminigagua (2013 FY27),TransNeptunian Object,,,532037,2018,"Shepard et al. (2018), CBET 4537","Shepard et al. (2018), CBET 4537",Small-Body
+Small-Body Moon,534625 (2014 UQ224),TransNeptunian Object,,,534625,2015,"K. Ly (2024), CBET 5352","K. Ly (2024), CBET 5352",Small-Body
+Small-Body Moon,539940 (2017 HW1),Amor,,,539940,2020,"Warner et al. (2020), CBET 4771","Warner et al. (2020), CBET 4771",Small-Body
+Small-Body Moon,554099 (2012 KU50),TransNeptunian Object,,,554099,2021,"Chandler et al. (2021), CBET 5075","Chandler et al. (2021), CBET 5075",Small-Body
+Small-Body Moon,612088 (1999 CM158),TransNeptunian Object,,,612088,2012,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,612095 (1999 OJ4),TransNeptunian Object,,,612095,2002,"Stephens and Noll (2005), AJ 131","Stephens and Noll (2005), AJ 131",Small-Body
+Small-Body Moon,612098 (1999 RM45),Apollo,,,612098,2021,"Pravec et al. (2021), CBET 4931","Pravec et al. (2021), CBET 4931",Small-Body
+Small-Body Moon,612141 (1999 XY143),TransNeptunian Object,,,612141,2008,"Noll et al. (2009), IAUC 9075","Noll et al. (2009), IAUC 9075",Small-Body
+Small-Body Moon,612147 (2000 CF105),TransNeptunian Object,,,612147,2002,"Noll et al. (2002), IAUC 7857","Noll et al. (2002), IAUC 7857",Small-Body
+Small-Body Moon,612176 (2000 QL251),TransNeptunian Object,,,612176,2006,"Noll et al. (2006), IAUC 8746","Noll et al. (2006), IAUC 8746",Small-Body
+Small-Body Moon,612203 (2000 WT169),TransNeptunian Object,,,612203,2008,"Noll et al. (2009), IAUC 9076","Noll et al. (2009), IAUC 9076",Small-Body
+Small-Body Moon,612239 (2001 QC298),TransNeptunian Object,,,612239,2002,"Noll et al. (2002), IAUC 8034","Noll et al. (2002), IAUC 8034",Small-Body
+Small-Body Moon,612242 (2001 QQ322),TransNeptunian Object,,,612242,2007,"Noll et al. (2008), IAUC 8925","Noll et al. (2008), IAUC 8925",Small-Body
+Small-Body Moon,612549 (2003 HG57),TransNeptunian Object,,,612549,2010,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,612687 (2003 UN284),TransNeptunian Object,,,612687,2003,"Millis (2003), IAUC 8251","Millis (2003), IAUC 8251",Small-Body
+Small-Body Moon,612719 (2003 WU188),TransNeptunian Object,,,612719,2006,http://www2.lowell.edu/users/grundy/tnbs/status.htm; Noll et al. 2008,http://www2.lowell.edu/users/grundy/tnbs/status.htm; Noll et al. 2008,Small-Body
+Small-Body Moon,612733 (2003 YU179),TransNeptunian Object,,,612733,2008,"Noll et al. (2009), IAUC 9076","Noll et al. (2009), IAUC 9076",Small-Body
+Small-Body Moon,613286 (2005 YQ96),Aten,,,613286,2014,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,620082 (2014 QL433),Apollo,,,620082,2023,"Brozovic et al. (2023), CBET 5286","Brozovic et al. (2023), CBET 5286",Small-Body
+Small-Body Moon,666201 (2009 YK32),TransNeptunian Object,,,666201,2016,"K. Ly (2024), CBET 5351","K. Ly (2024), CBET 5351",Small-Body
+Small-Body Moon,671468 (2014 LQ28),TransNeptunian Object,,,671468,2016,"Sheppard et al. (2018), CBET 4483","Sheppard et al. (2018), CBET 4483",Small-Body
+Small-Body Moon,741081 (2005 LW3),Apollo,,,741081,2022,https://echo.jpl.nasa.gov/asteroids/goldstone_asteroid_schedule.html,https://echo.jpl.nasa.gov/asteroids/goldstone_asteroid_schedule.html,Small-Body
+Small-Body Moon,809875 (2020 BX12),Apollo,,,809875,2020,"Virkki et al. (2020), CBET 4725","Virkki et al. (2020), CBET 4725",Small-Body
+Small-Body Moon,847431 (1994 CJ1),Apollo,,,847431,2014,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,(1998 WV24),TransNeptunian Object,,,1998 WV24,2007,"Benecchi et al. (2008), IAUC 8998","Benecchi et al. (2008), IAUC 8998",Small-Body
+Small-Body Moon,(1998 WW31),TransNeptunian Object,,,S/2000 (1998 WW31) 1,2000,"Veillet et al. (2001), IAUC 7610","Veillet et al. (2001), IAUC 7610",Small-Body
+Small-Body Moon,(1999 RT214),TransNeptunian Object,,,1999 RT214,2006,"Noll et al. (2006), IAUC 8756","Noll et al. (2006), IAUC 8756",Small-Body
+Small-Body Moon,(2001 FL185),TransNeptunian Object,,,2001 FL185,2006,"Noll et al. (2008), Solar System Beyond Neptune, Univ. of Arizona Press.","Noll et al. (2008), Solar System Beyond Neptune, Univ. of Arizona Press.",Small-Body
+Small-Body Moon,(2001 QW322),TransNeptunian Object,,,2001 QW322,2001,"Kavelaars et al. (2001), IAUC 7749","Kavelaars et al. (2001), IAUC 7749",Small-Body
+Small-Body Moon,(2002 BM26),Apollo,,,2002 BM26,2002,"Nolan et al. (2002), IAUC 7824","Nolan et al. (2002), IAUC 7824",Small-Body
+Small-Body Moon,(2002 KK8),Amor,,,2002 KK8,2002,"Nolan et al. (2002), IAUC 7921","Nolan et al. (2002), IAUC 7921",Small-Body
+Small-Body Moon,(2002 VF130),TransNeptunian Object,,,2002 VF130,2008,"Noll et al. (2009), IAUC 9040","Noll et al. (2009), IAUC 9040",Small-Body
+Small-Body Moon,(2002 VD131),TransNeptunian Object,,,2002 VD131,2015,"http://www2.lowell.edu/users/grundy/tnbs/status.html, Fraser et al. (2017)","http://www2.lowell.edu/users/grundy/tnbs/status.html, Fraser et al. (2017)",Small-Body
+Small-Body Moon,(2003 QY90),TransNeptunian Object,,,2003 QY90,2003,"Elliot et al. (2003), IAUC 8235","Elliot et al. (2003), IAUC 8235",Small-Body
+Small-Body Moon,(2003 SS84),Apollo,,,2003 SS84,2003,"Nolan et al. (2003), IAUC 8220","Nolan et al. (2003), IAUC 8220",Small-Body
+Small-Body Moon,(2003 TJ58),TransNeptunian Object,,,2003 TJ58,2006,"Noll et al. (2008), Solar System Beyond Neptune, Univ. of Arizona Press.","Noll et al. (2008), Solar System Beyond Neptune, Univ. of Arizona Press.",Small-Body
+Small-Body Moon,(2003 YS179),TransNeptunian Object,,,2003 YS179,2008,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2004 HD79),TransNeptunian Object,,,2004 HD79,2019,http://www2.lowell.edu/users/grundy/tnbs/2004_HD79.html,http://www2.lowell.edu/users/grundy/tnbs/2004_HD79.html,Small-Body
+Small-Body Moon,(2004 HK79),TransNeptunian Object,,,2004 HK79,2019,http://www2.lowell.edu/users/grundy/tnbs/2004_HD79.html,http://www2.lowell.edu/users/grundy/tnbs/2004_HD79.html,Small-Body
+Small-Body Moon,(2004 KB19),TransNeptunian Object,,,2004 KB19,2012,"Noll et al. (2018), CBET 4503","Noll et al. (2018), CBET 4503",Small-Body
+Small-Body Moon,(2004 KE19),TransNeptunian Object,,,2004 KE19,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2004 MU8),TransNeptunian Object,,,2004 MU8,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2004 PB108),TransNeptunian Object,,,2004 PB108,2006,"Noll et al. (2007), IAUC 8816","Noll et al. (2007), IAUC 8816",Small-Body
+Small-Body Moon,(2004 PV117),TransNeptunian Object,,,2004 PV117,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2004 PW117),TransNeptunian Object,,,2004 PW117,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2004 PX117),TransNeptunian Object,,,2004 PX117,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2004 SC60),TransNeptunian Object,,,2004 SC60,2024,"Thirouin et al. (2024), CBET 5414","Thirouin et al. (2024), CBET 5414",Small-Body
+Small-Body Moon,(2005 BW49),TransNeptunian Object,,,2005 BW49,2020,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2005 CE81),TransNeptunian Object,,,2005 CE81,2020,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2005 GD187),TransNeptunian Object,,,2005 GD187,2009,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2005 VZ122),TransNeptunian Object,,,2005 VZ122,2008,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2006 BR284),TransNeptunian Object,,,2006 BR284,2006,"Parker et al. (2011), ApJ 743","Parker et al. (2011), ApJ 743",Small-Body
+Small-Body Moon,(2006 CH69),TransNeptunian Object,,,2006 CH69,2004,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2006 JV58),TransNeptunian Object,,,2006 JV58,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2006 SF369),TransNeptunian Object,,,2006 SF369,2007,"Noll et al. (2008), IAUC 8922","Noll et al. (2008), IAUC 8922",Small-Body
+Small-Body Moon,(2007 DS101),TransNeptunian Object,,,2007 DS101,2020,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2007 DT103),Apollo,,,2007 DT103,2007,"Benner et al. (2007), IAUC 8866","Benner et al. (2007), IAUC 8866",Small-Body
+Small-Body Moon,(2013 PY6),Amor,,,2013 PY6,2020,"Pravec et al. (2020), CBET 4891","Pravec et al. (2020), CBET 4891",Small-Body
+Small-Body Moon,(2013 WT44),Apollo,,,2013 WT44,2014,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,(2014 WZ120),Apollo,,,2014 WZ120,2014,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,(2015 QL14),TransNeptunian Object,,,2015 QL14,2017,"Sheppard and Trujillo (2018), CBET 4491","Sheppard and Trujillo (2018), CBET 4491",Small-Body
+Small-Body Moon,(2015 RT245),TransNeptunian Object,,,2015 RT245,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2015 RB280),TransNeptunian Object,,,2015 RB280,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2015 RP280),TransNeptunian Object,,,2015 RP280,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2015 TD144),Apollo,,,2015 TD144,2015,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,(2015 VW168),TransNeptunian Object,,,2015 VW168,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2015 VM173),TransNeptunian Object,,,2015 VM173,2019,http://www2.lowell.edu/users/grundy/tnbs/status.html,http://www2.lowell.edu/users/grundy/tnbs/status.html,Small-Body
+Small-Body Moon,(2016 AZ8),Apollo,,,2016 AZ8,2019,"Virkki et al. (2019), CBET 4593","Virkki et al. (2019), CBET 4593",Small-Body
+Small-Body Moon,(2016 PO296),TransNeptunian Object,,,2016 PO296,2016,"Deen (2024), CBET 5476","Deen (2024), CBET 5476",Small-Body
+Small-Body Moon,(2017 RV1),Apollo,,,2017 RV1,2017,"Pravec et al. (2017), CBET 4435","Pravec et al. (2017), CBET 4435",Small-Body
+Small-Body Moon,(2017 YE5),Apollo,,,2017 YE5,2018,nasa.gov/feature/jpl/observatories-team-up-to-reveal-rare-double-asteroid,nasa.gov/feature/jpl/observatories-team-up-to-reveal-rare-double-asteroid,Small-Body
+Small-Body Moon,(2018 EB),Apollo,,,2018 EB,2018,https://echo.jpl.nasa.gov/~lance/binary.neas.html,https://echo.jpl.nasa.gov/~lance/binary.neas.html,Small-Body
+Small-Body Moon,(2018 TF3),Apollo,,,2018 TF3,2018,"Pravec et al. (2018), CBET 4567","Pravec et al. (2018), CBET 4567",Small-Body
+Small-Body Moon,(2020 AZ2),Amor,,,2020 AZ2,2020,"Pravec et al. (2020), CBET 4728","Pravec et al. (2020), CBET 4728",Small-Body
+Small-Body Moon,(2020 BD12),Amor,,,2020 BD12,2024,"Pravec et al. (2024), CBET 5408","Pravec et al. (2024), CBET 5408",Small-Body
+Small-Body Moon,(2021 CJ16),Amor,,,2021 CJ16,2024,"Pravec et al. (2024), CBET 5412","Pravec et al. (2024), CBET 5412",Small-Body
+Small-Body Moon,(2021 DM15),TransNeptunian Object,,,2021 DM15,2021,"Trujillo et al. (2021), CBET 5086","Trujillo et al. (2021), CBET 5086",Small-Body
+Small-Body Moon,(2021 DN15),TransNeptunian Object,,,2021 DN15,2021,"Sheppard et al. (2021), CBET 5084","Sheppard et al. (2021), CBET 5084",Small-Body
+Small-Body Moon,(2021 DS15),TransNeptunian Object,,,2021 DS15,2021,"Tholen et al. (2021), CBET 5085","Tholen et al. (2021), CBET 5085",Small-Body
+Small-Body Moon,(2023 QE6),Amor,,,2023 QE6,2023,"Pravec et al. (2023), CBET 5314","Pravec et al. (2023), CBET 5314",Small-Body
