@@ -1,0 +1,3694 @@
+{
+  "policy": {
+    "version": "2026-10-19-source-ledger-v1",
+    "metric": "Selected catalogue position entries with documented overlap exclusions; not certified unique observations or exposures.",
+    "full_exclusions": {
+      "nm0090": "non_satellite: Neptune planet positions; mnepomai note *2 and nm0090 Format",
+      "sm0034": "known_overlap: composite of retained sm0035 and sm0036; msapomai comment 1",
+      "um0124": "known_overlap: earlier reduction replaced by retained um0138 Gaia EDR3 reanalysis; um0138 comment 1",
+      "um0125": "known_overlap: earlier reduction replaced by retained um0138 Gaia EDR3 reanalysis; um0138 comment 1",
+      "nm1019": "known_overlap: all 112 positions also in retained newer nm1032; nm1032 Comments"
+    },
+    "exact_epoch_replacements": [
+      {
+        "old": "nm0015",
+        "new": "nm0088",
+        "schema": "ymd_station",
+        "station": "337",
+        "evidence": "mnepomai note *1; remove only exactly matching UTC epochs at this satellite/site"
+      },
+      {
+        "old": "nm0085",
+        "new": "nm0088",
+        "schema": "ymd_station",
+        "station": "337",
+        "evidence": "mnepomai note *1; unmatched old epochs retained"
+      },
+      {
+        "old": "sm0053",
+        "new": "sm0054",
+        "schema": "jd_satellite",
+        "station": "999",
+        "evidence": "msapomai comment 4; exact UTC JD/satellite/site correspondence only"
+      }
+    ],
+    "unresolved_overlap_families": [
+      "sm0006/sm0008/sm0035 with sm0037: reprocessed Nikolaev positions; frame/epoch correspondence needs review",
+      "sm0074/sm0079 with sm0009/sm0031/sm0032/sm0057: partial re-reductions; no blanket subtraction",
+      "sm0073 with sm0068: partial Cassini overlap, both isolated from ground maps",
+      "um0001/um0002/um0003 with modified um0007 and Camargo catalogues: changed membership requires record correspondence",
+      "um0128 with um0085/um0086/um0102/um0103: partial reprocessing and absolute/relative measurement differences",
+      "Gaia releases and PHESAT target/reference counts retain source-specific versions and measurement units",
+      "sm0053/sm0054: index reports 44 shared positions; only exact UTC JD/target matches are removed; other correspondences remain unverified.",
+      "sm0084 with sm0010/sm0012/sm0013/sm0014/sm0016/sm0017/sm0025/sm0027/sm0058/sm0064/sm0075: explicitly partial Gaia re-reduction; old unique rows must not be discarded."
+    ],
+    "team_sources": {
+      "jo0072": "Yan et al. 2019",
+      "jo0073": "Yan et al. 2020",
+      "jo0080": "Yan et al. 2026; Icarus 457, 117162; doi:10.1016/j.icarus.2026.117162",
+      "sm0071": "Yan et al. 2016; MNRAS 457, 2900",
+      "sm0086": "Yan et al. 2023; Icarus 395, 115478",
+      "so0027": "Qiao et al. 2006",
+      "so0039": "Qiao et al. 2011",
+      "so0055": "Yan et al. 2025; Icarus 430, 116457",
+      "um0088": "Qiao et al. 2013",
+      "um0129": "Yan et al. 2016",
+      "um0135": "Zhang et al. 2022",
+      "supplement_zhang2024": "Zhang et al. 2024; ApJS 273:25; doi:10.3847/1538-4365/ad53c4; aggregate only, no local raw file or confirmed IMCCE ID",
+      "nm0015": "Qiao et al. 2007",
+      "nm0019": "Qiao et al. 2014",
+      "nm0082": "Yu et al. 2019",
+      "nm0084": "Yan et al. 2021",
+      "nm0085": "Zhang et al. 2021",
+      "nm0086": "Zhang et al. 2022",
+      "nm0088": "Yan et al. 2020; catalogue 1006 versus paper 1007 remains unresolved",
+      "nm0091": "Yan et al. 2025; Icarus 437, 116625; doi:10.1016/j.icarus.2025.116625",
+      "nm1019": "Qiao et al. 2008",
+      "nm1025": "Yu et al. 2018",
+      "nm1032": "Yu et al. 2019"
+    },
+    "explicit_non_team_sources": {
+      "jo0078": "Independent Shang/Peng group; include globally, exclude from team numerator"
+    }
+  },
+  "source_count": 447,
+  "input_hashes": [
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0001.html",
+      "sha256": "c200a93787716f000a4bfec0f8d698633dc2713e9ee50878ec96d802940ab2cc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0001.txt",
+      "sha256": "d292cdc244d106257ab036671c06e91e8bcae7b60c19124ccb82134e0a586991"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0002.html",
+      "sha256": "059ba2971e51f3a6da5bbba41353d0cf9cd7129864a73cdddba6a1ada66c09f1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0002.txt",
+      "sha256": "f678ea86e5c197251d70b39a2daa43a8dab5562055af19ec22876d112cabf45a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0003.html",
+      "sha256": "7332270de1b418ea17cba6654c9c9c42b417c7f0ed94144f9e9ff605fe6ed762"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0003.txt",
+      "sha256": "b2de2b7778992b66ba6c5792d6881cf6c93dc66aa976288c91123d8113c256fb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0004.html",
+      "sha256": "259e4d5cae81c24d51f2e9bd9ecde419e5e4747bf73534e38192ec4392b870d8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0004.txt",
+      "sha256": "fc37eb6dc82dd9d61692852875d1c7996b363838c12d12bcee7a500dc4a0a6bf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0005.html",
+      "sha256": "d0b9ec03a1939123858d87e954cddcc73ae9ffd0e0d59d1b16caf80a02985c02"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0005.txt",
+      "sha256": "3f91c5ed4dae76dba6338efc65d20abffea54e141dd0b0c587b0edc0983f6cb6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0006.html",
+      "sha256": "1c00e6c28077f0cc2dcea955515c6dc7dbc96f2edcd98d9d5822103ea597a776"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0006.txt",
+      "sha256": "359dca64c5d4411410eea25cd4b5da086ab353686830eb234e87ab9fae7a3649"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0007.html",
+      "sha256": "5e522734424444ba13c62f74295f96f805b5cd771212c7db02b249f434265041"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0007.txt",
+      "sha256": "b815f2311f49ca67c2d331d0618fb0bbe21b1dea5e5ef3de5d93b2b5c2edcc0a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0008.html",
+      "sha256": "bf11871b4dddd699647fa3354f3574c54e45291d4dc92cabde2f83f26ef260ce"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0008.txt",
+      "sha256": "7786e8c60c3ee0f1db1f0efde84b9245d93d3e7c7f72f0f071beef76ed60ae31"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0010.html",
+      "sha256": "0cba2b11bef0683561e23e8f8c7eea337d906f369632189f54d0d6abbbe9bebf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0010.txt",
+      "sha256": "dd6b6b29f0f50fc0a6be6f10814b2fa51cfdd0ae30c35644b4d9016d2567c609"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0011.html",
+      "sha256": "584a91da3e20bcef27c426e9a203897a9b85d04e174e38c25e3ffab3623312a3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0011.txt",
+      "sha256": "b4148a616b59bf836079b4134af3b7170e5cf9fc73d3574abf1f55aea82e6757"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0012.html",
+      "sha256": "e68988f9c9a2184c1a940eeb258f8b547d6dfda86ef721dee2269a29e386e6d8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0012.txt",
+      "sha256": "0b9ba33b53d571d30ab65660fc9bdba12e70c140dab4be1e675ac279030f8189"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0013.html",
+      "sha256": "6a051bdcd7e2a59d67c7d4872194867ae6a9b09418b9c28e8acb15b2ffb84d3a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0013.txt",
+      "sha256": "0ca86119a9a495605a162db406f36bef6f1cb83b92eff19d790ecbfd5ae746ba"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0014.html",
+      "sha256": "46502730e4eacb2c5caff2c0ee78ddbe0f330a9324b55d2ac9347b247fb6213e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0014.txt",
+      "sha256": "64cfab10cff22073d9dbd01482b5d2846688a708094fa4313ff555d2a0dc877b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0015.html",
+      "sha256": "dde1d3304eb3f9686fea5bbba93672539891578c75618ec5d07e3edc6748a2e5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0015.txt",
+      "sha256": "4974dad1ca0a5f90c2ad6f655cadb5e647bb6633a03be61f3f6c519cec33645c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0016.html",
+      "sha256": "d38f52dad592d74cccde71b4e6a3bf2e2c674dfd040a233abc1ed062d414a124"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0016.txt",
+      "sha256": "1c357711aafef077348d529045ccc9ea72583aadc23b82cc84ab768d7af72bdd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0017.html",
+      "sha256": "7e45228de3c40c184ec1dbfc1e8051a340f85f8bbb1b16d6b4bea8a7549d5da4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0017.txt",
+      "sha256": "b666ba5e1db32d9cd8b81614b4a2ffada0048bdcc7648c358916adccc684be12"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0018.html",
+      "sha256": "17e15c15d454cb935d2a9c3c0f0bf14740e083e74d05bd205961202cb18b7a15"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0018.txt",
+      "sha256": "0dc68fec5c67a38216176cb03e4b8dce91d8b9f96d2d818315b7553467420167"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0019.html",
+      "sha256": "8a2463fc3958882e87e6b96707c9564699c1b5b04e1c2b1260e7bcd805659545"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0019.txt",
+      "sha256": "f1c5d1cec59ff5cf351ec957f536e716b3d99112763c90147a39f6e9acbbbef0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0020.html",
+      "sha256": "e1d12319ee58e3a03166ebc8d2ae9e506d2463e73c63ed17a35b18f5d5dff8b6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0020.txt",
+      "sha256": "489626402fe642ba0d3a4775d202f25a67bb99ac8cc37eb02db444c41108eb9a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0021.html",
+      "sha256": "8ce09745903a36723d110b0c1017bcdf9cce86ddae152d5c474e394f9a67b686"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0021.txt",
+      "sha256": "9a456ade452cc803f06a2ea729b0a3f784e7b0acaef9f6125867775645aecb9d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0022.html",
+      "sha256": "e9fe2f90fa60e3453878661411ae47db730bee98db85365a773c268e27446e54"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0022.txt",
+      "sha256": "e2f73f345fbc219e936b2f48f6c140dcb20866d84d392f2d2d805afab4036837"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0023.html",
+      "sha256": "2ffaac929b3ec2e1798034e4557ca6cc876e538d2101353498ddd8c52a6de674"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0023.txt",
+      "sha256": "0170d84a98f17583c4374ee2be92deed8d892fcf39a2b2f035e121a01e8406eb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0024.html",
+      "sha256": "c9ffa1ebbd5a1b0ebb2954a7f6940743b9a9988c6d250b7b5b679b356cdc7d7a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0024.txt",
+      "sha256": "225014e3344dc58a72e9a1d4316fa94d595e96d87804a236599887b552dda315"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0025.html",
+      "sha256": "b5cc58bf7d3fa3b18a9734e9c429991c2a06c51adcaa36848dd853b3856fe1f6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0025.txt",
+      "sha256": "6648c6d7d5204d2a286303bfb9ce68de800e5a08d81d35e98193d45e881c588a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0026.html",
+      "sha256": "bcfa0225538889fb4bdb5f692441585072a8cbe1458c27364c51f0a8c8e510f7"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0026.txt",
+      "sha256": "968b48154ba790fcc592f973f63c57f2597ea799b2a3026d2e464aa2f42e1583"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0027.html",
+      "sha256": "a0081a84ca02144c510bbe677965677663acc8fb660d86ac76e3081dd8701e6a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0027.txt",
+      "sha256": "be3c360bd4280676c7c25d1711acec065eaa9808675147518bd83e40378710b6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0028.html",
+      "sha256": "bdc99cf4d2e7410f8d3f9e70a4e672aa11c6c61c6c3f0f4f598f75d3e014c4d9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0028.txt",
+      "sha256": "6d49db18d289e0df67a7b128163dd3a348e9cfd504843e0c0518f98a8291c435"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0029.html",
+      "sha256": "f1e425b94f61d6e9702405dfedf2f15d04407f37c2c87894c7a7b5290e8b22a6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0029.txt",
+      "sha256": "c92074df1d9fba17afe6ccbed50d3f62c17161f90def044743446579c57cfe4f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0030.html",
+      "sha256": "04786603101f0b6890a9e35e3e1d304a62c354111c73f170fd078471eb02bc05"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0030.txt",
+      "sha256": "4e29896c573430d86fc4cc7fe6f501dfa59da4d05f33e2012b6b3a30f05e2aaf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0031.html",
+      "sha256": "864b549feb428379340962caa8f598538230a18f9e07b2d7023c82d7baa8bb66"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0031.txt",
+      "sha256": "2908f9222dd36998c97383b25d2ac91ef4ba3ca6c04c70edf8808f1a43f33f41"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0032.html",
+      "sha256": "cd14c68bc383020d1c0c03e6c771ea5b75d706aa9d4bacbb8412c2510c054fed"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0032.txt",
+      "sha256": "6dbbdbd25cbae4c92387262b33a5eaf59c974d160e9d411c5eefe34389041ad8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0033.html",
+      "sha256": "5b848da7491fc9a9578de927e173db2c1a2af6adce429d0ccaf678fc3a879843"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0033.txt",
+      "sha256": "bb2562ca3388bc3bc55d231a6980c55615a00e79c6511c38f8e0766573d22647"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0035.html",
+      "sha256": "5134dcde992eb607a1beb659463192ea8c218cd1bbb9a77c913368f6f70bc5fb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0035.txt",
+      "sha256": "367cf5c54ddf037876386616a3c054a9c73f43d255b17f04aa26018a83d3dbb8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0036.html",
+      "sha256": "2c784f1b4476d95518c43499aa39ec4f86f774045f97570c2a25942870e95dc0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0036.txt",
+      "sha256": "bb3dc30a1132371196aad18847b69800790c24752e3997f9e6a2778acf4830d1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0037.html",
+      "sha256": "d8015addbec091a27380edaeffbc9e6d366eae9eae753904368405af2aa191a9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0037.txt",
+      "sha256": "d47682920e2dcc738be36f0638a60a084465efe4954148801334911e5218aefa"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0038.html",
+      "sha256": "7a2189dc9045cc5f1d1802d451ff8ea57a7f4dda3e4ba7a328d35eaced0c0963"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0038.txt",
+      "sha256": "09e9580596ba99f1a86cc94c26a26a133ae05ac0eee653707d42807700600937"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0039.html",
+      "sha256": "38d0823c1ef44cf4f521e8b8801e801e1f93db1c30916de3ca3a3be688907f13"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0039.txt",
+      "sha256": "9da84ddf5ec76f3c6d2c2057b72516c390dad5f0b4fd1218eac342b4d479e7eb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0041.html",
+      "sha256": "3062d7fcee03edea10c86022439e2f6fcc7ecfcd9d80d9459fac04792585e212"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0041.txt",
+      "sha256": "fa4c96ca608e49f0dd900dcbb78d44bab2fa26cedde86b46ca774918c0e74ed6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0042.html",
+      "sha256": "a4dac0aafd0c24f65fff6920aadfbc3f3da75b026cc1d179d75f9d0490e68a45"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0042.txt",
+      "sha256": "f14ad453d98e2e3560f99b8486ee04708f2a3c99127cf2183831f4631ad18684"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0044.html",
+      "sha256": "e85307a9090b05f2e2cedd591ed1750f52dd8b37590f9743c357a4889ede823c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0044.txt",
+      "sha256": "9d3070fe83f91d628c24d03d988ba1dc1cab908ce4c0a799416af60dde4d0a24"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0045.html",
+      "sha256": "4f2aba3af1e02bda8ee71c891b7d8f85f07e9e42db5b1a7ffa75c9e19f8e4baf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0045.txt",
+      "sha256": "5fe10aee727d36da41aa5e9939ed490e68747fb363e6c9b2153379a49c85f975"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0046.html",
+      "sha256": "7dde25a3abb535ae8b037a900741a5f7d1c1855cb4aea97b1b9c252cc6412219"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0046.txt",
+      "sha256": "696c01ad3c955123c0dd347556cee28022042a13ded692565db218c5d54e9e75"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0047.html",
+      "sha256": "9a9039ebf060d0674ee1a7a7b431c8d0b83739b41e2dc7fb13448b536ae53829"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0047.txt",
+      "sha256": "7180a754b16d04cae4a047049715bca9479e9b26ec6ccbb9161017f9f474e372"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0048.html",
+      "sha256": "3322ad70b10eb86c502f4fddde23fd3850b8cdcdbd0a239e022fcc2630be2611"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0048.txt",
+      "sha256": "1c59bec37df035989d7db8f21b731f1fe7a97fdb92001ef303aa326d7dab0985"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0049.html",
+      "sha256": "a815aa1f192b166dd33ff365b0abd8e2df2081e95ef583b2293c76cca77de165"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0049.txt",
+      "sha256": "4b6095df9650925c6d19713631ec25efdd411d945bfb70035123fdc42d8783c8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0050.html",
+      "sha256": "33acd2546b28e20f74363cd67b1a10aa89a760a5f5487e484c03f001ac7e1bfc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0050.txt",
+      "sha256": "c4655b1b0e4efeb06c4293dd080e205efaabf97bc5e1ec948c7235751f833a90"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0051.html",
+      "sha256": "0eb1506394c35a98d50a11a457092d1343f9ba53e4f534abb9b88be9cc7ecad8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0051.txt",
+      "sha256": "279aff61c82b51d134a8752d3ce3c8b836e3ffdabc785dc1ef9ba9591abf4818"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0052.html",
+      "sha256": "8c3c4dc63e240859792c281613aba7377a73ded0e8237eedd6a7eddd3ca09f96"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0052.txt",
+      "sha256": "54e7273ea96dfb1e21c27d3c68d0ad488fff6dcf486dc2d9ad84806c25e51c25"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0053.html",
+      "sha256": "15af94d97fdd448cf9bc82cc64fe59d88583c2a864d7d9ffa4ef644f6075bb92"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0053.txt",
+      "sha256": "a3f0a4789983c8b39204d2087c4e9326caf2f5229b2cd7f33a2837969ae07254"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0054.html",
+      "sha256": "e9b755e7dd2c05d911cf3ebffc8b88f3ade285974a1fbc7cb0db6530ba8a58e0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0054.txt",
+      "sha256": "f7838d52b356cfc836e6d8cc5a2cbb31d8b9006c42d7b0ce0d39e8785a46d9df"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0055.html",
+      "sha256": "2f107a7e4b3600c0b0665e2de77837931955de2ff7c290df2c542ec62330a470"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0055.txt",
+      "sha256": "8d519c85c05316414b4b8b43edf3efa2aab7979b7d21dddc980d7202017a01d5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0056.html",
+      "sha256": "1bdd706bd45a55384fc6f89cdbfdef2a834556881db1ef049dfd5dc9ccfbd4ab"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0056.txt",
+      "sha256": "e18923a1d27f6800530e73b81bf349d3c5851167170cdb0ad8fa46a521da7982"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0057.html",
+      "sha256": "e43bf8667a55343f59196775d96a6472f1153de2a4b01498a414e0e398be5104"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0057.txt",
+      "sha256": "f204d29c0c2cf29d6806411803079866dfbbb11969ab074a0d3c62c50e61143f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0058.html",
+      "sha256": "3c6a328f8d6f69296899aa9711ca08a81f2005af8a5588d970619f01fded79f7"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0058.txt",
+      "sha256": "867e10c232e67a270f00aac5fa5d7d9d85b556007eb733fb8405d3c4a4f723df"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0059.html",
+      "sha256": "0478ef9529863aaba533cc06c4fceeb4abca49dc5e7add4b834bae19ec3513a9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0059.txt",
+      "sha256": "547421a89d0b1769266a283be85424016766cf42b99fd60780e096e7a87c1a8d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0060.html",
+      "sha256": "43ba81141dc68cb3407d9fc7cf87dba7dff594b7c36e374f58a20920fbae2648"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0060.txt",
+      "sha256": "186050cb600c8e149b464bf90e42f422af4f2749d85f51107c7ace3bfae0307c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0061.html",
+      "sha256": "0b02a1f2309887a5b0b5e002c75202aa9c832c40813dac280d332ad0642db0a2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0061.txt",
+      "sha256": "aae2281cb78b06b2531d7802a9b92ff52ac60dd91ef3278257732c45190ce2d0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0062.html",
+      "sha256": "b1b3a2fa87d60a9ffc13f9df0cb402c34b091af4602355880ed18a505ba74f12"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0062.txt",
+      "sha256": "9b198388af28884819a957b61a8bf98958df379c43d3aa608cc78d7041e9198a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0063.html",
+      "sha256": "d597135cf6d9fc58b052c0fb40800d9f0c7c7d88d0d59322ee828476c0bbeca3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0063.txt",
+      "sha256": "a6db7817da72528ba528dcb61adb87333be4466114d022420bf3b6e09ae30ed8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0064.html",
+      "sha256": "833379bd6976f768779bc29d8a10ea6993dac1ace01c5884ea0ce9c39d901281"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0064.txt",
+      "sha256": "84674f709ed599104a92b812f75f968bca5906e887a8371a7940bbee139252eb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0065.html",
+      "sha256": "450e204d1233d17ae9510387b0b95487b3b83dbca478e604c03a81fe79e691ec"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0065.txt",
+      "sha256": "eb90db67ed5b65264a876152bb4b9333fdb73a75532e91dc126875888759690f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0066.html",
+      "sha256": "1c490f2ed0dae7026d6ba2fcb6bb2f87eb6b5e5426ec34c0d0aa2860e6b1a995"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0066.txt",
+      "sha256": "5798e7bceb27509e15ba52b117fd81de3e2b9f7a63ae2d76edda8cfeadd50b7d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0067.html",
+      "sha256": "cdad748265018dced5b2933fb1451d1f2402f925035bfbe13ae6d068548285b3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0067.txt",
+      "sha256": "fb567b79310d711d722799e13a53efb9931ef5dda0855c8a238f7f569c1e0d5b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0068.html",
+      "sha256": "3d7c9fb9ad0d8b64533c1a7dc7c9063c77894efb211679b84eda34f71db990c5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0068.txt",
+      "sha256": "aca54f65b46447c7897321b156c39820b3c576a85f1b79ef225b08e940ecb5d4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0069.html",
+      "sha256": "c9085c7a7091446b6b9461e3bccee7e289a4a70bc2b4788e928d8386315eadaf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0069.txt",
+      "sha256": "2ce15991eea8c905cd7767c4eb779a471a8127ceb93037141005e516a7476e29"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0070.html",
+      "sha256": "0401be5226b1408cee144d5ec9c0a96d2225bac4c3b2a9ca7d5d70d44a34493b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0070.txt",
+      "sha256": "26599548c7ff8e31d6efe01d9cf56f961d889268a24669bf1a446dd339928fe8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0071.html",
+      "sha256": "3d127ec229aefe2960065bb5ab6406ae9fd0f9dd514ce90028f6ae6879a8ea0d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0071.txt",
+      "sha256": "bcace0b1bcb23e3777d1f62196e7b25f4e73ebeb057fb7b953b80cda705a1785"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0072.html",
+      "sha256": "86b2db618c6e6d4a2ed45df7d039bf903541061d0bdb04704d809f0934bd1783"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0072.txt",
+      "sha256": "978e32232cb070f27a33c0adf126b6db0cc711625aeb98f0afed149a8d6dac75"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0073.html",
+      "sha256": "086b7ca5bf027135006dbf235abb28b8679de26d11e4e61508cc41ed44eb77df"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0073.txt",
+      "sha256": "5e5705b0e2e9b81ab7227d199b574e53ecc01d4d1c1e1cddbfd78b712fb9b229"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0074.html",
+      "sha256": "e2cd994182261d0b207123c716ba61082804f5bca2629d0b5bc4d195ece91ec1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0074.txt",
+      "sha256": "5f13a74fac793cd067a919df2ec859e3f886579c092da0ae0d99ac58498986fd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0075.html",
+      "sha256": "55f7a9dc8dbc3394c2fcc7245f8cde301351af943895c8e17dd80ead355efbe6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0075.txt",
+      "sha256": "ba0e40ac1cd17424ceb80233582f165613d23d331bc6b7519fcd2add97a80122"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0076.html",
+      "sha256": "0c14e2b9cf843502911b1d61465e3b38915b86ef5b884f6ce8da2a6c4dec81c8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0076.txt",
+      "sha256": "968f477f27cd04075b41a3dc48e54c1705b2a56d513f4ca50f4410b9ea18a26d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0077.html",
+      "sha256": "027c426b1a260eed2d10f064590f6c038b0a17a7f50c4245f867cb6671c5d731"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0077.txt",
+      "sha256": "f646de65dcb21e207814f5da4ec656e83a2bede936c1f9f0bffd621bae32455c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0078.html",
+      "sha256": "388921994de80da2d8e1fdeee03515964eb31ffc70233ae43ffdb85b0682a176"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0078.txt",
+      "sha256": "f690d012ccb6d9741a080808edbff368bfb9a1d7fc6d58a193ebd0ebf228ce8d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0079.html",
+      "sha256": "a337d5f5563a6dfedd7b7dd9993b33fe7989d82d797a57bc3cf743684b10ab2d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0079.txt",
+      "sha256": "dfab705be36288133833c1e91c01ffda049989684e2ab513c0ba65d69da5c8b5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\J\\jo0080.html",
+      "sha256": "891282a82bbdda757b7b14837ac7ec40e852e8a7a582fec7f28b7d3d3f227191"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0001.html",
+      "sha256": "349043dbc4a731d4dbd9e8c024b901264221b49a6a924294b4308f375ad936d2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0001.txt",
+      "sha256": "896aff048fc412b481c683656961b41cb4cefc2198e23ec26af7f5e83c71179a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0002.html",
+      "sha256": "5c14378ff9a28f03112f4f63457a443141562a19914489a8fa1e82b474b5b331"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0002.txt",
+      "sha256": "e3815472f60f5a896d26eee2d11bbda2335de39a63bf7f72e27017e1ef17c56f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0003.html",
+      "sha256": "d2314637e6a5ebfd1e4775e14a19070795aaf6ad6bc69b0425443062e81c0912"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0003.txt",
+      "sha256": "4bf6c836323af4e272dc899fdfd065f49a694dc8d21ed2debfc64444066690ff"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0004.html",
+      "sha256": "da28d602b0110c05b3c929fc68b859d408dfaa3d35a498b74d8a86a355ab705d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0004.txt",
+      "sha256": "1ee9f95fb6830717ad58784cb61e7bb327b2a9383cbc6d91f889993b12e7ceba"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0005.html",
+      "sha256": "d2b64004e723234e5d3ada9d3baf5c006dedc6e6e19c51e2ff1acbe3eb77616f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0005.txt",
+      "sha256": "fc9eb729fa1a631b9fbbdd5f1fae1c0a412756b62e2ed1a4ebeeafe5b84273d9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0006.html",
+      "sha256": "2a1746f6cb667c3bec8d046f256ac7501f50499051a681045f3a0c5e6909d6ea"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0006.txt",
+      "sha256": "31c958f82f83510c11fd8c06432ab6510a61d8e23a5c354610952c06b7ad96dd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0007.html",
+      "sha256": "8aa8fe6bee5e100442f7464b7bce26b0f9274b850d15a1e255fcec5e25d22a0c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0007.txt",
+      "sha256": "37cf3b2c0af0b39f3e33a5fd22876de04799c69b8f3f1c0fe9e7bb92e14ff45e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0008.html",
+      "sha256": "44dcdbe2a81d66808935cbc7a20151eeabdd36667fae9ce2e16503709dd242d9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0008.txt",
+      "sha256": "d346ba2cb7350e247368aab510bfa53b891a6cf6efd474b320d039d940002c1b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0009.html",
+      "sha256": "5c2a53c8da69ec9204a7195cca15b85f6918a126bbb8974ecf70a8981d0d3801"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0009.txt",
+      "sha256": "dc0946a5a59f0ea7b0d32896118c51cea3ffed34c8b1c5b2d201de9fad791660"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0010.html",
+      "sha256": "87fb84a6e0d70d489859d70945b6459b82e02ba03ee11554aa8835808e6f5508"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0010.txt",
+      "sha256": "b22c3fe802a4640d2036219e4cf0c3b55f43b9efa08f5bf784274784c0a0113b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0011.html",
+      "sha256": "6b8b946bb7a5d0429831a185286bc3c1862b15213ceee0da7ee2c99bf0163abd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0011.txt",
+      "sha256": "f1fd0240226f942b1bd990b0a1c1cead4f740aa0ce9cbb6b9aa6cff0cd74981d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0013.html",
+      "sha256": "2836f398e89e1f91741f58ab30fb4f45fded9fa6259cf21b02c9350cd97c09d4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0013.txt",
+      "sha256": "d5088337c0fda77cfaa6e55be95f88b427168cf84e290577c0003368f2834c2c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0015.html",
+      "sha256": "55ce0e059369bc350d86037bb2bfa80fbc263acb1754fd383b1b73ceaf80ff76"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0015.txt",
+      "sha256": "743fe051cda670ebd50333ceba5679261e4988ec2c443ca25fd94bbc3607b906"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0016.html",
+      "sha256": "a6e23b71f5c12b475c4efc08b759cdbf5801a9f3830d6ce206cfedeeecda6f3a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0016.txt",
+      "sha256": "85e7fffcc15e5b34e0cc213eb6548ee5d3e9c6ffca9dfd679afba509ee71ea53"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0017.html",
+      "sha256": "058af06b66cb52578a8a56ff22c888cee614213187bfad28f875707eea1ff36b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0017.txt",
+      "sha256": "c47cb60a1c57e83eac36a14d75f24c57a69800f0318942277f71f71523f74232"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0018.html",
+      "sha256": "7b8a8827d7ce2691c81b332a1d65ee587bce539b2b03c67a0311a2cda28fa35f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0018.txt",
+      "sha256": "ffe0f3f3011c55784df07f3f1f1d025de87ac190e6b4499f2177926f0ef03033"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0019.html",
+      "sha256": "dbadb93a7b87521f9369e18970d91ad27cccef663fc421d9c2f3cd3c2d4706ab"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0019.txt",
+      "sha256": "d0067f50a6d39d07501b847ba87649f1ee8c604d035d53e7c477f64e23f35bb0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0020.html",
+      "sha256": "d52293103a11e39282a65f6c9c821a80515e09f94661797c7526b443f0c1dddd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0020.txt",
+      "sha256": "2ebef64fb92dc160593ff5d94587dd17b855b11c8112bb2908ddfe652b021a18"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0021.html",
+      "sha256": "85cc5454af6b5d21ba71883658857e3d78acc7f497dc9f794c4d6b63137432af"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0021.txt",
+      "sha256": "58a694a20cf8c5d2d59bce8165144861e53d919a8bbb9035f9826f1244540a9d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0022.html",
+      "sha256": "235f136d767440cae24c395cd6fdacb4eb503b7152fd10965403eb0f8e82451d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0022.txt",
+      "sha256": "1673da2523b7514bb106cc9c25a7bd36efc51aac5f465f8b16d3a94f3e187721"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0025.html",
+      "sha256": "88378489fe84d98de83b4ad6d90d315259afc5044517e0b425289d58ed736493"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0025.txt",
+      "sha256": "e183cab51beaae01f8b57c189dee497a4929cc6e0464d89ef3e25e37d15898f8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0026.html",
+      "sha256": "f1cf7319462b8c049a9a90032d081faabd8311d93e6f5e232647cbaf1642522f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0026.txt",
+      "sha256": "474d8da36bff8232e328ee1736770f1f74e77068402b1a21167783b620f66d0d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0027.html",
+      "sha256": "b9a0e0c760db427f7df73eaf8888ee3ef9049d2e72f505ff94732df93595037c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0027.txt",
+      "sha256": "f2274137fa2648064bba16c4f0cfa33f524d7cbd2dc5d293ddafa81304c8505a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0028.html",
+      "sha256": "95c34c50f09d659565751815d7cc80c92c3e68bd38cc793a24c2407beb7014e4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0028.txt",
+      "sha256": "f002a64954384d93bd0208b6d5603859582ce71e43c704f7d7542563650db643"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0029.html",
+      "sha256": "149af5a80c385c73cc1ab1f6276a915a7e5dd2bd3e86b3bfcaa83d2dbe63b25e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0029.txt",
+      "sha256": "868e2e0a5c3bb763151c15ae1c8e139c438e970e9221d9f2fd7bd9126449a550"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0030.html",
+      "sha256": "dee39dc9ebd4d143266b73296cc56ab4cd5f70bd5e84ca7350afd861fbeb0283"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0030.txt",
+      "sha256": "72bede319130762c4acc285770792461c232d5db6e75192a852acbefe7af0745"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0031.html",
+      "sha256": "9065ee2e17212ccf7b3fa56fb90f04ff5b1c0a4bba7997aeb746c3d73b278946"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0031.txt",
+      "sha256": "4d84e7f910b393f900db0e413e6fd4c694a77a0f45cd9d2acce32a3cca4e90bc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0032.html",
+      "sha256": "33e6af566affea9cf9ad1b4783bf8b5f3ff10f0195d4caa7be24e7934da187c8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0032.txt",
+      "sha256": "cbdf577d8dcc5d67e99972d025c978fe11160fa4024ada8ff93d1dbe6410a47c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0033.html",
+      "sha256": "c6e67d3645cd784386f2d12b61af064aafec9bb9fea3792efce57ee4ee4779ab"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0033.txt",
+      "sha256": "251d7c2533b24fcc377cc91fd7c066b6cb720e8ca71e877d49ee6442801125a0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0034.html",
+      "sha256": "e94be85f921d91a3f1c1172407608a58615d0b286e867f773428da6246a1e4b0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0034.txt",
+      "sha256": "f99fef8141ed7b1696ad58a6c7d1ee12ee06c06b8c5de1a102167244ba98caa9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0035.html",
+      "sha256": "344e332021b18b6f43b3e4c2c467b88ce4fe58d7586ad45fd25cd34fcba05f49"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0035.txt",
+      "sha256": "391100610953aef6400c26fdbc2930277016e16844968ba2a79f80dbe1d5f493"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0036.html",
+      "sha256": "47a90d4ff127586d6673d3b01bfd7dc02e785b39fe29cde1a0fd540c2f1fb462"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0036.txt",
+      "sha256": "021aa6830b7c924e72624f21431873a6de9302024746af4a7ef5ebb6339ee4d0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0037.html",
+      "sha256": "39fd04cffaa595cd07dcc5d3bde8a552e34f165c7e2bbbd5df44250577fc2ed5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0037.txt",
+      "sha256": "6f6fdd80da2febcceb1202186d5219618fbc4c3cd47a7a3378c0581ffb33d385"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0039.html",
+      "sha256": "ba174e8389d242fbaa9f2f4895ef1c9d970cee8bcdedcec14622e8693eb4c585"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0039.txt",
+      "sha256": "9a56aa3c39a1dbae18ae160109f64171d5b2077cbd4cb1274490deb404e00be5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0040.html",
+      "sha256": "e46ef07226b7be3d2a91ee3e49434648b3d5108e69f0266d9c215b5a02b8ffba"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0040.txt",
+      "sha256": "87b87f9812d31bc4b5db4936847e695b09ec16e9fef0b9c60ba77925210716a3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0041.html",
+      "sha256": "ba49a8a306e2389b0f4b143a2791ef2f14839c0f538b9297685bead8839c2909"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0041.txt",
+      "sha256": "c2d39ffea3d5a413a8430c0f4209833db7a93c38b309ccd6d3d4bd9aceffdefe"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0042.html",
+      "sha256": "13383bec4d60963cefed545e89f153bd9c239fc6231662e5867c461dbfb9e3c2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0042.txt",
+      "sha256": "a0f057066aca1c25d7f7f5484b38c79f34ec41a044ad2614ea312f33027d6e2e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0043.html",
+      "sha256": "513de3930af4afee55ac6517b944d192f75d29ce0fa1515c744f8f737bcf3f14"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0043.txt",
+      "sha256": "b835807b97a3bdf9eead0d1fd5bd5321abf4c95980d3df5a877468c870719e5a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0044.html",
+      "sha256": "c87759416ea2f16a9a8cbedf8ee674f209b57a6e1a9ed1a30606c9ee299c853c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0044.txt",
+      "sha256": "ed722910a0e111b2addb7f891708fe207d46e37293ad191f679e79fb2e1cad15"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0045.html",
+      "sha256": "2b9dfde3d2da96f4191881a99ec9ef8c307d48209d792fdbbd196854c2834232"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0045.txt",
+      "sha256": "226518567f20949b8b5dd10989935226b8a691502126c534221cf55843ca8f94"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0046.html",
+      "sha256": "b7b43cb3154aee24d1d74a68a8d9a5986179d356dae7f048eb0b743188f0f84d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0046.txt",
+      "sha256": "c9ec35a4c25f1b98ac7f3788bb630db0dfae242f9a8f43e9a2b66524d3599c68"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0047.html",
+      "sha256": "e7a4c87b1b9aa2988cc919f51e2285b565c54267a564a4071387036dcc52b299"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0047.txt",
+      "sha256": "0bc28fdd3b1c71eb948ca7fb6639964e96c0932250e2b53175b37c4d122fe863"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0048.html",
+      "sha256": "11a985a033bd4bd535983bb3efe2c2b961d9941f94e50738d1f510befb7fed12"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0048.txt",
+      "sha256": "22f9cd8d4ef1d472f13e67f40fc650b702334ff331213581464796993b6b08cc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0050.html",
+      "sha256": "5753b19fa3695b3ee0f8dcc76798abb839629a456a0a82cfd2f082440aa68942"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0050.txt",
+      "sha256": "db034e7d117a0fe45314e1adb4d0448064ac5860f0e40ff81f2a67e7adc2edda"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0051.html",
+      "sha256": "6b14ffd6655c69700ddd4070c604266bc74eb6df80f345458d4572de808e1ca0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0051.txt",
+      "sha256": "cfcc65a2f435ea2094cd22ce7b493a8d58480263d772c4924cba93c143edb2a0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0052.html",
+      "sha256": "f9eb0619568dfa499b8e551f4ce2678dcc2b5f64117b8c6d3072d15fe04f4b93"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0052.txt",
+      "sha256": "0a3435b3bdad9740e16e9cf02a5205bad23d562a6986e11ed60a6bd3b28021bf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0053.html",
+      "sha256": "8fbd94a66d27e3b0ac70684df28c12ed2f30c692044129b45353f9bcdbe6aa6a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0053.txt",
+      "sha256": "b966c6ef6aa14c112d2a34862b5f367837770eb6e01f64e5945328399c0eff82"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0054.html",
+      "sha256": "b003eb529716a6d3f58b4b34104c05ab61d44fff2925ff48e2ae7a68da12f42e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0054.txt",
+      "sha256": "c529e608ebbff50b04981fc775f1524162e5b9ee4ff481facae4f5f16548b77a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0055.html",
+      "sha256": "75ccc1794368dcf929303a794b06e7a95098acc0c9b6f487a800b821a0f20beb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0055.txt",
+      "sha256": "e5b90f2150a6347bb1b42412a3e650703b7c364c705998b8cc52c214e9be3867"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0056.html",
+      "sha256": "f96ef9bd5b9325f88aa076c539108d4b0d391f52e2b35489354bbc4e0b122309"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0056.txt",
+      "sha256": "6ea79ecc5bf673b10d3c203e35951f0c67f1fdf7f7de649927011064c3281bd2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0057.html",
+      "sha256": "6bce646f6fe1ef54ae47272aa31ae9fcab77c0e0d16937c4d8f6c74cc12dc78f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0057.txt",
+      "sha256": "a34e6446483440b45a437b5dc26490b5152e3f6d40be35f18ecd10b2364cc04c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0058.html",
+      "sha256": "8a463a903cf590ed25a95646ea594cc62d41dd176fe879f48fbb1e8bd7016542"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0058.txt",
+      "sha256": "aaffcbfaec8540e84eea644d782d36a7922e5a65e1000879b158973538166294"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0059.html",
+      "sha256": "e27f58c0dbd1c042bf7ff8a3feef2a7181901ef051863190a15d042b4c632f1b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0059.txt",
+      "sha256": "c2f6bc0aab7ec55ad4d05a2bbf4c9760b9738929b72646c2cd74c5fb8d0093b0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0060.html",
+      "sha256": "ddaf495da515eee567c691959f478abd56e1636c12c38e4d68402b6f83a02986"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0060.txt",
+      "sha256": "7c6ca04f42eb0f8b92028c8452274f23261104d4dc89d118bec039f974707a25"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0061.html",
+      "sha256": "950ad3b05154cb953081a99bc6551aa419b14a0f9de1df219097d79591536ca8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0061.txt",
+      "sha256": "09c38a62d39df9859a76aa87d6f2391d681d78c9c652047f81a39d6c8f25a5d6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0062.html",
+      "sha256": "e3a9596fe61f828073ef0b7a76a5238a4a53685e0299abba8464f42b047c2f00"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0062.txt",
+      "sha256": "7755df49f218e779b48599c6c5ad420e58f7f9c2d8f66a26f019ef0fd2a9ca5d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0063.html",
+      "sha256": "0be0836acfdcf98f5659e464703e2260e57ec9aa6aa2cd4071b23afa62ba8fdd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0063.txt",
+      "sha256": "d3b0544f1a88e6184f1f0f3928fbb956ccb8f9cdc7e1de723a8fa28f89d70a62"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0064.html",
+      "sha256": "75c8592e84d1c7fc729c87d5dfccae356f4bdf45b9e8d9a23ac5ed6aaf240db5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0064.txt",
+      "sha256": "77dfa5011d54e6031228448ba0dc59c89b78f92b90e277f87cb49354a3a26ab7"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0065.html",
+      "sha256": "0367c34c363700b4b36f3e7e9a89fcc312754720e8c1718333a0f580ba1392ee"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0065.txt",
+      "sha256": "463211ce027797fda8f41d0a62659ba623e5c15d480d74d1ecd0025153abc41a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0068.html",
+      "sha256": "f4a311e9875c3314506d2b4c885b88650c2c0f00b5ff7ff8610299f501f9099a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0068.txt",
+      "sha256": "1a207fd0c8eda088f32cd8ff570354da5c16f3bfbb594f162f62dfe291b699ad"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0069.html",
+      "sha256": "a7ef6b2610658a98686ab35d8e3d4e71fb111394bfe80e5bc6824bd9ebe5abbd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0069.txt",
+      "sha256": "17869d90e65243e8bcc18b45f1f8ae123cc1e1539b2ec2989e15aeb9a6bab282"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0070.html",
+      "sha256": "2350a589a2d9ea58b66fe9dd19a76aef22895f4096696c2eb8a5990a2b70bbdc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0070.txt",
+      "sha256": "45c135396c71a43085e63f00fdd6edde29de8653e56c8a0ce3cefd883c24dd71"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0071.html",
+      "sha256": "119b09cd77c672cde0d28c60a657e04502b2a3c66429ed7cea781a3002f1d3cd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0071.txt",
+      "sha256": "bad32588f5a6705dc94ae98739f18cfa18f717a23aa2e5185d92d4a8282ae77a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0072.html",
+      "sha256": "e396d9de04a72ab117676a52c2bc9e88295723cc968c3bdd3dc6c482940a0f73"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0072.txt",
+      "sha256": "a3e1320f5fd9f02731c1d66a11d30c823879fb8fd645596d868631f157cc5492"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0073.html",
+      "sha256": "8db82e2b19cb493f7739c90660f0bc2c4f6c9de11f9422be77365d196372b1e5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0073.txt",
+      "sha256": "e5ee1b5bcd97f5c6fbda2485dfd4aaa05bebfdcde7ff2fcd58dbf31ea77d4504"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0074.html",
+      "sha256": "ed20913794b957b508bad007879ae985decac576ce11993fb5462f577553e971"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0074.txt",
+      "sha256": "cc3818daa7b54faa908066e53b490e2be468cc9a5a3755f6d1530e79b6d3a98b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0075.html",
+      "sha256": "ce2c2b47598c423e2246fb93eee9d04967b51cd91f89389339ea73b5818e60b6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0075.txt",
+      "sha256": "5873b2f9c66474ed2d45e0d38d3c3fd4f75765a2d9e4e76d6110f1d3db9fd803"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0076.html",
+      "sha256": "cd43659e0cc7691bf63f0036ad43acf7f6d8262c06c9cf00ee284c118b0e0442"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0076.txt",
+      "sha256": "2d1c7d66e88456ca3061a4fc7e97df2646150b293dd9ec386ccbe327cdd72985"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0077.html",
+      "sha256": "63e1e82ea37a26083fb671bf73ee72221bb7ae7ef841707fda8c205350f5b87f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0077.txt",
+      "sha256": "9b2cae603e290393683cb494af32009c8930571c25d1fcbb7c5f49e3641726df"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0078.html",
+      "sha256": "7d2972780efc72dabd67984715cb433da4a675eab9fec52eb5c429a9907fdc01"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0078.txt",
+      "sha256": "3968f920f7d166490d92ff422db36c35fb3ffbca583f20bf654a732eec996d24"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0079.html",
+      "sha256": "2a987dda9d7d28a227ac80f51486b27be04a99c82d040d3827c6f2e30ce0a7eb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0079.txt",
+      "sha256": "287fda135c8e150e2d280ade49d4ecc4658dad8b38277d8df0045e08044ed76e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0080.html",
+      "sha256": "abcfeba21581eddd2bd41da776cb79b6db3cd18d747f6b965f43f679a79358dc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0080.txt",
+      "sha256": "7a18e7b532017fcbbab702b58290981b6ba01e14f011a8958cb77852c0bfaac3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0081.html",
+      "sha256": "afc1e96df91ba46b54bc640b7c7039a7dcc112fff339b5b593661f4fe322e5ed"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0081.txt",
+      "sha256": "a3ea86338956e2c97b9b18b0049873273478b274722bf7361bac6817c9e26036"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0082.html",
+      "sha256": "327d0302b4ac9084082ac649a26e9cfa28a0391b49d71b2b3583691c0736ffa0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0082.txt",
+      "sha256": "e4ddae9163081e1be1df6e579f74472b3a31e0a2aab0d63cf418a0e8beb9d4a3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0083.html",
+      "sha256": "f0f20e719e260cffa4bfe8c7cfc358ec54529079f7f93ac91da28c185c462bb7"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0083.txt",
+      "sha256": "2ddbc73332000982aa941825fca1fdb0f38978499804420e157ded5ca9d62eb6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0084.html",
+      "sha256": "36fae67ab95607beb6442ec4ee96918aaf4bfa621ddff76f21bee32f00df1bc7"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0084.txt",
+      "sha256": "9ebbe8ae5d323cfe2a168a9d0ff16f12f9dc234c1f3397e8c30766c956d63afa"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0085.html",
+      "sha256": "04816996f0437d47c6e4cfc53f8215e3f353abf715856fbeb35e98aec25075ec"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0085.txt",
+      "sha256": "ec2df554f5d05887aa306391aefd6f0f0ab84dc58b4a437cba451b9bfc82d8ac"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0086.html",
+      "sha256": "f440e30a403031ac7c6958918f0c367f98be95637859ebb655637df5e6c4d76b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0086.txt",
+      "sha256": "d333af28fd5561afd77dd5eea5398db51bb117f2e96bbbf49e23812ac3768749"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0087.html",
+      "sha256": "b794254f38e1904263cd701a5402273044edad8c14fed7a90d4f19cb77017aa3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0087.txt",
+      "sha256": "f2b7ebab5e3a9a91a608b08e22a11a4e29365df8aa0cbaf22bc5f6732286903a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0088.html",
+      "sha256": "af82a862279ab71019214d673c4053e87a58ad50a4da258b16d7579e78c9e54a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0088.txt",
+      "sha256": "aa99d64afda12ce92db91f56c05d3223d01f5ffe7cba0d30a22abec8882e904d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0089.html",
+      "sha256": "672e589124fcef945d7467ea9394801b1237a510ea608a345ccc6baa85cc95f5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0089.txt",
+      "sha256": "7ba26c9aa4cf0eb0847dd30da631eae8c63b0ff486ab8be9c2e762242a4241a8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0090.html",
+      "sha256": "520ca7ece7003db75b08a7aa7b8a89a819e84e3cdbf1789fe1ddd552deaa8352"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0090.txt",
+      "sha256": "c66696ed5c662ab0be6cb6d2c620484c27097b337cfa39865d21b4a5de4a4fef"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0091.html",
+      "sha256": "9e7a31771074b314207eec03c49f53c0804fe753b5aceb884ba75bd533dee7f0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm0091.txt",
+      "sha256": "71fd1169a3f43c3628320d1d5b4cc8c2c9e33e3fa135f77b62f9cb71e0240c85"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1001.html",
+      "sha256": "cf373b93017debe6fe0d80be8987e8b8febe6667f66f1e2c2bf7f6d41b51ea0a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1001.txt",
+      "sha256": "f987ba4d9bafaca9cd71e0bceb9061335cc421edf7c6b448f92577c7a7190402"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1002.html",
+      "sha256": "245d52e0e1ee996b325f784aa0cf2848b2628c8113e1d0651488c3f0a9aa8f25"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1002.txt",
+      "sha256": "8017280ed06ad0425558f92e3b5e6ecca48ab5229b8bb37548bc0209b6e8863f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1003.html",
+      "sha256": "d73032b0e71e9663e506f031128212df28661f6eeb923df1e8a0f3cb962d05b1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1003.txt",
+      "sha256": "5fcf6c43d8108a0c6ea7e19a8ebd122ca51491e6f827e2a370ce83e7c1cdcd63"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1004.html",
+      "sha256": "05326c56e2458333d97cd413f68f2943642bfb90bbe2deb74601df33b3d60f22"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1004.txt",
+      "sha256": "576681ae55466934514b1ec5c994932c1d84c514506ec46b16cbe6dab5d1b2a4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1005.html",
+      "sha256": "0d2f69a803582e2837359a709b204c4e163d4922c60aeb372e00abdb198b251d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1005.txt",
+      "sha256": "df13250415ed85ff1b294d1ecc6830fb338c14c49552c102e019853485d72e00"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1006.html",
+      "sha256": "465d1f0055e702284809570c782bc154797df03b0a8c20d2a7205abf8528e817"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1006.txt",
+      "sha256": "60c4a9e4865fc4bcec5b03aea13409241a1c16ca59b912cafedbd52f270e973f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1007.html",
+      "sha256": "931c4b4f5b9c7d1771244073f9fd7d239ebe8db6ade76b6bbe1b782b468845c3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1007.txt",
+      "sha256": "095a5fe7e5353906849b96e4cdd6591729456551c17cd4f177eb4e626531bdbf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1008.html",
+      "sha256": "ff7df77cbb3289c32902db13ad42fe0773f0043237051f540a138caf7a89ac5d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1008.txt",
+      "sha256": "cbe2709d184c946c14028c22c7bc526881a3fc94fe1c19ede49cf0a93f43ef55"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1009.html",
+      "sha256": "2588f1c11613f30745302b7ed321d3f2809d572eb704f161275928eb1ce2feaf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1009.txt",
+      "sha256": "24fcaaf5499ffbcc7d341598cc3283caedd33b5904257438d0672b1dc29e75fd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1010.html",
+      "sha256": "3fb8289cec3209d252423e07769c00ed319cb31e919853e7f8c84fc29e6ad084"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1010.txt",
+      "sha256": "6b46a6096cb9d25acdb57875d1e180c9539af7b494eaa67ffa78585f52941842"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1011.html",
+      "sha256": "ad9030e24c5596c23ebd749f85cd1780202c576f04050f67e8e15a209ec83fb4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1011.txt",
+      "sha256": "1ba047d90877e711dde9fa2821e0e70b4a283b24eb499a90d17ccd5660bd3281"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1012.html",
+      "sha256": "b53c5aea9e50100d5e11099ca9bd867c66073747c374566a664e021b4ca089b0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1012.txt",
+      "sha256": "f4953181709fa9fcb9e90e108856c01ad2917021e5f7e0d1006e5987fc0989cb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1014.html",
+      "sha256": "2d36357e2f01e096e969f39397f6811608642cbb1610bfdcdcb2ee585c32013a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1014.txt",
+      "sha256": "be671f5e361bc968d47742c15d4cd1dc2c05341f28e1bafd74fa3c4e94b0d61e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1015.html",
+      "sha256": "f6ee85adfe1348fa788d7b45eeec4800a0c4a76547440255463c0fc46dcc1e0e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1015.txt",
+      "sha256": "cd1082bf322c4fab66a53355de90644c180798c71e734092097fc7ffd4828c05"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1016.html",
+      "sha256": "c7e309201891ca71fc3c99d81f80ad203756d310fcf207bd719da73de6b076b4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1016.txt",
+      "sha256": "351f429778b592145c59daf5e380352a95816cad4709180763b907d367e0618a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1017.html",
+      "sha256": "c7fb1ba8b02f5f9337961f1acfdbf5a6bbde12e49615c2adbda3a788c844523f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1017.txt",
+      "sha256": "b4e1214560446aff0fc9fc71d08936a5937045e86eb6211b71e88a0855774904"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1018.html",
+      "sha256": "b6b3af85780f54bbc89d46fbc3ab6a73f7428f05019579fd8f4ba57703a22dd6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1018.txt",
+      "sha256": "62da32ab99ac712105d8cf0bed3cfa73c768caa078afe45c2d06d8b513b6198c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1019.html",
+      "sha256": "db39ba9226b6334bba057d450a624167169daaa8432d7a02ffdf3a98ddc9fe01"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1019.txt",
+      "sha256": "7a28545fc8346bf0bb4bd49f9bcb9b5c9a11711f219c597fb4cefcc76c126a7c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1020.html",
+      "sha256": "0354b3bbc52fb70ccb809d222f55396fed4d2ae000118b3795e6bc1f5d7a174d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1020.txt",
+      "sha256": "9dc8181b84547d37c48d535d4344b420461430f21bec4302b3e512d427a839cd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1021.html",
+      "sha256": "1ea340194b250af057674b1e179cbd58f8bf9aea244cfaad18db5690d1150544"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1021.txt",
+      "sha256": "a2964f1b05c1c2473d2089165017172cb063468760075e9b50714eb0eea98668"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1022.html",
+      "sha256": "00e957392253be4a11bd2101e21fe1434f282b72546f24f6fe0d58a465eb9d43"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1022.txt",
+      "sha256": "4cb1e810ae67e396867ffe1faf127b568d302558c6569ef7f4cb4350f5240a08"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1023.html",
+      "sha256": "e5f8ca85c1f334449c000fdd6b12f4273bf7b5d18deff0f84c53482a8b350c6c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1023.txt",
+      "sha256": "dcea404971f2c17af95c4ffe8f2540d3c437d6302deb0cdf350fd12d13f47f75"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1024.html",
+      "sha256": "cb051f0f958ee561807bd760182ed4b71afb3a296c7b721ea57fc1493f4b0e9c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1024.txt",
+      "sha256": "173c2a1c235761cbe075a0a22cc58f2892f1150236c497193ea589fc11e5a389"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1025.html",
+      "sha256": "87403ba6ef90dd756297c4e3071099fd6518d8490f6fb19a62eddba77c1b87f5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1025.txt",
+      "sha256": "6545f8839dc05efc555001d1a4c72cc7a68e6a9673454faea6bc0dd3bc2d96fd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1026.html",
+      "sha256": "0e0780b70c8bf1b1cfffbf06f2b1ac4483660f875941a77bbf10f606249bde27"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1026.txt",
+      "sha256": "20df906cc13a84ece608abbd83b0015818de219b24a180f6e6ce162f2d333ade"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1027.html",
+      "sha256": "ebc046d461cbe47d3ead1a104f893bc065db8484f3d9b5184320e460ac1a80d3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1027.txt",
+      "sha256": "e0ae0e75f5199bd8bfee7134022c113e62ee88ca7470fe64f70e693fce61c4db"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1028.html",
+      "sha256": "3ebf2e4f2eadb796c9db78cb20d64edb5fe762c0bf65f0dd05bd847293085df4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1028.txt",
+      "sha256": "1209c4b15d8015d2d700c9e3caaa2f3a12b5ad1f1f69d90419537e519f7f225d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1029.html",
+      "sha256": "63d45f43ed34fa88acf36cdc5bb2a78cfe18a4d489040d00d108fdce08ebf18a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1029.txt",
+      "sha256": "082e8dc297abc005d726bba9bbd30d75498f0490508818533c84c20b96a828e0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1030.html",
+      "sha256": "cfa7ec67a4916ab3db19abdda6f0a41b069ab6a7b3c4e14dfd08d21bc14e6b56"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1030.txt",
+      "sha256": "94c7d1634ae4c58ee516981f44f72cd3e73f5465fa341e16a64e746659d0fc0d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1031.html",
+      "sha256": "ce74969e7dc8bd7ceb3ce54aa56fc455ce70ce6d47410514ba635e7a46c38202"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1031.txt",
+      "sha256": "e8bd58f4d5413b3de4ff26db0eba7586c6ae28d48a4627fec569c2ede27fbc34"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1032.html",
+      "sha256": "527f45ff53d7def243949985cb8a90b65ccd00730f8f583481000a099def6de4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1032.txt",
+      "sha256": "c859d2f6c20c70f149cd9f94d2e7b347fb71d8d7e2265d9988f7adc320e35cd2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1033.html",
+      "sha256": "4f562bfb6c4f0fb01e9f2d164d0b64e75d5825d76781099e30a1e4c39e4abbf2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1033.txt",
+      "sha256": "160dc7a111a3bae5c6a65441d14b3b1f0204f06203adf6f91c005463446d4777"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1034.html",
+      "sha256": "d38360da74fb2797354705399c4a1433b81e82bb36f12843251338655fe5945f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1034.txt",
+      "sha256": "061a2c633ae478eaa1295e85d44991f0bd32f937e827b03e43b174c08cda7e99"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1035.html",
+      "sha256": "b63ca4a8e634f36784ceae7432e59afd67b6ac3478d49c303a81ef8adbe69afe"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1035.txt",
+      "sha256": "0d005186e652ae2e477687c269b45b4666490c647fdd69bf6bb8860162c2fa50"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1036.html",
+      "sha256": "1e40170caefa993eee155f6f9e054217be7b72cb1bee79c9b482d2fb49db2f72"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\N\\nm1036.txt",
+      "sha256": "01c9f47cbed675fc8a1841736af84e4525c63ac7d3cf3dfa8bcfd17e0a22d82c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0001.html",
+      "sha256": "20cdc6267e08b7042586bdb62a5e97ea3773857dc38d61030d9dcc7ebff2d659"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0001.txt",
+      "sha256": "caf228ac24bfd3b260b66cb32569d00659eadc695d932ecf933e2a6df68cdd1c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0002.html",
+      "sha256": "c955e71eb375f52a841d0275bc77febd00f7fe437e3484564b62545e62def213"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0002.txt",
+      "sha256": "e463eec10368a81341c0e389aebee55778258bef3dcc17812fe3ecb9e5fccef3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0004.html",
+      "sha256": "ef70dc82084b3a20c68422efe294fa920f7ec74e9595a903c77e86f7d9e912dc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0004.txt",
+      "sha256": "2cdfe60b31addefa8e98f978dbe669298e50289edeeaf3045a75f8fdaf0d5d62"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0005.html",
+      "sha256": "5d3181500688816624b479b53d103972db12efdd834e32f54f4e2e6ebe809ee1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0005.txt",
+      "sha256": "ea4108bb3c9c337d31885a6f4357a7b314bfccceb8c5b4b52a11ea3f7ea811fe"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0006.html",
+      "sha256": "623fa0f5603acacd0de2662d83d8a3628d5e37fa496952866eb71a5ca95fa2cb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0006.txt",
+      "sha256": "fb295c1d31f21e654d094faeed469ba4577e508f7de048ceceacdb44d7c9d7ed"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0007.html",
+      "sha256": "f1851e30973ffe72469773381da6ba92284e7b4b61e14ee4a0d547277b3a3d4b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0007.txt",
+      "sha256": "7efdd1e5b8d090a6a5f1a843ab4cc3593f62d4f9c994c948fe5b0f09f297f584"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0008.html",
+      "sha256": "6f4b60d4e07848181385ef6e555af80e4a11553cfcc1a8f6b368b837d89e4916"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0008.txt",
+      "sha256": "a20b7223f48e709b047907a07dde44105e9d60d8fefb581b95d854b14cae07f8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0009.html",
+      "sha256": "efecfffaa6c1f82b0492f77bad490726ee575580d9dfe163f6a1a35a52c2a956"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0009.txt",
+      "sha256": "f7bf01f25551f73345be990e6e7ce76f6e865d53d9395a48d60ff963919ea17a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0010.html",
+      "sha256": "cb13d92bd11986dfd42db9886b310824ec77d54cea68ffb1b69240112326ff41"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0010.txt",
+      "sha256": "193f1d47381bb8ae04ec3c58a5c29838982adecf7e0394c93fa2dc64fbae7a2d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0012.html",
+      "sha256": "c2bcc562c240cbfa5a7af46a5e373e38d9031652cea07d43630dd7930727b7e9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0012.txt",
+      "sha256": "1fbc95b363efda48b8d8920cb1028b7e639bc0b9fc5e15f4ea1b5cfb0d17eded"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0013.html",
+      "sha256": "2577fb196578d2fc169c60cdf55968df10bc4696b609d4b6880d5d64d388b9f3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0013.txt",
+      "sha256": "96b4b5d0fab71e87ab7c59fcf4cd43e8ce446476e05d0fc3b511a1af772f2a9e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0014.html",
+      "sha256": "d994ebd82dddf7c1a453089d902d5c0612f257c768f0b92a9ba63c0c9f044a97"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0014.txt",
+      "sha256": "16eda2eaa2ea14ed1eed5899a34914c144adc5f37575cbe48a728a0e4dc29760"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0016.html",
+      "sha256": "b8a6c05b145ecf8ec1d1140e7209faab25ac6948d7fcebe3d34e77ce9ad859db"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0016.txt",
+      "sha256": "7bbe989afbc9d8eedf3413b4ad38cdf76ef05e30ea7fc38b44aa96410bca2306"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0017.html",
+      "sha256": "f66898c1ad5ac4db0b4dc58a08d2e020521610e0572ac27740a0b904c68459c0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0017.txt",
+      "sha256": "ce41267ba1552558158c72a3b6036fdadaae7349ea0c862f4698f45403719a09"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0018.html",
+      "sha256": "37b2de6b7a1b00e4161f16b86b3db3c14d0c2be82fb88202574744254126fe5a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0018.txt",
+      "sha256": "e3d511b32164fdda5d0be2fa4463f58c7648527e2d342f3e7b5696a61c2f04b5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0019.html",
+      "sha256": "95fb6449f5c2bff9bfd5c57c019549c98ce8dac0ee6e465f27efafac9d55dff9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0019.txt",
+      "sha256": "b24be6e89830ab33368f1284447e00a1daf79d1c76f85ad7fa8899c0f323caf4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0020.html",
+      "sha256": "0cea28d730678b9e1114d6fe7b379931a3036dd4746672a2e6374ac28d9bc0d3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0020.txt",
+      "sha256": "dfb8453d0d8d75072830e0e1113833131b68fca5611b5352e9d73e9ed2d79f21"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0021.html",
+      "sha256": "a5aecbddeb892dba9ae3eac2e35da6eb30307d506fc7ac85b0859d68a4003517"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0021.txt",
+      "sha256": "788011f27495217793a3a959ac5ce004e36ee18f907e33072b860069b5c4787e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0022.html",
+      "sha256": "235927daaedb14c62cc59b33cb9f4fcafaf94972adec118e628148dbe5aa9380"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0022.txt",
+      "sha256": "611ff20dd24c2a58399a99387f84520f54abf615aadf823db12e7a901ea0a169"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0023.html",
+      "sha256": "531fe049b8c3bf25e4327cf7a0ee4c7104bce7a871698318c2f93729493796f0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0023.txt",
+      "sha256": "5e097c9aa4e6057a8845695d3b28109bd9cfd324b74a667228921219f3a16a5c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0024.html",
+      "sha256": "1086a749bb8c01085b91ee66615eb6cff0a3b3df2d2e141d48730bbe50f01c98"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0024.txt",
+      "sha256": "df5bbdfcdb61ac057257b91dd91353d9201dd3456e0827b3a22dac1c9542e101"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0025.html",
+      "sha256": "c916cb83271a773d642293d271c8170196090a8230c5cc2afd9711e461ee24db"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0025.txt",
+      "sha256": "d666bd8db48df6fd01c5bec2e2d85e67e9c7e72b6c31a565af5e7944696e2011"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0026.html",
+      "sha256": "47de032424f6c643505f08f993800c97b4efaa167e576cdb2b0863a8b19ba137"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0026.txt",
+      "sha256": "21007ae2f0d90d14ddfdae68d3c418c3733c86acabbec263bf53c6c94e939850"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0027.html",
+      "sha256": "d266f1d4e67dd7c3b678a7a025f04bbec8ff208925ab7163240eece029a16942"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0027.txt",
+      "sha256": "c7e4febd9260f29145e8d21854511d2efd275b2413dc6f2f667501ed701aacca"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0028.html",
+      "sha256": "34dfb6e5a6406ed2e15cba3f3137211a7ba29d146563b6d63171fabab3fab5ac"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0028.txt",
+      "sha256": "c0eebe53c6956a1761c3c8f45053f87e33f71a534def8bb4b414f4a9e06ee7a0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0029.html",
+      "sha256": "f546eb7b43d4534227ff86ff5d10fd1deb5b09b939c9e9997de57a08b2b1bb41"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0029.txt",
+      "sha256": "161d26a455a0827a436d42c2a85bcf727c25a9f62a5dd6e06f383c83ea5033ba"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0030.html",
+      "sha256": "c7ce2476fee74b0967cd9bc1f1881eb04ad2e93a022d0d6576d3448a12bcca6d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0030.txt",
+      "sha256": "3036cf16ff91ccece3b3b2ba888f10a276fce919005c230024d72425d6f97d24"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0031.html",
+      "sha256": "0e236d7ea0f6dfa4f5fc3eea14744087e005f8bc654b256fec0c30a23d1f245f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0031.txt",
+      "sha256": "b408f73d9cfecc63a382bc9a82d4897e7acb6e3395886efb192cc425ad922abf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0032.html",
+      "sha256": "1e40df712a2d8135c5c0705c84d5a92be22fd79dba5736f4ee509f72cbe37774"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0032.txt",
+      "sha256": "f4974e82eb497de08507df189ab753240680e7ebadc609c2c773652b4c330eb0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0033.html",
+      "sha256": "a35d86e79c727993c883cdba7d6edf7768679eecab46ab754b14c7192abda3be"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0033.txt",
+      "sha256": "c07ef4e3643e85d02d6dbd90bc420d283c6ec407b82aacdf0185f054765dc4b5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0034.html",
+      "sha256": "0c130c7a7e22e95eeab22fb94c1743dfa6aff218b8b20e2fbecbb17cb870f23c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0034.txt",
+      "sha256": "915cbc8fa2769a979cc95ade625eeadf11d1f32158158cc0b82174c6c27dfd6a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0035.html",
+      "sha256": "714dc21eed2a777f770ace52707f1f8c90199de8e8f8480e28eab5e74904e433"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0035.txt",
+      "sha256": "148648b168a32e516818c448d4af5f72360fddcf393c0c280ed83661c115efc3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0036.html",
+      "sha256": "71df0bb7bd40380e7ee91fc7b8e7d6ea2adb60b4a0e9d94eaec661e2db6a8f63"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0036.txt",
+      "sha256": "cd43188d903439a5582c6156e7a7aac239a6ba15c3050f110b335e4ab9dcf55f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0037.html",
+      "sha256": "ccae9e317d450ddeb304224661c2faa8f3e8be467050fd8a1529dba87d812824"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0037.txt",
+      "sha256": "94b55e6915943f74901badd1bbc9de9d05752d584f959f099b6138224ed11ce8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0038.html",
+      "sha256": "d930e947427aff158dfa6f5fd1c30ac12e08ae244e38cb62b2ecdad6220e43a9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0038.txt",
+      "sha256": "a12d6703f6c1817412a6f892eb42b3240aff45ccdb4cf3480ba457ce9f92294d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0039.html",
+      "sha256": "71ae188d094b8a58e17a3fc36baaed7c0aaa0cd1cbf77fb3f402e1241c914eee"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0039.txt",
+      "sha256": "7aabaf547d31e4bfdcf63b3765b0ea80eea97c9de0501f888a584dae6177141a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0040.html",
+      "sha256": "f9c3f06dc8efeadc5ee7464ffc01544a5d2f3a1c87f21c1930e1997931bb67c2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0040.txt",
+      "sha256": "122cd6d19de0adea2c0c93491e5982386656291d5d163f75ce08959b5a824c62"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0041.html",
+      "sha256": "5eb59fc891cdec0e45f495f4600c1d7d3beeea08d33c0d56ac8cf87a1112ae2d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0041.txt",
+      "sha256": "f6223eecfb3432d55b35776608b5251f470639daadd2d846df8ed0b9d7fcf3e8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0042.html",
+      "sha256": "0581752d3d3fd9c419a340643edc1346bc658af6b8cd19698e66c5b78c36943b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0042.txt",
+      "sha256": "5980c3013f3ab5fa502b3cb944d58525029a4168032ade61cff917828117a165"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0044.html",
+      "sha256": "283ab2f7d70d4925a8adc753b0cbd31a3a42875fa426ae3de4e7fc79036b1794"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0044.txt",
+      "sha256": "03e3abb6036c753ea9c6760e4837c40fe400f47297be88723e1478b0182dc2ec"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0045.html",
+      "sha256": "488674317103c63190a63a1c56e23031c0292a430e62cd5803eb31e02a7eb827"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0045.txt",
+      "sha256": "2790ba5364e605f9754ae569089c3729b5250124151f86e872aaa095336f32cd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0046.html",
+      "sha256": "408946402bfce809ef176c6d75ffa920f2ae53d852e9fc9d417b4d773990c32a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0046.txt",
+      "sha256": "f13696d91ba7dd5c02d0965e4265797057c7780190e8dd6c9859d90c4e84c0dd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0047.html",
+      "sha256": "4d91362c3f325d77bf9ca0e147d7a09ede403e97ee91966efb00b878fb30d56e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0047.txt",
+      "sha256": "80a480c4b26be6a3323771a2c3233d9a3d70df5cee9304f91c982e4d5083f17d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0048.html",
+      "sha256": "25cbed64838691c82172a7536a2e54de16bfb9b58d62bc33130e696c6168c9c4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0048.txt",
+      "sha256": "fc8d5f10ace510e0fdee8840cbb24afed46a16d48e89b1c629db5e2a7230c413"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0052.html",
+      "sha256": "749762551b54e314cfb1170a51260348bb79f97c97909dbaec1915b25c879384"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0052.txt",
+      "sha256": "3abdb8380581916c8b260fd65b88ecd16b41d5f6cae3aa191d8900b5ea66bbe3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0053.html",
+      "sha256": "19a5247b66e0c3dd65cc83c7298aa884b58437104a5d3ea5640157f118eaa53a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0053.txt",
+      "sha256": "3423d18b9740a1a5aa9bebb1406a0d4cc9070078ae34ebb93dddb15b788b2632"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0054.html",
+      "sha256": "7a22360a520a63b3e649f9726415aeac80bf4eb98c8808637802b778142dae5f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0054.txt",
+      "sha256": "8cbd123b12aa794e3955c54d4837503bb5602fbecd2aae838824e088e2d7dbae"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0055.html",
+      "sha256": "aac42abc13c74ec3de1d26ee156c99e8050f547b3f2245164b874384fb8af813"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0055.txt",
+      "sha256": "b0ed449e2bee860f1f35677e087d8d4be91ef748f39d2b0fdcdf0666ea55a271"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0056.html",
+      "sha256": "ccf3e1c245476dbf52d952e2bf3325b540ba1a265866588d91865272fb004183"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0056.txt",
+      "sha256": "1980ed8a43aae1b5c1e137f1e492e7e791f8bb50949ca6fb78cd5bef2fb7567d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0057.html",
+      "sha256": "5451e863501a4c1e349d36e194237c1703bc729552b918fec588ed1ded6a0393"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0057.txt",
+      "sha256": "a3d108eb9a844cfb39099025ee9ea6e3772b8feda3248ffa9e8b1af6b859d365"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0058.html",
+      "sha256": "3b4845c547c3c6fa2c5142f822f2cdbc1769acb7d209a20d7c320331f9f6dd73"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0058.txt",
+      "sha256": "854bde89b5352e1cfabfc09cfbd8a49df8662e79977e1c5e5b5cb42820f6cb6e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0059.html",
+      "sha256": "036a83cbe91547a494f224861ef85b501cbdfb8be68ab3843d7aeb5dc07a7688"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0059.txt",
+      "sha256": "ab7c204dde2f6728467a50180557b6cecb4e90334585e98e092d1361930907ac"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0060.html",
+      "sha256": "35e7a2cb0d52302b50a8fef4668b4ff5063208b05607241429722da0f42c2a04"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0060.txt",
+      "sha256": "c3a147e30adc0edf5c1a7960ad4243a53d674f6af93aed62b46bcd09eb6d0bfd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0061.html",
+      "sha256": "2d211ddc5f63039ac3f53e75aa62d634b21af7c09c777c476788c8fd0000eb11"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0061.txt",
+      "sha256": "b9421be86e4b5d17cb0b666379293629e62ea0ff3ca45e286f8f20fc3863127a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0062.html",
+      "sha256": "2f0f4809b021734e4606a28701cf367e3e07400a2b8990d0137e65293b45fcf2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0062.txt",
+      "sha256": "b9cd19f4d6c9d7fb3b18a41910e2c7b0743daf06266c54af2ce5751646a6a033"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0063.html",
+      "sha256": "1b356f9090842b3f6d1f898090b1ff32c5c55ebd42f761cd525dd8cd8bedfef7"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0063.txt",
+      "sha256": "0884747f530ef566b3735137e7449868d9ed380d0a7f911c7cc44c77d57c9499"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0064.html",
+      "sha256": "55a229372ab8bd54d9cf882c3b097a83ddde64286e735aea949db424e8060480"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0064.txt",
+      "sha256": "5c3a3a7be53182a22f00ec2d57bc1f76d114327e2c678bd0e2c374412de587ba"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0065.html",
+      "sha256": "77f3c507399eb4363ccceaa85775f39b4dd53e4f3acc75ddaca165b198085cac"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0065.txt",
+      "sha256": "e7374346fe34f1d088500426b5c4c1095b3b84e0d8abda145ac671051874f3bd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0066.html",
+      "sha256": "107d6011e65394e21dd30198d9e6073a7286d82bdc6aff405c4f7daafa153c2c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0066.txt",
+      "sha256": "0d4fdeee9ed46432243af78e6e72f4667109bc271d7820e22410cef5723c5908"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0067.html",
+      "sha256": "0ddda63a4b47256850bbaa9e81395bd9297f1ab29c99113d9e437f4bc7450b5e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0067.txt",
+      "sha256": "0bafae1f2b55ad067f6c2251baaa0f6f84d304170b3d8a30b440ad9b40b8cfeb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0068.html",
+      "sha256": "f408bd32b2180d4045d782304abb0ad41bc7cd1840ebf3139df484bee157d12e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0068.txt",
+      "sha256": "66830236bff6e447e724dc58d92f27b8eb6bdbfc318374d05d5a78da21b3dda1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0069.html",
+      "sha256": "6af9c4824e7ab1d8da84b89ad98e0b6d684c49de713768006b2cd47364aeaaef"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0069.txt",
+      "sha256": "bb3c15b3f4334daf4e43e4d7b74bf5b4f50d5c506d22b058be8974c0167c0ccc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0070.html",
+      "sha256": "bf56ded670f51e2663611280c077c6828135265c79e528bbcd6abb6b2413a319"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0070.txt",
+      "sha256": "a792d08ee21660d9bc2f7dc92a836143289330f53aef0044e429c595832c3ec2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0071.html",
+      "sha256": "9b10b9fb1b3dd83902be64fb89d1ef26b4e3b082990ca73f7f39d39b90de553c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0071.txt",
+      "sha256": "3801ce435aecfb939a4a54c7e2f52acf2a2d48bfc3f9c22bcf8527ea16d236e9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0072.html",
+      "sha256": "4a90a84bba35e415fbdc6c35a06508da2968fdd70a9002e29c5c909303f16027"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0072.txt",
+      "sha256": "2c2295e8114bbf822fd3cf7216907ff52434b1910a9579a238afc1d7c13afcfa"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0073.html",
+      "sha256": "da0d62668cd5740c8e28424eac098af546beabf1014657430e2ecbd5afb1b310"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0073.txt",
+      "sha256": "200f6295aca0c57a032eb4c6243c7f2064c4ddb288a6460e50c94a172e5d1ef5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0074.html",
+      "sha256": "726d9cdbd434e3d9b0f52f76d780d2796640e58acb02dd90ed5b0aa77658c726"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0074.txt",
+      "sha256": "16713a9e059c12f2e23dc7ee86df75e5b698b5fd29e5d7c1a26994818a957662"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0075.html",
+      "sha256": "b89200962ff2014ad4bad880068ec269f5c29b896700162a863c06ef74478253"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0075.txt",
+      "sha256": "95293c7218c5d346917b18cef29b9c3a1ed6ff4ac784b6b823c4e0de21d4fcbf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0076.html",
+      "sha256": "886a7833e882f303c0eb9dfd1fe5ea1811726067289132678e56554a94cdc38c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0076.txt",
+      "sha256": "895cad641eb13770e42e74095f63a0f90f01defc4861352602d3c7cb317f25f2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0077.html",
+      "sha256": "1b55d01ee121c0edc27db35b15566f4d0c6306cf834b0a30243be76fd08821fd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0077.txt",
+      "sha256": "690ab871712e582fa5b260b19812e1af4dbfe4abec170d647535a1eb84938165"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0078.html",
+      "sha256": "d6e133dc794077ea1ee5684839692a5f908a0cd8bce669f6dc716e93cf1a6d99"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0078.txt",
+      "sha256": "58d74dc03744fab9e0579461cd5e12ff08f82553d4d08718842edbd200733d99"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0079.html",
+      "sha256": "525dde86a5c5960c766d09c094cef2889e366261c8f12e8a410ef9362f483207"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0079.txt",
+      "sha256": "0b373096601570338b9e980ab219dbde53d22a460d4858c154caf87e6853cf9a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0080.html",
+      "sha256": "b1c76e5f811377f5a2046065dfff8bf0c9033815c0080daf62b43449ef572d39"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0080.txt",
+      "sha256": "06f43b189f047bf28e656b4f12855644783ac70014fb7c1fcdc94fd22264dcb3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0081.html",
+      "sha256": "fac6d9a2a03cb82df608eac64eb92954b9f024452e476e5b46f10f30750674a0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0081.txt",
+      "sha256": "00eb07cbab92db026c284b6e278e0ceba450cfa4b8ef095a31d91b536ca5405b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0082.html",
+      "sha256": "cbd22334e9e5903afb081072d18431ca78c4ed95adb619907a2d7aa4174577db"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0082.txt",
+      "sha256": "c4260948ce8d800fc967f6b410314dcec0771c99e3a076dff9d2516378a3f2cb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0083.html",
+      "sha256": "6839dc49f625d78a2354258d8e9b5d536f22a0a3da0f53dbf226404fcf4fc68f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0083.txt",
+      "sha256": "b9c0ffd1e388ad37a31bfa2f8274f8a5e8ee24fa7550512ce4f5ce245846169d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0084.html",
+      "sha256": "fa1cf404d4fa3a50cc7a65cc3df2fb48b499ca399ddd0d7e7694d0f6334555c0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0084.txt",
+      "sha256": "d96d52830d3fa8a0f48cd0299dde7c6a192c2fecd3507863885e3b553c64cabd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0085.html",
+      "sha256": "f817c583056f06691f4e86505ef4adcb130ef1174a87fb10cbd1cb6b4e3bcd65"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0085.txt",
+      "sha256": "18068b4eb0d89d9707b62749be65440ce3a71dddc5968538fe2d52f2a3623b64"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0086.html",
+      "sha256": "755593d8110510e4a6211c676cb35d01a46658d55972208d41ebfaf1c89ef3df"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0086.txt",
+      "sha256": "25dc7f2d03a81ec98c11821b834d017c6af7b5396beae47077cb455f08524259"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0087.html",
+      "sha256": "1f61a95aff9fab28cb6b69f1efb03308358c81e21bd91ca000052f23e065a78a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0087.txt",
+      "sha256": "b4d08bc0db7b6da5527929720ddcb170ba8e3bc5af51e310406e3294c3ca8df9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0088.html",
+      "sha256": "330577bbacdf7c0ab1a3489291c9d7d8c52228842c6a24c9c076ff5b25b551a4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\sm0088.txt",
+      "sha256": "eae07c0584e31ba42f679bb1d6ecba2f2ca481b966e2efbbea578325e60b5dbf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0001.html",
+      "sha256": "03abcc07469f8d43ee29ee0e43f7d9cbe223fec5d8f7988140bb01ad99f720e2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0001.txt",
+      "sha256": "4a6b86ee31f38ef13b77e7f9f28260b2b589ab28942f12f1a9dfbb64c8cf66c6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0002.html",
+      "sha256": "37d4c6e21f30b006e3d8fcebb26359c6ace8be00eef7dfbcadacd9ae66ba6455"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0002.txt",
+      "sha256": "7e1103ff445ff86437323ccbfff612135e730575d028b98e08cce0ac7ae68b91"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0003.html",
+      "sha256": "e30c103b1db4e0023ef55b3e07a1d90cebefc34436bbfa77556c696ee705fe8e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0003.txt",
+      "sha256": "3dd8c0ba8931b806ff8941a362e2219dbd3383ce6df3e45621a02fff45d741f9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0004.html",
+      "sha256": "8c0baa486c1f8e403128d473ab045a0d0a7fd7f1782720fd2557c137540f039c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0004.txt",
+      "sha256": "fedc8ae9a3612b3d78bd7343f0e010cbb41931e47b35d1069ab2c2549229c275"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0005.html",
+      "sha256": "2c4704a42aaeb7e63504fca3e567976aa8737416e262addf9d152673adc5f576"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0005.txt",
+      "sha256": "32936d74f1c7a12ee228319e9623a48893bb9d391652d597686cef43eaef73e5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0006.html",
+      "sha256": "c251fea3a08dd191b498e6be51f672cab46c04beeaba010fd5d9bd305c0e43e8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0006.txt",
+      "sha256": "d53281ff4b55d428351a61f1ed1578ba245f2df4965803453e5528f1abf0584e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0007.html",
+      "sha256": "ea0653b75408683748913d13492638b90eba842a675ca576f6bcb5297d76dd2f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0007.txt",
+      "sha256": "81267c5ad7ed856b6f7c18f0ca88c310953b20bbc0ba47634955154755605b1a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0008.html",
+      "sha256": "06fcb2a4d693aad11984a530108ba587cfc61715ed64a2f277c0306a1a49b4c8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0008.txt",
+      "sha256": "44e9a66f7cc7f0eec07f1e573b34949bc234f4164c417c7a6418a365ed37be94"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0009.html",
+      "sha256": "cdf9e77264d661163483c82c7b1b5b0f2ddc3bef8f82bc168693f57275404083"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0009.txt",
+      "sha256": "66a00606ba8913656804e6e425541a2278309dbd3b9a3953f664ab6fa627cc6a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0010.html",
+      "sha256": "a41b0f21ed8b90a35398c1cf2c1baae43f4448896bb40fff151ec1cc8cac402f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0010.txt",
+      "sha256": "a8e260e1cb408e759db0855ebb3bb5546f90168e990862e0d35cc4ff42ad1d80"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0011.html",
+      "sha256": "065f559ca97b15781337839ba914b9a2a486bfbf9ff5c618c01625e702d5a964"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0011.txt",
+      "sha256": "122cd6d19de0adea2c0c93491e5982386656291d5d163f75ce08959b5a824c62"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0013.html",
+      "sha256": "3a04ef61643056e9ca31fea8728b6be1b53f4f99096a033c02db6fb97c8ff8ef"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0013.txt",
+      "sha256": "2790b5cfc58b921aff7f6a98281477c08695487096abd200c4346365596c9fc2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0014.html",
+      "sha256": "aaff20410ed92c9fbcb3c2524357c7d761048cf00f943b24067219a7a8d1b2e4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0014.txt",
+      "sha256": "2ec359093f6375fe7526b855f31066467e80828f290a86605104ab88effe2b43"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0015.html",
+      "sha256": "81f95cf601d0853d6454b056e846df43cb6efa7871d8a231d5f4a21834cea7f9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0015.txt",
+      "sha256": "fc306972361350a0893737ab1382d98ece853cccb30fa7d255c54f93dc92bd4d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0016.html",
+      "sha256": "0598ad0abeea7db2d0323bc9df22f6ae2ad01a85a5984689e0c82f352b03dfb6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0016.txt",
+      "sha256": "b4efdf170edaaf9e0b6c006e439eb77e0c541f1149c3f99b7dcaeb5e755cdedc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0017.html",
+      "sha256": "2474e3cc3365422eabfcaac2e42f769bb08b4ffbd1e9b200ed4dacbc652e51da"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0017.txt",
+      "sha256": "ab0a4619c2304f706cbcbcd0a257872a1db553299cf434934ee0e3f68fac3e58"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0018.html",
+      "sha256": "71f1574464361ee21ae74f258689c079933b4dc5d74812c1f35943104cd32970"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0018.txt",
+      "sha256": "776e807e87ee0311bb565b59d3b91c6c04cd8b4cf104ddeb1385adf3779bf15c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0019.html",
+      "sha256": "bdae7c48e4a1ffd1cb8efff65d52527054dd2c6248cca4b95d8fc9186268071d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0019.txt",
+      "sha256": "5c2dc3332b387cbd6c63e21df850bb11631fe00f4fba40df1bd93566570274f8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0020.html",
+      "sha256": "a05a5439d7dcd7f5b9cb5d31afad23dff1ea471326dfa09da10be629a75446ec"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0020.txt",
+      "sha256": "b58074f6cfd98d317f47467b514170ea453835f79a9e5bb7e2c249330d50f4bf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0021.html",
+      "sha256": "59c812f73bdc03795a00b6a0f9d648ba3f029581969b2dafe1780c53dc802dfd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0021.txt",
+      "sha256": "3d91c5659d13953bf7a00204cb15d01b57b1143a538241611546dd7cd89cde20"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0022.html",
+      "sha256": "9e79496737709a4a62928d0e8cd547a6d6d1afb4c0986504ea5415903f798cc4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0022.txt",
+      "sha256": "e5a8b0042aa028f4587f402ed657b1c9102eeb4c90a150deb2519bc94db7fa2c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0024.html",
+      "sha256": "5bf3ec305b8d4b2b97df53ce040f2449da1975386d47b70e5910c2dab5534ed4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0024.txt",
+      "sha256": "2645f58ed2825eecf93eb90965ab323af5dde923088dff3470c9a5145642f291"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0025.html",
+      "sha256": "88af1cc2d1f5481541f439bd88d700cb7cae38090e4068d388fab03cd1f0f629"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0025.txt",
+      "sha256": "bd43fb94865fe8997f7b717e0558587de61c707c5f3bda1fe240f3783c09501c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0026.html",
+      "sha256": "5737c6c9571a65afc60352aa165ac01d0df2f17a218e7d1881ae269cdc54d6d7"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0026.txt",
+      "sha256": "8c8f39034fc80e8cc0547c3890aaccf64f1c367e72ea1353368e3206bf2a4779"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0027.html",
+      "sha256": "3a56348df4ec7032164357d3444b0e33350dece2b5116b72fd39dbae3e9732ae"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0027.txt",
+      "sha256": "e19ed401182a7a8ecbba4a66607171900f0fcfa2c3146e6ba6472e94d1dd3827"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0028.html",
+      "sha256": "e40926b79408f9fb0a5a6dc3b24aec0debf6a933899e767d3ac8b86bc1ea1e4c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0028.txt",
+      "sha256": "d28df51a929266938a96efd9ab8e2abd226e3ece20fe6ac7e01b20e067613c51"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0030.html",
+      "sha256": "aca7513f288a7a45081f92660504993a025f61daa61dad18a05dd89483c31add"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0030.txt",
+      "sha256": "12f106fc4cf8c0ba8dbe4a9e05cb6989f27cfc0402178103213b6db0b4ebf486"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0031.html",
+      "sha256": "53bccaf586bb7de9739de9e375eb69f003fd887e33088e0fa0fd9a232d8705c3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0031.txt",
+      "sha256": "6e1e5b5c4ec0d23d7f974d8c40d781be1d6961d636b783c35885cfb451f5e0d1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0032.html",
+      "sha256": "d42fd1844a214f9e1e837e54208089894c74308a2ec2c47e9d8524071a022f43"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0032.txt",
+      "sha256": "03186dde2f19b44b0162061d254716b035f4a3f57cff16f5c34e1e5873fd62bb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0033.html",
+      "sha256": "f101188a78abdd1a7b99ef4e21c17e8c83370567f58cc3b53875b011914722e9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0033.txt",
+      "sha256": "fdbab88611f43d56cc89f561cb139850fbb5a84684ed09c689b2fc66e480b51b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0034.html",
+      "sha256": "855f680aceb8fdf717850c949ef9b3f0ec36bb68375d40af87a0904fe224426c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0034.txt",
+      "sha256": "dededd2e307a285f169bb3cbc2bdd9dd19d6530e60e92f477a93dc8ff06620cb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0035.html",
+      "sha256": "c1fb0320d29d79eaafe0b8c04277d75a975afa8c421800f76ec4a054f719a4ca"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0035.txt",
+      "sha256": "f0762274d6e98281297a8ad1eec783ec45b490a55fd1dbd05d394f7d1df4df9b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0036.html",
+      "sha256": "c652fb2789f1e394bb55de56ce5b3d1412b522a3085f7082b31556e6ebaf2eb7"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0036.txt",
+      "sha256": "181600e5d4c10191f9e0db5790fea0ecc2a936b48c8d5d364a837078275b5511"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0037.html",
+      "sha256": "01d0d0e8847322eaefff784717e1748f81b731becf8dcdc812345c49d60baf14"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0037.txt",
+      "sha256": "6ae06ea7e4f77b802e9985ee96324c9ce772042436e41e93808687709df764d0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0038.html",
+      "sha256": "cc45da1637f095a602da9e6f113ed9a602850b1cc61ec73ef710797bce2f43a2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0038.txt",
+      "sha256": "4f8cb43bf59be265da6ff6f61f9ef80f2521e985938934ff02bbd12fb993eda5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0039.html",
+      "sha256": "3d27401080e237b8dd7e33b051b200d6fae2515dd4453b992b6ab6a4867c2ee3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0039.txt",
+      "sha256": "c294ae7d94ce983b6380784368cdab1ef9344f3b2f565d454a65800a2e2601c8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0040.html",
+      "sha256": "31cffdebbc7141ed5e56edc6e6e2f69f2e13c7abc74b4fa1326f0c17223bc195"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0040.txt",
+      "sha256": "bb41e45a2f7dcd808259bec7db5983b119ecbb79e9713923b6ccd3b86bbcbbcc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0041.html",
+      "sha256": "e57ff596ce481559cec6b64039b816129e44c539eb7a37c67b922d161fd02d00"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0041.txt",
+      "sha256": "92d55873d70757412064aa1f992144ab05600ed3f2c198d32d08e53f2faf73c1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0042.html",
+      "sha256": "e699d59b237cc3614441280cb588a3c8563163b5518b7f13079aa58d7b4e7ccf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0042.txt",
+      "sha256": "8d792c66e1b9343b012fb4bf6898829d3663240d27c561d1deeadf099b8f9c00"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0043.html",
+      "sha256": "c36dba71fe6f454b01662cef7509db86cc10c01b207dd3cedd1f491c1d4eeaa3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0043.txt",
+      "sha256": "b2122c711636300392dbc526ba96dd77736849e561ec1b318abd55cb510e64f9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0044.html",
+      "sha256": "052100c9ace09219040b4388f0792ad9726aa779f79c9dd893188b54396c67d2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0044.txt",
+      "sha256": "6cbff5b614647d4b273c5a5fad6d28192df30112e4a9b27817e009ae8ef96289"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0045.html",
+      "sha256": "989de5d9fc24ee627b511e4a2ffb2fefcb1643110038be472334df03bdfa4e5a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0045.txt",
+      "sha256": "a880145afa32a037e66832099caabf80ca3a62e5913a2abbc0634f40b7cc15ae"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0046.html",
+      "sha256": "396dbc7130001c9fda7fb9d5fc8c48d827cba35ff2910a9b6968c6e370546be0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0046.txt",
+      "sha256": "c8fdf2a39e9568dbe37c991132eb748a495af35a5d0c18c32acef4e9f2396fe7"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0047.html",
+      "sha256": "75b29045747be06a4ae86d5afabbc4ee62fb342a0860b9ea6a5ae6c328bef956"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0047.txt",
+      "sha256": "8d4ed39e137aa8d318ccec26705996af089af9d0c08c2dbc1d7fc73966267232"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0048.html",
+      "sha256": "56a59fd143aba0b8092d7cf6a41ef12ea55aeb39277a59fc322b4a6db68219ac"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0048.txt",
+      "sha256": "73cd30a0cc628b2d144c743c6c305f69861f297591af1370bf58b1dc9e8e8abc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0049.html",
+      "sha256": "d15deda6643532e8b6ef80be6620e44283ce78c070f1affa4b5b223f7fe82c16"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0049.txt",
+      "sha256": "eb6397c3d15002dfbb996ebf0229ddd23563905c27b0ffc44956f703fbbe4404"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0050.html",
+      "sha256": "b2a16add3f4afc75390dd2476cddce8e868e4c0919ebcb7171c63a173242494c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0050.txt",
+      "sha256": "c6703a0c2ed2059a43c7aa44ae63db087f258d0239611b7d0d0b71d896cb29a8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0051.html",
+      "sha256": "bea4049576b7db3fa2c41c86457be244674e89a109c85ac9c9679d69de104240"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0051.txt",
+      "sha256": "d862380aa73375fa514a3bbad152da27b223b12aea89533188ec029385422a34"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0052.html",
+      "sha256": "c5b3c2397c2cb917d8c17a573fbecd57abff936d13da829a3422a12ff86d6ff0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0052.txt",
+      "sha256": "23edff3b333e759063ffb8e62e428a27156024c55b9821b2a77497ba647df6fa"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0053.html",
+      "sha256": "ecc2fe43b0ec6e8a6296f7052f67dd198ae0186d0aab1d19b884f53af9024573"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0053.txt",
+      "sha256": "465e036c51085b3f62d5c066466ebeafdceef98dbb660c9cc0f3a40650104466"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0054.html",
+      "sha256": "9e128bc0c036bc268b0fe37581c8c838e024e974b907e8962e29fd4c576bc442"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0054.txt",
+      "sha256": "e27b2c082189a97d3be1c07459f4457b663dd984fecce03ecac1610e207aec38"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0055.html",
+      "sha256": "d0f9cfeba5c7a768e2d094251f9d135d69e8de110be52fca20001690b991dbe1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0055.txt",
+      "sha256": "829643d8cea303dfc0fc20494a96f4deefeb52019af2a195715934b825b4a8df"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\S\\so0056.html",
+      "sha256": "bd5a39cdc7db2158203e21c03b69bbc759dbc0fa563241e2d9768fc21a68ac75"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0001.html",
+      "sha256": "71e2f08a901d4e8c7efc37d8ad6760ec60be773d18b1a30eee18706ebf03946a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0001.txt",
+      "sha256": "165eae54ff5ee25f5353515fbb0804d4391ea605d58d65907ce312027a3536c1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0002.html",
+      "sha256": "cc9e45b4b498f4c5940cb96565836a3badd65c7b727f7f499d06cd6529bba554"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0002.txt",
+      "sha256": "91863ebcecd358cfb3e4252fa705ca071eaeb489f8b2605d18d49749b4e134b1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0003.html",
+      "sha256": "4891f8ebc0f8547b230425e90b9c78dcd3f01316122430607bd48466c52909c3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0003.txt",
+      "sha256": "66b5120fd3b6a958b4eb7c26e544ffbe89c4caf01cb15ff16028ef0a8f65e7ec"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0004.html",
+      "sha256": "12e935d0df66a1634eb0f5dc5dd5131481c4b9ee03651584d7651232ce11ba01"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0004.txt",
+      "sha256": "5dfb02b9733c15253395974faf112ccc8d061f6233b59a4036cab68284245232"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0005.html",
+      "sha256": "fe175fde417dee4cbc78d83ead04549fa311da6df4b3654bcc560ee7fc0ee5fa"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0005.txt",
+      "sha256": "603ed1bbb3e95db9734357b2fb8522f9c27ee654b76f9c8e0afcdc6ebd34b9ef"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0006.html",
+      "sha256": "56ec5e18e093f8ac678c18d77811e8f2ecd49487570b1d3665a52131a5a3052d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0006.txt",
+      "sha256": "c48d0056db764e6f3185d3a8d4a8ef528a533238fe7fff519cbd1be096bfdc63"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0007.html",
+      "sha256": "78ed460c58826fb2f6a0235d4cdf787bca8b5a50a51f930e91cd82ae814fcd13"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0007.txt",
+      "sha256": "e5e11bdb32f7eda714455b0b32073d0205ba55fd3ccf6de76acbb4e5ffd28101"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0008.html",
+      "sha256": "c7832bac0b1c07f420fe436875662be1ab3651d7f834114e47a6abfb2c56e056"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0008.txt",
+      "sha256": "2f8df9da767cf432fc67e04e61eef176240573587984f4a461c2b1faac486947"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0009.html",
+      "sha256": "699f47cc38a9618bf9ce9214c2bdb3ce0cdfc8f8c8ebe231647bd6f76474da70"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0009.txt",
+      "sha256": "01913327f89320063097ded9df22b372678d3cafe9d0480d9aaab8ce723648d4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0010.html",
+      "sha256": "ea8cd4002758bba0b8128f8ae97b58ad3c7806c3601aab8788580954709df852"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0010.txt",
+      "sha256": "5fedb8a6c3c1c0130d5149a16b1955d880dfdd2adb48ffd1f6678b3e57b8eb4c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0011.html",
+      "sha256": "148bfe7cc4e3d6cce1cfc00df8fc5bc30b1fc680f0d15914bc66fbeb86938063"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0011.txt",
+      "sha256": "56661ea6809a58ecaf3bb22ed2c1b8240e872b12ee956c6442525969b51e4c86"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0012.html",
+      "sha256": "3c05d3742d2e9a1a729afceb7dbfc6e2e5e6ad27cb5bfa955aa0782c6a7fa74a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0012.txt",
+      "sha256": "df833af1efdf6cdf752098b1b0c58c4bd24e47653a7a86022f2fbb4caa40562d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0013.html",
+      "sha256": "86b76911ed6dee0a874cd9847064171c11a2e7de78cdb13fe23246a63de373bd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0013.txt",
+      "sha256": "f37900349f0442d318c7d245a63cc9cba93095fb13c32f597ce072891d720224"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0014.html",
+      "sha256": "f1b61b5fa79fe53131b6047bd9798932f449c40530e75d5c53d1c33d16fe85ee"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0014.txt",
+      "sha256": "903d7a88e0f16739ff4027a8897e04a24f65727be9ac3b283bb1391201ba3fa5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0015.html",
+      "sha256": "ba13db045da49635e769c357dcea92ac2439e812b886a445c726da7b06be0fc4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0015.txt",
+      "sha256": "4606eaed47a533fbab90e9f282daeb358de1198f1e25dff88a3266be40d282d1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0016.html",
+      "sha256": "d98b2c13a9bf1341575dcc9be8f534d4e4c4926bd28f8d510a407f9d69d65acd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0016.txt",
+      "sha256": "32f4073091a5454105420f22cf4733d1e1749a3746a1b93f43175faa792c5835"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0017.html",
+      "sha256": "edf8d1ce3a6d4c7ae7e3d7679c48491d66b1909a351f1542fb3066f52701ba90"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0017.txt",
+      "sha256": "209f2fb5e5e28f7c80bdbda222d5acf6c47f2eb1db2f39d4b62f893074787b03"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0018.html",
+      "sha256": "aedbf7d184d8a1374f5f320ad099b38403c6325092eb9088eff0d1b9359179c8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0018.txt",
+      "sha256": "571bc03b8e2331e67bb12280fd99c35d0c19346e803e02c1385ae16fb95ecd05"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0019.html",
+      "sha256": "b596c460836b061ac39774f599ad443907d894a37dfbd0c35525ffdec98f0a31"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0019.txt",
+      "sha256": "ac54b813fee9fc37615a5bc48f240b43a5d65b52cdd1302cf5100c9c89ef4eb1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0020.html",
+      "sha256": "0d511b8173a52475daae5b537db057c92991ddf263d33190a15bf84ee6dddb01"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0020.txt",
+      "sha256": "6bab96f5c54209d2ace0b26cb81af72149a47b6d511581ef65bc2d8756a17703"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0021.html",
+      "sha256": "109cbdac522ce98fb8fec1a317e01afdbf2ff9f06429b90a56ac14c173744419"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0021.txt",
+      "sha256": "189aadac130d89853c905ec9f9afb239f632866bba21db31e0661f4a96808b59"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0022.html",
+      "sha256": "333a3e2834c8949d6e75e5f8160efaeeb378bdaffe3cc51e09fcbc1cb57a30eb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0022.txt",
+      "sha256": "45ed6d77fab5e78425c12a30f0bc5a6a1c782321dc361bf2146e0698d47e5d94"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0023.html",
+      "sha256": "026ca05a24526468cdcf1380a6847bedc9fc5a16befbf252d013176ecf0dd571"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0023.txt",
+      "sha256": "7975495adb7776fdfbbde7cd33749c9720d118af8bb1cfda6ab34f369becfc1b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0024.html",
+      "sha256": "40d167cb40b19f4a0865e7b73e8b4567db11d7fa6bdee0b114e563fb1308d4f8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0024.txt",
+      "sha256": "c8f216c45f980084c55a47a47acce89a8a3177ed273ed31abd8dcfc88930db1a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0025.html",
+      "sha256": "489b3a93d280d9ee5a190deb9debf482c3331a9d28722a25cd8ec5751959dd35"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0025.txt",
+      "sha256": "d62c1a024275bbd1655e3129b4fa301f24fd17d69e99c7ae1ac6ad3bb08cd8fd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0026.html",
+      "sha256": "e8c9beb92b87d7561492b2b7d6a5d1c43e178a82398e5f5a61c19ef518494d44"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0026.txt",
+      "sha256": "09441556319bdd4cc08e76c64e94bccc5f7838d6c778a7efef40e1cce8de770d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0027.html",
+      "sha256": "b310f68c08e160e2b1f5f0b1c411a8e1e19e40336d7047225690a988ef84385e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0027.txt",
+      "sha256": "b8ebc8926abb9a030d7e4540f1ce0bbd7d9e357425aa81d1d9480309da326bb4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0028.html",
+      "sha256": "d350c4a1b7f58540e01becdf1ceec1fb3cbfeb34a52e7ef08031cf15b213a9d4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0028.txt",
+      "sha256": "04ca6ebeaa9dd710dbbf2a08bb753790238cf9a27163737b88b39fc1c209a58c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0029.html",
+      "sha256": "71b2282524614f652f9727f8f88e0e16de4e33f3cf51ec2130ceded1caf416fa"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0029.txt",
+      "sha256": "26636a6c5c21fb2c21db75541a751a559629dd9457e9fed86b737cb8bcef2c92"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0030.html",
+      "sha256": "3e82ab10e1079af0d3f2d6dac352cf01126793f957588b62f8b846e32275305f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0030.txt",
+      "sha256": "19770d481fea545689cc925503a9f68cbeb330ce253deac4a2286eda3c35187d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0031.html",
+      "sha256": "4084b84c4e9d988f683dbd187ff7f8d915388de6660c682524dd30303dada0f6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0031.txt",
+      "sha256": "092b7303d0a6ffde571f5301efac5e491fa0cb33b07e6d99df07fea1654744a4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0032.html",
+      "sha256": "c0604bfecc911e106190639e63ae374833ffd07e55be456fc5ca7429697e4cc2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0032.txt",
+      "sha256": "b40a5d298a65762c45811dc2a8b53cf00ba60757709a7221649ec64086dbc9ca"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0033.html",
+      "sha256": "17d6b56fa94ce0333f93b66c18b58d823138d0e712c9f78daed30483867cbeff"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0033.txt",
+      "sha256": "9f15952da5e372a8431b9180b647a64721635408773c98ff5b46293f376e439c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0034.html",
+      "sha256": "5bbca6203e970315f7a2dc9af4920e875996dc719e6a1181dba840c760797e54"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0034.txt",
+      "sha256": "2c354a1e2b58dbf09b10442a5896ddc46a946a5ac1804b186f312c80242999e1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0035.html",
+      "sha256": "e4f3ee218fd78ec1949c2ae217f5eeb2c3fcb91aba3e80c5734e037e45a6a8ab"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0035.txt",
+      "sha256": "e53b7eb51f05d4369f8a2b160408cd345ef45592dc77d40936cb2d5ee40bf86f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0036.html",
+      "sha256": "52cc1a24e02bcb02893e0d0a7ac40fbaf751f5c54627830e63dd276772d47f22"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0036.txt",
+      "sha256": "e489a620659be08c4baee47d2464b5286fb8049541fe73ea25af6006b7540f84"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0037.html",
+      "sha256": "3530b2ec2bddab5c57f12135b5729f879de914b47fc1383c1c91cbca0c5fa131"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0037.txt",
+      "sha256": "78e7d679890d06561bed5b01388f50063d783942f112788381c59df8fdbf7cd5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0038.html",
+      "sha256": "e2fd7bae327f031d130381b04d4e7243c253e6feb62137cc26eedb1e3a2d62ea"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0038.txt",
+      "sha256": "5fb1eafbbbb00295277b834998179c7c53b6872232b2fab0a38c03dfa86d52c1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0039.html",
+      "sha256": "302277a8c78d7ab001e573b6d0de11121117856759d087d492e31939579c7d09"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0039.txt",
+      "sha256": "1d7bd568a085f47ff98e5c989369557f87306d836431597a2be04ddf192c01f0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0040.html",
+      "sha256": "e9f99140ec8f5ac53a2d01fd5e7158c4aec4a8e8fcbffc9c143ea251be647694"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0040.txt",
+      "sha256": "35431266ed4e824179e4ab08658c83d12e73ed97aa04efaef5ba6569385cf850"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0041.html",
+      "sha256": "1eeb2a2651f59a5d0a02c6f80823a7b5f9417979c3627fe9e09ffda8a8c2d221"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0041.txt",
+      "sha256": "5642fc2e4d544cea9530fc2bb8ec422b814a72ff771349822791d08d61bf4765"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0042.html",
+      "sha256": "76ce0b1f5dce45c821a18b568aae4a5940e915c2dabba28679439b80c78465f6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0042.txt",
+      "sha256": "57855880fcc5ed6682c4ee40f559d7427e041ac68ecaad283f198535cabf8411"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0043.html",
+      "sha256": "d70ef3426306cfbe83e76b7d06f855b0da8f3b1937f8f3e52221991fd0c884ee"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0043.txt",
+      "sha256": "f69150ed47bd9e9b7ea1c44bec2afe38bcffdbd4c689d8eb855afe0524cedff0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0044.html",
+      "sha256": "658ffe29536629c9c66d92707e072c1999fee28a8383563505f9edb7828ec2ff"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0044.txt",
+      "sha256": "3c633d655a457d4f5c7893aff2167c1161f1e26050bcca1d91aed15b63678d99"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0045.html",
+      "sha256": "e8978b214607afc49d186e17c17d721ac7bed751de22e59ab26944fe534c1b57"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0045.txt",
+      "sha256": "7cdad7c316ef6bc301904305d602b328f66540b6ad11366b6c49cd9810bf804f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0046.html",
+      "sha256": "e9d66e5b6f7cfe85da2add501926f101204f3fe5e8868f12ee345d2b19cd092b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0046.txt",
+      "sha256": "48417ea9a5c3c46dda4e2ea7ef0716ef0e551d68f5b3e37db6f7643f686bd2b7"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0047.html",
+      "sha256": "db81fac62ca109b02a0767dd7fd1d5da4a9c0f84fc0e7e83d32570d69f1195b8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0047.txt",
+      "sha256": "c85e0c26fa41d0f73d2db9efe4e88ddc84256045e83c386411d6baa42f8a6f30"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0048.html",
+      "sha256": "35dfd0981723a0894bc6ce868a7ab6b53eb2a623010c48256f37656b097ac821"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0048.txt",
+      "sha256": "0ca71672eaaf61c8b94174b5f761280436e90c0cab02a9716a1987bfb0f0eb4c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0049.html",
+      "sha256": "733d6b8a923fc7ca71ec99983405b54806949846ea980b3cb3d79c05ece2e95c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0049.txt",
+      "sha256": "317279bda5dff8a2a854741f48f46df1e4e153b67751c658f3ec228975905881"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0050.html",
+      "sha256": "4a0ea41fe8770624ff6f893642f170ac7811a2bdb40a606c16d3d647aaa28fee"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0050.txt",
+      "sha256": "98350ec7f75b86ca56659964cca1df1f2d3c261b4dda8a1e29cd922f4368ea49"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0051.html",
+      "sha256": "f14eb42dfb31ea563d9170115b2645cc519486446de2420b243505388e035748"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0051.txt",
+      "sha256": "67ab68a2b1039df487ef1c837976887947eda2d0940281fd59b3a88c90de843b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0052.html",
+      "sha256": "4a9bd2ed2847ed62589366da018d9bc995ce52b04f35e3bb8588e788828c2bc5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0052.txt",
+      "sha256": "b4e09d2f02e0dc3c7b1fa8ae835fa03d5bb3a0bc1cb1da0a747627c17ffb86d6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0053.html",
+      "sha256": "7067c49711f6bdca220359b448faf46afb3d85530109429a46b2db7f35fd7fd1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0053.txt",
+      "sha256": "147b644d189efe0bd96a51c7b37462f60aef53e8964160c7d1a90bd85f79a8c6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0054.html",
+      "sha256": "cc35d64ad5495a291758647f76322eb5db9a9204580b9fe9fa5981656f2a7e2c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0054.txt",
+      "sha256": "7eca7828dc8b9014c0c155f77c00d2dfe77b0f05982622581de73a3901bc46f8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0055.html",
+      "sha256": "fb9def09ff06b7dba542e7053ff3fc21e6054745e52493d3fc6f7f259b156bed"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0055.txt",
+      "sha256": "2f91b4f6a96fec46925ff6fc366579732af6c2051ea914995a1a5351045e600c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0056.html",
+      "sha256": "d4dd00c7518d1a559cd7c8b0358b5291d10a5d7f333a9eb7651d18bf4f532a08"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0056.txt",
+      "sha256": "cf510e0a6bb5406d9be101ade3cbeee2c300244eb0d0c0d594df99b4c7e0592b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0057.html",
+      "sha256": "640cbbe1aa87f93a68424cd9f06d98dd2c50b676536b004d12546cd02a12c9e0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0057.txt",
+      "sha256": "e363039509133f0361eb68c7cad323d0f463d05f2aae59ebabb8592d03f6d3b0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0058.html",
+      "sha256": "c60dc22582971c3a49e464e2b5e6424816657458d220ca317a8c065836412ef0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0058.txt",
+      "sha256": "0830d99b6dd0f85eda631deeb7f007c69e82452a1050a0182092d08037464629"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0059.html",
+      "sha256": "29084cc9badfbe29c79ecdf57f96bf885a7bc743cb9511d7f5229d1131c16f77"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0059.txt",
+      "sha256": "8e1beb1df0538f0d152ac90fc3073dfa7ac827030fbb63d70141c6907d5d7d1e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0060.html",
+      "sha256": "dca5415cb4321fcca043f59e2ae94797e4d49fff5d7ae3cd1c25c44b9ae991d5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0060.txt",
+      "sha256": "f9fc252616f321a473a3210df531cf7a202c6f599d25f228ec769b4b05bf005a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0061.html",
+      "sha256": "1db87ffdf39a7fa5d8aef72216ae66efd813f6073a9d60e208e1c1d7161ff6b9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0061.txt",
+      "sha256": "363241e47c767767ffd2624bffa76d5cef9462f452d800f729a10aeba475dccd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0062.html",
+      "sha256": "e03bedd4037cfd841a128e296950b1af70303925bb0124419c1b98d91d076f81"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0062.txt",
+      "sha256": "2eaa946a4596baab2bc82c777cc5488387c11a06f99fd5dce2c92cb57140bb47"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0063.html",
+      "sha256": "7f56d27fa0cca8b8fdbfdffa9b790ce935f3546fac252a738f43c1701bafb169"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0063.txt",
+      "sha256": "2167a3388c200b8019cd2703bceeea1ba9fb233455ab880bb4acf4e8b64d3c61"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0064.html",
+      "sha256": "d7443a293217081884e022065360c943c63cf1864cb7655f6bc77e8f444880dc"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0064.txt",
+      "sha256": "d107474e3614d14d5fe4f815b50742c61b36e23012e2fc44ac06233bbbd7b882"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0065.html",
+      "sha256": "6686c39b967b0757b5d526a9496cd5c9fa5d09fc647f0a512d870b1d280ae2f3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0065.txt",
+      "sha256": "95037a3cee823e4b6c485f77e771b91c214a6b62003192eb7606024426f05440"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0066.html",
+      "sha256": "9c7df4b11638c80742c9d5d57042297b3b17fb5065a12aee4003c28be6927fe1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0066.txt",
+      "sha256": "694f3e6a63cdf9647b798aed93feaf3728155ed4b41f96086243539998e47f6b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0067.html",
+      "sha256": "c0e206f770559dd378895ae2bcd131215c473931ecc80cb8fde0d9925675480f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0067.txt",
+      "sha256": "9096d3a4604a57ab74dad7d0b6784a2525178244f268d8ef6cc7df1d254fa557"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0068.html",
+      "sha256": "7c3715d26ea47415c17b232244cff600c0f072be4d8aa7566fce521a03b7364a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0068.txt",
+      "sha256": "b886f955f43a7066605a576111498f2781f177ba545924caa2cbc2cee62160f0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0069.html",
+      "sha256": "fe626607b5779aede459f33656bc81a51b12942061e76ea9399e150f5fdff246"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0069.txt",
+      "sha256": "168f1ca99a1e856dbae62c4f90bace8c9f55bd6a4b2cc0050e1c8eb4a7c0f1d1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0070.html",
+      "sha256": "ba26552dfcf139b35b8b8212691167e123e127feadf9489f2993aaf97a8b2f82"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0070.txt",
+      "sha256": "186c412cf3020188fdb2f0c0314514053ae1f446a095094a2b72adb3740ef2f4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0071.html",
+      "sha256": "dd48e5c2014167ba0f21b49dd27a4fa9eb644fd1355c5b20cf8edfb99a9026ae"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0071.txt",
+      "sha256": "430efaf33553ba19b6229c9e5aa031039c76ea7930c0b99d55dcd0ce5bf5fc7e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0072.html",
+      "sha256": "620a4160b5bc540122e0aa081d60ff118a64427f0a61cb77276e83c85e0bdd5c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0072.txt",
+      "sha256": "11fcdf99ba4a1c78b3dd230925bf641bb245d80e1e8d44799858bc50358b6a79"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0073.html",
+      "sha256": "8800b95945ccc6dce442e84aab289cf9a975ad3faab8def58f9b1c01f015caf4"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0073.txt",
+      "sha256": "7ca340c44b3a3c2ae65b85d127d591d0b131ffc1a46c3da6914d4e4c896a318a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0074.html",
+      "sha256": "56b6dfc2c286f67affbc7253a1594e92aeb478b5ce3e0b022fb29d0bed03cd7c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0074.txt",
+      "sha256": "11323050f38e399e05ff285617eaed9fde3d7050f9819de7a416a4851c8208ba"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0075.html",
+      "sha256": "796bad172560c17fab0c68d84fb452d0da0d87b4db626aa47dbded4db3da7936"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0075.txt",
+      "sha256": "6d7d5ede3fd285a450f4df6a94a053774c9c4d6da6e8e833ffa7474cc3b739cd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0076.html",
+      "sha256": "67f9267b7495c64ea92057384c91c82ef2d34aa5c93582ecd00be6d525ad6339"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0076.txt",
+      "sha256": "c361272baa7d4aed445fc33b1a1d7c19591b0138dd905f1eecbcdd4ee0dc1f73"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0077.html",
+      "sha256": "61bc7076ed8ea94f7b61bdb4fcf2614f77214a6e9318424a38f7ea5c38d5171a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0077.txt",
+      "sha256": "0db617eafca2a0b5c3cd5cebc7b9dafe2a6ca65cd3ba1e918c94bf42ad8a05c6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0078.html",
+      "sha256": "881aef6721bff40e4d98c5e0a65e0073d21c550912d542fd2e61d980b11fa763"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0078.txt",
+      "sha256": "36e81fa51f3ab1f9871660a758f54c056326ad8fc010ce21f43b5497996af5e1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0079.html",
+      "sha256": "a670c864c7bc51c997f9c1dd560b111546a4db3c0da362b2042de5649ccbca95"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0079.txt",
+      "sha256": "9ce733dd2eb553bf233649a17a385c75f79829d61db126a7efbca0c43baf85f1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0080.html",
+      "sha256": "bde23b972fa5c5be5b705d90ce2b3fa6cddab460521cffb5b846fe2feb100828"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0080.txt",
+      "sha256": "7c7d5cb599de3a292564714432f9bbc502fd0cfb850cd31eb783aba70a7ac75f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0081.html",
+      "sha256": "154511650920482c3219d51ff6de6492a8087d886da43c346be5bcd02592566c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0081.txt",
+      "sha256": "cfcb27fce4ff98fc0aebf9fb8ca7acd700f419127f104b7ef8c87d20de9401c6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0082.html",
+      "sha256": "6c5ed2269971c47fb2aacf98dda1285006e47072e8c3a799fd2b4d1e74905f68"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0082.txt",
+      "sha256": "63e960997b22759dcfbb9551b2cb2ae5650402ddbe8e893678baec013ef0e3ce"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0083.html",
+      "sha256": "7235942c77bc37cfd9e6d25bf472ef9a9ce07a9aabb443b01f45d684edef33c3"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0083.txt",
+      "sha256": "5e623b974bd5bf5ff017a0a62854b640afb1e10854e813cbe0c7270375c19837"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0084.html",
+      "sha256": "aa035837683d8746bff0dec9898378d254775bb3fd99d3e9d3cb6835ebbbbffa"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0084.txt",
+      "sha256": "5f6cf8923e47f5cde76aad71a3c583a2d3b7a4a1cdefef275537bc5f4f20e035"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0085.html",
+      "sha256": "b14e2c25e2896c9d7fe385ddb214b44610a806a2d7590d40a09f2c9175ba503b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0085.txt",
+      "sha256": "570efcfe909a352f16f8f8812414fc26bd2ecfc3cdbf56c548bbb87c8d46983f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0086.html",
+      "sha256": "b2f78eca2702e80486930b41673b7cf8aa19a8d9a33a708ef0ffc73e17425e81"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0086.txt",
+      "sha256": "81409762c9b89ad46a87925a51ea512593c27bf1f83463fc0c73d49b11089625"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0088.html",
+      "sha256": "8b4dbc56895a14733a88b76d85f89c34a5155167738ce27a3c3dac17fc744025"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0088.txt",
+      "sha256": "3fb42ba113556129bb32a227fe6b67d51a3fa7fc430c4e7026c04fa652c78cd5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0090.html",
+      "sha256": "e7a19ab09e6400816e43f47eb419ea9be8752f0ec8a7523d592074600f06d6bd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0090.txt",
+      "sha256": "a617f4bd6451c1cf649fb19411c0fa1b0f884e0e6cd0dcbd8b391baf3e26b3db"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0102.html",
+      "sha256": "c73d3668d0c56d4f4da51b76d52f0ebf60794b2e00c3b8f781b83a4d53a3018a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0102.txt",
+      "sha256": "ac2fb3b2fa6285fcf294cbb0b87d9b3f2f4cad0b6d2ab19da66a511a1ffcf0df"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0103.html",
+      "sha256": "8f0d9bfbbf2f3e09859a14db1ffe8b31c346afdf01d1b20f4c87288eaa2c1b28"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0103.txt",
+      "sha256": "9a14e45519cccac06180a8aac0698ee10ee3cbfa36e1cca93cb45e5504cb7303"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0109.html",
+      "sha256": "06e8c85ea6b79ea66cd9e1979a273da612736b2198985acb22653c7b670b194d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0109.txt",
+      "sha256": "fce7b10f0f5940e872cb4b6321339a681f631c768baf28f6287ae10f484d1b0d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0111.html",
+      "sha256": "eebb89fcd91bbde9e7a815a872606de9e3245bfca608c58578b3e4691cbe30fd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0111.txt",
+      "sha256": "1a844eb3fb4c46e8b2a8b744eae2a8f1b1e12b9888829fcf95c8d6e8ecb6be9e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0112.html",
+      "sha256": "e2c9d637a3c0328888020692785565d860ed7405cb439c52fcf3cc930c4ea5d9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0112.txt",
+      "sha256": "212edb4a4819e0ae22ae5ee3d53968514d0e7f775b02fdd8aabfb1a6dc7db18e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0114.html",
+      "sha256": "317c640789bf0f396e92fae5379ea7dd54b51be778b3c95aad4ecfb11569fccf"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0114.txt",
+      "sha256": "8bebfd68326de2a571099d072e8ed56cfa0aaadc9acdefcdabc2f1b51a38ad69"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0115.html",
+      "sha256": "87fc10d5af393a8d7e9ad6d7ce859b9f7b0526e572d98ead95c1e09da804a7b2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0115.txt",
+      "sha256": "232157f1ed476911c4f8b677e4ca0107a41ef392dc7878b5d79ded4c66f957b2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0116.html",
+      "sha256": "39541d27e2254429a8e23621821461d8183af3a069f6e154e754680ac540a73b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0116.txt",
+      "sha256": "0599d4c385026fb79798ba5a9fb85200b15b13ce3a28834889468275f3a8a0d1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0117.html",
+      "sha256": "51626b220c82ea3bfc52c4a8bd36550e56a9768e6c32754c65f0d3cf46462174"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0117.txt",
+      "sha256": "50482fa3042b26ab03b3307fee5ac2bb747bd69e3bfd12043f762c15fd6327fb"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0118.html",
+      "sha256": "bcd20fefc5d6f55e3fb0dc44d8f0a0a6dccf4bf44005b435d084c1239f455aa8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0118.txt",
+      "sha256": "d77bdf65e072e204f40087005e60a6217fb4eb6a154c48e9005ee25e6c7f70e0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0119.html",
+      "sha256": "2f0347e464a2dbe7135ee2600856138cc12919fa30e269a0b067c3324eb1220b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0119.txt",
+      "sha256": "bdc2bdd132ef11afb295aa92a08992297106f8a8404047d39d3ec15a4da97f80"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0120.html",
+      "sha256": "eacd7895d9716d533dce165bc627aafb6e82e4e58a9e08507b3d395db8750a02"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0120.txt",
+      "sha256": "6c7ff8fb212fbf328148de23de321c1ff26dda1ba0f4189217ba76f763a99d3b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0121.html",
+      "sha256": "8b4b76647a1c7fca87e13bbd2442f31a09a9de65ae00b0e49d7e25ba632fd423"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0121.txt",
+      "sha256": "00f0c504f32abcad199dbf4ca016690f0598c68f27f451f2b42b7403ad698ed5"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0122.html",
+      "sha256": "95b7c815975ea38506021845e12dec0353e42264c596dd2ba2ee5ec847efa21a"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0122.txt",
+      "sha256": "1037ea7f156075efc7bfbb0289a1569d4c8cb7a2f7b8a6a28b0d979cf5899503"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0123.html",
+      "sha256": "8bacd3b3b5e079d1aa039d39a1c656604903c0ea2271ecaedfb45a9f21a33421"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0123.txt",
+      "sha256": "60f39154c970644ecd4b2a703606cf418cab616b5d40aa3f43eeda6b94043039"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0124.html",
+      "sha256": "145c73b3bd5dbddc20fc8a1ace662f05f4f3764b72b7c8bcf00e7e69513fa673"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0124.txt",
+      "sha256": "69ce4477c08dcb72c58b8b7428a0b80793b0e8c52d091052e94668bff0dbd98c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0125.html",
+      "sha256": "2a92bc5a2fde5eadddd864248fa447ef2a9d764e7f39da7deee1846d73cf84a9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0125.txt",
+      "sha256": "bee18fad53477c55f0d716745c1c699d5e29e85f803e77ad008f5b53c1cbd2bd"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0126.html",
+      "sha256": "f6de1ca0f4cc37a4d96544057359e3704f1ed7876918f551784c65c21f1bd1ac"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0126.txt",
+      "sha256": "5e103bf1df4d489f59edc68c67fd38e361b64d7beefed35733e7961eb2e97396"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0127.html",
+      "sha256": "b21bd3792f5b600e2c28998367ba532b269bcb5353868ecf92a5af86ce8dc9c2"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0127.txt",
+      "sha256": "b8c6ee9658ae2e63cbe7bfd6019f87c600d0ece4d48631cd37b980c51841039d"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0128.html",
+      "sha256": "e2e148a4c9f2e0d7b51ff83340a4566e7dee30d637a90773e80f0cba131f3c11"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0128.txt",
+      "sha256": "a978870be3b08b371ac52a766d2ab8553496d138e38733e5e8a41cc816845892"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0129.html",
+      "sha256": "9fb9e46128514ac9c87dc09ec8e3ba24b352caefbe36a52907da5736393fe348"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0129.txt",
+      "sha256": "c78f8ce35192cf21e545033169063a99cfde85bd8ecc64a17cd72bb9eccfc090"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0130.html",
+      "sha256": "05a1935656222cd622687a8f4bd35298ac86fe6680e84550b1082df66d619d4e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0130.txt",
+      "sha256": "5b8f980c99db5b2691b4ec0884b564548e2966a77cee6fcc00c1bdb22307c890"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0131.html",
+      "sha256": "7d5f863b92d10d8d94e90cc091465ccc1711c3b7862597fa820935e3536680e6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0131.txt",
+      "sha256": "312d7fca3ac7e324253cc38ef35e49ec75d1382ddcb04231cde4b4fd2477bf42"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0132.html",
+      "sha256": "865f9277579a4ffec51440e76fb117d11ff421aad8911ac42afc41aad3fa6994"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0132.txt",
+      "sha256": "7740969a8d431caf0376e3714c26341694ce0afac75629bc723de69b423024f6"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0133.html",
+      "sha256": "d4e89e913ce48c0c23bcb40baecb9ac2cc9d38c99f1cc820b2064e0c74d4b8b8"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0133.txt",
+      "sha256": "97f019bc7f7f88a9907a0e8bd2ed14129033555dda63e4df75ce9eae2bb55db9"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0134.html",
+      "sha256": "b6847c5405eae82913e6d3deefe8c639440a62dae36e9feb2097527a6b5cc3aa"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0134.txt",
+      "sha256": "23bab1d9b3317bd09b9bad325fa3bbcb0645f2337b39524c71ca25d0d5cb08b0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0135.html",
+      "sha256": "f8b67088b20898c24b760eb42bcebb5bebbfeefb645691ee24721d2628cce335"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0135.txt",
+      "sha256": "f55e647d212ea2f32da67dcf7200842d9bad2af869cb7924b2b4647c8c5a2cd1"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0136.html",
+      "sha256": "1eabeaf93ba2126076b4c8d33c4467c09961c0db704598e6135c8df49157d589"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0136.txt",
+      "sha256": "297a8e206b7020018dca550f407b5230ba1403754ee6c53211b5da98e29833ef"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0137.html",
+      "sha256": "491b2d259a7ce57f6d58c7457101d13b5c8ae3130a9c8487cd4120f66bd1626c"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0137.txt",
+      "sha256": "e88470652a85ea221fb439025e3f1a3b9b92331a2a6c202449611b11af48e804"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0138.html",
+      "sha256": "484b01836e60ed662474e94192743d19fd5698a234fdb3a942f62d1b39dcc22e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Documents\\study_ancoj\\data\\imcce\\U\\um0138.txt",
+      "sha256": "8783782ab8f2a00d1eb4183c55556ac1e1b6c0d7b65c9e20e88f7d412e2fb2ab"
+    },
+    {
+      "path": "C:\\Users\\Y\\Downloads\\project_small_tools\\画图分析\\IMCCE_MAP\\inputs\\resources\\counting_policy.json",
+      "sha256": "f664782551c6ef9ee663d6676976128740b5053ff405508811045b2cbeddc8d7"
+    },
+    {
+      "path": "C:\\Users\\Y\\Downloads\\project_small_tools\\画图分析\\IMCCE_MAP\\inputs\\resources\\mpc_supplement.json",
+      "sha256": "33f84e6587d0ccda8123ef6d397f0b63666e4c29f918ecd6b58bd8bfcab35b25"
+    },
+    {
+      "path": "C:\\Users\\Y\\Downloads\\project_small_tools\\画图分析\\IMCCE_MAP\\inputs\\resources\\ne_110m_admin_0_countries.geojson",
+      "sha256": "6866c877d39cba9c357620878839b336d569f8c662d3cfab4cb1dbe2d39c977f"
+    },
+    {
+      "path": "C:\\Users\\Y\\Downloads\\project_small_tools\\画图分析\\IMCCE_MAP\\inputs\\resources\\obscodes_snapshot.dat",
+      "sha256": "9e8a09f35a95a97fc0c2c4819b03b5621e79ac2c826f0efaaf04fd4e7573b6aa"
+    },
+    {
+      "path": "C:\\Users\\Y\\Downloads\\project_small_tools\\画图分析\\IMCCE_MAP\\inputs\\resources\\README.md",
+      "sha256": "e779dd39ef3f2af1fca0c7e06e9506406d30756a4cb7226a5c5a5634dcaaf8a0"
+    },
+    {
+      "path": "C:\\Users\\Y\\Downloads\\project_small_tools\\画图分析\\IMCCE_MAP\\inputs\\supplementary_catalogues\\jo0080.txt",
+      "sha256": "a1bb8eedca35b82392b915653c59a9c0572975c42a50f322a0ab31b75ad3a79b"
+    },
+    {
+      "path": "C:\\Users\\Y\\Downloads\\project_small_tools\\画图分析\\IMCCE_MAP\\inputs\\supplementary_catalogues\\so0056.txt",
+      "sha256": "3cca618c17e4671e56a4ae8d1817ea3aba3dd1a3016eb30bfa1befdb3072db3e"
+    },
+    {
+      "path": "C:\\Users\\Y\\Downloads\\project_small_tools\\画图分析\\IMCCE_MAP\\inputs\\团队观测数据占比.xlsx",
+      "sha256": "b4d76d3bf8ce4f83ed95ae399fb0711dfa549dc189a95c3af341843ddd48f6f6"
+    }
+  ],
+  "totals": {
+    "raw_input_entries": 256445,
+    "satellite_entries": 254527,
+    "raw_team_entries": 32528,
+    "selected_entries": 213638,
+    "selected_team_entries": 30535,
+    "mapped_entries": 179629,
+    "space_entries": 27976,
+    "unresolved_entries": 6033,
+    "excluded_entries": 42807,
+    "residual": 0
+  },
+  "limitations": [
+    "sm0006/sm0008/sm0035 with sm0037: reprocessed Nikolaev positions; frame/epoch correspondence needs review",
+    "sm0074/sm0079 with sm0009/sm0031/sm0032/sm0057: partial re-reductions; no blanket subtraction",
+    "sm0073 with sm0068: partial Cassini overlap, both isolated from ground maps",
+    "um0001/um0002/um0003 with modified um0007 and Camargo catalogues: changed membership requires record correspondence",
+    "um0128 with um0085/um0086/um0102/um0103: partial reprocessing and absolute/relative measurement differences",
+    "Gaia releases and PHESAT target/reference counts retain source-specific versions and measurement units",
+    "sm0053/sm0054: index reports 44 shared positions; only exact UTC JD/target matches are removed; other correspondences remain unverified.",
+    "sm0084 with sm0010/sm0012/sm0013/sm0014/sm0016/sm0017/sm0025/sm0027/sm0058/sm0064/sm0075: explicitly partial Gaia re-reduction; old unique rows must not be discarded.",
+    "Zhang 2024 aggregate 10339 included; no local raw rows.",
+    "Selected entries are not certified unique observations.",
+    "Country polygon attribution is labelled as inference."
+  ]
+}

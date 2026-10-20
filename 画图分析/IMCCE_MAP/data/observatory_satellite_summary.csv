@@ -1,0 +1,165 @@
+﻿code,name,country,is_china,longitude,latitude,J6-13,S1-8,S9,U1-5,N1,N2,total_obs,coordinate_source,country_source
+874,Itajuba,Brazil,False,-45.58265,-22.535485,1923,8880,1285,27516,1258,1207,42069,resources/obscodes_snapshot.dat,catalogue_site_identity
+286,Yunnan Observatory,China,True,102.7883,25.025447,3408,3220,437,13695,3808,0,24568,resources/obscodes_snapshot.dat,catalogue_site_identity
+084,Pulkovo,Russia,False,30.3274,59.772115,0,17029,0,949,240,0,18218,resources/obscodes_snapshot.dat,catalogue_site_identity
+786,"U.S. Naval Obs., Washington (since 1893)",USA,False,-77.0655,38.920443,53,13351,0,1607,1290,0,16301,resources/obscodes_snapshot.dat,catalogue_site_identity
+337,"Sheshan, formerly Zo-Se",China,True,121.1843,31.095924,0,3169,705,4190,3927,0,11991,resources/obscodes_snapshot.dat,catalogue_site_identity
+689,"U.S. Naval Observatory, Flagstaff",USA,False,-111.7399,35.183933,1111,4190,515,1954,1312,0,9082,resources/obscodes_snapshot.dat,catalogue_site_identity
+950,La Palma,Spain,False,-17.8824,28.76022,0,3520,7,659,0,0,4186,resources/obscodes_snapshot.dat,catalogue_site_identity
+787,"U.S. Naval Obs., Washington (before 1893)",USA,False,-77.0506,38.894244,0,2589,0,788,246,0,3623,resources/obscodes_snapshot.dat,catalogue_site_identity
+536,Berlin-Babelsberg,Germany,False,13.1062,52.406677,0,3063,0,82,0,0,3145,resources/obscodes_snapshot.dat,catalogue_site_identity
+754,"Yerkes Observatory, Williams Bay",USA,False,-88.5568,42.570073,58,100,22,670,1935,0,2785,resources/obscodes_snapshot.dat,catalogue_site_identity
+999,Bordeaux-Floirac,France,False,-0.5275,44.835298,20,2203,5,441,98,0,2767,resources/obscodes_snapshot.dat,catalogue_site_identity
+073,Bucharest,Romania,False,26.0967,44.413612,0,2537,0,0,0,0,2537,resources/obscodes_snapshot.dat,catalogue_site_identity
+511,Haute Provence,France,False,5.7157,43.931873,1441,10,580,58,0,140,2229,resources/obscodes_snapshot.dat,catalogue_site_identity
+662,"Lick Observatory, Mount Hamilton",USA,False,-121.6455,37.340106,295,0,26,1100,622,0,2043,resources/obscodes_snapshot.dat,catalogue_site_identity
+T08,"ATLAS-MLO, Mauna Loa",USA,False,-155.57605,19.53615,1682,18,261,0,0,16,1977,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+780,"Leander McCormick Observatory, Charlottesville",USA,False,-78.5222,38.033614,0,1865,0,0,18,0,1883,resources/obscodes_snapshot.dat,catalogue_site_identity
+711,"McDonald Observatory, Fort Davis",USA,False,-104.0215,30.671478,558,405,17,829,0,53,1862,resources/obscodes_snapshot.dat,catalogue_site_identity
+809,"European Southern Observatory, La Silla",Chile,False,-70.73374,-29.25882,390,621,101,599,0,116,1827,resources/obscodes_snapshot.dat,catalogue_site_identity
+T05,"ATLAS-HKO, Haleakala",USA,False,-156.25701,20.707551,1555,12,226,0,0,8,1801,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+415,"Kambah, near Canberra",Australia,False,149.0636,-35.396939,1100,0,414,0,0,205,1719,resources/obscodes_snapshot.dat,catalogue_site_identity
+673,"Table Mountain Observatory, Wrightwood",USA,False,-117.68217,34.381485,238,686,180,284,213,11,1612,resources/obscodes_snapshot.dat,catalogue_site_identity
+704,"Lincoln Laboratory ETS, New Mexico",USA,False,-106.65907,33.818257,1314,0,236,0,0,0,1550,resources/obscodes_snapshot.dat,catalogue_site_identity
+O44,"Lijiang Station, Yunnan Observatories",China,True,100.02973,26.695087,415,0,949,0,0,126,1490,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+000,Greenwich,UK,False,0.0,51.477376,304,481,58,6,454,0,1303,resources/obscodes_snapshot.dat,catalogue_site_identity
+089,Nikolaev,Ukraine,False,31.9747,46.971602,0,1126,0,0,0,0,1126,resources/obscodes_snapshot.dat,catalogue_site_identity
+327,"Peking Observatory, Xinglong Station",China,True,117.575,40.394236,0,0,667,83,173,164,1087,resources/obscodes_snapshot.dat,catalogue_site_identity
+083,Golosseevo-Kiev,Ukraine,False,30.5056,50.365005,0,996,0,15,0,0,1011,resources/obscodes_snapshot.dat,catalogue_site_identity
+078,Johannesburg,South Africa,False,28.075,-26.181857,0,984,0,0,0,0,984,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+119,Abastuman,Georgia,False,42.8253,41.755246,1,399,0,497,54,0,951,resources/obscodes_snapshot.dat,catalogue_site_identity
+G36,Calar Alto-CASADO,Spain,False,-2.5475,37.222884,858,0,27,0,0,0,885,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+388,Tokyo-Mitaka,Japan,False,139.5421,35.672251,0,776,0,0,0,0,776,resources/obscodes_snapshot.dat,catalogue_site_identity
+501,Herstmonceux,UK,False,0.3475,50.869429,0,588,0,0,0,0,588,resources/obscodes_snapshot.dat,catalogue_site_identity
+136,"Engelhardt Observatory, Kasan",Russia,False,48.8156,55.839123,0,578,0,0,0,0,578,resources/obscodes_snapshot.dat,catalogue_site_identity
+077,"Yale-Columbia Station, Johannesburg",South Africa,False,28.0292,-26.187259,0,478,0,0,73,0,551,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+D29,"Purple Mountain Observatory, XuYi Station",China,True,118.4639,32.734363,442,0,47,0,0,6,495,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+586,Pic du Midi,France,False,0.1423,42.936552,0,4,0,453,0,0,457,resources/obscodes_snapshot.dat,catalogue_site_identity
+691,"Steward Observatory, Kitt Peak-Spacewatch",USA,False,-111.599,31.957969,369,0,69,0,0,0,438,resources/obscodes_snapshot.dat,catalogue_site_identity
+G45,"Space Surveillance Telescope, Atom Site",USA,False,-106.36436,33.739419,427,0,0,0,0,0,427,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+I41,Palomar Mountain--ZTF,USA,False,-116.85978,33.357336,332,0,4,0,0,28,364,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+F51,"Pan-STARRS 1, Haleakala",USA,False,-156.25591,20.707234,258,0,15,0,0,47,320,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+E07,Murrumbateman,Australia,False,148.99889,-34.958696,67,0,69,0,0,161,297,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+188,Majdanak,Uzbekistan,False,66.89555,38.673362,0,230,0,58,5,0,293,resources/obscodes_snapshot.dat,catalogue_site_identity
+G96,Mt. Lemmon Survey,USA,False,-110.78872,32.442751,270,0,12,0,0,0,282,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+W68,"ATLAS Chile, Rio Hurtado",Chile,False,-70.76498,-30.47101,112,34,123,0,0,0,269,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+568,Mauna Kea,USA,False,-155.4722,19.826114,129,0,9,113,0,6,257,resources/obscodes_snapshot.dat,catalogue_site_identity
+381,Tokyo-Kiso,Japan,False,137.6283,35.794094,224,0,0,0,0,0,224,resources/obscodes_snapshot.dat,catalogue_site_identity
+644,Palomar Mountain/NEAT,USA,False,-116.85978,33.357338,195,0,3,0,0,14,212,resources/obscodes_snapshot.dat,catalogue_site_identity
+703,Catalina Sky Survey,USA,False,-110.73264,32.417003,195,0,4,0,0,0,199,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+690,"Lowell Observatory, Flagstaff",USA,False,-111.6633,35.201968,64,11,0,0,121,0,196,resources/obscodes_snapshot.dat,catalogue_site_identity
+672,Mount Wilson,USA,False,-118.0564,34.224691,187,0,1,0,0,0,188,resources/obscodes_snapshot.dat,catalogue_site_identity
+699,Lowell Observatory-LONEOS,USA,False,-111.53669,35.09594,167,0,14,0,0,0,181,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+992,Liverpool (before 1867),UK,False,-3.0005,53.414381,0,0,0,0,169,0,169,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+M22,"ATLAS South Africa, Sutherland",South Africa,False,20.81059,-32.380156,67,29,68,0,0,0,164,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+371,Tokyo-Okayama,Japan,False,133.5965,34.573891,0,0,0,156,0,0,156,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+W84,Cerro Tololo-DECam,Chile,False,-70.80642,-30.169594,33,3,0,0,0,98,134,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+J43,Oukaimeden Observatory,Morocco,False,-7.8811,31.20908,133,0,0,0,0,0,133,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+608,Haleakala-AMOS,USA,False,-156.258,20.708373,132,0,0,0,0,0,132,resources/obscodes_snapshot.dat,catalogue_site_identity
+007,Paris,France,False,2.33675,48.836381,0,0,0,71,52,0,123,resources/obscodes_snapshot.dat,catalogue_site_identity
+114,"Engelhardt Observatory, Zelenchukskaya Station",Russia,False,41.4277,43.65571,0,100,0,0,0,0,100,resources/obscodes_snapshot.dat,catalogue_site_identity
+802,"Harvard Observatory, Cambridge",USA,False,-71.12836,42.381465,0,0,0,58,42,0,100,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+106,Crni Vrh,Slovenia,False,14.0711,45.945905,81,0,8,0,0,0,89,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+123,Byurakan,Armenia,False,44.2917,40.335208,0,53,0,34,0,0,87,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+087,Helwan,Egypt,False,31.3411,29.858773,84,0,0,0,0,0,84,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+115,Zelenchukskaya,Russia,False,41.4416,43.653276,84,0,0,0,0,0,84,resources/obscodes_snapshot.dat,catalogue_site_identity
+094,Crimea-Simeis,Unknown,False,33.9974,44.403086,78,3,0,0,0,0,81,resources/obscodes_snapshot.dat,unassigned
+O49,"Purple Mountain Observatory, Yaoan Station",China,True,101.18111,25.528605,81,0,0,0,0,0,81,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+192,Tashkent,Uzbekistan,False,69.2936,41.325126,0,0,0,80,0,0,80,resources/obscodes_snapshot.dat,catalogue_site_identity
+687,"Northern Arizona University, Flagstaff",USA,False,-111.6527,35.184457,0,0,0,76,0,0,76,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+693,"Catalina Station, Tucson",USA,False,-110.73255,32.416844,4,0,0,66,0,0,70,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+H80,"Halstead Observatory, Princeton",USA,False,-74.66433,40.34886,0,0,0,0,68,0,68,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+F65,Haleakala-Faulkes Telescope North,USA,False,-156.2576,20.707092,0,0,0,59,0,0,59,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+333,Desert Eagle Observatory,USA,False,-110.4764,31.962535,58,0,0,0,0,0,58,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+G40,Slooh.com Canary Islands Observatory,Spain,False,-16.50826,28.299717,39,3,0,0,0,12,54,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+926,Tenagra II Observatory,USA,False,-110.8791,31.46204,53,0,0,0,0,0,53,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+J75,"OAM Observatory, La Sagra",Spain,False,-2.56529,37.982399,48,0,0,0,0,0,48,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+H06,"RAS Observatory, Mayhill",USA,False,-105.5289,32.903868,41,0,6,0,0,0,47,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+291,LPL/Spacewatch II,USA,False,-111.5991,31.961625,42,0,3,0,0,0,45,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+129,Ordubad,Armenia,False,45.88,39.215425,0,43,0,0,0,0,43,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+503,Cambridge,UK,False,0.0948,52.214287,0,0,0,38,5,0,43,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+C41,"MASTER-II Observatory, Kislovodsk",Russia,False,42.66126,43.741682,39,0,4,0,0,0,43,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+020,Nice,France,False,7.3004,43.721539,0,0,0,13,27,0,40,resources/obscodes_snapshot.dat,catalogue_site_identity
+E12,Siding Spring Survey,Australia,False,149.0642,-31.273453,38,0,2,0,0,0,40,resources/obscodes_snapshot.dat,catalogue_site_identity
+768,Dearborn Observatory,USA,False,-87.675,42.059301,0,0,0,38,0,0,38,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+695,Kitt Peak,USA,False,-111.59467,31.958395,11,0,4,18,0,3,36,resources/obscodes_snapshot.dat,catalogue_site_identity
+B05,"Ka-Dar Observatory, Barybino",Russia,False,37.8831,55.247704,0,0,0,34,0,0,34,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+185,Observatoire Astronomique Jurassien-Vicques,Switzerland,False,7.4219,47.353045,27,0,5,0,0,0,32,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+186,Kitab,Uzbekistan,False,66.8821,39.13377,0,27,0,3,0,0,30,resources/obscodes_snapshot.dat,catalogue_site_identity
+012,Uccle,Belgium,False,4.35821,50.798596,0,29,0,0,0,0,29,resources/obscodes_snapshot.dat,catalogue_site_identity
+532,Munich,Germany,False,11.6084,48.146085,0,0,0,26,0,0,26,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+822,Cordoba,Argentina,False,-64.1965,-31.421171,19,0,7,0,0,0,26,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+850,"Cordell-Lorenz Observatory, Sewanee",USA,False,-85.9198,35.204091,25,0,0,0,0,0,25,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+024,Heidelberg-Konigstuhl,Germany,False,8.7216,49.398615,24,0,0,0,0,0,24,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+120,Visnjan,Croatia,False,13.7261,45.277634,23,0,0,0,0,0,23,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+198,Wildberg,Germany,False,8.75674,48.631943,20,0,0,0,0,0,20,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+A13,"Observatoire Naef, Marly",Switzerland,False,7.1394,46.762383,20,0,0,0,0,0,20,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+309,Cerro Paranal,Chile,False,-70.40431,-24.62721,18,0,0,0,0,0,18,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+808,El Leoncito,Argentina,False,-69.3292,-31.802002,0,18,0,0,0,0,18,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+029,Hamburg-Bergedorf,Germany,False,10.2406,53.479706,17,0,0,0,0,0,17,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+696,"Whipple Observatory, Mt. Hopkins",USA,False,-110.8846,31.688952,13,0,3,0,0,0,16,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+807,"Cerro Tololo Observatory, La Serena",Chile,False,-70.8059,-30.169133,4,0,0,5,0,7,16,resources/obscodes_snapshot.dat,catalogue_site_identity
+732,Oaxaca,Mexico,False,-96.77,17.181649,15,0,0,0,0,0,15,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+801,Oak Ridge Observatory,USA,False,-71.55767,42.505361,11,4,0,0,0,0,15,resources/obscodes_snapshot.dat,catalogue_site_identity
+G68,"Sierra Stars Observatory, Markleeville",USA,False,-119.775,38.811656,15,0,0,0,0,0,15,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+262,"European Southern Observatory, La Silla-DSS",Chile,False,-70.73374,-29.25882,0,14,0,0,0,0,14,resources/obscodes_snapshot.dat,catalogue_site_identity
+675,Palomar Mountain,USA,False,-116.86254,33.354117,2,0,12,0,0,0,14,resources/obscodes_snapshot.dat,catalogue_site_identity
+888,Gekko,Japan,False,138.9952,35.124747,14,0,0,0,0,0,14,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+522,Strasbourg,France,False,7.7677,48.583817,0,0,0,0,13,0,13,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+A50,Andrushivka Astronomical Observatory,Ukraine,False,28.9973,50.000573,6,0,7,0,0,0,13,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+133,Les Tardieux,France,False,5.0906,43.361703,0,0,12,0,0,0,12,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+599,Campo Imperatore-CINEOS,Italy,False,13.5625,42.420062,12,0,0,0,0,0,12,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+688,"Lowell Observatory, Anderson Mesa Station",USA,False,-111.5355,35.09594,7,2,2,0,0,0,11,resources/obscodes_snapshot.dat,catalogue_site_identity
+P07,"Space Surveillance Telescope, HEH Station",Australia,False,114.08987,-21.895685,6,0,5,0,0,0,11,https://minorplanetcenter.org/iau/lists/ObsCodesF.html,verified_site_identity
+334,Tsingtao,China,True,120.3196,36.069981,0,10,0,0,0,0,10,resources/obscodes_snapshot.dat,catalogue_site_identity
+365,Uto Observatory,Japan,False,135.9579,34.409141,9,0,0,0,0,0,9,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+559,Serra La Nave,Italy,False,14.98,37.618097,0,9,0,0,0,0,9,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+835,"Drum Hill Station, Chelmsford",USA,False,-71.3572,42.612224,9,0,0,0,0,0,9,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+958,Observatoire de Dax,France,False,-1.0283,43.693041,3,0,6,0,0,0,9,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+J37,Huelva,Spain,False,-6.93531,37.25867,5,0,4,0,0,0,9,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+074,"Boyden Observatory, Bloemfontein",South Africa,False,26.4058,-29.038135,0,0,8,0,0,0,8,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+413,Siding Spring Observatory,Australia,False,149.06608,-31.277054,2,0,0,6,0,0,8,resources/obscodes_snapshot.dat,catalogue_site_identity
+739,"Sunflower Observatory, Olathe",USA,False,-94.756,38.868753,8,0,0,0,0,0,8,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+938,Linhaceira,Portugal,False,-8.3838,39.522686,8,0,0,0,0,0,8,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+I77,"CEAMIG-REA Observatory, Belo Horizonte",Brazil,False,-43.9975,-19.830313,8,0,0,0,0,0,8,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+300,Bisei Spaceguard Center-BATTeRS,Japan,False,133.54444,34.671957,7,0,0,0,0,0,7,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+387,Tokyo-Dodaira,Japan,False,139.1944,36.006043,0,7,0,0,0,0,7,resources/obscodes_snapshot.dat,catalogue_site_identity
+D35,Lulin Observatory,Taiwan,False,120.8736,23.468578,3,0,3,0,0,1,7,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+E10,Siding Spring-Faulkes Telescope South,Australia,False,149.07028,-31.27317,7,0,0,0,0,0,7,resources/obscodes_snapshot.dat,catalogue_site_identity
+261,Palomar Mountain-DSS,USA,False,-116.85978,33.357338,6,0,0,0,0,0,6,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+660,"Leuschner Observatory, Berkeley",USA,False,-122.2621,37.873403,6,0,0,0,0,0,6,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+761,Zephyrhills,USA,False,-82.3544,28.271212,0,3,3,0,0,0,6,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+B01,"Taunus Observatory, Frankfurt",Germany,False,8.4464,50.221551,3,0,3,0,0,0,6,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+H82,"CBA-NOVAC Observatory, Front Royal",USA,False,-78.2161,38.98549,6,0,0,0,0,0,6,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+118,"Astronomical and Geophysical Observatory, Modra",Slovakia,False,17.274,48.373141,5,0,0,0,0,0,5,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+215,Buchloe,Germany,False,10.7328,48.01729,0,0,3,0,0,2,5,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+095,Crimea-Nauchnij,Russia,False,34.016,44.726555,3,1,0,0,0,0,4,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+683,"Goodricke-Pigott Observatory, Tucson",USA,False,-111.0818,32.155478,0,0,4,0,0,0,4,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+003,Montpellier,France,False,3.9,43.650523,0,0,0,3,0,0,3,resources/obscodes_snapshot.dat,catalogue_site_identity
+005,Meudon,France,False,2.231,48.805066,0,3,0,0,0,0,3,resources/obscodes_snapshot.dat,catalogue_site_identity
+138,Village-Neuf,Switzerland,False,7.5717,47.60486,3,0,0,0,0,0,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+143,Gnosca,Switzerland,False,9.02406,46.231416,0,0,3,0,0,0,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+210,Alma-Ata,Kazakhstan,False,76.9573,43.188276,3,0,0,0,0,0,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+213,Observatorio Montcabre,Spain,False,2.38539,41.519712,0,0,0,0,0,3,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+224,Ottmarsheim,Switzerland,False,7.3011,47.470882,3,0,0,0,0,0,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+461,"University of Szeged, Piszkesteto Stn. (Konkoly)",Hungary,False,19.8943,47.918044,3,0,0,0,0,0,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+565,Bassano Bresciano,Italy,False,10.1344,45.317818,3,0,0,0,0,0,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+566,Haleakala-NEAT/GEODSS,USA,False,-156.2576,20.708373,0,0,3,0,0,0,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+678,Fountain Hills,USA,False,-111.7403,33.635873,3,0,0,0,0,0,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+910,Caussols-ODAS,France,False,6.9267,43.748913,3,0,0,0,0,0,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+968,Haverhill,UK,False,0.425,52.084632,0,0,0,0,3,0,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+G92,"Jarnac Observatory, Vail",USA,False,-110.7186,31.976188,3,0,0,0,0,0,3,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+097,"Wise Observatory, Mitzpeh Ramon",Israel,False,34.7625,30.595657,0,2,0,0,0,0,2,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+303,Merida,Venezuela,False,-70.8671,8.790657,2,0,0,0,0,0,2,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+636,Essen,Germany,False,6.9794,51.39456,2,0,0,0,0,0,2,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+757,High Point,USA,False,-79.995,36.038623,2,0,0,0,0,0,2,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+760,"Goethe Link Observatory, Brooklyn",USA,False,-86.3952,39.549394,2,0,0,0,0,0,2,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+803,Taunton,USA,False,-71.0833,41.900057,2,0,0,0,0,0,2,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+919,Desert Beaver Observatory,USA,False,-111.6817,32.749844,2,0,0,0,0,0,2,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+001,Crowborough,UK,False,0.1542,51.051832,0,0,0,1,0,0,1,resources/obscodes_snapshot.dat,catalogue_site_identity
+002,Rayleigh,UK,False,0.62,51.652976,0,0,0,1,0,0,1,resources/obscodes_snapshot.dat,catalogue_site_identity
+025,Stuttgart,Germany,False,9.1965,48.782525,0,1,0,0,0,0,1,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+130,Lumezzane,Italy,False,10.2407,45.666403,0,1,0,0,0,0,1,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+156,Catania Astrophysical Observatory,Italy,False,15.0858,37.503412,0,1,0,0,0,0,1,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)
+702,"Joint Obs. for cometary research, Socorro",USA,False,-107.1883,33.984184,0,1,0,0,0,0,1,resources/obscodes_snapshot.dat,catalogue_site_identity
+800,"Harvard Observatory, Arequipa",Peru,False,-71.5489,-16.374553,0,1,0,0,0,0,1,resources/obscodes_snapshot.dat,Natural Earth 110m polygon containment (inferred)

@@ -1,0 +1,16 @@
+test_country_station_and_plot_reconciliation (__main__.SourceAndArtifactChecks.test_country_station_and_plot_reconciliation) ... ok
+test_current_png_sizes_and_shared_counts (__main__.SourceAndArtifactChecks.test_current_png_sizes_and_shared_counts) ... ok
+test_each_input_has_one_accounting_destination (__main__.SourceAndArtifactChecks.test_each_input_has_one_accounting_destination) ... ok
+test_exclusions_and_author_boundary (__main__.SourceAndArtifactChecks.test_exclusions_and_author_boundary) ... ok
+test_fixed_columns_preserve_spaces_and_pad_numeric_codes (__main__.SourceAndArtifactChecks.test_fixed_columns_preserve_spaces_and_pad_numeric_codes) ... ok
+test_no_arbitrary_token_station_inference (__main__.SourceAndArtifactChecks.test_no_arbitrary_token_station_inference) ... ok
+test_partial_unknowns_not_redistributed (__main__.SourceAndArtifactChecks.test_partial_unknowns_not_redistributed) ... ok
+test_published_mixed_station_fields (__main__.SourceAndArtifactChecks.test_published_mixed_station_fields) ... ok
+test_rebuild_is_deterministic (__main__.SourceAndArtifactChecks.test_rebuild_is_deterministic) ... ok
+test_space_missions_and_ground_wise (__main__.SourceAndArtifactChecks.test_space_missions_and_ground_wise) ... ok
+test_station_identities_and_coordinates (__main__.SourceAndArtifactChecks.test_station_identities_and_coordinates) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 10.952s
+
+OK

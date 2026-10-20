@@ -1,0 +1,148 @@
+{
+  "input_sha256": "351ba4416983543ac967061d1961923401d003923a16d31a51b339e4782a6165",
+  "layout": "approved_A_map_first",
+  "scope": "Worldwide mapped ground catalogue entries; red=Chinese sites, blue=other sites; not team membership",
+  "style_reference": "figures/number.png",
+  "maps": [
+    {
+      "variant": "A_typography_refined",
+      "key": "total_obs",
+      "title": "All systems",
+      "file": "global_satellite_observations_map.png",
+      "sites": 164,
+      "mapped_entries": 179629,
+      "china_entries": 39722,
+      "selected_entries": 213638,
+      "space_entries": 27976,
+      "unresolved_entries": 6033,
+      "china_label_codes": [
+        "286",
+        "327",
+        "334",
+        "337",
+        "D29",
+        "O44",
+        "O49"
+      ],
+      "text_collisions": [],
+      "obscured_world_sites": []
+    },
+    {
+      "variant": "A_typography_refined",
+      "key": "J6-13",
+      "title": "J6–J13",
+      "file": "map_J6-J13_jupiter_satellites.png",
+      "sites": 104,
+      "mapped_entries": 21740,
+      "china_entries": 4346,
+      "selected_entries": 28091,
+      "space_entries": 5686,
+      "unresolved_entries": 665,
+      "china_label_codes": [
+        "286",
+        "D29",
+        "O44",
+        "O49"
+      ],
+      "text_collisions": [],
+      "obscured_world_sites": []
+    },
+    {
+      "variant": "A_typography_refined",
+      "key": "S1-8",
+      "title": "S1–S8",
+      "file": "map_S1-S8_saturn_satellites.png",
+      "sites": 57,
+      "mapped_entries": 74521,
+      "china_entries": 6399,
+      "selected_entries": 94552,
+      "space_entries": 16224,
+      "unresolved_entries": 3807,
+      "china_label_codes": [
+        "286",
+        "334",
+        "337"
+      ],
+      "text_collisions": [],
+      "obscured_world_sites": []
+    },
+    {
+      "variant": "A_typography_refined",
+      "key": "S9",
+      "title": "S9",
+      "file": "map_S9_phoebe.png",
+      "sites": 57,
+      "mapped_entries": 7276,
+      "china_entries": 2805,
+      "selected_entries": 9188,
+      "space_entries": 1808,
+      "unresolved_entries": 104,
+      "china_label_codes": [
+        "286",
+        "327",
+        "337",
+        "D29",
+        "O44"
+      ],
+      "text_collisions": [],
+      "obscured_world_sites": []
+    },
+    {
+      "variant": "A_typography_refined",
+      "key": "U1-5",
+      "title": "U1–U5",
+      "file": "map_U1-U5_uranus_satellites.png",
+      "sites": 43,
+      "mapped_entries": 57432,
+      "china_entries": 17968,
+      "selected_entries": 61810,
+      "space_entries": 2946,
+      "unresolved_entries": 1432,
+      "china_label_codes": [
+        "286",
+        "327",
+        "337"
+      ],
+      "text_collisions": [],
+      "obscured_world_sites": []
+    },
+    {
+      "variant": "A_typography_refined",
+      "key": "N1",
+      "title": "N1",
+      "file": "map_N1_triton.png",
+      "sites": 26,
+      "mapped_entries": 16226,
+      "china_entries": 7908,
+      "selected_entries": 16857,
+      "space_entries": 621,
+      "unresolved_entries": 10,
+      "china_label_codes": [
+        "286",
+        "327",
+        "337"
+      ],
+      "text_collisions": [],
+      "obscured_world_sites": []
+    },
+    {
+      "variant": "A_typography_refined",
+      "key": "N2",
+      "title": "N2",
+      "file": "map_N2_nereid.png",
+      "sites": 23,
+      "mapped_entries": 2434,
+      "china_entries": 296,
+      "selected_entries": 3140,
+      "space_entries": 691,
+      "unresolved_entries": 15,
+      "china_label_codes": [
+        "327",
+        "D29",
+        "O44"
+      ],
+      "text_collisions": [],
+      "obscured_world_sites": []
+    }
+  ]
+}

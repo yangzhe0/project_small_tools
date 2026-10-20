@@ -1,0 +1,52 @@
+[
+  {
+    "metric": "Selected catalogue position entries with documented overlap exclusions; not certified unique observations or exposures",
+    "excluded_non_satellite_catalogue": "nm0090 (Neptune planet)",
+    "mode": "selected",
+    "template": "scripts/plot_imcce_number.py (preserved original visual layout)",
+    "statistics_sha256": "c51c74ca691d7d0bb3e59c810e1a5eeeccb5eb2061b0771ac5f5382ca9dbeea8",
+    "systems": [
+      "J6-13",
+      "S1-8",
+      "S9",
+      "U1-5",
+      "N1",
+      "N2"
+    ],
+    "team": [
+      2993,
+      3261,
+      2202,
+      14636,
+      7153,
+      290
+    ],
+    "global_entries": [
+      28091,
+      94552,
+      9188,
+      61810,
+      16857,
+      3140
+    ],
+    "team_percentages": [
+      10.654658075540208,
+      3.448895845672223,
+      23.966042664344798,
+      23.679016340397993,
+      42.43341045263095,
+      9.235668789808917
+    ],
+    "team_total": 30535,
+    "global_total": 213638,
+    "output": "number.png",
+    "files": [
+      "number.png"
+    ],
+    "image_size": [
+      3420,
+      2350
+    ],
+    "style": "Original IMCCE_QIAO template unchanged: symlog threshold 30000, base 2, original colors/layout/labels"
+  }
+]

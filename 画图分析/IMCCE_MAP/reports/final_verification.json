@@ -1,0 +1,18 @@
+{
+  "status": "local preparation complete; not staged, committed or pushed",
+  "mapped_entries": 179629,
+  "selected_entries": 213638,
+  "selected_team_entries": 30535,
+  "tests_passed": 11,
+  "bar_chart_unchanged": true,
+  "approved_map_pngs_exactly_preserved": true,
+  "scientific_csvs_unchanged": true,
+  "independent_projects_unchanged": true,
+  "local_links_valid": true,
+  "official_pngs": 8,
+  "live_candidate_files": 0,
+  "branch": "main",
+  "remote": "origin",
+  "remote_main_at_check": "ba4849d64e3df7a217becddfacff05314259347a",
+  "excluded_existing_change": "repository-root .gitignore"
+}

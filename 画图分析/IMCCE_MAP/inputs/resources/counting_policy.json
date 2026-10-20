@@ -1,0 +1,72 @@
+{
+  "version": "2026-10-19-source-ledger-v1",
+  "metric": "Selected catalogue position entries with documented overlap exclusions; not certified unique observations or exposures.",
+  "full_exclusions": {
+    "nm0090": "non_satellite: Neptune planet positions; mnepomai note *2 and nm0090 Format",
+    "sm0034": "known_overlap: composite of retained sm0035 and sm0036; msapomai comment 1",
+    "um0124": "known_overlap: earlier reduction replaced by retained um0138 Gaia EDR3 reanalysis; um0138 comment 1",
+    "um0125": "known_overlap: earlier reduction replaced by retained um0138 Gaia EDR3 reanalysis; um0138 comment 1",
+    "nm1019": "known_overlap: all 112 positions also in retained newer nm1032; nm1032 Comments"
+  },
+  "exact_epoch_replacements": [
+    {
+      "old": "nm0015",
+      "new": "nm0088",
+      "schema": "ymd_station",
+      "station": "337",
+      "evidence": "mnepomai note *1; remove only exactly matching UTC epochs at this satellite/site"
+    },
+    {
+      "old": "nm0085",
+      "new": "nm0088",
+      "schema": "ymd_station",
+      "station": "337",
+      "evidence": "mnepomai note *1; unmatched old epochs retained"
+    },
+    {
+      "old": "sm0053",
+      "new": "sm0054",
+      "schema": "jd_satellite",
+      "station": "999",
+      "evidence": "msapomai comment 4; exact UTC JD/satellite/site correspondence only"
+    }
+  ],
+  "unresolved_overlap_families": [
+    "sm0006/sm0008/sm0035 with sm0037: reprocessed Nikolaev positions; frame/epoch correspondence needs review",
+    "sm0074/sm0079 with sm0009/sm0031/sm0032/sm0057: partial re-reductions; no blanket subtraction",
+    "sm0073 with sm0068: partial Cassini overlap, both isolated from ground maps",
+    "um0001/um0002/um0003 with modified um0007 and Camargo catalogues: changed membership requires record correspondence",
+    "um0128 with um0085/um0086/um0102/um0103: partial reprocessing and absolute/relative measurement differences",
+    "Gaia releases and PHESAT target/reference counts retain source-specific versions and measurement units",
+    "sm0053/sm0054: index reports 44 shared positions; only exact UTC JD/target matches are removed; other correspondences remain unverified.",
+    "sm0084 with sm0010/sm0012/sm0013/sm0014/sm0016/sm0017/sm0025/sm0027/sm0058/sm0064/sm0075: explicitly partial Gaia re-reduction; old unique rows must not be discarded."
+  ],
+  "team_sources": {
+    "jo0072": "Yan et al. 2019",
+    "jo0073": "Yan et al. 2020",
+    "jo0080": "Yan et al. 2026; Icarus 457, 117162; doi:10.1016/j.icarus.2026.117162",
+    "sm0071": "Yan et al. 2016; MNRAS 457, 2900",
+    "sm0086": "Yan et al. 2023; Icarus 395, 115478",
+    "so0027": "Qiao et al. 2006",
+    "so0039": "Qiao et al. 2011",
+    "so0055": "Yan et al. 2025; Icarus 430, 116457",
+    "um0088": "Qiao et al. 2013",
+    "um0129": "Yan et al. 2016",
+    "um0135": "Zhang et al. 2022",
+    "supplement_zhang2024": "Zhang et al. 2024; ApJS 273:25; doi:10.3847/1538-4365/ad53c4; aggregate only, no local raw file or confirmed IMCCE ID",
+    "nm0015": "Qiao et al. 2007",
+    "nm0019": "Qiao et al. 2014",
+    "nm0082": "Yu et al. 2019",
+    "nm0084": "Yan et al. 2021",
+    "nm0085": "Zhang et al. 2021",
+    "nm0086": "Zhang et al. 2022",
+    "nm0088": "Yan et al. 2020; catalogue 1006 versus paper 1007 remains unresolved",
+    "nm0091": "Yan et al. 2025; Icarus 437, 116625; doi:10.1016/j.icarus.2025.116625",
+    "nm1019": "Qiao et al. 2008",
+    "nm1025": "Yu et al. 2018",
+    "nm1032": "Yu et al. 2019"
+  },
+  "explicit_non_team_sources": {
+    "jo0078": "Independent Shang/Peng group; include globally, exclude from team numerator"
+  }
+}

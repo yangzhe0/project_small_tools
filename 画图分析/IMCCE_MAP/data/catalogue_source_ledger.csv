@@ -1,0 +1,1053 @@
+﻿sheet,file_id,workbook_row,site_raw,reference,raw_path,content_path,team,input_count,selected_count,mapped_count,space_count,unresolved_count,excluded_count,residual,raw_line_count,station_field,format_evidence,source_site
+J6-13,jo0072,2,286 - Yunnan,Yan et al. 2019,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0072.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0072.html,True,267,267,267,0,0,0,0,267,,,286 - Yunnan Astronomical Observatory
+J6-13,jo0073,3,286 - Yunnan,Yan et al. 2020,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0073.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0073.html,True,372,372,372,0,0,0,0,372,,,286 - Yunnan Astronomical Observatory
+J6-13,jo0001,4,Flagstaff,Stone R.C. et al (2000),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0001.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0001.html,False,115,115,115,0,0,0,0,115,,,689 - Flagstaff
+J6-13,jo0002,5,Flagstaff,Stone R.C.(2000),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0002.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0002.html,False,133,133,133,0,0,0,0,133,,,689 - Flagstaff
+J6-13,jo0003,6,Table Mountain,Owen B. Comm. to NSDC (2001),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0003.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0003.html,False,14,14,14,0,0,0,0,14,,,"673 - Table Mountain Observatory, Wrightwood"
+J6-13,jo0004,7,6 sites,MPC batch of Dec 2000,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0004.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0004.html,False,60,60,48,0,12,0,0,60,10,"11. N observatory, N telescope, N observer (N obs)","106 - Crni vrh.
+              568 - Mauna Kea.
+              691 - Steward Observatory, Kitt Peak-Spacewatch.
+              704 - Lincoln Laboratory Experimental Test System, New Mexico.
+              732 - Oaxaca.
+              809 - European Southern Observatory, La Silla."
+J6-13,jo0005,8,4 sites,"MPC Communication 2001-02,04",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0005.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0005.html,False,96,96,95,0,1,0,0,96,10,"11. N observatory, N telescope, N observer (N obs)","413 - Siding Spring
+              704 - Lincoln Laboratory Experimental Test System, New Mexico.
+              696 - Whipple Observatory, Mt. Hopkins
+              699 - Lowell Observatory-LONEOS"
+J6-13,jo0006,9,Drum Hill Station,MPC Communication 2001-09,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0006.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0006.html,False,9,9,9,0,0,0,0,9,,,"835 - Drum Hill Station, Chelmsford"
+J6-13,jo0007,10,"644, 691",MPC Communication 2001-12,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0007.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0007.html,False,6,6,6,0,0,0,0,6,10,"11. N observatory, telescope, observers (N obs)","644 - Palomar Mountain/NEAT
+              691 - Steward Observatory, Kitt Peak-Spacewatch"
+J6-13,jo0008,11,9 sites,"MPC Communication 2002-02,05",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0008.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0008.html,False,230,230,230,0,0,0,0,230,10,"11. N observatory, telescope, observers (N obs)","185 - Observatoire astronomique jurassien-Vicques
+              365 - Kashihara, Uto Observatory
+              568 - Mauna Kea
+              608 - Haleakala-AMOS
+              636 - Essen
+              644 - Palomar Mountain/NEAT
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              699 - Lowell Observatory-LONEOS
+              704 - LINEAR, Lincoln Laboratory ETS, New Mexico"
+J6-13,jo0010,12,24 sites,84 references,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0010.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0010.html,False,1433,1433,1433,0,0,0,0,1433,12,"13. Code (IAU) of observatory (N obs, see the list above)","000 - Greenwich
+              024 - Heidelberg-Konigstuhl
+              029 - Hamburg-Bergedorf
+              078 - Johannesburg
+              087 - Helwan
+              210 - Alma-Ata
+              261 - Palomar Mountain-DSS
+              309 - Cerro Paranal
+              381 - Tokyo-Kiso
+              511 - Haute Provence
+              662 - Lick Observatory, Mount Hamilton
+              672 - Mount Wilson
+              690 - Lowell Observatory, Flagstaff
+              693 - Catalina Station, Tucson
+              695 - Kitt Peak
+              711 - McDonald Observatory, Fort Davis
+              754 - Yerkes Observatory, Williams Bay
+              760 - Goethe Link Observatory, Brooklyn
+              786 - U.S. Naval Obs., Washington (since 1893)
+              801 - Oak Ridge Observatory
+              803 - Taunton
+              809 - European Southern Observatory, La Silla
+              822 - Cordoba
+              999 - Bordeaux-Floirac"
+J6-13,jo0011,13,Cordoba,"Bobone Jorge, (1953)",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0011.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0011.html,False,6,6,6,0,0,0,0,6,,,822 - Cordoba
+J6-13,jo0012,14,Lick,Klemola A. R. (1973),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0012.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0012.html,False,13,13,13,0,0,0,0,13,,,"662 - Lick Observatory, Mount Hamilton"
+J6-13,jo0013,15,McDonald,Mulholland J.D. et al.(1976),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0013.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0013.html,False,4,4,4,0,0,0,0,4,,,"711 - McDonald Observatory, Fort Davis"
+J6-13,jo0014,16,McDonald,Whipple et al. (1992),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0014.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0014.html,False,72,72,72,0,0,0,0,72,,,"711 - McDonald Observatory, Fort Davis"
+J6-13,jo0015,17,McDonald,Whipple et al. (1993),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0015.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0015.html,False,84,84,84,0,0,0,0,84,,,"711 - McDonald Observatory, Fort Davis"
+J6-13,jo0016,18,McDonald,Whipple et al. (1996),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0016.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0016.html,False,190,190,190,0,0,0,0,190,,,"711 - McDonald Observatory, Fort Davis"
+J6-13,jo0017,19,Tokyo-Kiso,"Nakamura T.,Sasaki G.(1998)",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0017.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0017.html,False,53,53,53,0,0,0,0,53,,,381 - Tokyo-Kiso
+J6-13,jo0018,20,"ESO, La Silla",Hernius O. et al. (1996),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0018.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0018.html,False,42,42,0,0,42,0,0,42,,,"413 - Siding Spring Observatory
+              809 - European Southern Observatory, La Silla"
+J6-13,jo0019,21,Palomar Mountain,MPC Communic. 22 Nov 2002,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0019.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0019.html,False,3,3,3,0,0,0,0,3,,,644 - Palomar Mountain/NEAT
+J6-13,jo0020,22,Lowell,"IAUC No. 3603, 1981 May 12",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0020.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0020.html,False,11,11,0,0,11,0,0,11,,,"690 Lowell Observatory, Flagstaff"
+J6-13,jo0021,23,Lincoln Lab ETS,MPC Communic. 08 Jan 2003,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0021.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0021.html,False,10,10,10,0,0,0,0,10,,,"704 - Lincoln Laboratory ETS, New Mexico"
+J6-13,jo0022,24,12 sites,MPC Communic. 27 Feb 2003,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0022.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0022.html,False,288,288,282,0,6,0,0,288,10,"11. Code of observatory, telescope, observers (N obs)","291 - LPL/Spacewatch II
+               309 - Cerro Paranal
+               333 - Desert Eagle Observatory
+               413 - Siding Spring Observatory
+               568 - Mauna Kea
+               608 - Haleakala-NEAT/MSSS (Haleakala-AMOS)
+               644 - Palomar Mountain/NEAT
+               673 - Table Mountain Observatory, Wrightwood
+               699 - Lowell Observatory-LONEOS
+               704 - Lincoln Laboratory ETS, New Mexico
+               807 - Cerro Tololo Observatory, La Serena
+              1029 - (H29) - Ivywood Observatory"
+J6-13,jo0023,25,6 sites,MPC Communic. 20 Mar 2003,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0023.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0023.html,False,120,120,120,0,0,0,0,120,10,"11. Code of observatory, telescope, observers (N obs)","291 - LPL/Spacewatch II
+              568 - Mauna Kea
+              608 - Haleakala-NEAT/MSSS (Haleakala-AMOS)
+              644 - Palomar Mountain/NEAT
+              699 - Lowell Observatory-LONEOS
+              704 - Lincoln Laboratory ETS, New Mexico"
+J6-13,jo0024,26,"304, 699, 704",MPC Communic. 4 Mar 2002,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0024.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0024.html,False,64,64,62,0,2,0,0,64,10,"11. Code of observatory, telescope, observers (N obs)","304 - Las Campanas Observatory
+              699 - Lowell Observatory-LONEOS
+              704 - Lincoln Laboratory ETS, New Mexico"
+J6-13,jo0025,27,"568, 691, 938",MPC Communic. 6 May 2003,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0025.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0025.html,False,52,52,52,0,0,0,0,52,10,"11. Code of observatory, telescope, observers (N obs)","568 - Mauna Kea
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              938 - Linhaceira"
+J6-13,jo0026,28,"568, 704, 807",MPC Communic. 14 Jun 2003,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0026.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0026.html,False,39,39,39,0,0,0,0,39,10,"11. Code of observatory, telescope, observers (N obs)","568 - Mauna Kea
+              704 - Lincoln Laboratory ETS, New Mexico
+              807 - Cerro Tololo Observatory, La Serena"
+J6-13,jo0027,29,5 sites,"MPC Comm. 6 Aug, 22 Sep 2003",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0027.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0027.html,False,54,54,47,0,7,0,0,47,10,"11. Code of observatory, telescope, observers (N obs)","291 - LPL/Spacewatch II
+              568 - Mauna Kea
+              608 - Haleakala-AMOS (NEAT/MSSS)
+              644 - Palomar Mountain/NEAT
+              704 - Lincoln Laboratory ETS, New Mexico"
+J6-13,jo0028,30,"608, 691, 703","MPC Comm.2003-12, 2004-01",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0028.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0028.html,False,36,36,32,0,4,0,0,36,10,"11. Code of observatory, telescope, observers (N obs)","608 - Haleakala-AMOS (NEAT/MSSS)
+              691 - Steward Observatory, Kitt Peak
+              703 - Catalina Sky Survey"
+J6-13,jo0029,31,"672, 675, 691, 693","IAUC1333,2820,2863,2978,3033",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0029.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0029.html,False,13,13,13,0,0,0,0,13,10,"11. Number of observatory, observer and teliscope (N obs)","672 - Mount Wilson
+              675 - Palomar Mountain
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              693 - Catalina Station, Tucson"
+J6-13,jo0030,32,660-Leuschner Obs.,IAUC1332,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0030.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0030.html,False,6,6,6,0,0,0,0,6,10,"11. Number of observatory, observer and teliscope (N obs)","660 - Leuschner Observatory, Berkeley"
+J6-13,jo0031,33,999-Bordeaux,Soulie (1972),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0031.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0031.html,False,6,6,6,0,0,0,0,6,10,"11. Number of observatory, observer and teliscope (N obs)",999 - Bordeaux-Floirac
+J6-13,jo0032,34,673-Table Mountain,Mulholland J. D. (1990),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0032.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0032.html,False,4,4,4,0,0,0,0,4,4,"5. Number of observatory, observer and teliscope (N obs)","673 - Table Mountain Observatory, Wrightwood"
+J6-13,jo0033,35,"Crimea,Zelenchuk.",Sokolova et al. (in press),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0033.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0033.html,False,162,162,162,0,0,0,0,162,16,17. Code of observatory (site),"094 - Crimea-Simeis
+              115 - Zelenchukskaya"
+J6-13,jo0035,36,37 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0035.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0035.html,False,1226,1226,1223,0,3,0,0,1226,10,"11. Code of observatory, (N obs)","095 - Crimea-Nauchnij
+              106 - Crni Vrh
+              119 - Abastuman
+              120 - Visnjan
+              138 - Village-Neuf
+              185 - Observatoire Astronomique Jurassien-Vicques
+              224 - Ottmarsheim
+              303 - Merida
+              333 - Desert Eagle Observatory
+              365 - Uto Observatory
+              415 - Kambah, near Canberra
+              511 - Haute Provence
+              565 - Bassano Bresciano
+              568 - Mauna Kea
+              599 - Campo Imperatore-CINEOS
+              608 - Haleakala-AMOS
+              644 - Palomar Mountain/NEAT
+              673 - Table Mountain Observatory, Wrightwood
+              678 - Fountain Hills
+              689 - U.S. Naval Observatory, Flagstaff
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              695 - Kitt Peak
+              699 - Lowell Observatory-LONEOS
+              703 - Catalina Sky Survey
+              704 - Lincoln Laboratory ETS, New Mexico
+              732 - Oaxaca
+              739 - Sunflower Observatory, Olathe
+              757 - High Point
+              809 - European Southern Observatory, La Silla
+              888 - Gekko
+              910 - Caussols-ODAS
+              919 - Desert Beaver Observatory
+              926 - Tenagra II Observatory
+              938 - Linhaceira
+              A13 - Observatoire Naef, Marly
+              E12 - Siding Spring Survey
+              G96 - Mt. Lemmon Survey"
+J6-13,jo0036,37,6 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0036.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0036.html,False,221,221,221,0,0,0,0,221,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra 
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              699 - Lowell Observatory-LONEOS
+              703 - Catalina Sky Survey
+              G96 - Mt. Lemmon Survey
+              H06 - New Mexico Skies Observatory"
+J6-13,jo0037,38,3 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0037.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0037.html,False,98,98,98,0,0,0,0,98,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra 
+              644 - Palomar Mountain/NEAT
+              673 - Table Mountain Observatory, Wrightwood"
+J6-13,jo0038,39,874 - Itajuba,Veiga C.H. (2006),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0038.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0038.html,False,120,120,120,0,0,0,0,120,,,874 - Itajuba
+J6-13,jo0039,40,3 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0039.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0039.html,False,70,70,70,0,0,0,0,70,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra 
+              703 - Catalina Sky Survey
+              E12 - Siding Spring Survey"
+J6-13,jo0041,41,415 - Kambah,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0041.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0041.html,False,20,20,20,0,0,0,0,20,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra"
+J6-13,jo0042,42,4 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0042.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0042.html,False,77,77,77,0,0,0,0,77,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra 
+              704 - Lincoln Laboratory ETS, New Mexico
+              D29 - Purple Mountain Observatory, XuYi Station
+              D35 - Lulin Observatory"
+J6-13,jo0044,43,"415, 704",Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0044.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0044.html,False,154,154,154,0,0,0,0,154,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra 
+              704 - Lincoln Laboratory ETS, New Mexico"
+J6-13,jo0045,44,415,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0045.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0045.html,False,136,136,136,0,0,0,0,136,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra"
+J6-13,jo0046,45,5 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0046.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0046.html,False,719,719,719,0,0,0,0,719,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra 
+              568 - Mauna Kea
+              673 - Table Mountain Observatory, Wrightwood
+              689 - U.S. Naval Observatory, Flagstaff
+              704 - Lincoln Laboratory ETS, New Mexico"
+J6-13,jo0047,46,8 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0047.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0047.html,False,303,303,303,0,0,0,0,303,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra 
+              673 - Table Mountain Observatory, Wrightwood
+              689 - U.S. Naval Observatory, Flagstaff
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              703 - Catalina Sky Survey
+              704 - Lincoln Laboratory ETS, New Mexico
+              E12 - Siding Spring Survey
+              J75 - OAM Observatory, La Sagra"
+J6-13,jo0048,47,19 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0048.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0048.html,False,283,283,275,0,8,0,0,283,10,"11. Code of observatory, (N obs)","106 - Crni Vrh
+              198 - Wildberg
+              415 - Kambah, near Canberra 
+              673 - Table Mountain Observatory, Wrightwood
+              689 - U.S. Naval Observatory, Flagstaff
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              703 - Catalina Sky Survey
+              704 - Lincoln Laboratory ETS, New Mexico
+              809 - European Southern Observatory, La Silla
+              D29 - Purple Mountain Observatory, XuYi Station
+              E10 - Siding Spring-Faulkes Telescope South
+              E12 - Siding Spring Survey
+              F51 - Pan-STARRS 1, Haleakala
+              G68 - Sierra Stars Observatory, Markleeville
+              H15 - ISON-NM Observatory, Mayhill
+              H82 - CBA-NOVAC Observatory, Front Royal
+              I77 - CEAMIG-REA Observatory, Belo Horizonte
+              J37 - Huelva
+              J75 - OAM Observatory, La Sagra"
+J6-13,jo0049,48,WISE (satellite),Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0049.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0049.html,False,57,57,0,57,0,0,0,57,,,C51 - WISE (satellite)
+J6-13,jo0050,49,19 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0050.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0050.html,False,459,459,443,0,16,0,0,459,10,"11. Code of observatory, (N obs)","106 - Crni Vrh
+              608 - Haleakala-AMOS
+              673 - Table Mountain Observatory, Wrightwood
+              689 - U.S. Naval Observatory, Flagstaff
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              703 - Catalina Sky Survey
+              704 - Lincoln Laboratory ETS, New Mexico
+              874 - Itajuba
+              A50 - Andrushivka Astronomical Observatory
+              B01 - Taunus Observatory, Frankfurt
+              C73 - Galati Observatory
+              D29 - Purple Mountain Observatory, XuYi Station
+              E07 - Murrumbateman
+              E12 - Siding Spring Survey
+              G96 - Mt. Lemmon Survey
+              H06 - RAS Observatory, Mayhill
+              H15 - ISON-NM Observatory, Mayhill
+              H21 - Astronomical Research Observatory, Westfield
+              J37 - Huelva
+              J43 - Conway
+              J75 - OAM Observatory, La Sagra"
+J6-13,jo0051,50,WISE (satellite),Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0051.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0051.html,False,12,12,0,12,0,0,0,12,,,C51 - WISE (satellite)
+J6-13,jo0052,51,8 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0052.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0052.html,False,41,41,41,0,0,0,0,41,10,11. Observatory IAU code (OBS),"381 - Tokyo-Kiso
+              662 - Lick Observatory, Mount Hamilton
+              673 - Table Mountain Observatory, Wrightwood
+              704 - Lincoln Laboratory ETS, New Mexico
+              809 - European Southern Observatory, La Silla
+              E07 - Murrumbateman
+              E10 - Siding Spring-Faulkes Telescope South
+              J43 - Oukaimeden Observatory, Marrakech"
+J6-13,jo0053,52,Flagstaff,"Stone R.C.(2000, 2001) See*",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0053.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0053.html,False,17,17,17,0,0,0,0,17,,,689 - Flagstaff
+J6-13,jo0054,53,31 sites,MPC 80451-91853,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0054.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0054.html,False,960,960,867,0,93,0,0,960,10,"11. Code of observatory, (N obs)","106 - Crni Vrh
+              300 - Bisei Spaceguard Center-BATTeRS
+	      461 - University of Szeged, Piszkesteto Stn. (Konkoly)
+	      673 - Table Mountain Observatory, Wrightwood
+              689 - U.S. Naval Observatory, Flagstaff
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+	      695 - Kitt Peak
+	      703 - Catalina Sky Survey
+              704 - Lincoln Laboratory ETS, New Mexico
+              850 - Cordell-Lorenz Observatory, Sewanee
+	      926 - Tenagra II Observatory, Nogales
+	      958 - Observatoire de Dax
+	      C73 - Galati Observatory
+	      C77 - Bernezzo Observatory
+	      D00 - ISON-Kislovodsk Observatory
+	      D29 - Purple Mountain Observatory, XuYi Station
+              E07 - Murrumbateman
+              F51 - Pan-STARRS 1, Haleakala
+              G36 - Calar Alto-CASADO
+	      G84 - Mount Lemmon SkyCenter
+	      G96 - Mt. Lemmon Survey
+              H06 - iTelescope Observatory, Mayhill
+              H21 - Astronomical Research Observatory, Westfield
+              I41 - Palomar Mountain--PTF
+	      I89 - iTelescope Observatory, Nerpio
+              J04 - ESA Optical Ground Station, Tenerife
+              J43 - Oukaimeden Observatory, Marrakech
+	      K33 - San Defendente
+	      U69 - iTelescope SRO Observatory, Auberry
+	      V37 - McDonald Observatory-LCOGT ELP
+	      Y00 - SONEAR Observatory, Oliveira"
+J6-13,jo0055,54,satellite WISE,MPC 87618,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0055.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0055.html,False,9,9,0,9,0,0,0,9,,,C51 - WISE (satellite)
+J6-13,jo0056,55,"511, 809, 874",Gomes-Junior et al. (2015),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0056.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0056.html,False,3613,3613,3613,0,0,0,0,3613,13,14. Observatory Code,"511 - Haute Provence
+              809 - European Southern Observatory, La Silla
+              874 - Itajuba"
+J6-13,jo0057,56,Flagstaff,"Stone R.C.(2000, 2001)",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0057.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0057.html,False,120,120,120,0,0,0,0,120,,,689-Flagstaff
+J6-13,jo0058,57,673-Table Mount.,Table Mountain Obs.2016 See*,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0058.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0058.html,False,2,2,2,0,0,0,0,2,,,"673-Table Mountain Observatory, Wrightwood, California"
+J6-13,jo0059,58,11 sites,MPC 92468-102358,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0059.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0059.html,False,1343,1343,1101,0,242,0,0,1343,12,"13. Code of observatory, (N obs)","106 - Crni Vrh
+              691 - Steward Observatory, Kitt Peak
+	      703 - Catalina Sky Survey
+	      C41 - MASTER-II Observatory, Kislovodsk
+	      C95 - SATINO Remote Observatory, Haute Provence
+	      D29 - Purple Mountain Observatory, XuYi Station
+              E07 - Murrumbateman
+              F51 - Pan-STARRS 1, Haleakala
+              G36 - Calar Alto-CASADO
+              G40 - Slooh.com Canary Islands Observatory
+              G45 - Space Surveillance Telescope, Atom Site
+	      G80 - Sierra Remote Observatories, Auberry
+	      G96 - Mt. Lemmon Survey
+              H15 - ISON-NM Observatory, Mayhill
+              I41 - Palomar Mountain--PTF
+              J43 - Oukaimeden Observatory, Marrakech
+	      T05 - ATLAS-HKO, Haleakala
+	      W88 - Slooh.com Chile Observatory, La Dehesa
+	      Y00 - SONEAR Observatory, Oliveira
+	      Z22 - MASTER-IAC Observatory, Tenerife
+	      Z80 - Northolt Branch Observatory"
+J6-13,jo0060,59,satellite WISE,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0060.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0060.html,False,36,36,0,36,0,0,0,36,,,C51 - WISE (satellite)
+J6-13,jo0061,60,000-Greenwich,Christie (1909),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0061.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0061.html,False,66,66,66,0,0,0,0,66,,,"000 - Royal Observatory, Greenwich"
+J6-13,jo0062,61,19 sites,MPC 103147-108759.,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0062.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0062.html,False,890,890,838,0,52,0,0,890,12,"13. Code of observatory, N obs","118 - Astronomical and Geophysical Observatory, Modra
+              673 - Table Mountain Observatory, Wrightwood
+              691 - Steward Observatory, Kitt Peak
+              703 - Catalina Sky Survey
+              D29 - Purple Mountain Observatory, XuYi Station
+              F51 - Pan-STARRS 1, Haleakala
+              G36 - Calar Alto-CASADO
+              G40 - Slooh.com Canary Islands Observatory
+              G96 - Mt. Lemmon Survey
+              H15 - ISON-NM Observatory, Mayhill
+              J43 - Oukaïmeden Observatory, Marrakech
+              K95 - MASTER-SAAO Observatory, Sutherland
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              W98 - Polonia Observatory, San Pedro de Atacama
+              Y00 - SONEAR Observatory, Oliveira
+              Z22 - MASTER-IAC Observatory, Tenerife
+              Z80 - Northolt Branch Observatory
+              Z84 - Calar Alto-Schmidt"
+J6-13,jo0063,62,satellite WISE,MPC 105342.,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0063.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0063.html,False,8,8,0,8,0,0,0,8,,,C51 - WISE (satellite)
+J6-13,jo0064,63,11 sites,MPC 109227-110808.,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0064.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0064.html,False,320,320,289,0,31,0,0,320,12,"13. Code of observatory, N obs","D29 - Purple Mountain Observatory, XuYi Station
+              F51 - Pan-STARRS 1, Haleakala
+              G36 - Calar Alto-CASADO
+              G40 - Slooh.com Canary Islands Observatory
+              G96 - Mt. Lemmon Survey
+              J43 - Oukaimeden Observatory, Marrakech
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              W88 - Slooh.com Chile Observatory, La Dehesa
+              Y00 - SONEAR Observatory, Oliveira
+              Z80 - Northolt Branch Observatory"
+J6-13,jo0065,64,5 sites,MPC 112833.,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0065.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0065.html,False,35,35,25,0,10,0,0,35,12,"13. Code of observatory, N obs","568 - Mauna Kea
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              C95 - SATINO Remote Observatory, Haute Provence
+              W84 - Cerro Tololo-DECam
+              W88 - Slooh.com Chile Observatory, La Dehesa"
+J6-13,jo0066,65,"083, 186, 188",Yizhakevych et al. (2017),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0066.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0066.html,False,33,33,0,0,33,0,0,33,,,"083 - Golosseevo-Kiev
+              186 - Kitab
+              188 - Majdanak"
+J6-13,jo0067,66,6 sites,"MPC 115063-064,115988-989",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0067.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0067.html,False,130,130,121,0,9,0,0,130,12,"13. Code of observatory, N obs","C95 - SATINO Remote Observatory, Haute Provence
+              I41 - Palomar Mountain--ZTF
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              W88 - Slooh.com Chile Observatory, La Dehesa
+              X74 - Observatorio Campo dos Amarais"
+J6-13,jo0068,67,5 sites,"MPC 125595-125597, 127455",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0068.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0068.html,False,144,144,137,0,7,0,0,144,12,"13. Code of observatory, N obs","C95 - SATINO Remote Observatory, Haute Provence
+              I41 - Palomar Mountain--ZTF
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              W76 - CHILESCOPE Observatory, Rio Hurtad"
+J6-13,jo0069,68,258 - Gaia,Not published,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0069.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0069.html,False,1712,1712,0,1712,0,0,0,1712,,,258 - Gaia
+J6-13,jo0070,69,33 sites,MPC 132404-142135,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0070.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0070.html,False,1880,1880,1829,0,51,0,0,1880,12,"13. Code of observatory, N obs","106 - Crni Vrh
+              291 - LPL/Spacewatch II
+              309 - Cerro Paranal
+              415 - Kambah
+              644 - Palomar Mountain/NEAT
+              673 - Table Mountain Observatory, Wrightwood
+              688 - Lowell Observatory, Anderson Mesa Station
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              704 - Lincoln Laboratory ETS, New Mexico
+              809 - European Southern Observatory, La Silla
+              938 - Linhaceira
+              C73 - Galati Observatory
+              D29 - Purple Mountain Observatory, XuYi Station
+              F51 - Pan-STARRS 1, Haleakala
+              G34 - Oberfrauendorf
+              G36 - Calar Alto-CASADO
+              G92 - Jarnac Observatory, Vail
+              G96 - Mt. Lemmon Survey
+              I41 - Palomar Mountain--ZTF
+              I52 - Steward Observatory, Mt. Lemmon Station
+              J04 - ESA Optical Ground Station, Tenerife
+              J75 - OAM Observatory, La Sagra
+              K83 - Beppe Forti Astronomical Observatory, Montelupo
+              L01 - Visnjan Observatory, Tican
+              M22 - ATLAS South Africa, Sutherland
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              W68 - ATLAS Chile, Rio Hurtado
+              W84 - Cerro Tololo-DECam
+              W88 - Slooh.com Chile Observatory, La Dehesa
+              X74 - Observatorio Campo dos Amarais
+              Y00 - SONEAR Observatory, Oliveira
+              Z80 - Northolt Branch Observatory"
+J6-13,jo0071,70,C51 - WISE (sat),"MPC 142129, 142133",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0071.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0071.html,False,11,11,0,11,0,0,0,11,,,C51 - WISE (satellite)
+J6-13,jo0074,71,26 sites,MPC 158689-158702,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0074.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0074.html,False,1212,1212,1190,0,22,0,0,1212,12,"13. Code of observatory, N obs","106 - Crni Vrh
+              415 - Kambah
+              568 - Mauna Kea
+              673 - Table Mountain Observatory, Wrightwood
+              688 - Lowell Observatory, Anderson Mesa Station
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              703 - Catalina Sky Survey
+              704 - Lincoln Laboratory ETS, New Mexico
+              850 - Cordell-Lorenz Observatory, Sewanee
+              926 - Tenagra II Observatory, Nogales
+              D00 - ASC-Kislovodsk Observatory
+              D29 - Purple Mountain Observatory, XuYi Station
+              F51 - Pan-STARRS 1, Haleakala
+              G36 - Calar Alto-CASADO
+              G40 - Slooh.com Canary Islands Observatory
+              G96 - Mt. Lemmon Survey
+              I41 - Palomar Mountain--ZTF
+              J43 - Oukaïmeden Observatory, Marrakech
+              M22 - ATLAS South Africa, Sutherland
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              V00 - Kitt Peak-Bok
+              V30 - Heaven on Earth Observatory, Mayhill
+              W68 - ATLAS Chile, Rio Hurtado
+              X74 - Observatorio Campo dos Amarais
+              Z80 - Northolt Branch Observatory"
+J6-13,jo0075,72,C51 - WISE (sat),MPC 158689-158702,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0075.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0075.html,False,85,85,0,85,0,0,0,85,,,C51 - WISE (satellite)
+J6-13,jo0076,73,C41 - CMO SAI,"Emelyanov et al.,SSR (2020)",C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0076.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0076.html,False,33,33,33,0,0,0,0,33,,,"C41 - MASTER-II Observatory, Kislovodsk (CMO SAI)"
+J6-13,jo0077,74,258 - Gaia,Gaia Archive,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0077.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0077.html,False,3756,3756,0,3756,0,0,0,3756,,,258 - Gaia
+J6-13,jo0078,75,"286, O44, O49",Shang Y. J. et al. (2022),C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0078.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0078.html,False,911,911,911,0,0,0,0,911,7,8. Observatory code (Obs),"286 - Yunnan Observatory
+              O44 - Lijiang Station, Yunnan Observatories
+              O49 - Purple Mountain Observatory, Yaoan Station"
+J6-13,jo0079,76,10 sites,MPC 162210–162214,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0079.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0079.html,False,348,348,345,0,3,0,0,348,12,"13. Code of observatory, N obs","703 - Catalina Sky Survey
+              D29 - Purple Mountain Observatory, XuYi Station
+              G96 - Mt. Lemmon Survey
+              I41 - Palomar Mountain--ZTF
+              M11 - Novaastro Observatory, Banon
+              M22 - ATLAS South Africa, Sutherland
+              P07 - Space Surveillance Telescope, HEH Station
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              W68 - ATLAS Chile, Rio Hurtado"
+S1-8,sm0071,2,"286, 334","Yan et al. 2016; MNRAS 457, 2900",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0071.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0071.html,True,92,92,92,0,0,0,0,92,6,7. Observatory code,"286 - Yunnan Observatory
+              334 - Tsingtao"
+S1-8,sm0086,3,337 - Sheshan,"Yan et al. 2023; Icarus 395, 115478",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0086.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0086.html,True,3169,3169,3169,0,0,0,0,3169,,,337 - Sheshan station of Shanghai Observatory
+S1-8,sm0070,4,286-Yunnan,Zhang et al (2013),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0070.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0070.html,False,2,2,2,0,0,0,0,2,,,286 - Yunnan Observatory
+S1-8,sm0001,5,"Arequipa, Yerkes",Barnard E.E. (1907),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0001.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0001.html,False,5,5,5,0,0,0,0,5,12,13. Number of observatory (N observatory),"800 - Harvard Observatory, Arequipa
+              754 - Yerkes Observatory,Williams Bay"
+S1-8,sm0002,6,Pulkovo,Kostinsky S. (1925),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0002.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0002.html,False,494,494,494,0,0,0,0,494,,,084 - Pulkovo
+S1-8,sm0004,7,Royal de Belgique,Debehogne H. (1979),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0004.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0004.html,False,29,29,29,0,0,0,0,29,,,012 - Observatoire Royal de Belgique (Uccle)
+S1-8,sm0005,8,Kasan Engelhardt,Kitkin V.N. (1986),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0005.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0005.html,False,41,41,41,0,0,0,0,41,,,"136 - Engelhardt Observatory, Kasan"
+S1-8,sm0006,9,Nikolaev,Voronenko & Gorel (1988),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0006.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0006.html,False,92,92,92,0,0,0,0,92,,,089 - Nikolaev
+S1-8,sm0007,10,Pulkovo,Kiseleva T.P. (1989),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0007.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0007.html,False,14,14,14,0,0,0,0,14,,,084 - Pulkovo
+S1-8,sm0008,11,Nikolaev,Voronenko et al.(1991),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0008.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0008.html,False,21,21,21,0,0,0,0,21,,,089 - Nikolaev
+S1-8,sm0009,12,Golosseevo-Kiev,Izhakevich E.M. (1991),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0009.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0009.html,False,312,312,312,0,0,0,0,312,,,083 - Golosseevo-Kiev
+S1-8,sm0010,13,Pulkovo,Tolbin S.B. (1991),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0010.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0010.html,False,745,745,745,0,0,0,0,745,,,084 - Pulkovo
+S1-8,sm0012,14,Pulkovo,Tolbin S.B. (1991),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0012.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0012.html,False,540,540,540,0,0,0,0,540,,,084 - Pulkovo
+S1-8,sm0013,15,Pulkovo,Kiseleva et al(1996),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0013.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0013.html,False,128,128,128,0,0,0,0,128,,,084 - Pulkovo - 084
+S1-8,sm0014,16,Pulkovo,Kiseleva et al(1996),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0014.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0014.html,False,109,109,109,0,0,0,0,109,,,084 - Pulkovo
+S1-8,sm0016,17,Pulkovo,Kiseleva et al(1998),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0016.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0016.html,False,37,37,37,0,0,0,0,37,,,084 - Pulkovo - 084
+S1-8,sm0017,18,Pulkovo,Kiseleva et al(1998),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0017.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0017.html,False,23,23,23,0,0,0,0,23,,,084 - Pulkovo - 084
+S1-8,sm0018,19,Bucharest (073),Vass G. (1997),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0018.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0018.html,False,2536,2536,2536,0,0,0,0,2536,,,073 - Bucharest
+S1-8,sm0019,20,Bordeaux-Floirac,"Rapaport M., privat comm.",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0019.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0019.html,False,136,136,136,0,0,0,0,136,,,999 - Bordeaux-Floirac
+S1-8,sm0020,21,Lab.Nac.Astr.(874),Veiga et al (1999),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0020.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0020.html,False,813,813,813,0,0,0,0,813,,,874 - Itajuba (Laboratorio Nacional de Astrofisica)
+S1-8,sm0021,22,La Palma,Harper et al (1997),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0021.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0021.html,False,1206,1206,1206,0,0,0,0,278,,,950 - La Palma - 950
+S1-8,sm0022,23,La Palma,Harper et al (1999),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0022.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0022.html,False,1514,1514,1514,0,0,0,0,304,,,950 - La Palma
+S1-8,sm0023,24,Flagstaff,Stone et al (2000),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0023.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0023.html,False,412,412,412,0,0,0,0,412,,,689 - Flagstaff
+S1-8,sm0024,25,Flagstaff,Stone et al (2000),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0024.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0024.html,False,387,387,387,0,0,0,0,387,,,689 - Flagstaff
+S1-8,sm0025,26,Abastumani,Kisseleva & Chanturiya(2000),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0025.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0025.html,False,20,20,20,0,0,0,0,20,,,"119 - Abastumani, Georgia"
+S1-8,sm0026,27,Abastumani,Kisseleva & Chanturiya(2000),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0026.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0026.html,False,14,14,14,0,0,0,0,14,,,"119 - Abastumani, Georgia"
+S1-8,sm0027,28,Abastumani,Kisseleva & Chanturiya(2000),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0027.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0027.html,False,4,4,4,0,0,0,0,4,,,"119 - Abastumani, Georgia"
+S1-8,sm0028,29,Abastumani,Kisseleva & Chanturiya(2000),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0028.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0028.html,False,4,4,4,0,0,0,0,4,,,"119 - Abastumani, Georgia"
+S1-8,sm0029,30,Pulkovo,Kisseleva & Kalin. (2000),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0029.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0029.html,False,290,290,290,0,0,0,0,290,,,084 - Pulkovo
+S1-8,sm0030,31,Pulkovo,Kisseleva & Izmailov (2000),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0030.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0030.html,False,73,73,73,0,0,0,0,73,,,084 - Pulkovo
+S1-8,sm0031,32,Golosseevo-Kiev,Not published yet,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0031.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0031.html,False,640,640,640,0,0,0,0,640,,,083 - Golosseevo-Kiev
+S1-8,sm0032,33,Golosseevo-Kiev,Not published yet,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0032.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0032.html,False,44,44,44,0,0,0,0,44,,,083 - Golosseevo-Kiev
+S1-8,sm0033,34,El Leoncito,HISP.-ARGENT. M. CAT.(2001),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0033.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0033.html,False,18,18,18,0,0,0,0,18,,,808 - El Leoncito
+S1-8,sm0034,35,In list,"Strugnell, Taylor cat.(1990)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0034.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0034.html,False,26394,0,0,0,0,26394,0,26145,,,"077 - Yale-Columbia Station, Johannesburg ;
+              078 - Johannesburg;
+              084 - Pulkovo;
+              089 - Nikolaev;
+              094 - Crimea-Simeis;
+              097 - Wise Observatory, Mitzpeh Ramon;
+              114 - Engelhardt Observatory, Zelenchukskaya Station;
+              119 - Abastuman;
+              129 - Ordubad;
+              136 - Engelhardt Observatory, Kasan;
+              286 - Yunnan Observatory;
+              387 - Tokyo-Dodaira;
+              501 - Herstmonceux;
+              536 - Berlin-Babelsberg;
+              559 - Serra La Nave;
+              673 - Table Mountain Observatory, Wrightwood;
+              688 - Lowell Observatory, Anderson Mesa Station;
+              690 - Lowell Observatory, Flagstaff;
+              702 - Joint Obs. for cometary research, Socorro;
+              711 - McDonald Observatory, Fort Davis;
+              754 - Yerkes Observatory, Williams Bay;
+              780 - Leander McCormick Observatory, Charlottesville;
+              786 - U.S. Naval Obs., Washington (since 1893);
+              787 - U.S. Naval Obs., Washington (before 1893);
+              801 - Oak Ridge Observatory;
+              809 - European Southern Observatory, La Silla;
+              950 - La Palma;
+              999 - Bordeaux-Floirac;"
+S1-8,sm0035,36,In list,"Strugnell, Taylor cat.(1990)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0035.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0035.html,False,5707,5707,5707,0,0,0,0,5707,,,"084 - Pulkovo;
+              089 - Nikolaev;
+              094 - Crimea-Simeis;
+              114 - Engelhardt Observatory, Zelenchukskaya Station;
+              119 - Abastuman;
+              136 - Engelhardt Observatory, Kasan;
+              286 - Yunnan Observatory;
+              501 - Herstmonceux;
+              673 - Table Mountain Observatory, Wrightwood;
+              688 - Lowell Observatory, Anderson Mesa Station;
+              711 - McDonald Observatory, Fort Davis;
+              780 - Leander McCormick Observatory, Charlottesville;
+              809 - European Southern Observatory, La Silla;
+              950 - La Palma;
+              999 - Bordeaux-Floirac;"
+S1-8,sm0036,37,In list,"Strugnell, Taylor cat.(1990)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0036.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0036.html,False,20686,20686,20686,0,0,0,0,20686,,,"077 - Yale-Columbia Station, Johannesburg ;
+              078 - Johannesburg;
+              084 - Pulkovo;
+              097 - Wise Observatory, Mitzpeh Ramon;
+              119 - Abastuman;
+              129 - Ordubad;
+              387 - Tokyo-Dodaira;
+              536 - Berlin-Babelsberg;
+              559 - Serra La Nave;
+              690 - Lowell Observatory, Flagstaff;
+              702 - Joint Obs. for cometary research, Socorro;
+              754 - Yerkes Observatory, Williams Bay;
+              780 - Leander McCormick Observatory, Charlottesville;
+              786 - U.S. Naval Obs., Washington (since 1893);
+              787 - U.S. Naval Obs., Washington (before 1893);
+              801 - Oak Ridge Observatory;
+              999 - Bordeaux-Floirac;"
+S1-8,sm0037,38,Nikolaev,Voronenko et al (1991),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0037.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0037.html,False,500,500,500,0,0,0,0,500,,,089 - Nikolaev
+S1-8,sm0038,39,Nikolaev,Not published,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0038.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0038.html,False,130,130,130,0,0,0,0,130,,,089 - Nikolaev
+S1-8,sm0039,40,Itajuba,Vienne et al (2001),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0039.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0039.html,False,6006,6006,6006,0,0,0,0,11408,,,874 - Itajuba
+S1-8,sm0040,41,Zephyrhills,Communicat. to NSDC 2001-12,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0040.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0040.html,False,3,3,3,0,0,0,0,3,9,"10. N observatory, telescope, observers (N obs)",761 - Zephyrhills
+S1-8,sm0041,42,286 - Yunnan,"Peng, Vienne, Shen (2002)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0041.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0041.html,False,913,913,913,0,0,0,0,1311,,,286 - Yunnan Observatory
+S1-8,sm0042,43,Pulkovo,Kisseleva T.P. (2002),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0042.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0042.html,False,182,182,182,0,0,0,0,182,,,084 - Pulkovo
+S1-8,sm0044,44,16 sites,Noyelles et al (2003),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0044.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0044.html,False,130,130,57,0,73,0,0,64,5,6. UAI observatory code from the Minor Planet Center.,"005 - Meudon
+              025 - Stuttgart
+              073 - Bucharest
+              095 - Crimea-Nauchnij
+              130 - Lumezzane
+              156 - Catania Astrophysical Observatory
+              262 - European Southern Observatory, La Silla-DSS
+              387 - Tokyo-Dodaira
+              511 - Haute Provence
+              559 - Serra La Nave
+              586 - Pic du Midi
+              780 - Leander McCormick Observatory, Charlottesville
+              874 - Itajuba
+              999 - Bordeaux-Floirac"
+S1-8,sm0045,45,Lab.Nac.Astr.(874),Veiga et al (2003),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0045.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0045.html,False,2059,2059,2059,0,0,0,0,3165,,,"874 - Itajuba (Laboratorio Nacional de Astrofisica, Brazil)"
+S1-8,sm0046,46,Tokyo-Mitaka (388),Hatanaka Y. (1995),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0046.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0046.html,False,776,776,776,0,0,0,0,776,,,388 - Tokyo-Mitaka
+S1-8,sm0047,47,Byurakan (123),Abrahamian et al. (1993),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0047.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0047.html,False,53,53,53,0,0,0,0,53,,,123 - Byurakan
+S1-8,sm0048,48,U.S.N.O.,Walker et al. (1978),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0048.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0048.html,False,2,2,2,0,0,0,0,2,,,"786 - U.S. Naval Obs., Washington"
+S1-8,sm0052,49,La Palma,CARLSBERG MERIDIAN CAT.,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0052.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0052.html,False,730,730,730,0,0,0,0,730,,,950 - La Palma
+S1-8,sm0053,50,Bordeaux-Floirac,Rapaport et al.(2002),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0053.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0053.html,False,130,127,127,0,0,3,0,130,,,999 - Bordeaux-Floirac
+S1-8,sm0054,51,Bordeaux-Floirac,Dourneau et al.(2007),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0054.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0054.html,False,216,216,216,0,0,0,0,216,,,999 - Bordeaux-Floirac
+S1-8,sm0055,52,286 - Yunnan,Peng et al. (2008),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0055.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0055.html,False,2154,2154,2154,0,0,0,0,2154,5,"6. IAU observatory code, Obs.",286 - Yunnan Observatory
+S1-8,sm0056,53,Lowell Observatory,IAUC 3602 (1981),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0056.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0056.html,False,8,8,8,0,0,0,0,8,,,"690 - Lowell Observatory, Flagstaff"
+S1-8,sm0057,54,188 - Majdanak,Kaltygina et al(1992),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0057.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0057.html,False,230,230,230,0,0,0,0,230,,,188 - Majdanak
+S1-8,sm0058,55,Pulkovo,Kisseleva et al (1975-1988),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0058.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0058.html,False,1340,1340,1340,0,0,0,0,1340,,,084 - Pulkovo
+S1-8,sm0059,56,Pulkovo,Kisseleva et al (1996),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0059.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0059.html,False,80,80,80,0,0,0,0,80,,,084 - Pulkovo
+S1-8,sm0060,57,Pulkovo,Kisseleva et al (2000-2002),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0060.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0060.html,False,2467,2467,2467,0,0,0,0,2467,,,084 - Pulkovo
+S1-8,sm0061,58,Pulkovo,Grosheva et al. (2011),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0061.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0061.html,False,183,183,183,0,0,0,0,183,,,084 - Pulkovo
+S1-8,sm0062,59,Pulkovo,Grosheva et al. (2011),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0062.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0062.html,False,355,355,355,0,0,0,0,355,,,084 - Pulkovo
+S1-8,sm0063,60,Flagstaff,"Stone et al. (2000, 2001)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0063.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0063.html,False,2935,2935,2935,0,0,0,0,2935,,,689 - Flagstaff
+S1-8,sm0064,61,Pulkovo,"Kisseleva et al (2013, 2015)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0064.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0064.html,False,116,116,116,0,0,0,0,116,,,084 - Pulkovo
+S1-8,sm0065,62,Flagstaff,"Stone et al. (2000, 2001)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0065.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0065.html,False,456,456,456,0,0,0,0,456,,,689 - Flagstaff
+S1-8,sm0066,63,673-Table Mount.,Table Mountain Obs.2016,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0066.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0066.html,False,671,671,671,0,0,0,0,671,,,"673 -Table Mountain Observatory, Wrightwood, California"
+S1-8,sm0067,64,786 - USNO Wash.,Robert et al. (2016),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0067.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0067.html,False,3946,3946,3946,0,0,0,0,3946,,,"786 - U.S. Naval Obs., Washington (since 1893)"
+S1-8,sm0068,65,Cassini space prob,"Tajeddine et al. (2013,2015)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0068.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0068.html,False,7032,7032,0,7032,0,0,0,7032,,,Cassini space probe
+S1-8,sm0069,66,000-Greenwich,"Airy, Christie (1877-1887)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0069.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0069.html,False,481,481,481,0,0,0,0,481,,,"000 - Royal Observatory, Greenwich"
+S1-8,sm0072,67,19 sites,Arlot et al. (2012),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0072.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0072.html,False,52,52,0,0,52,0,0,26,4,5. Observatory code (Code),see below
+S1-8,sm0073,68,Cassini space prob,Cooper et al. (2014),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0073.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0073.html,False,2303,2303,0,2303,0,0,0,2303,,,Cassini space probe
+S1-8,sm0074,69,"083, 186, 188",Database Terskol (see link),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0074.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0074.html,False,1384,1384,0,0,1384,0,0,1384,,,"083 - Golosseevo-Kiev
+              186 - Kitab
+              188 - Majdanak"
+S1-8,sm0075,70,Pulkovo,Kiseleva et al. (2015),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0075.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0075.html,False,375,375,375,0,0,0,0,375,,,084 - Pulkovo
+S1-8,sm0076,71,248 - Hipparcos,Hestroffer et al. (1998),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0076.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0076.html,False,51,51,0,51,0,0,0,51,,,248 - Hipparcos
+S1-8,sm0077,72,248 - Hipparcos,Hestroffer et al. (1998),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0077.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0077.html,False,19,19,0,19,0,0,0,19,,,248 - Hipparcos
+S1-8,sm0078,73,Cassini space prob,Cooper et al. (2018),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0078.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0078.html,False,260,260,0,260,0,0,0,260,,,Cassini space probe
+S1-8,sm0079,74,"083, 186, 188",Yizhakevych et al. (2017),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0079.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0079.html,False,1398,1398,0,0,1398,0,0,1398,,,"083 - Golosseevo-Kiev
+              186 - Kitab
+              188 - Majdanak"
+S1-8,sm0080,75,186 - Kitab,Yizhakevych et al. (2018),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0080.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0080.html,False,27,27,27,0,0,0,0,27,,,186 - Kitab
+S1-8,sm0081,76,"G40, T05, T06","MPC 115066, 115989",C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0081.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0081.html,False,11,11,11,0,0,0,0,11,12,"13. Code of observatory, N obs","G40 - Slooh.com Canary Islands Observatory
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa"
+S1-8,sm0082,77,"T05, T08, W84",MPC 125598-125599,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0082.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0082.html,False,21,21,21,0,0,0,0,21,11,"12. Code of observatory, N obs","T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              W84 - Cerro Tololo-DECam"
+S1-8,sm0083,78,C51-WISE,MPC 125599,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0083.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0083.html,False,9,9,0,9,0,0,0,9,,,C51 - WISE (satellite)
+S1-8,sm0084,79,84119,Khovritchev et al (2021),C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0084.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0084.html,False,7387,7387,6487,0,900,0,0,6487,,,"084 - Pulkovo
+              119 - Abastuman"
+S1-8,sm0085,80,258 - Gaia,Gaia Archive,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0085.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0085.html,False,1865,1865,0,1865,0,0,0,1865,,,258 - Gaia
+S1-8,sm0087,81,258 - Gaia,Gaia Archive,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0087.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0087.html,False,4685,4685,0,4685,0,0,0,4685,,,258 - Gaia
+S1-8,sm0088,82,"M22, T08, W68",MPC 163438,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0088.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\sm0088.html,False,67,67,67,0,0,0,0,67,11,"12. Code of observatory, N obs","M22 - ATLAS South Africa, Sutherland
+              T08 - ATLAS-MLO, Mauna Loa
+              W68 - ATLAS Chile, Rio Hurtado"
+S9,so0027,2,Sheshan Station,Qiao et al. 2006,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0027.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0027.html,True,115,115,115,0,0,0,0,115,,,"Sheshan Station (E 121 deg 11' 03.3'', N 31 deg 05' 46.1'')
+              near the Shanghai Astronomical Observatory (SHAO)
+              (337 - Zo-Se)"
+S9,so0039,3,"327, 337",Qiao et al. 2011,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0039.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0039.html,True,1173,1173,1173,0,0,0,0,1173,9,"10. Code of observatory, (N obs)","327 - Peking Observatory, Xinglong Station (NAO)
+              337 - Zo-Se  Sheshan Station, near the Shanghai Astronomical Observatory (SHAO)"
+S9,so0001,4,"Crimea, McDonald..","Strugnell, Taylor cat.(1990)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0001.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0001.html,False,10,10,0,0,10,0,0,10,,,"094 - Crimea-Simeis;
+              711 - McDonald Observatory, Fort Davis;"
+S9,so0002,5,Pik Terskol,Ledovskaya et al (1999),C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0002.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0002.html,False,9,9,0,0,9,0,0,9,,,9999 - Pik Terskol
+S9,so0003,6,Flagstaff,Stone R. & Harris.H. (2000),C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0003.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0003.html,False,38,38,38,0,0,0,0,38,,,689 - Flagstaff
+S9,so0004,7,Flagstaff,Stone R. (2000),C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0004.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0004.html,False,19,19,19,0,0,0,0,19,,,689 - Flagstaff
+S9,so0005,8,La Palma,Jones D. (private commun.),C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0005.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0005.html,False,7,7,7,0,0,0,0,7,,,950 - La Palma
+S9,so0006,9,Itajuba,Veiga et al (2000),C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0006.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0006.html,False,46,46,46,0,0,0,0,46,,,874 - Itajuba
+S9,so0007,10,4 sites,MPC Communication 2000-12,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0007.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0007.html,False,22,22,22,0,0,0,0,22,11,"12. N observatory, N telescope, N observer (N obs)","691 - Spacewatch.
+              696 - Mt. Hopkins.
+              699 - LONEOS.
+              704 - Lincoln Laboratory Experimental Test System, New Mexico."
+S9,so0008,11,2 sites,MPC Communication 2001-02,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0008.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0008.html,False,9,9,9,0,0,0,0,9,11,"12. N observatory, N telescope, N observer (N obs)","699 - LONEOS.
+              704 - Lincoln Laboratory Experimental Test System, New Mexico."
+S9,so0009,12,Table Mountain,"MPC Communication 2001-09,10",C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0009.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0009.html,False,6,6,6,0,0,0,0,6,,,"673 - Table Mountain Observatory, Wrightwood"
+S9,so0010,13,"673, 691, 704",MPC Communication 2001-12,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0010.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0010.html,False,20,20,20,0,0,0,0,20,9,"10. N observatory, telescope, observers (N obs)","673 - Table Mountain Observatory, Wrightwood
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              704 - Lincoln Laboratory ETS, New Mexico"
+S9,so0011,14,761 - Zephyrhills,Communicat. to NSDC 2001-12,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0011.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0011.html,False,3,3,3,0,0,0,0,3,9,"10. N observatory, telescope, observers (N obs)",761 - Zephyrhills
+S9,so0013,15,673-Table Mountain,Communicat. to NSDC 2002-09,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0013.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0013.html,False,3,3,3,0,0,0,0,3,9,"10. N observatory, telescope, observers (N obs)","673 - Table Mountain Observatory, Wrightwood"
+S9,so0014,16,673-Table Mountain,Communicat. to NSDC 2002-11,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0014.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0014.html,False,3,3,3,0,0,0,0,3,9,"10. N observatory, telescope, observers (N obs)","673 - Table Mountain Observatory, Wrightwood"
+S9,so0015,17,"673, 704",Communic. to NSDC 8 Jan 2003,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0015.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0015.html,False,22,22,22,0,0,0,0,22,9,"10. N observatory, telescope, observers (N obs)","704 - Lincoln Laboratory ETS, New Mexico
+              673 - Table Mountain Observatory, Wrightwood"
+S9,so0016,18,"673, 699, 704",Communic.to NSDC 27 Feb 2003,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0016.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0016.html,False,38,38,38,0,0,0,0,38,9,"10. N observatory, telescope, observers (N obs)","704 - Lincoln Laboratory ETS, New Mexico
+              673 - Table Mountain Observatory, Wrightwood
+              699 - Lowell Observatory-LONEOS"
+S9,so0017,19,Table Mountain,Communic. 20 Mar 2003,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0017.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0017.html,False,16,16,16,0,0,0,0,16,9,"10. N observatory, telescope, observers (N obs)","673 - Table Mountain Observatory, Wrightwood"
+S9,so0018,20,Haute Provence,Fienga et al. (2002),C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0018.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0018.html,False,64,64,64,0,0,0,0,64,,,511 - Haute Provence
+S9,so0019,21,12 sites,26 references,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0019.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0019.html,False,197,197,186,0,11,0,0,197,12,"13. N of observatory (Nsite), see above.","0 - Greenwich
+              074 - Boyden Observatory, Bloemfontein
+              662 - Lick Observatory, Mount Hamilton
+              672 - Mount Wilson 
+              689 - U.S. Naval Observatory, Flagstaff
+              690 - Lowell Observatory, Flagstaff
+              695 - Kitt Peak
+              711 - McDonald Observatory, Fort Davis
+              754 - Yerkes Observatory, Williams Bay
+              809 - European Southern Observatory, La Silla
+              822 - Cordoba
+              999 - Bordeaux-Floirac"
+S9,so0020,22,Table Mountain,MPC Communic. 22 Sep 2003,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0020.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0020.html,False,2,2,2,0,0,0,0,2,,,673 - Table Mountain Observatory
+S9,so0021,23,"291, 673, 704","MPC Comm. 2003-12, 2004-01",C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0021.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0021.html,False,34,34,34,0,0,0,0,34,9,"10. Code of observatory, telescope, observers (N obs)","291 - LPL/Spacewatch II
+              673 - Table Mountain Observatory
+              704 - Lincoln Laboratory ETS, New Mexico"
+S9,so0022,24,Table Mountain,MPC Comm. 1 Nov 2004,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0022.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0022.html,False,5,5,5,0,0,0,0,5,9,"10. Code of observatory, telescope, observers (N obs)","673 - Table Mountain Observatory, Wrightwood"
+S9,so0024,25,14 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0024.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0024.html,False,237,237,227,0,10,0,0,227,9,"10. Code of observatory, (N obs)","133 - Les Tardieux 
+              215 - Buchloe 
+              415 - Kambah, near Canberra 
+              566 - Haleakala-NEAT/GEODSS 
+              568 - Mauna Kea
+              644 - Palomar Mountain/NEAT
+              673 - Table Mountain Observatory, Wrightwood
+              675 - Palomar Mountain
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              695 - Kitt Peak
+              699 - Lowell Observatory-LONEOS
+              703 - Catalina Sky Survey
+              704 - Lincoln Laboratory ETS, New Mexico
+              809 - European Southern Observatory, La Silla"
+S9,so0025,26,286 - Yunnan,"Peng, Zhang (2005)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0025.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0025.html,False,210,210,210,0,0,0,0,210,,,286 - Yunnan Observatory
+S9,so0026,27,8 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0026.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0026.html,False,146,146,146,0,0,0,0,146,9,"10. Code of observatory, (N obs)","143 - Gnosca 
+              415 - Kambah, near Canberra 
+              568 - Mauna Kea
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              704 - Lincoln Laboratory ETS, New Mexico
+              E12 - Siding Spring Survey
+              G96 - Mt. Lemmon Survey
+              H06 - New Mexico Skies Observatory"
+S9,so0028,28,3 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0028.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0028.html,False,10,10,10,0,0,0,0,10,9,"10. Code of observatory, (N obs)","415 - Kambah, near Canberra 
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              704 - Lincoln Laboratory ETS, New Mexico"
+S9,so0030,29,6 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0030.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0030.html,False,88,88,88,0,0,0,0,88,9,"10. Code of observatory, (N obs)","185 - Observatoire Astronomique Jurassien-Vicques
+              415 - Kambah, near Canberra 
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              704 - Lincoln Laboratory ETS, New Mexico
+              958 - Observatoire de Dax
+              B01 - Taunus Observatory, Frankfurt"
+S9,so0031,30,415 - Kambah,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0031.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0031.html,False,35,35,35,0,0,0,0,35,9,"10. Code of observatory, (N obs)","415 - Kambah, near Canberra"
+S9,so0032,31,415 - Kambah,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0032.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0032.html,False,14,14,14,0,0,0,0,14,9,"10. Code of observatory, (N obs)","415 - Kambah, near Canberra"
+S9,so0033,32,7 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0033.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0033.html,False,101,101,101,0,0,0,0,101,9,"10. Code of observatory, (N obs)","415 - Kambah, near Canberra 
+              673 - Table Mountain Observatory, Wrightwood
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              704 - Lincoln Laboratory ETS, New Mexico
+              A50 - Andrushivka Astronomical Observatory
+              D35 - Lulin Observatory
+              J37 - Astrodomi Observatory, Santa Rita"
+S9,so0034,33,5 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0034.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0034.html,False,180,180,180,0,0,0,0,180,9,"10. Code of observatory, (N obs)","415 - Kambah, near Canberra 
+              673 - Table Mountain Observatory, Wrightwood
+              683 - Goodricke-Pigott Observatory, Tucson 
+              689 - U.S. Naval Observatory, Flagstaff
+              704 - Lincoln Laboratory ETS, New Mexico"
+S9,so0035,34,5 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0035.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0035.html,False,65,65,65,0,0,0,0,65,9,"10. Code of observatory, (N obs)","415 - Kambah, near Canberra 
+              673 - Table Mountain Observatory, Wrightwood
+              689 - U.S. Naval Observatory, Flagstaff
+              704 - Lincoln Laboratory ETS, New Mexico
+              D29 - Purple Mountain Observatory, XuYi Station"
+S9,so0036,35,9 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0036.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0036.html,False,87,87,87,0,0,0,0,87,9,"10. Code of observatory, (N obs)","106 - Crni Vrh
+              415 - Kambah, near Canberra 
+              673 - Table Mountain Observatory, Wrightwood
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              689 - U.S. Naval Observatory, Flagstaff
+              704 - Lincoln Laboratory ETS, New Mexico
+              D29 - Purple Mountain Observatory, XuYi Station
+              E07 - Murrumbateman
+              J37 - Huelva"
+S9,so0037,36,WISE (satellite),MPC 70653.,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0037.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0037.html,False,5,5,0,5,0,0,0,5,,,C51 - WISE (satellite)
+S9,so0038,37,5 sites,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0038.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0038.html,False,105,105,105,0,0,0,0,105,9,"10. Code of observatory, (N obs)","691 - Steward Observatory, Kitt Peak-Spacewatch
+              689 - U.S. Naval Observatory, Flagstaff
+              704 - Lincoln Laboratory ETS, New Mexico
+              D29 - Purple Mountain Observatory, XuYi Station
+              E07 - Murrumbateman"
+S9,so0040,38,"673, 704, E07",MPC,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0040.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0040.html,False,60,60,41,0,19,0,0,60,9,"10. Code of observatory, (N obs)","673 - Table Mountain Observatory, Wrightwood
+              704 - Lincoln Laboratory ETS, New Mexico
+              E07 - Lincoln Laboratory ETS, New Mexico"
+S9,so0041,39,O44-Lijiang Stat.,Peng et al. 2015,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0041.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0041.html,False,346,346,346,0,0,0,0,346,,,"O44 - Lijiang Station, Yunnan Observatories"
+S9,so0042,40,Flagstaff,"Stone (2000, 2001)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0042.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0042.html,False,223,223,223,0,0,0,0,223,,,689 - Flagstaff
+S9,so0043,41,10 sites,MPC 82022-90446,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0043.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0043.html,False,105,105,95,0,10,0,0,105,9,"10. Code of observatory, (N obs)","673 - Table Mountain Observatory, Wrightwood
+              689 - U.S. Naval Observatory, Flagstaff
+	      704 - Lincoln Laboratory ETS, New Mexico
+	      C41 - MASTER-II Observatory, Kislovodsk
+	      C95 - SATINO Remote Observatory, Haute Provence
+	      D29 - Purple Mountain Observatory, XuYi Station
+	      F51 - Pan-STARRS 1, Haleakala
+	      G36 - Calar Alto-CASADO
+	      H06 - iTelescope Observatory, Mayhill
+	      Y00 - SONEAR Observatory, Oliveira"
+S9,so0044,42,511809874,Gomes-Junior et al. (2015),C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0044.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0044.html,False,1787,1787,1787,0,0,0,0,1787,12,13. Observatory Code,"511 - Haute Provence
+              809 - European Southern Observatory, La Silla
+              874 - Itajuba"
+S9,so0045,43,Flagstaff,"Stone (2000, 2001)",C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0045.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0045.html,False,15,15,15,0,0,0,0,15,,,689 - Flagstaff
+S9,so0046,44,673-Table Mount.,Table Mountain Obs.2016,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0046.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0046.html,False,5,5,5,0,0,0,0,5,,,"673 -Table Mountain Observatory, Wrightwood, California"
+S9,so0047,45,Cassini space prob,Tajeddine et al. (2015),C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0047.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0047.html,False,223,223,0,223,0,0,0,223,,,Cassini space probe
+S9,so0048,46,5 sites,MPC 93768-101342,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0048.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0048.html,False,29,29,14,0,15,0,0,29,11,"12. Code of observatory, (N obs)","673 - Table Mountain Observatory, Wrightwood
+	      F51 - Pan-STARRS 1, Haleakala
+	      F52 - Pan-STARRS 2, Haleakala
+	      K95 - MASTER-SAAO Observatory, Sutherland
+	      W88 - Slooh.com Chile Observatory, La Dehesa"
+S9,so0049,47,4 sites,"MPC 103149, 104989, 105715",C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0049.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0049.html,False,20,20,18,0,2,0,0,20,11,"12. Code of observatory, N obs","673 - Table Mountain Observatory, Wrightwood
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              W88 - Slooh.com Chile Observatory, La Dehesa"
+S9,so0050,48,3 sites,MPC 115066,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0050.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0050.html,False,11,11,11,0,0,0,0,11,11,"12. Code of observatory, N obs","T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              D29 - Purple Mountain Observatory, XuYi Station"
+S9,so0051,49,258 - Gaia,Not published,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0051.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0051.html,False,514,514,0,514,0,0,0,514,,,258 - Gaia
+S9,so0052,50,12 sites,MPC 141305-141310,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0052.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0052.html,False,478,478,472,0,6,0,0,478,11,"12. Code of observatory, N obs","415 - Kambah
+              673 - Table Mountain Observatory, Wrightwood
+              688 - Lowell Observatory, Anderson Mesa Station
+              691 - Steward Observatory, Kitt Peak-Spacewatch
+              D29 - Purple Mountain Observatory, XuYi Station
+              E07 - Murrumbateman
+              G36 - Calar Alto-CASADO
+              I41 - Palomar Mountain--ZTF
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              X74 - Observatorio Campo dos Amarais
+              Z80 - Northolt Branch Observatory"
+S9,so0053,51,7 sites,Gomes-Junior A.R.et al.(2020),C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0053.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0053.html,False,6,6,0,0,6,0,0,6,,,"Hamamatsu, Japan:        137°44'23.0""  E, 34°43'07.0""  N,   17m
+              Miharu, Japan:           140°26'04.2""  E, 37°25'36.7""  N,  274m
+              Cerro Pahon, Chile:       70°44'21.7""  W, 30°14'16.9""  S, 2693.9m
+              Penrith Obs., Australia: 150°44'29.9""  E, 33°45'43.5""  S,   58m
+              Rockhampton, Australia:  150°30'01.6""  E, 23°16'10.1""  S,   50m
+              Yass, Australia:         148°58'35.14"" E, 34°51'51.17"" S,  535m
+              Casleo, Argentina:        69°17'44.9""  W, 31°47'55.6""  S, 2552m"
+S9,so0054,52,258 - Gaia,Gaia Archive,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0054.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0054.html,False,1066,1066,0,1066,0,0,0,1066,,,258 - Gaia
+S9,so0055,53,"337, 286, O44","Yan et al. 2025; Icarus 430, 116457",C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0055.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0055.html,True,914,914,914,0,0,0,0,914,9,10.Site IAU code,"337 - Sheshan station of Shanghai Observatory
+              286 - Kunming station of Yunnan Astronomical Observatory
+              O44 - Lijiang station of Yunnan Astronomical Observatory"
+S9,so0056,54,9 sites,MPC 163438-163441,C:\Users\Y\Downloads\project_small_tools\画图分析\IMCCE_MAP\inputs\supplementary_catalogues\so0056.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\S\so0056.html,False,242,242,236,0,6,0,0,242,11,"12. Code of observatory, N obs","D29 - Purple Mountain Observatory, XuYi Station
+              I41 - Palomar Mountain--ZTF
+              L51 - MARGO, Nauchnyi
+              M22 - ATLAS South Africa, Sutherland
+              P07 - Space Surveillance Telescope, HEH Station
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              W68 - ATLAS Chile, Rio Hurtado
+              W94 - MAP, San Pedro de Atacama"
+U1-5,um0138,2,874 - Itajuba,Camargo et al.(2022),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0138.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0138.html,False,17729,17729,17729,0,0,0,0,17729,,,874 - Itajuba (Pico dos Dias Observatory)
+U1-5,um0088,3,"327, 337",Qiao et al. 2013,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0088.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0088.html,True,2358,2358,2358,0,0,0,0,2358,10,"11. Code of observatory, (N obs)","327 - Peking Observatory, Xinglong Station (NAO)                                
+              337 - Zo-Se  Sheshan Station, near the Shanghai Astronomical Observatory(SHAO)"
+U1-5,um0129,4,286 - Yunnan,Yan et al. 2016,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0129.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0129.html,True,24,24,24,0,0,0,0,24,6,7. Observatory code,286 - Yunnan Observatory
+U1-5,um0135,5,337 - Sheshan,Zhang et al. 2022,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0135.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0135.html,True,1915,1915,1915,0,0,0,0,1915,,,"337 - Sheshan, formerly Zo-Se"
+U1-5,supplement_zhang2024,6,286 - Yunnan,"Zhang et al. 2024; ApJS 273:25; doi:10.3847/1538-4365/ad53c4; aggregate only, no local raw file or confirmed IMCCE ID",,,True,10339,10339,10339,0,0,0,0,0,,,
+U1-5,um0124,7,874 - Itajuba,Camargo et al.(2015),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0124.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0124.html,False,2702,0,0,0,0,2702,0,2702,,,874 - Itajuba (Pico dos Dias Observatory)
+U1-5,um0125,8,874 - Itajuba,Camargo et al.(2015),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0125.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0125.html,False,9797,0,0,0,0,9797,0,9797,,,874 - Itajuba (Pico dos Dias Observatory)
+U1-5,um0001,9,874 - Itajuba,Veiga & Vieira Martins(1994),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0001.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0001.html,False,1287,1287,1287,0,0,0,0,333,,,874 - Itajuba (Laboratorio Nacional de Astrofisica)
+U1-5,um0002,10,874 - Itajuba,Veiga & Vieira Martins(1995),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0002.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0002.html,False,1472,1472,1472,0,0,0,0,368,,,874 - Itajuba (Laboratorio Nacional de Astrofisica)
+U1-5,um0003,11,874 - Itajuba,Veiga & Vieira Martins(1999),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0003.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0003.html,False,2598,2598,2598,0,0,0,0,750,,,874 - Itajuba (Laboratorio Nacional de Astrofisica)
+U1-5,um0004,12,Table Mountain,Communicated by Owen (1999),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0004.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0004.html,False,12,12,12,0,0,0,0,12,,,"673 -Table Mountain Observatory, Wrightwood"
+U1-5,um0005,13,Table Mountain,Communicated by Owen (2001),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0005.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0005.html,False,9,9,9,0,0,0,0,9,,,"673 -Table Mountain Observatory, Wrightwood"
+U1-5,um0006,14,Flagstaff,Stone R.C.(2001),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0006.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0006.html,False,221,221,221,0,0,0,0,221,,,689 - Flagstaff
+U1-5,um0007,15,874 - Itajuba,Veiga et al. (2003),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0007.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0007.html,False,3093,3093,3093,0,0,0,0,4822,,,874 - Itajuba (Laboratorio Nacional de Astrofisica)
+U1-5,um0008,16,413 - SidingSpring,NSDC comm. 24 Sep 2003,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0008.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0008.html,False,6,6,6,0,0,0,0,12,,,413 - Siding Spring Observatory
+U1-5,um0009,17,119 - Abastuman,Chanturiya et al. (2002),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0009.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0009.html,False,209,209,209,0,0,0,0,315,,,119 - Abastuman
+U1-5,um0010,18,119 - Abastuman,Chanturiya et al. (2002),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0010.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0010.html,False,196,196,196,0,0,0,0,195,,,119 - Abastuman
+U1-5,um0011,19,119 - Abastuman,Chanturiya et al. (2002),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0011.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0011.html,False,92,92,92,0,0,0,0,91,,,119 - Abastuman
+U1-5,um0012,20,123 - Byurakan,Abrahamian (1993),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0012.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0012.html,False,34,34,34,0,0,0,0,44,,,123 - Byurakan
+U1-5,um0013,21,950 - La Palma,Jones (1998),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0013.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0013.html,False,512,512,512,0,0,0,0,139,,,950 - La Palma
+U1-5,um0014,22,192 - Tashkent,Sytinskaja N.N. (1930),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0014.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0014.html,False,64,64,64,0,0,0,0,64,,,192 - Tashkent
+U1-5,um0015,23,"USNO, Flagstaff","Walker, Harrington (1988)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0015.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0015.html,False,139,139,139,0,0,0,0,139,,,"689 - U.S. Naval Observatory, Flagstaff"
+U1-5,um0016,24,"USNO, Flagstaff","Walker, Harrington (1978)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0016.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0016.html,False,133,133,133,0,0,0,0,133,,,"689 - U.S. Naval Observatory, Flagstaff"
+U1-5,um0017,25,"USNO, Flagstaff","Walker, Harrington (1978)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0017.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0017.html,False,5,5,5,0,0,0,0,5,,,"807 - Cerro Tololo Observatory, La Serena"
+U1-5,um0018,26,"USNO, Flagstaff","Harrington, Walker (1984)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0018.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0018.html,False,377,377,377,0,0,0,0,377,,,"689 - U.S. Naval Observatory, Flagstaff"
+U1-5,um0019,27,874 - Itajuba,Veiga et al. (1987),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0019.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0019.html,False,1004,1004,1004,0,0,0,0,1004,,,874 - Itajuba
+U1-5,um0020,28,687 - Flagstaff,Pascu et al. (1987),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0020.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0020.html,False,76,76,76,0,0,0,0,76,,,"687 - Northern Arizona University, Flagstaff"
+U1-5,um0021,29,"809 - ESO,La Silla",Debehogne et al. (1981),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0021.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0021.html,False,24,24,24,0,0,0,0,34,,,"809 - European Southern Observatory, La Silla"
+U1-5,um0022,30,586 - Pic du Midi,"Veillet C., Ratier G. (1980)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0022.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0022.html,False,58,58,58,0,0,0,0,58,,,586 - Pic du Midi
+U1-5,um0023,31,"809 - ESO,La Silla",Veillet C. (1983),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0023.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0023.html,False,82,82,82,0,0,0,0,82,,,"809 - European Southern Observatory, La Silla"
+U1-5,um0024,32,"Pic du Midi, ESO",Veillet C. (1983),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0024.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0024.html,False,30,30,30,0,0,0,0,30,2,3. Number of observatory (N obs),"586 - Pic du Midi
+              809 - European Southern Observatory, La Silla"
+U1-5,um0025,33,999 - Bordeaux,Soulie G. (1968),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0025.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0025.html,False,24,24,24,0,0,0,0,39,,,999 - Bordeaux-Floirac
+U1-5,um0026,34,???,Steavenson W. H. (1964),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0026.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0026.html,False,8,8,8,0,0,0,0,8,,,503 - Cambridge
+U1-5,um0027,35,371-Tokyo-Okayama,"Tomita K., Soma M. (1979)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0027.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0027.html,False,156,156,156,0,0,0,0,156,,,371 - Tokyo-Okayama
+U1-5,um0028,36,???,Steavenson W. H. (1948),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0028.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0028.html,False,30,30,30,0,0,0,0,30,,,503 - Cambridge
+U1-5,um0029,37,"McDonald, Catalina","Whitaker, Greenberg (1973)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0029.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0029.html,False,133,133,0,0,133,0,0,133,,,"711 - McDonald Observatory, Fort Davis
+                H - University Hawaii
+              693 - Catalina Station, Tucson"
+U1-5,um0030,38,"McDonald, Catalina","Whitaker, Greenberg (1973)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0030.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0030.html,False,471,471,0,0,471,0,0,473,10,11. Number of observatory (N obs),"711 - McDonald Observatory, Fort Davis
+              703 - Catalina Sky Survey"
+U1-5,um0031,39,711 - McDonald,Biesbroeck G.Van (1970),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0031.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0031.html,False,804,804,804,0,0,0,0,804,,,"711 - McDonald Observatory, Fort Davis"
+U1-5,um0032,40,84 -Pulkovo,von Asten (1872),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0032.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0032.html,False,279,279,279,0,0,0,0,279,,,084 - Pulkovo
+U1-5,um0033,41,787 - U.S.N.O.,Holden (1881),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0033.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0033.html,False,19,19,19,0,0,0,0,19,,,"787 - U.S. Naval Obs., Washington"
+U1-5,um0034,42,"586, 511, 809, 568",Veillet C. (1983),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0034.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0034.html,False,1035,1035,1029,0,6,0,0,1260,,,"586 - Pic du Midi
+              511 - Haute Provence
+              809 - European Southern Observatory, La Silla
+              568 - Mauna Kea (CFH)"
+U1-5,um0035,43,711 - McDonald,Mulholland et al. (1979),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0035.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0035.html,False,25,25,25,0,0,0,0,25,,,"711 - McDonald Observatory, Fort Davis"
+U1-5,um0036,44,"Kitt Peak,Catalina",van Biesbroeck et al (1976),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0036.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0036.html,False,28,28,28,0,0,0,0,28,9,10. Number of observatory (N obs),"695 - Kitt Peak
+              693 - Catalina Station, Tucson"
+U1-5,um0037,45,"Kitt Peak,Catalina",van Biesbroeck et al (1976),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0037.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0037.html,False,56,56,56,0,0,0,0,56,7,8. Number of observatory (N obs),"695 - Kitt Peak
+              693 - Catalina Station, Tucson"
+U1-5,um0038,46,536 - Berlin,Struve G. (1928),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0038.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0038.html,False,82,82,82,0,0,0,0,82,,,536 - Berlin-Babelsberg
+U1-5,um0039,47,999 - Bordeaux,Soulie G. (1975),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0039.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0039.html,False,31,31,31,0,0,0,0,55,,,999 - Bordeaux-Floirac
+U1-5,um0040,48,999 - Bordeaux,Soulie G. (1978),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0040.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0040.html,False,78,78,78,0,0,0,0,134,,,999 - Bordeaux-Floirac
+U1-5,um0041,49,754 - Yerkes,Barnard E.E. (1927),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0041.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0041.html,False,115,115,115,0,0,0,0,115,,,"754 - Yerkes Observatory, Williams Bay"
+U1-5,um0042,50,999 - Bordeaux,Soulie G. (1972),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0042.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0042.html,False,73,73,73,0,0,0,0,122,,,999 - Bordeaux-Floirac
+U1-5,um0043,51,786 - USNO,Hall A. (1929),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0043.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0043.html,False,301,301,301,0,0,0,0,301,,,"786 - U.S. Naval Observatory, Washington D.C."
+U1-5,um0044,52,007 - Paris,Henry Paul and Prosper(1884),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0044.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0044.html,False,71,71,71,0,0,0,0,71,,,007 - Paris
+U1-5,um0045,53,020 - Nice,Perrotin M. (1887),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0045.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0045.html,False,13,13,13,0,0,0,0,13,,,020 - Nice
+U1-5,um0046,54,786 - USNO,Hammond J.C. (1911),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0046.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0046.html,False,477,477,477,0,0,0,0,477,,,"786 - U.S. Naval Observatory, Washington D.C."
+U1-5,um0047,55,Voager 2,Jacobson R. A. (1992),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0047.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0047.html,False,445,445,0,445,0,0,0,445,,,Voyager 2 spacecraft centered positions
+U1-5,um0048,56,Lick Observatory,"Schaeberle J.M. (1895,1897)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0048.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0048.html,False,184,184,184,0,0,0,0,184,,,"662 - Lick Observatory, Mount Hamilton"
+U1-5,um0049,57,Lick Observatory,Barnard E.E. (1896),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0049.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0049.html,False,127,127,127,0,0,0,0,127,,,"662 - Lick Observatory, Mount Hamilton"
+U1-5,um0050,58,Lick Observatory,Hussey W.J. (1902),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0050.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0050.html,False,60,60,60,0,0,0,0,60,,,"662 - Lick Observatory, Mount Hamilton"
+U1-5,um0051,59,Lick Observatory,"Aitken R.G. (1898,1900,1901)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0051.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0051.html,False,292,292,292,0,0,0,0,292,,,"662 - Lick Observatory, Mount Hamilton"
+U1-5,um0052,60,Lick Observatory,Aitken R.G. (1904),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0052.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0052.html,False,122,122,122,0,0,0,0,122,,,"662 - Lick Observatory, Mount Hamilton"
+U1-5,um0053,61,Lick Observatory,Aitken R.G. (1905 - 1913),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0053.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0053.html,False,295,295,295,0,0,0,0,296,,,"662 - Lick Observatory, Mount Hamilton"
+U1-5,um0054,62,USNO,See T.J.J. (1901),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0054.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0054.html,False,69,69,69,0,0,0,0,69,,,"786 - U.S. Naval Obs., Washington"
+U1-5,um0055,63,USNO,See T.J.J. (1902),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0055.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0055.html,False,152,152,152,0,0,0,0,152,,,"786 - U.S. Naval Obs., Washington"
+U1-5,um0056,64,USNO,See T.J.J. (1907),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0056.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0056.html,False,129,129,129,0,0,0,0,129,,,"786 - U.S. Naval Obs., Washington"
+U1-5,um0057,65,USNO,Hall A. Jr.(1911),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0057.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0057.html,False,58,58,58,0,0,0,0,58,,,"786 - U.S. Naval Obs., Washington"
+U1-5,um0058,66,USNO,Hall A. Jr.(1911),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0058.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0058.html,False,15,15,15,0,0,0,0,15,,,"786 - U.S. Naval Obs., Washington"
+U1-5,um0059,67,USNO,"Hall A. Jr.(1921,1922,1923)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0059.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0059.html,False,58,58,58,0,0,0,0,58,,,"786 - U.S. Naval Obs., Washington"
+U1-5,um0060,68,USNO,"Hall A. Jr.(1876,1877,1878)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0060.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0060.html,False,82,82,82,0,0,0,0,82,,,"786 - U.S. Naval Obs., Washington"
+U1-5,um0061,69,754 - Yerkes Obs.,Barnard E.E. (1909-1919),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0061.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0061.html,False,555,555,555,0,0,0,0,555,,,"754 - Yerkes Observatory, Williams Bay"
+U1-5,um0062,70,786 - USNO,USNO (1884-1899),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0062.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0062.html,False,350,350,350,0,0,0,0,350,,,"786 - U.S. Naval Obs., Washington (since 1893)
+              787 - U.S. Naval Obs., Washington (before 1893)"
+U1-5,um0063,71,662 - Lick Obs.,Nicholson (1915),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0063.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0063.html,False,20,20,20,0,0,0,0,20,,,"662 - Lick Observatory, Mount Hamilton"
+U1-5,um0064,72,786 - USNO,Eppes (1913),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0064.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0064.html,False,51,51,51,0,0,0,0,51,,,"786 - U.S. Naval Obs., Washington"
+U1-5,um0065,73,786 - USNO,Frederickson M. (1908),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0065.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0065.html,False,92,92,92,0,0,0,0,92,,,"786 - U.S. Naval Obs., Washington"
+U1-5,um0066,74,786 - USNO,"Frederick, Hammond (1905)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0066.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0066.html,False,70,70,70,0,0,0,0,70,,,"786 - U.S. Naval Obs., Washington"
+U1-5,um0067,75,786 - USNO,Dinwiddie (1904),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0067.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0067.html,False,53,53,53,0,0,0,0,52,,,"786 - U.S. Naval Obs., Washington"
+U1-5,um0068,76,192 - Tashkent,Rosanof (1925),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0068.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0068.html,False,16,16,16,0,0,0,0,16,,,192 - Tashkent
+U1-5,um0069,77,768 - Dearborn,Hough (1881),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0069.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0069.html,False,38,38,38,0,0,0,0,39,,,768 - Dearborn Observatory
+U1-5,um0070,78,786 - USNO,USNO (1878-1883),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0070.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0070.html,False,293,293,293,0,0,0,0,293,,,"786 - U.S. Naval Obs., Washington (since 1893)
+              787 - U.S. Naval Obs., Washington (before 1893)"
+U1-5,um0071,79,787 - USNO,Davis (1874),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0071.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0071.html,False,126,126,126,0,0,0,0,126,,,"787 - U.S. Naval Obs., Washington (before 1893)"
+U1-5,um0072,80,Birr Castle,Rosse (1875),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0072.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0072.html,False,57,57,0,0,57,0,0,57,,,(???) Birr Castle
+U1-5,um0073,81,Malta,Lassel (1867),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0073.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0073.html,False,143,143,0,0,143,0,0,143,,,"Malta, latitude 25 deg 55'"
+U1-5,um0074,82,Liverpool,Lassel (1857),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0074.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0074.html,False,51,51,0,0,51,0,0,51,,,no information (m.b. Bradstones near Liverpool)
+U1-5,um0075,83,Valetta,Lassel (1853),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0075.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0075.html,False,131,131,0,0,131,0,0,131,,,Valetta
+U1-5,um0076,84,(?),Lassel (1849),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0076.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0076.html,False,12,12,0,0,12,0,0,12,,,no information
+U1-5,um0077,85,(?),Lassel (1851),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0077.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0077.html,False,47,47,0,0,47,0,0,47,,,no information
+U1-5,um0078,86,(?),Lassel (1864),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0078.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0078.html,False,65,65,0,0,65,0,0,65,,,no information
+U1-5,um0079,87,(?),Lassel (1850),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0079.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0079.html,False,4,4,0,0,4,0,0,4,,,no information
+U1-5,um0080,88,(?),"Lassel (1847,1852)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0080.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0080.html,False,33,33,0,0,33,0,0,33,,,no information
+U1-5,um0081,89,(?),Lassel (1848),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0081.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0081.html,False,12,12,0,0,12,0,0,12,,,no information
+U1-5,um0082,90,Harvard,Winlock (1888),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0082.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0082.html,False,58,58,58,0,0,0,0,58,,,"802 - Harvard Observatory, Cambridge"
+U1-5,um0083,91,532 - Munich,Lamont (1840),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0083.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0083.html,False,26,26,26,0,0,0,0,26,,,532 - Munich
+U1-5,um0084,92,(?),Herschel (1835),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0084.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0084.html,False,108,108,0,0,108,0,0,108,,,"References.
+   Herschel J.F.W. (1835)
+   On the Satellites of Uranus.
+   Memoirs of the Royal Astronomical Society. V. 8. P. 1-24.
+   1835MmRAS___8____1H"
+U1-5,um0085,93,084 - Pulkovo,Roschina et al. (2015),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0085.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0085.html,False,120,120,120,0,0,0,0,120,,,084 - Pulkovo
+U1-5,um0086,94,084 - Pulkovo,Roschina et al. (2015),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0086.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0086.html,False,172,172,172,0,0,0,0,86,,,084 - Pulkovo
+U1-5,um0090,95,Flagstaff,"Stone (2000, 2001)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0090.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0090.html,False,893,893,893,0,0,0,0,893,,,689 - Flagstaff
+U1-5,um0102,96,084 - Pulkovo,Not published,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0102.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0102.html,False,12,12,12,0,0,0,0,12,,,084 - Pulkovo
+U1-5,um0103,97,084 - Pulkovo,Not published,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0103.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0103.html,False,10,10,10,0,0,0,0,10,,,084 - Pulkovo
+U1-5,um0109,98,874 - Itajuba,"Veiga C.H., Bourget P.(2006)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0109.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0109.html,False,287,287,287,0,0,0,0,287,,,874 - Itajuba
+U1-5,um0111,99,B05 - Ka-Dar,Izmailov et al. (2007),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0111.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0111.html,False,20,20,20,0,0,0,0,20,,,"B05 - Ka-Dar Observatory, Barybino"
+U1-5,um0112,100,B05 - Ka-Dar,Izmailov et al. (2007),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0112.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0112.html,False,14,14,14,0,0,0,0,14,,,"B05 - Ka-Dar Observatory, Barybino"
+U1-5,um0114,101,La Palma,CARLSBERG MERIDIAN CAT.,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0114.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0114.html,False,147,147,147,0,0,0,0,147,,,950 - La Palma
+U1-5,um0115,102,Haleakala-Faulkes,Khovritchev M. Yu. (2009),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0115.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0115.html,False,29,29,29,0,0,0,0,29,,,F65 - Haleakala-Faulkes Telescope North
+U1-5,um0116,103,Haleakala-Faulkes,Khovritchev M. Yu. (2009),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0116.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0116.html,False,30,30,30,0,0,0,0,30,,,F65 - Haleakala-Faulkes Telescope North
+U1-5,um0117,104,3 sites,Mallama et al. (2009),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0117.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0117.html,False,5,5,5,0,0,0,0,5,11,"12. Number of observer, observatory, Obs.","1 - Flavored Meson Observatory, PO Box 6356, Kent, WA 98064, USA
+              2 - Indian Hill Observatory, PO Box 11, Chagrin Falls, OH 44022, USA
+              3 - Dept. de Fisica y Matematicas, Universidad de Monterrey, 
+                  Av. I. Morones Prieto 4500 Pte., Garza Garcia, N.L. Mexico 66238"
+U1-5,um0118,105,188 - Majdanak,Communication from observers,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0118.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0118.html,False,58,58,58,0,0,0,0,58,,,188 - Majdanak
+U1-5,um0119,106,19 sites,Arlot et al. (2013),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0119.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0119.html,False,72,72,0,0,72,0,0,36,4,5. Observatory code (see the table in the relevant article).,"see observatories list with the coordinates 
+              in the relevant article."
+U1-5,um0120,107,5 sites,Arlot et al. (2013),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0120.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0120.html,False,10,10,0,0,10,0,0,5,4,5. Observatory code (see the table in the relevant article).,"see observatories list with the coordinates 
+              in the relevant article."
+U1-5,um0121,108,Bordeaux-Floirac,Arlot et al. (2008),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0121.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0121.html,False,235,235,235,0,0,0,0,235,,,999 Bordeaux-Floirac
+U1-5,um0122,109,Flagstaff,"Stone (2000, 2001)",C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0122.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0122.html,False,191,191,191,0,0,0,0,191,,,689 - Flagstaff
+U1-5,um0123,110,673-Table Mount.,Table Mountain Obs.(2016),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0123.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0123.html,False,263,263,263,0,0,0,0,263,,,"673 - Table Mountain Observatory, Wrightwood, California"
+U1-5,um0126,111,000-Greenwich,Christie (1885),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0126.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0126.html,False,6,6,6,0,0,0,0,6,,,"000 - Royal Observatory, Greenwich"
+U1-5,um0127,112,084 - Pulkovo,Dement'eva A. A. (2015),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0127.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0127.html,False,62,62,62,0,0,0,0,62,,,084 - Pulkovo
+U1-5,um0128,113,084 - Pulkovo (*3),Ershova A. P. (2016),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0128.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0128.html,False,294,294,294,0,0,0,0,294,,,084 - Pulkovo
+U1-5,um0130,114,083 - Golosseevo,Shatokhina (2012),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0130.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0130.html,False,15,15,15,0,0,0,0,15,,,083 - Golosseevo-Kiev
+U1-5,um0131,115,286 - Yunnan Obs.,Xie et al.(2019),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0131.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0131.html,False,3332,3332,3332,0,0,0,0,3332,,,286 - Yunnan Observatory
+U1-5,um0132,116,186 - Kitab,Yizhakevych et al.(2018),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0132.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0132.html,False,3,3,3,0,0,0,0,3,,,186 - Kitab
+U1-5,um0133,117,"083, 0188",Yizhakevych et al.(2016),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0133.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0133.html,False,77,77,0,0,77,0,0,77,,,"083 - Golosseevo-Kiev
+              188 - Majdanak"
+U1-5,um0134,118,874 - Itajuba,Santos-Filho et al. (2019),C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0134.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0134.html,False,46,46,46,0,0,0,0,23,,,"874 - Observatorio do Pico dos Dias, Itajuba"
+U1-5,um0136,119,258 - Gaia,Gaia Archive,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0136.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0136.html,False,757,757,0,757,0,0,0,757,,,258 - Gaia
+U1-5,um0137,120,258 - Gaia,Gaia Archive,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0137.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\U\um0137.html,False,1744,1744,0,1744,0,0,0,1744,,,258 - Gaia
+N1,nm0015,2,337 - Sheshan,Qiao et al. 2007,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0015.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0015.html,True,943,31,31,0,0,912,0,943,,,"337 - Sheshan, formerly Zo-Se"
+N1,nm0019,3,Peking Sheshan,Qiao et al. 2014,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0019.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0019.html,True,1095,1095,1095,0,0,0,0,1095,9,10. Code of observatory (327 or 337).,"327 - Peking Observatory, Xinglong Station
+              337 - Sheshan, formerly Zo-Se"
+N1,nm0082,4,327 - Peking Obs.,Yu et al. 2019,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0082.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0082.html,True,34,34,34,0,0,0,0,34,,,"327 - Peking Observatory, Xinglong Station"
+N1,nm0084,5,286 - Yunnan Obs.,Yan et al. 2021,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0084.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0084.html,True,1135,1135,1135,0,0,0,0,1135,,,286 - Yunnan Observatory
+N1,nm0085,6,337 - Sheshan,Zhang et al. 2021,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0085.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0085.html,True,2299,1330,1330,0,0,969,0,2299,9,10. Code of observatory.,"337 - Sheshan, formerly Zo-Se"
+N1,nm0086,7,337 - Sheshan,Zhang et al. 2022,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0086.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0086.html,True,604,604,604,0,0,0,0,604,,,"337 - Sheshan, formerly Zo-Se"
+N1,nm0088,8,337 - Sheshan,Yan et al. 2020; catalogue 1006 versus paper 1007 remains unresolved,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0088.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0088.html,True,1006,1006,1006,0,0,0,0,1006,,,337 - Sheshan station of the Shanghai Astronomical Observatory
+N1,nm0001,9,Table Mountain,Communicated by Owen (2001),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0001.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0001.html,False,3,3,3,0,0,0,0,3,,,"673 -Table Mountain Observatory, Wrightwood"
+N1,nm0002,10,Table Mountain,Communicated by Owen (2001),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0002.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0002.html,False,3,3,3,0,0,0,0,3,,,"673 -Table Mountain Observatory, Wrightwood"
+N1,nm0003,11,874 - Itajuba,Veiga & Vieira Martins(1996),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0003.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0003.html,False,433,433,433,0,0,0,0,433,,,874 - Itajuba (Laboratorio Nacional de Astrofisica)
+N1,nm0004,12,874 - Itajuba,Veiga & Vieira Martins(1998),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0004.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0004.html,False,759,759,759,0,0,0,0,759,,,874 - Itajuba (Laboratorio Nacional de Astrofisica)
+N1,nm0005,13,Table Mountain,Communicated by Owen (1999),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0005.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0005.html,False,3,3,3,0,0,0,0,3,,,"673 -Table Mountain Observatory, Wrightwood"
+N1,nm0006,14,Table Mountain,Communicated by Owen (1999),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0006.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0006.html,False,3,3,3,0,0,0,0,3,,,"673 -Table Mountain Observatory, Wrightwood"
+N1,nm0007,15,Flagstaff,Stone R.C.(2001),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0007.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0007.html,False,124,124,124,0,0,0,0,124,,,689 - Flagstaff
+N1,nm0008,16,U.S.N.O.,"Walker, Harrington (1988)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0008.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0008.html,False,56,56,56,0,0,0,0,56,,,"689 - U.S. Naval Observatory, Flagstaff"
+N1,nm0009,17,U.S.N.O.,Walker et al. (1978),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0009.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0009.html,False,28,28,28,0,0,0,0,28,,,"689 - U.S. Naval Observatory, Flagstaff"
+N1,nm0010,18,U.S.N.O.,"Harrington, Walker (1984)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0010.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0010.html,False,114,114,114,0,0,0,0,114,,,"689 - U.S. Naval Observatory, Flagstaff"
+N1,nm0011,19,U.S.N.O.,Holden (1881),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0011.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0011.html,False,29,29,29,0,0,0,0,29,,,"787 - U.S. Naval Obs., Washington"
+N1,nm0013,20,874 - Itajuba,Vieira Martins et al. (2004),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0013.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0013.html,False,66,66,66,0,0,0,0,66,,,874 - Itajuba (Laboratorio Nacional de Astrofisica)
+N1,nm0016,21,188 - Majdanak,Communication from observers,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0016.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0016.html,False,5,5,5,0,0,0,0,5,,,188 - Majdanak
+N1,nm0017,22,119 - Abastumani,"Chanturia,Kisseleva (2006)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0017.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0017.html,False,54,54,54,0,0,0,0,54,,,119 - Abastumani
+N1,nm0018,23,999 - Bordeaux,Arlot et al. (2008),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0018.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0018.html,False,95,95,95,0,0,0,0,95,,,999 Bordeaux-Floirac
+N1,nm0020,24,999 - Bordeaux,"Soulie, G. (1975)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0020.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0020.html,False,3,3,3,0,0,0,0,3,,,999 - Bordeaux-Floirac
+N1,nm0021,25,787 - USNO,"Hall (1876, 1877)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0021.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0021.html,False,123,123,123,0,0,0,0,122,,,"787 - U.S. Naval Obs., Washington"
+N1,nm0022,26,084 - Pulkovo,"Kostinsky S. (1900,1902)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0022.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0022.html,False,21,21,21,0,0,0,0,21,,,084 - Pulkovo
+N1,nm0025,27,077 - Yale Station,Alden (1940),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0025.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0025.html,False,30,30,30,0,0,0,0,30,,,"077-Yale-Columbia Station, Johannesburg"
+N1,nm0026,28,077 - Yale Station,Alden (1943),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0026.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0026.html,False,43,43,43,0,0,0,0,43,,,"077-Yale-Columbia Station, Johannesburg"
+N1,nm0027,29,802 - Harvard,"Winlock, Pickering (1888)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0027.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0027.html,False,18,18,18,0,0,0,0,18,,,"802 - Harvard Observatory, Cambridge"
+N1,nm0028,30,H80 - Halsted obs.,Young (1888),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0028.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0028.html,False,68,68,68,0,0,0,0,68,,,H80 - Halsted observatory
+N1,nm0029,31,780 - Leander McC.,"Parrish, Stone (1888)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0029.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0029.html,False,18,18,18,0,0,0,0,18,,,780 - Leander McCormick Observatory
+N1,nm0030,32,662 - Lick Observ.,"Schaeberle (1895,1897,1898)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0030.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0030.html,False,139,139,139,0,0,0,0,133,,,662 - Lick Observatory
+N1,nm0031,33,690 - Lowell Obs.,Drew (1897),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0031.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0031.html,False,85,85,85,0,0,0,0,85,,,690 - Lowell Observatory
+N1,nm0032,34,690 - Lowell Obs.,Drew (1899),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0032.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0032.html,False,36,36,36,0,0,0,0,36,,,690 - Lowell Observatory
+N1,nm0033,35,754 - Yerkes Obs.,"Barnard (1898,1899)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0033.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0033.html,False,330,330,330,0,0,0,0,326,,,754 - Yerkes Observatory
+N1,nm0034,36,662 - Lick Observ.,"Aitken (1899, 1904)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0034.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0034.html,False,52,52,52,0,0,0,0,52,,,662 - Lick Observatory
+N1,nm0035,37,662 - Lick Observ.,"Hussey (1899, 1902)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0035.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0035.html,False,39,39,39,0,0,0,0,39,,,"662 - Lick Observatory, Mount Hamilton"
+N1,nm0036,38,"786 - USNO, Wash.",See (1900),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0036.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0036.html,False,129,129,129,0,0,0,0,129,,,"786 - U.S. Naval Obs., Washington"
+N1,nm0037,39,"786 - USNO, Wash.","Hammond (1905,1906,1908)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0037.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0037.html,False,100,100,100,0,0,0,0,100,,,"786 - U.S. Naval Obs., Washington"
+N1,nm0039,40,"786 - USNO, Wash.",Dinwiddie (1903),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0039.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0039.html,False,40,40,40,0,0,0,0,40,,,"786 - U.S. Naval Obs., Washington"
+N1,nm0040,41,000 - Greenwich,"Greenwich (1903,-5,-6,-7,-8)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0040.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0040.html,False,295,295,295,0,0,0,0,294,,,"000 - Royal Observatory, Greenwich"
+N1,nm0041,42,754 - Yerkes Obs.,Barnard (1906-1927),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0041.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0041.html,False,989,989,989,0,0,0,0,986,,,"754 - Yerkes Observatory, Williams Bay"
+N1,nm0042,43,802 - Harvard Obs.,Hall (1900),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0042.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0042.html,False,24,24,24,0,0,0,0,24,,,"802 - Harvard Observatory, Cambridge"
+N1,nm0043,44,786 - USNO,Hall (1911),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0043.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0043.html,False,64,64,64,0,0,0,0,64,,,"786 - U.S. Naval Observatory, Washington"
+N1,nm0044,45,786 - USNO,"Hall, Burton (1913)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0044.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0044.html,False,72,72,72,0,0,0,0,72,,,"786 - U.S. Naval Observatory, Washington"
+N1,nm0045,46,786 - USNO,"Hall, Burton (1910)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0045.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0045.html,False,282,282,282,0,0,0,0,282,,,"786 - U.S. Naval Observatory, Washington"
+N1,nm0046,47,786 - USNO,Hall (1920),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0046.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0046.html,False,84,84,84,0,0,0,0,84,,,"786 - U.S. Naval Obs., Washington"
+N1,nm0047,48,786 - USNO,Hall (1922),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0047.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0047.html,False,46,46,46,0,0,0,0,46,,,"786 - U.S. Naval Obs., Washington"
+N1,nm0048,49,007 - Paris,"Henry, Boinot, Sy (1886)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0048.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0048.html,False,31,31,31,0,0,0,0,31,,,007 - Paris
+N1,nm0050,50,992 - Liverpool,Lassell (1849),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0050.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0050.html,False,4,4,4,0,0,0,0,4,,,992 - Liverpool
+N1,nm0051,51,503 - Cambridge,Lassell (1849),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0051.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0051.html,False,5,5,5,0,0,0,0,4,,,Cambridge
+N1,nm0052,52,992 - Liverpool,Lassell (1849),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0052.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0052.html,False,5,5,5,0,0,0,0,5,,,992 - Liverpool
+N1,nm0053,53,992 - Liverpool,Lassell (1849-1857),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0053.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0053.html,False,140,140,140,0,0,0,0,92,,,992 - Liverpool
+N1,nm0054,54,992 - Liverpool,Lassell (1864),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0054.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0054.html,False,20,20,20,0,0,0,0,20,,,992 - Liverpool
+N1,nm0055,55,"787 - USNO, Wash.",Davis (1874),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0055.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0055.html,False,61,61,61,0,0,0,0,61,,,"787 - U.S. Naval Obs., Washington"
+N1,nm0056,56,"787 - USNO, Wash.",USNO (1873),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0056.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0056.html,False,33,33,33,0,0,0,0,33,,,"787 - U.S. Naval Obs., Washington"
+N1,nm0057,57,Mr. Wigglesworth's,Lohse (1887),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0057.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0057.html,False,3,3,3,0,0,0,0,3,,,968 - Haverhill (Mr. Wigglesworth's Observatory)
+N1,nm0058,58,000 - Greenwich,Greenwich (1899),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0058.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0058.html,False,12,12,12,0,0,0,0,12,,,"000 - Royal Observatory, Greenwich"
+N1,nm0059,59,000 - Greenwich,Greenwich (1900),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0059.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0059.html,False,28,28,28,0,0,0,0,28,,,"000 - Royal Observatory, Greenwich"
+N1,nm0060,60,754 - Yerkes obs.,Barnard (1906),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0060.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0060.html,False,32,32,32,0,0,0,0,32,,,"754 - Yerkes Observatory, Williams Bay"
+N1,nm0061,61,662 - Lick Obs.,Greenwich (1899),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0061.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0061.html,False,6,6,6,0,0,0,0,6,,,"662 - Lick Observatory, Mount Hamilton"
+N1,nm0062,62,"787 - USNO, Wash.",USNO (1911),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0062.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0062.html,False,388,388,388,0,0,0,0,388,,,"786 - U.S. Naval Obs., Washington"
+N1,nm0063,63,"786 - USNO, Wash.",Burton (1913),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0063.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0063.html,False,85,85,85,0,0,0,0,85,,,"786 - U.S. Naval Obs., Washington"
+N1,nm0064,64,000 - Greenwich,Greenwich (1913),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0064.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0064.html,False,59,59,59,0,0,0,0,59,,,"000 - Royal Observatory, Greenwich"
+N1,nm0065,65,084 - Pulkovo,Balanovskii (1923),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0065.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0065.html,False,101,101,101,0,0,0,0,101,,,084 - Pulkovo
+N1,nm0068,66,662 - Lick Obs.,"Barnard (1893,1894,1895)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0068.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0068.html,False,320,320,320,0,0,0,0,320,,,"662 - Lick Observatory, Mount Hamilton"
+N1,nm0069,67,754 - Yerkes Obs.,Barnard (1901),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0069.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0069.html,False,361,361,361,0,0,0,0,361,,,"754 - Yerkes Observatory, Williams Bay"
+N1,nm0070,68,084 - Pulkovo,"Neuimin, Pokrovskii (1926)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0070.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0070.html,False,118,118,118,0,0,0,0,118,,,084 - Pulkovo
+N1,nm0071,69,007 - Paris,"Henry (1884,1884)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0071.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0071.html,False,21,21,21,0,0,0,0,21,,,7 - Paris
+N1,nm0072,70,662 - Lick Obs.,Perrine (1903),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0072.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0072.html,False,51,51,51,0,0,0,0,51,,,"662 -  Lick Observatory, Mount Hamilton"
+N1,nm0073,71,020 - Nice,Perrotin (1887),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0073.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0073.html,False,27,27,27,0,0,0,0,27,,,20 - Nice
+N1,nm0074,72,522 - Strasbourg,Wirtz (1905),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0074.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0074.html,False,13,13,13,0,0,0,0,13,,,522 - Strasbourg
+N1,nm0075,73,662 - Lick Obs,Crawford (1928),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0075.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0075.html,False,15,15,15,0,0,0,0,15,,,"662 - Lick Observatory, Mount Hamilton"
+N1,nm0076,74,754 - Yerkes Obs.,Barnard (1903),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0076.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0076.html,False,223,223,223,0,0,0,0,223,,,"754 - Yerkes Observatory, Williams Bay"
+N1,nm0077,75,Flagstaff,"Stone (2000, 2001)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0077.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0077.html,False,874,874,874,0,0,0,0,874,,,689 - Flagstaff
+N1,nm0078,76,Flagstaff,"Stone (2000, 2001)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0078.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0078.html,False,116,116,116,0,0,0,0,116,,,689 - Flagstaff
+N1,nm0079,77,673-Table Mount.,Table Mountain Obs.(2016),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0079.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0079.html,False,201,201,201,0,0,0,0,201,,,"673 -Table Mountain Observatory, Wrightwood, California"
+N1,nm0080,78,000-Greenwich,Christie (1901-1909),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0080.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0080.html,False,60,60,60,0,0,0,0,60,,,"000 - Royal Observatory, Greenwich"
+N1,nm0081,79,286 - Yunnan Obs.,Wang et al. (2017),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0081.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0081.html,False,755,755,755,0,0,0,0,755,,,286 - Yunnan Observatory
+N1,nm0083,80,"083, 188",Yizhakevych et al. (2016),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0083.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0083.html,False,10,10,0,0,10,0,0,10,,,"083 - Golosseevo-Kiev
+              188 - Majdanak"
+N1,nm0087,81,258 - Gaia,Not published,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0087.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0087.html,False,153,153,0,153,0,0,0,153,,,258 - Gaia
+N1,nm0089,82,258 - Gaia,Gaia Archive,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0089.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0089.html,False,468,468,0,468,0,0,0,468,,,258 - Gaia
+N1,nm0090,83,286 - Yunnan Obs.,Yan et al. (2025) in prep(*2),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0090.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0090.html,False,1918,0,0,0,0,1918,0,1918,,,286 - Yunnan Observatory
+N1,nm0091,84,286 - Yunnan Obs.,"Yan et al. 2025; Icarus 437, 116625; doi:10.1016/j.icarus.2025.116625",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0091.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm0091.html,True,1918,1918,1918,0,0,0,0,1918,,,286 - Yunnan Observatory
+N2,nm1019,2,327 - Peking,Qiao et al. 2008,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1019.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1019.html,True,112,0,0,0,0,112,0,112,,,"327 - Peking Observatory, Xinglong Station"
+N2,nm1025,3,"327, O44",Yu et al. 2018,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1025.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1025.html,True,150,150,150,0,0,0,0,150,9,10. Site code number,"327 - Xinglong station of National Astronomical Observatory
+              O44 - Lijiang station of Yunnan Astronomical Observatory"
+N2,nm1032,4,327 - Peking Obs.,Yu et al. 2019,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1032.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1032.html,True,140,140,140,0,0,0,0,140,,,"327 - Peking Observatory, Xinglong Station"
+N2,nm1001,5,874 - Itajuba,Veiga & Vieira Martins(1999),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1001.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1001.html,False,174,174,174,0,0,0,0,174,,,874 - Itajuba (Laboratorio Nacional de Astrofisica)
+N2,nm1002,6,874 - Itajuba,Veiga & Vieira Martins(1999),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1002.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1002.html,False,230,230,230,0,0,0,0,230,,,874 - Itajuba (Laboratorio Nacional de Astrofisica)
+N2,nm1003,7,Mauna Kea,MPC Communication 2001-09,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1003.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1003.html,False,3,3,3,0,0,0,0,3,,,568 - Mauna Kea
+N2,nm1004,8,Cerro Tololo,MPC Communication 2002-09,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1004.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1004.html,False,3,3,3,0,0,0,0,3,,,"807 - Cerro Tololo Observatory, La Serena"
+N2,nm1005,9,McDonald,"Harris,Van Biesbroeck (1949)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1005.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1005.html,False,7,7,7,0,0,0,0,7,,,"711 - McDonald Observatory, Fort Davis"
+N2,nm1006,10,McDonald,"Van Biesbroeck (1951, 1957)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1006.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1006.html,False,44,44,44,0,0,0,0,44,,,"711 - McDonald Observatory, Fort Davis"
+N2,nm1007,11,"568, 711, 809","Veillet (1982, 1988)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1007.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1007.html,False,17,17,17,0,0,0,0,17,6,7. Number of observatory (N site),"568 - Mauna Kea
+              711 - McDonald Observatory, Fort Davis
+              809 - European Southern Observatory, La Silla"
+N2,nm1008,12,809-ESO,Landgraf (1988),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1008.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1008.html,False,5,5,5,0,0,0,0,5,,,"809 - European Southern Observatory, La Silla"
+N2,nm1009,13,807-Cerro Tololo,Schaefer et Schaefer(1988),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1009.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1009.html,False,4,4,4,0,0,0,0,4,,,"807 - Cerro Tololo Observatory, La Serena"
+N2,nm1010,14,Mauna Kea,MPC Communic. 22 Sep 2003,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1010.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1010.html,False,1,1,0,0,1,0,0,1,,,568 Mauna Kea
+N2,nm1011,15,415 - Kambah,"MPC Comm. 28 Sep, 1 Nov 2004",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1011.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1011.html,False,7,7,7,0,0,0,0,7,,,"415 - Kambah, near Canberra"
+N2,nm1012,16,"213, 415",Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1012.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1012.html,False,21,21,21,0,0,0,0,21,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra
+              213 - Observatorio Montcabre"
+N2,nm1014,17,"415, 644, D35",Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1014.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1014.html,False,84,84,84,0,0,0,0,84,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra
+              644 - Palomar Mountain/NEAT
+              D35 - Lulin Observatory"
+N2,nm1015,18,415 - Kambah,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1015.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1015.html,False,11,11,11,0,0,0,0,11,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra"
+N2,nm1016,19,415 - Kambah,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1016.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1016.html,False,45,45,45,0,0,0,0,45,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra"
+N2,nm1017,20,415 - Kambah,Minor Planets Circulars,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1017.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1017.html,False,12,12,12,0,0,0,0,12,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra"
+N2,nm1018,21,415 - Kambah,"MPC 63363,63584,63806,64093",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1018.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1018.html,False,17,17,17,0,0,0,0,17,10,"11. Code of observatory, (N obs)","415 - Kambah, near Canberra"
+N2,nm1020,22,"415, 673","MPC 65920,66450,66686, ...",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1020.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1020.html,False,20,20,20,0,0,0,0,20,9,"10. Code of observatory, N obs","415 - Kambah
+              673 - Table Mountain Observatory, Wrightwood"
+N2,nm1021,23,"415, 673","MPC 67668,70193,71528,72437",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1021.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1021.html,False,9,9,9,0,0,0,0,9,9,"10. Code of observatory, N obs","415 - Kambah
+              673 - Table Mountain Observatory, Wrightwood"
+N2,nm1022,24,"673, E07","MPC 75593,75849,76329,76732.",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1022.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1022.html,False,55,55,55,0,0,0,0,55,9,"10. Code of observatory, N obs","673 - Table Mountain Observatory, Wrightwood
+              E07 - Murrumbateman"
+N2,nm1023,25,"673, E07","MPC 79140,79746,79971,80114.",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1023.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1023.html,False,11,11,11,0,0,0,0,11,9,"10. Code of observatory, N obs","673 - Table Mountain Observatory, Wrightwood
+              E07 - Murrumbateman"
+N2,nm1024,26,"809,874-Itajuba",Gomes-Junior et al. (2015),C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1024.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1024.html,False,902,902,902,0,0,0,0,902,13,14. Observatory Code,"809 - European Southern Observatory, La Silla
+              874 - Itajuba"
+N2,nm1026,27,511 - OHP,"Emelyanov, Arlot (2011)",C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1026.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1026.html,False,140,140,140,0,0,0,0,140,,,511- Haute Provence
+N2,nm1027,28,"673, C95, E07, G37",MPC 80452 - 90966.,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1027.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1027.html,False,91,91,85,0,6,0,0,91,10,"11. Code of observatory, N obs","673 - Table Mountain Observatory, Wrightwood
+	      C95 - SATINO Remote Observatory, Haute Provence
+	      E07 - Murrumbateman
+	      G37 - Lowell Observatory-Discovery Channel Telescope"
+N2,nm1028,29,"E07, F51, G40, W84",MPC 94830 - 101342.,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1028.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1028.html,False,71,71,71,0,0,0,0,71,12,"13. Code of observatory, (N obs)","E07 - Murrumbateman
+              F51 - Pan-STARRS 1, Haleakala
+	      G40 - Slooh.com Canary Islands Observatory
+	      W84 - Cerro Tololo-DECam"
+N2,nm1029,30,Z80,MPC 107170.,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1029.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1029.html,False,2,2,0,0,2,0,0,2,,,Z80 - Northolt Branch Observatory
+N2,nm1030,31,"D29, I41",MPC 110808.,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1030.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1030.html,False,9,9,9,0,0,0,0,9,12,"13. Code of observatory, N obs","D29 - Purple Mountain Observatory, XuYi Station
+              I41 - Palomar Mountain--ZTF"
+N2,nm1031,32,G40,MPC 112835.,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1031.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1031.html,False,2,2,2,0,0,0,0,2,12,"13. Code of observatory, N obs",G40 - Slooh.com Canary Islands Observatory
+N2,nm1033,33,G40,MPC 115989.,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1033.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1033.html,False,3,3,3,0,0,0,0,3,12,"13. Code of observatory, N obs",G40 - Slooh.com Canary Islands Observatory
+N2,nm1034,34,258 - Gaia,Gaia Archive,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1034.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1034.html,False,193,193,0,193,0,0,0,193,,,258 - Gaia
+N2,nm1035,35,11 sites,MPC 141304-141305,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1035.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1035.html,False,159,159,153,0,6,0,0,159,12,"13. Code of observatory, N obs","215 - Buchloe
+              644 - Palomar Mountain/NEAT
+              695 - Kitt Peak
+              D29 - Purple Mountain Observatory, XuYi Station
+              F51 - Pan-STARRS 1, Haleakala
+              I41 - Palomar Mountain--ZTF
+              T05 - ATLAS-HKO, Haleakala
+              T08 - ATLAS-MLO, Mauna Loa
+              W84 - Cerro Tololo-DECam
+              W88 - Slooh.com Chile Observatory, La Dehesa
+              Z80 - Northolt Branch Observatory"
+N2,nm1036,36,258 - Gaia,Gaia Archive.,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1036.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\N\nm1036.html,False,498,498,0,498,0,0,0,498,,,258 - Gaia
+J6-13,jo0080,0,"286, O44","Yan et al. 2026; Icarus 457, 117162; doi:10.1016/j.icarus.2026.117162",C:\Users\Y\Downloads\project_small_tools\画图分析\IMCCE_MAP\inputs\supplementary_catalogues\jo0080.txt,C:\Users\Y\Documents\study_ancoj\data\imcce\J\jo0080.html,True,2354,2354,2354,0,0,0,0,2354,10,11.Site IAU code,"286 - Yunnan Observatory
+              O44 - Lijiang station, Yunnan Observatory"

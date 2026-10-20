@@ -1,0 +1,135 @@
+{
+  "source_url": "https://minorplanetcenter.org/iau/lists/ObsCodesF.html",
+  "retrieved": "2026-10-19",
+  "retrieval": "Indexed official MPC table rows; full live download unavailable. Numeric parallax constants, not invented geographical coordinates.",
+  "stations": [
+    {
+      "code": "C41",
+      "longitude": 42.66126,
+      "rho_cos": 0.723857,
+      "rho_sin": 0.688105,
+      "name": "MASTER-II Observatory, Kislovodsk",
+      "country": "Russia"
+    },
+    {
+      "code": "I41",
+      "longitude": 243.14022,
+      "rho_cos": 0.836322,
+      "rho_sin": 0.546875,
+      "name": "Palomar Mountain--ZTF",
+      "country": "USA"
+    },
+    {
+      "code": "O44",
+      "longitude": 100.02973,
+      "rho_cos": 0.894468,
+      "rho_sin": 0.446765,
+      "name": "Lijiang Station, Yunnan Observatories",
+      "country": "China"
+    },
+    {
+      "code": "O49",
+      "longitude": 101.18111,
+      "rho_cos": 0.903206,
+      "rho_sin": 0.428474,
+      "name": "Purple Mountain Observatory, Yaoan Station",
+      "country": "China"
+    },
+    {
+      "code": "P07",
+      "longitude": 114.08987,
+      "rho_cos": 0.928304,
+      "rho_sin": -0.370597,
+      "name": "Space Surveillance Telescope, HEH Station",
+      "country": "Australia"
+    },
+    {
+      "code": "T05",
+      "longitude": 203.74299,
+      "rho_cos": 0.936236,
+      "rho_sin": 0.351547,
+      "name": "ATLAS-HKO, Haleakala",
+      "country": "USA"
+    },
+    {
+      "code": "T08",
+      "longitude": 204.42395,
+      "rho_cos": 0.94329,
+      "rho_sin": 0.332467,
+      "name": "ATLAS-MLO, Mauna Loa",
+      "country": "USA"
+    },
+    {
+      "code": "M22",
+      "longitude": 20.81059,
+      "rho_cos": 0.845564,
+      "rho_sin": -0.532612,
+      "name": "ATLAS South Africa, Sutherland",
+      "country": "South Africa"
+    },
+    {
+      "code": "W68",
+      "longitude": 289.23502,
+      "rho_cos": 0.862845,
+      "rho_sin": -0.504269,
+      "name": "ATLAS Chile, Rio Hurtado",
+      "country": "Chile"
+    },
+    {
+      "code": "W84",
+      "longitude": 289.19358,
+      "rho_cos": 0.865572,
+      "rho_sin": -0.499793,
+      "name": "Cerro Tololo-DECam",
+      "country": "Chile"
+    },
+    {
+      "code": "D29",
+      "longitude": 118.4639,
+      "rho_cos": 0.84204,
+      "rho_sin": 0.53767,
+      "name": "Purple Mountain Observatory, XuYi Station",
+      "country": "China"
+    },
+    {
+      "code": "G36",
+      "longitude": 357.4525,
+      "rho_cos": 0.797538,
+      "rho_sin": 0.601812,
+      "name": "Calar Alto-CASADO",
+      "country": "Spain"
+    },
+    {
+      "code": "G45",
+      "longitude": 253.63564,
+      "rho_cos": 0.832748,
+      "rho_sin": 0.55248,
+      "name": "Space Surveillance Telescope, Atom Site",
+      "country": "USA"
+    },
+    {
+      "code": "F51",
+      "longitude": 203.74409,
+      "rho_cos": 0.936241,
+      "rho_sin": 0.351543,
+      "name": "Pan-STARRS 1, Haleakala",
+      "country": "USA"
+    },
+    {
+      "code": "E07",
+      "longitude": 148.99889,
+      "rho_cos": 0.820544,
+      "rho_sin": -0.56983,
+      "name": "Murrumbateman",
+      "country": "Australia"
+    },
+    {
+      "code": "G40",
+      "longitude": 343.49174,
+      "rho_cos": 0.88147,
+      "rho_sin": 0.471441,
+      "name": "Slooh.com Canary Islands Observatory",
+      "country": "Spain"
+    }
+  ]
+}
