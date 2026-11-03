@@ -1,0 +1,19 @@
+{
+  "folders": [
+    "C:\\Users\\Y\\Documents",
+    "C:\\Users\\Y\\Downloads",
+    "C:\\Users\\Y\\Desktop",
+    "C:\\Users\\Y\\Pictures",
+    "C:\\Jupiter\\JupiterProject"
+  ],
+  "scan_nested_repos": true,
+  "terminal_type": "auto",
+  "api": {
+    "provider": "openai_compat",
+    "base_url": "http://10.126.126.2:8045/v1",
+    "fallback_base_url": "http://10.120.101.1:8045/v1",
+    "model": "gemini-3.8-flash-high",
+    "proxy": "http://127.0.0.1:7897",
+    "system_prompt": "你是一个专业的Git工程助手。请根据给定的Git仓库状态数据，用简明扼要的中文（控制在45字以内）总结该仓库当前状态及建议动作（例如：工作区干净已同步、有未提交代码需整理、领先远程需推送等）。"
+  }
+}

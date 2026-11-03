@@ -1,0 +1,1443 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Git 仓库递归扫描与状态总结面板</title>
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card: #ffffff;
+      --text: #1e293b;
+      --muted: #64748b;
+      --border: #e2e8f0;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --success: #10b981;
+      --success-bg: #ecfdf5;
+      --warn: #f59e0b;
+      --warn-bg: #fffbeb;
+      --danger: #ef4444;
+      --danger-bg: #fef2f2;
+      --info: #6366f1;
+      --info-bg: #eef2ff;
+      --radius: 10px;
+      --shadow: 0 2px 10px rgba(15, 23, 42, 0.05);
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Microsoft YaHei", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 20px 28px;
+    }
+
+    .container {
+      max-width: 1480px;
+      margin: 0 auto;
+    }
+
+    /* Header */
+    .header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 16px;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .title-group h1 {
+      font-size: 22px;
+      font-weight: 700;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      color: #0f172a;
+    }
+
+    .title-group p {
+      font-size: 13px;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+
+    .header-actions {
+      display: flex;
+      gap: 10px;
+      align-items: center;
+    }
+
+    /* Control Card */
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      padding: 18px 20px;
+      margin-bottom: 16px;
+    }
+
+    .folder-input-grid {
+      display: grid;
+      grid-template-columns: 1fr auto;
+      gap: 14px;
+      align-items: stretch;
+    }
+
+    @media (max-width: 860px) {
+      .folder-input-grid {
+        grid-template-columns: 1fr;
+      }
+    }
+
+    .folder-box label {
+      display: flex;
+      justify-content: space-between;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 6px;
+      color: #334155;
+    }
+
+    .folder-box label span.hint {
+      font-weight: 400;
+      color: var(--muted);
+    }
+
+    textarea#foldersInput {
+      width: 100%;
+      min-height: 74px;
+      padding: 10px 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 8px;
+      font-family: "Cascadia Code", Consolas, monospace;
+      font-size: 13px;
+      resize: vertical;
+      outline: none;
+      transition: border-color 0.15s, box-shadow 0.15s;
+    }
+
+    textarea#foldersInput:focus {
+      border-color: var(--primary);
+      box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.12);
+    }
+
+    .action-column {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      gap: 8px;
+      min-width: 240px;
+    }
+
+    .btn-row {
+      display: flex;
+      gap: 8px;
+    }
+
+    button {
+      cursor: pointer;
+      border: 1px solid transparent;
+      border-radius: 7px;
+      padding: 8px 14px;
+      font-size: 13px;
+      font-weight: 600;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.15s ease;
+      white-space: nowrap;
+      user-select: none;
+    }
+
+    button:disabled {
+      opacity: 0.55;
+      cursor: not-allowed;
+    }
+
+    .btn-primary {
+      background: var(--primary);
+      color: #fff;
+      flex: 1;
+    }
+    .btn-primary:hover:not(:disabled) {
+      background: var(--primary-hover);
+    }
+
+    .btn-ai {
+      background: #4f46e5;
+      color: #fff;
+      flex: 1;
+    }
+    .btn-ai:hover:not(:disabled) {
+      background: #4338ca;
+    }
+
+    .btn-outline {
+      background: #fff;
+      border-color: #cbd5e1;
+      color: #334155;
+    }
+    .btn-outline:hover:not(:disabled) {
+      background: #f8fafc;
+      border-color: #94a3b8;
+    }
+
+    .options-bar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-top: 12px;
+      padding-top: 12px;
+      border-top: 1px dashed var(--border);
+      font-size: 13px;
+      color: #475569;
+    }
+
+    .checkbox-group {
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      flex-wrap: wrap;
+    }
+
+    .checkbox-group label {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      cursor: pointer;
+    }
+
+    /* Stats & Filter Bar */
+    .toolbar {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin-bottom: 12px;
+    }
+
+    .filter-tabs {
+      display: flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    .tab-btn {
+      background: #fff;
+      border: 1px solid var(--border);
+      color: #475569;
+      padding: 6px 13px;
+      border-radius: 20px;
+      font-size: 13px;
+      font-weight: 500;
+    }
+
+    .tab-btn.active {
+      background: #1e293b;
+      color: #fff;
+      border-color: #1e293b;
+    }
+
+    .tab-btn .count {
+      background: rgba(100, 116, 139, 0.14);
+      padding: 1px 7px;
+      border-radius: 10px;
+      font-size: 12px;
+      margin-left: 4px;
+    }
+    .tab-btn.active .count {
+      background: rgba(255, 255, 255, 0.22);
+      color: #fff;
+    }
+
+    .search-box {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .search-box input {
+      width: 260px;
+      padding: 7px 12px;
+      border: 1px solid #cbd5e1;
+      border-radius: 7px;
+      font-size: 13px;
+      outline: none;
+    }
+    .search-box input:focus {
+      border-color: var(--primary);
+    }
+
+    /* Notice Banner for Non-git or Invalid folders */
+    .notice-bar {
+      display: none;
+      background: #fffbeb;
+      border: 1px solid #fde68a;
+      color: #92400e;
+      padding: 10px 14px;
+      border-radius: 8px;
+      font-size: 13px;
+      margin-bottom: 12px;
+    }
+
+    /* Table */
+    .table-wrap {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      box-shadow: var(--shadow);
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: left;
+      font-size: 13.5px;
+    }
+
+    thead th {
+      background: #f8fafc;
+      color: #475569;
+      font-weight: 600;
+      padding: 12px 14px;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.12s;
+    }
+
+    tbody tr:last-child {
+      border-bottom: none;
+    }
+
+    tbody tr:hover {
+      background: #f8fafc;
+    }
+
+    td {
+      padding: 13px 14px;
+      vertical-align: top;
+    }
+
+    .col-index {
+      width: 48px;
+      color: var(--muted);
+      font-weight: 500;
+      text-align: center;
+    }
+
+    .col-name {
+      width: 235px;
+    }
+
+    .repo-name {
+      font-weight: 700;
+      font-size: 14.5px;
+      color: #0f172a;
+      word-break: break-all;
+      margin-bottom: 3px;
+    }
+
+    .remote-repo-line {
+      font-size: 12px;
+      color: #475569;
+      margin-bottom: 6px;
+      font-family: "Cascadia Code", Consolas, monospace;
+      word-break: break-all;
+    }
+
+    .remote-repo-line a {
+      color: #2563eb;
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .remote-repo-line a:hover {
+      text-decoration: underline;
+    }
+
+    .remote-repo-line .remote-owner {
+      color: #64748b;
+      font-weight: 400;
+      font-size: 11.5px;
+    }
+
+    .remote-repo-line.muted {
+      color: #94a3b8;
+      font-family: inherit;
+    }
+
+    .badges-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+      align-items: center;
+    }
+
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 4px;
+      padding: 2px 8px;
+      border-radius: 5px;
+      font-size: 11.5px;
+      font-weight: 600;
+    }
+
+    .badge-branch {
+      background: #f1f5f9;
+      color: #334155;
+      border: 1px solid #cbd5e1;
+      font-family: "Cascadia Code", Consolas, monospace;
+    }
+
+    .badge-clean {
+      background: var(--success-bg);
+      color: #047857;
+      border: 1px solid #a7f3d0;
+    }
+
+    .badge-dirty {
+      background: var(--warn-bg);
+      color: #b45309;
+      border: 1px solid #fde68a;
+    }
+
+    .badge-unpushed {
+      background: var(--info-bg);
+      color: #4338ca;
+      border: 1px solid #c7d2fe;
+    }
+
+    .badge-conflict, .badge-error {
+      background: var(--danger-bg);
+      color: #b91c1c;
+      border: 1px solid #fecaca;
+    }
+
+    .col-path {
+      width: 290px;
+      max-width: 330px;
+    }
+
+    .path-box {
+      font-family: "Cascadia Code", Consolas, monospace;
+      font-size: 12.5px;
+      color: #334155;
+      background: #f8fafc;
+      border: 1px solid #e2e8f0;
+      border-radius: 6px;
+      padding: 6px 8px;
+      word-break: break-all;
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 6px;
+    }
+
+    .copy-btn {
+      padding: 2px 6px;
+      font-size: 11px;
+      border-radius: 4px;
+      background: #fff;
+      border: 1px solid #cbd5e1;
+      color: #64748b;
+      flex-shrink: 0;
+    }
+    .copy-btn:hover {
+      color: var(--primary);
+      border-color: var(--primary);
+    }
+
+    .col-summary {
+      min-width: 360px;
+    }
+
+    .ai-summary-box {
+      background: #f8fafc;
+      border-left: 3px solid #4f46e5;
+      padding: 8px 11px;
+      border-radius: 0 7px 7px 0;
+      margin-bottom: 7px;
+    }
+
+    .ai-summary-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 3px;
+      font-size: 11.5px;
+      color: #4f46e5;
+      font-weight: 600;
+    }
+
+    .ai-summary-text {
+      font-size: 13.5px;
+      color: #1e293b;
+      font-weight: 500;
+    }
+
+    .git-metrics {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .git-metrics span {
+      display: inline-flex;
+      align-items: center;
+      gap: 3px;
+    }
+
+    .changed-files-details {
+      margin-top: 5px;
+      font-size: 12px;
+      color: #475569;
+    }
+    .changed-files-details summary {
+      cursor: pointer;
+      color: #2563eb;
+      font-weight: 500;
+      user-select: none;
+    }
+    .changed-files-list {
+      margin-top: 4px;
+      padding: 6px 8px;
+      background: #f1f5f9;
+      border-radius: 5px;
+      font-family: "Cascadia Code", Consolas, monospace;
+      font-size: 11.5px;
+      max-height: 120px;
+      overflow-y: auto;
+    }
+
+    .col-actions {
+      width: 228px;
+      white-space: nowrap;
+    }
+
+    .action-btns {
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+
+    .action-split-row {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 6px;
+    }
+
+    .btn-action {
+      width: 100%;
+      padding: 6.5px 10px;
+      font-size: 12.5px;
+      font-weight: 500;
+      border-radius: 6px;
+      justify-content: center;
+      gap: 6px;
+      box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+      transition: all 0.14s ease;
+    }
+
+    .btn-action svg {
+      width: 14px;
+      height: 14px;
+      flex-shrink: 0;
+    }
+
+    /* 第一行主操作：静谧蓝灰 (契合顶部主按钮与整体冷灰蓝基调) */
+    .btn-action-explorer {
+      background: #f0f6ff;
+      border: 1px solid #bfdbfe;
+      color: #1e40af;
+    }
+    .btn-action-explorer:hover:not(:disabled) {
+      background: #e0edff;
+      border-color: #93c5fd;
+      color: #1d4ed8;
+    }
+
+    /* 第二行分栏次级操作：Linear / Shadcn 中性岩石灰 */
+    .btn-action-sub {
+      background: #ffffff;
+      border: 1px solid #cbd5e1;
+      color: #334155;
+      padding: 6px 8px;
+      font-size: 12px;
+    }
+    .btn-action-sub:hover:not(:disabled) {
+      background: #f1f5f9;
+      border-color: #94a3b8;
+      color: #0f172a;
+    }
+
+    /* 第三行高频 Git 客户端操作：柔和靛蓝 (呼应左侧 AI 总结框的 #4f46e5 色系) */
+    .btn-action-desktop {
+      background: #eef2ff;
+      border: 1px solid #c7d2fe;
+      color: #3730a3;
+    }
+    .btn-action-desktop:hover:not(:disabled) {
+      background: #e0e7ff;
+      border-color: #a5b4fc;
+      color: #312e81;
+    }
+
+    .mini-ai-btn {
+      background: transparent;
+      border: 1px solid #c7d2fe;
+      color: #4f46e5;
+      padding: 1px 7px;
+      font-size: 11px;
+      border-radius: 4px;
+    }
+    .mini-ai-btn:hover:not(:disabled) {
+      background: #e0e7ff;
+    }
+
+    .empty-state {
+      text-align: center;
+      padding: 48px 20px;
+      color: var(--muted);
+    }
+
+    /* Modal */
+    .modal-backdrop {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(15, 23, 42, 0.45);
+      z-index: 999;
+      align-items: center;
+      justify-content: center;
+      padding: 16px;
+    }
+    .modal-backdrop.open {
+      display: flex;
+    }
+    .modal {
+      background: #fff;
+      border-radius: 12px;
+      width: 100%;
+      max-width: 560px;
+      padding: 22px 24px;
+      box-shadow: 0 20px 35px rgba(15, 23, 42, 0.18);
+    }
+    .modal h2 {
+      font-size: 17px;
+      margin-bottom: 14px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .form-group {
+      margin-bottom: 13px;
+    }
+    .form-group label {
+      display: block;
+      font-size: 13px;
+      font-weight: 600;
+      margin-bottom: 5px;
+      color: #334155;
+    }
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+      width: 100%;
+      padding: 8px 10px;
+      border: 1px solid #cbd5e1;
+      border-radius: 7px;
+      font-size: 13px;
+      outline: none;
+    }
+    .form-group small {
+      display: block;
+      color: var(--muted);
+      font-size: 11.5px;
+      margin-top: 3px;
+    }
+    .modal-footer {
+      display: flex;
+      justify-content: flex-end;
+      gap: 8px;
+      margin-top: 16px;
+    }
+
+    /* Toast */
+    #toast {
+      position: fixed;
+      bottom: 22px;
+      right: 24px;
+      background: #0f172a;
+      color: #fff;
+      padding: 10px 16px;
+      border-radius: 8px;
+      font-size: 13px;
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.18);
+      opacity: 0;
+      transform: translateY(10px);
+      pointer-events: none;
+      transition: all 0.2s ease;
+      z-index: 1000;
+    }
+    #toast.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .spinner {
+      display: inline-block;
+      width: 13px;
+      height: 13px;
+      border: 2px solid rgba(255, 255, 255, 0.35);
+      border-top-color: #fff;
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    .spinner-dark {
+      border-color: rgba(79, 70, 229, 0.25);
+      border-top-color: #4f46e5;
+    }
+    @keyframes spin {
+      to { transform: rotate(360deg); }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- 顶部栏 -->
+    <div class="header">
+      <div class="title-group">
+        <h1>
+          <span>🗂️ Git 仓库递归扫描与 AI 状态看板</span>
+        </h1>
+        <p>指定一个或多个文件夹递归识别 Git 仓库，调用模型 API 智能审阅仓库状态，并支持一键打开资源管理器或终端</p>
+      </div>
+      <div class="header-actions">
+        <button class="btn-outline" onclick="openSettingsModal()">⚙️ 模型 API 与终端设置</button>
+      </div>
+    </div>
+
+    <!-- 扫描控制卡片 -->
+    <div class="card">
+      <div class="folder-input-grid">
+        <div class="folder-box">
+          <label for="foldersInput">
+            <span>待扫描的文件夹路径（支持多个，每行一个或用分号 <code>;</code> 分隔）</span>
+            <span class="hint">快捷键：Ctrl + Enter 立即扫描</span>
+          </label>
+          <textarea
+            id="foldersInput"
+            placeholder="例如：&#10;C:\Users\Y\Documents&#10;D:\Projects"
+          ></textarea>
+        </div>
+        <div class="action-column">
+          <div class="btn-row">
+            <button class="btn-outline" style="flex:1" id="pickFolderBtn" onclick="pickNativeFolder()">
+              ➕ 选择文件夹...
+            </button>
+            <button class="btn-outline" onclick="clearFolders()" title="清空路径列表">
+              清空
+            </button>
+          </div>
+          <button class="btn-primary" id="scanBtn" onclick="startScan()">
+            🔍 开始递归扫描
+          </button>
+          <button class="btn-ai" id="aiBatchBtn" onclick="summarizeAllRepos()" disabled>
+            ✨ 调用模型 API 总结全部状态
+          </button>
+        </div>
+      </div>
+
+      <div class="options-bar">
+        <div class="checkbox-group">
+          <label>
+            <input type="checkbox" id="autoAiCheckbox" onchange="toggleAutoAiSetting(this.checked)" />
+            扫描后自动调用模型 API 生成状态总结
+          </label>
+          <label title="开启后，遇到已经是 Git 仓库的目录仍会继续向子目录查找子模块或嵌套 Git 仓库">
+            <input type="checkbox" id="scanNestedCheckbox" />
+            深入扫描嵌套子仓库 (Submodule / 仓库内子仓库)
+          </label>
+        </div>
+        <div id="scanStatsText" style="color: var(--muted)">等待扫描...</div>
+      </div>
+    </div>
+
+    <!-- 非Git目录或不存在目录提示 -->
+    <div id="noticeBar" class="notice-bar"></div>
+
+    <!-- 筛选与搜索栏 -->
+    <div class="toolbar">
+      <div class="filter-tabs">
+        <button class="tab-btn active" data-filter="all" onclick="setFilter('all')">
+          全部仓库 <span class="count" id="countAll">0</span>
+        </button>
+        <button class="tab-btn" data-filter="dirty" onclick="setFilter('dirty')">
+          有未提交修改 <span class="count" id="countDirty">0</span>
+        </button>
+        <button class="tab-btn" data-filter="unpushed" onclick="setFilter('unpushed')">
+          待推送 / 待拉取 <span class="count" id="countUnpushed">0</span>
+        </button>
+        <button class="tab-btn" data-filter="clean" onclick="setFilter('clean')">
+          干净同步 <span class="count" id="countClean">0</span>
+        </button>
+      </div>
+
+      <div class="search-box">
+        <input
+          type="text"
+          id="searchInput"
+          placeholder="搜索文件夹名 / 路径 / 分支 / 总结..."
+          oninput="renderTable()"
+        />
+      </div>
+    </div>
+
+    <!-- 仓库表格 -->
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th class="col-index">#</th>
+            <th class="col-name">文件夹名称 / 仓库名 / 分支</th>
+            <th class="col-path">完整路径</th>
+            <th class="col-summary">仓库状态总结（智能审阅 + 实时指标）</th>
+            <th class="col-actions">快捷操作</th>
+          </tr>
+        </thead>
+        <tbody id="repoTableBody">
+          <tr>
+            <td colspan="5" class="empty-state">
+              请在上方确认文件夹路径，点击「<b>🔍 开始递归扫描</b>」加载 Git 仓库列表
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- API 与终端设置弹窗 -->
+  <div class="modal-backdrop" id="settingsModal">
+    <div class="modal">
+      <h2>
+        <span>⚙️ 模型 API 与终端设置</span>
+        <button class="btn-outline" style="padding: 3px 9px" onclick="closeSettingsModal()">✕</button>
+      </h2>
+      <div class="form-group">
+        <label>API 调用模式</label>
+        <select id="cfgProvider" onchange="toggleProviderFields()">
+          <option value="openai_compat">局域网 / OpenAI 兼容接口（10.126.126.2:8045 / 10.120.101.1:8045）</option>
+          
+        </select>
+        <small>局域网地址已配置自动绕过系统代理直连，并支持 `10.126.126.2` 与 `10.120.101.1` 双地址自动主备切换。</small>
+      </div>
+
+      <div class="form-group" id="baseUrlGroup">
+        <label>API Base URL</label>
+        <input type="text" id="cfgBaseUrl" list="baseUrlPresets" placeholder="http://10.126.126.2:8045/v1" />
+        <datalist id="baseUrlPresets">
+          <option value="http://10.126.126.2:8045/v1">组网地址 (10.126.126.2:8045)</option>
+          <option value="http://10.120.101.1:8045/v1">校园网/局域网直连 (10.120.101.1:8045)</option>
+        </datalist>
+      </div>
+
+      <div class="form-group" id="apiKeyGroup">
+        <label>API Key</label>
+        <input type="password" id="cfgApiKey" placeholder="sk-..." />
+      </div>
+
+      <div class="form-group">
+        <label>模型名称 (Model)</label>
+        <input type="text" id="cfgModel" list="modelPresets" placeholder="例如 gemini-3.8-flash-high" />
+        <datalist id="modelPresets">
+          <option value="gemini-3.8-flash-high">默认推荐模型 (gemini-3.8-flash-high)</option>
+          <option value="gemini-3.8-flash">通用模型 (gemini-3.8-flash)</option>
+          <option value="claude-sonnet-4-6-thinking">深度推演模型 (claude-sonnet-4-6-thinking)</option>
+        </datalist>
+      </div>
+
+      <div class="form-group">
+        <label>总结提示词 (System Prompt)</label>
+        <textarea id="cfgSystemPrompt" rows="2"></textarea>
+      </div>
+
+      <div class="form-group">
+        <label>「在终端中打开」默认终端程序</label>
+        <select id="cfgTerminalType">
+          <option value="auto">自动选择（优先 Windows Terminal，其次 PowerShell）</option>
+          <option value="powershell">PowerShell</option>
+          <option value="wt">Windows Terminal (wt.exe)</option>
+          <option value="gitbash">Git Bash</option>
+          <option value="cmd">命令提示符 (CMD)</option>
+        </select>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn-outline" onclick="closeSettingsModal()">取消</button>
+        <button class="btn-primary" style="flex:0" onclick="saveSettings()">保存配置</button>
+      </div>
+    </div>
+  </div>
+
+  <div id="toast"></div>
+
+  <script>
+    let allRepos = [];
+    let currentFilter = "all";
+    let appConfig = {
+      folders: [],
+      scan_nested_repos: false,
+      auto_ai_summary: true,
+      terminal_type: "auto",
+      api: {}
+    };
+
+    function showToast(msg, isError = false) {
+      const el = document.getElementById("toast");
+      el.textContent = msg;
+      el.style.background = isError ? "#b91c1c" : "#0f172a";
+      el.classList.add("show");
+      clearTimeout(window.__toastTimer);
+      window.__toastTimer = setTimeout(() => el.classList.remove("show"), 2600);
+    }
+
+    function escapeHtml(str) {
+      return String(str ?? "")
+        .replace(/&/g, "&amp;")
+        .replace(/</g, "&lt;")
+        .replace(/>/g, "&gt;")
+        .replace(/"/g, "&quot;")
+        .replace(/'/g, "&#39;");
+    }
+
+    async function toggleAutoAiSetting(checked) {
+      appConfig.auto_ai_summary = checked;
+      try {
+        await fetch("/api/config", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ auto_ai_summary: checked })
+        });
+        showToast(checked ? "已开启自动模型审阅" : "已关闭自动模型审阅");
+      } catch (err) {
+        showToast("同步设置失败: " + err.message, true);
+      }
+    }
+
+    async function initApp() {
+      try {
+        const resp = await fetch("/api/config");
+        const data = await resp.json();
+        if (data.ok && data.config) {
+          appConfig = data.config;
+          document.getElementById("foldersInput").value = (appConfig.folders || []).join("\n");
+          document.getElementById("scanNestedCheckbox").checked = !!appConfig.scan_nested_repos;
+          document.getElementById("autoAiCheckbox").checked = appConfig.auto_ai_summary !== false;
+          // 初次加载页面不自动触发扫描与请求，由用户点击后执行
+        }
+      } catch (err) {
+        showToast("加载初始配置失败: " + err.message, true);
+      }
+    }
+
+    function getFoldersFromTextarea() {
+      const raw = document.getElementById("foldersInput").value || "";
+      return raw
+        .replace(/([^\r\n;])([A-Za-z]:\\)/g, "$1\n$2")
+        .split(/[\r\n;]+/)
+        .map((s) => s.trim())
+        .filter(Boolean);
+    }
+
+    function clearFolders() {
+      document.getElementById("foldersInput").value = "";
+      document.getElementById("foldersInput").focus();
+    }
+
+    async function pickNativeFolder() {
+      const btn = document.getElementById("pickFolderBtn");
+      btn.disabled = true;
+      btn.textContent = "正在打开选择框...";
+      try {
+        const resp = await fetch("/api/pick-folder", { method: "POST", body: "{}" });
+        const data = await resp.json();
+        if (data.ok && data.folder) {
+          const current = getFoldersFromTextarea();
+          if (!current.includes(data.folder)) {
+            current.push(data.folder);
+            document.getElementById("foldersInput").value = current.join("\n");
+          }
+          showToast("已添加文件夹: " + data.folder);
+        } else if (!data.ok) {
+          showToast(data.error || "选择文件夹失败", true);
+        }
+      } catch (err) {
+        showToast("调用文件夹选择器失败: " + err.message, true);
+      } finally {
+        btn.disabled = false;
+        btn.textContent = "➕ 选择文件夹...";
+      }
+    }
+
+    async function startScan() {
+      const folders = getFoldersFromTextarea();
+      if (folders.length === 0) {
+        showToast("请先输入或选择至少一个文件夹路径", true);
+        return;
+      }
+      const scanNested = document.getElementById("scanNestedCheckbox").checked;
+      const scanBtn = document.getElementById("scanBtn");
+      const statsEl = document.getElementById("scanStatsText");
+
+      scanBtn.disabled = true;
+      scanBtn.innerHTML = `<span class="spinner"></span> 正在递归扫描...`;
+      statsEl.textContent = "正在扫描目录树并读取 Git 状态...";
+
+      try {
+        const resp = await fetch("/api/scan", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({
+            folders,
+            scan_nested_repos: scanNested
+          })
+        });
+        const data = await resp.json();
+        if (!data.ok) {
+          throw new Error(data.error || "扫描失败");
+        }
+
+        allRepos = data.repos || [];
+        updateCounters();
+        renderNotices(data.invalid_folders || [], data.non_git_folders || []);
+        renderTable();
+
+        statsEl.textContent = `扫描完成：共找到 ${data.total} 个 Git 仓库（耗时 ${data.elapsed_ms} ms）`;
+        document.getElementById("aiBatchBtn").disabled = allRepos.length === 0;
+
+        if (allRepos.length > 0 && document.getElementById("autoAiCheckbox").checked) {
+          summarizeAllRepos();
+        }
+      } catch (err) {
+        showToast("扫描出错: " + err.message, true);
+        statsEl.textContent = "扫描出错: " + err.message;
+      } finally {
+        scanBtn.disabled = false;
+        scanBtn.innerHTML = `🔍 开始递归扫描`;
+      }
+    }
+
+    function renderNotices(invalidFolders, nonGitFolders) {
+      const bar = document.getElementById("noticeBar");
+      const msgs = [];
+      if (invalidFolders.length > 0) {
+        msgs.push(`⚠️ 路径不存在或不是文件夹：<code>${invalidFolders.map(escapeHtml).join("</code>、<code>")}</code>`);
+      }
+      if (nonGitFolders.length > 0) {
+        msgs.push(`ℹ️ 以下文件夹（及其子目录）中未发现任何 Git 仓库：<code>${nonGitFolders.map(escapeHtml).join("</code>、<code>")}</code>`);
+      }
+      if (msgs.length > 0) {
+        bar.innerHTML = msgs.join("<br/>");
+        bar.style.display = "block";
+      } else {
+        bar.style.display = "none";
+      }
+    }
+
+    function updateCounters() {
+      const total = allRepos.length;
+      const dirty = allRepos.filter((r) => !r.is_clean || r.conflict_count > 0).length;
+      const unpushed = allRepos.filter((r) => r.ahead > 0 || r.behind > 0).length;
+      const clean = allRepos.filter((r) => r.is_clean && r.ahead === 0 && r.behind === 0 && !r.error).length;
+
+      document.getElementById("countAll").textContent = total;
+      document.getElementById("countDirty").textContent = dirty;
+      document.getElementById("countUnpushed").textContent = unpushed;
+      document.getElementById("countClean").textContent = clean;
+    }
+
+    function setFilter(filter) {
+      currentFilter = filter;
+      document.querySelectorAll(".tab-btn").forEach((btn) => {
+        btn.classList.toggle("active", btn.dataset.filter === filter);
+      });
+      renderTable();
+    }
+
+    function getFilteredRepos() {
+      const q = (document.getElementById("searchInput").value || "").trim().toLowerCase();
+      return allRepos.filter((r) => {
+        if (currentFilter === "dirty" && r.is_clean && r.conflict_count === 0) return false;
+        if (currentFilter === "unpushed" && r.ahead === 0 && r.behind === 0) return false;
+        if (currentFilter === "clean" && (!r.is_clean || r.ahead > 0 || r.behind > 0 || r.error)) return false;
+
+        if (q) {
+          const hay = [
+            r.name,
+            r.remote_repo_name,
+            r.remote_full_name,
+            r.path,
+            r.branch,
+            r.ai_summary,
+            r.rule_summary,
+            r.last_commit_msg
+          ]
+            .join(" ")
+            .toLowerCase();
+          if (!hay.includes(q)) return false;
+        }
+        return true;
+      });
+    }
+
+    function renderTable() {
+      const tbody = document.getElementById("repoTableBody");
+      const list = getFilteredRepos();
+
+      if (list.length === 0) {
+        tbody.innerHTML = `
+          <tr>
+            <td colspan="5" class="empty-state">
+              ${allRepos.length === 0 ? "未扫描到 Git 仓库，请检查路径后重新扫描" : "当前筛选条件下没有匹配的 Git 仓库"}
+            </td>
+          </tr>
+        `;
+        return;
+      }
+
+      tbody.innerHTML = list
+        .map((r, idx) => {
+          const badgeClass =
+            r.status_level === "clean"
+              ? "badge-clean"
+              : r.status_level === "dirty"
+              ? "badge-dirty"
+              : r.status_level === "unpushed"
+              ? "badge-unpushed"
+              : "badge-conflict";
+
+          const encodedPath = encodeURIComponent(r.path);
+          const filesHtml =
+            r.changed_files_preview && r.changed_files_preview.length > 0
+              ? `
+                <details class="changed-files-details">
+                  <summary>查看变更文件预览 (${r.staged_count + r.modified_count + r.untracked_count} 项)</summary>
+                  <div class="changed-files-list">${r.changed_files_preview.map(escapeHtml).join("<br/>")}</div>
+                </details>
+              `
+              : "";
+
+          const aiLoading = r.__summarizing
+            ? `<span class="spinner spinner-dark"></span> 正在调用模型 API 整理...`
+            : `<span>🤖 ${escapeHtml(r.ai_source || "状态总结")}</span>`;
+
+          const remoteHtml = r.remote_repo_name
+            ? `<div class="remote-repo-line" title="远程地址: ${escapeHtml(r.remote_url)}">📦 ${
+                r.remote_web_url
+                  ? `<a href="${escapeHtml(r.remote_web_url)}" target="_blank" rel="noopener">${escapeHtml(r.remote_repo_name)}</a>`
+                  : `<b>${escapeHtml(r.remote_repo_name)}</b>`
+              } <span class="remote-owner">(${escapeHtml(r.remote_full_name)})</span></div>`
+            : `<div class="remote-repo-line muted">📦 仅本地 (未关联远程)</div>`;
+
+          return `
+            <tr>
+              <td class="col-index">${idx + 1}</td>
+              <td class="col-name">
+                <div class="repo-name">${escapeHtml(r.name)}</div>
+                ${remoteHtml}
+                <div class="badges-row">
+                  <span class="badge badge-branch" title="当前分支">🌿 ${escapeHtml(r.branch || "未知")}</span>
+                  <span class="badge ${badgeClass}">${escapeHtml(r.status_badge || "状态")}</span>
+                </div>
+              </td>
+              <td class="col-path">
+                <div class="path-box">
+                  <span>${escapeHtml(r.path)}</span>
+                  <button class="copy-btn" onclick="copyText('${encodedPath}')" title="复制文件夹路径">复制</button>
+                </div>
+              </td>
+              <td class="col-summary">
+                <div class="ai-summary-box">
+                  <div class="ai-summary-header">
+                    ${aiLoading}
+                    <button
+                      class="mini-ai-btn"
+                      onclick="summarizeSingleRepo('${encodedPath}')"
+                      ${r.__summarizing ? "disabled" : ""}
+                    >↻ AI 重新总结</button>
+                  </div>
+                  <div class="ai-summary-text">${escapeHtml(r.ai_summary || r.rule_summary)}</div>
+                </div>
+                <div class="git-metrics">
+                  <span>📌 暂存: <b>${r.staged_count}</b></span>
+                  <span>✏️ 修改: <b>${r.modified_count}</b></span>
+                  <span>📄 未跟踪: <b>${r.untracked_count}</b></span>
+                  <span>🔄 远程同步: <b>↑${r.ahead} ↓${r.behind}</b></span>
+                  ${r.stash_count > 0 ? `<span>📦 Stash: <b>${r.stash_count}</b></span>` : ""}
+                  <span title="最近一次提交">🕒 最近提交: ${escapeHtml(r.last_commit_time || "无")} — ${escapeHtml((r.last_commit_msg || "").slice(0, 48))}</span>
+                </div>
+                ${filesHtml}
+              </td>
+              <td class="col-actions">
+                <div class="action-btns">
+                  <button class="btn-action btn-action-explorer" onclick="openInExplorer('${encodedPath}')">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 19a2 2 0 0 1-2 2H4a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h5l2 3h9a2 2 0 0 1 2 2z"></path></svg>
+                    文件资源管理器打开
+                  </button>
+                  <div class="action-split-row">
+                    <button class="btn-action btn-action-sub" onclick="openInTerminal('${encodedPath}')" title="在终端中打开此仓库目录">
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="4 17 10 11 4 5"></polyline><line x1="12" y1="19" x2="20" y2="19"></line></svg>
+                      终端打开
+                    </button>
+                    <button
+                      class="btn-action btn-action-sub"
+                      onclick="openInGitHubWeb('${encodeURIComponent(r.remote_web_url || "")}')"
+                      ${r.remote_web_url ? "" : "disabled"}
+                      title="${r.remote_web_url ? "在浏览器打开 GitHub 仓库主页: " + escapeHtml(r.remote_web_url) : "该仓库未绑定远程 GitHub 地址"}"
+                    >
+                      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg>
+                      GitHub 网页
+                    </button>
+                  </div>
+                  <button class="btn-action btn-action-desktop" onclick="openInGitHubDesktop('${encodedPath}')">
+                    <svg viewBox="0 0 24 24" fill="currentColor"><path d="M12 1.27a11 11 0 00-3.48 21.46c.55.09.73-.28.73-.55v-1.84c-3.03.64-3.67-1.46-3.67-1.46-.55-1.29-1.28-1.65-1.28-1.65-.92-.65.1-.65.1-.65 1.1 0 1.73 1.1 1.73 1.1.92 1.65 2.57 1.2 3.21.92a2 2 0 01.64-1.47c-2.47-.27-5.04-1.19-5.04-5.5 0-1.1.46-2.1 1.2-2.84a3.76 3.76 0 010-2.93s.91-.28 3.11 1.1c1.8-.49 3.7-.49 5.5 0 2.1-1.38 3.02-1.1 3.02-1.1a3.76 3.76 0 010 2.93c.83.74 1.2 1.74 1.2 2.84 0 4.31-2.58 5.23-5.04 5.5.45.37.82.92.82 2.02v3.03c0 .27.1.64.73.55A11 11 0 0012 1.27"></path></svg>
+                    GitHub Desktop 打开
+                  </button>
+                </div>
+              </td>
+            </tr>
+          `;
+        })
+        .join("");
+    }
+
+    async function summarizeAllRepos() {
+      if (allRepos.length === 0) return;
+      const btn = document.getElementById("aiBatchBtn");
+      btn.disabled = true;
+      btn.innerHTML = `<span class="spinner"></span> 正在调用模型 API 整理...`;
+
+      allRepos.forEach((r) => (r.__summarizing = true));
+      renderTable();
+
+      try {
+        const resp = await fetch("/api/summarize", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ repos: allRepos })
+        });
+        const data = await resp.json();
+        if (!data.ok) {
+          throw new Error(data.error || "API 总结调用失败");
+        }
+        const map = {};
+        (data.summaries || []).forEach((item) => {
+          if (item && item.path) map[item.path] = item;
+        });
+        allRepos.forEach((r) => {
+          r.__summarizing = false;
+          if (map[r.path]) {
+            r.ai_summary = map[r.path].ai_summary;
+            r.ai_source = map[r.path].ai_source;
+          }
+        });
+        renderTable();
+        showToast("✨ 模型 API 已完成全部仓库状态整理");
+      } catch (err) {
+        allRepos.forEach((r) => (r.__summarizing = false));
+        renderTable();
+        showToast("API 总结失败: " + err.message, true);
+      } finally {
+        btn.disabled = false;
+        btn.innerHTML = `✨ 调用模型 API 总结全部状态`;
+      }
+    }
+
+    async function summarizeSingleRepo(encodedPath) {
+      const path = decodeURIComponent(encodedPath);
+      const repo = allRepos.find((r) => r.path === path);
+      if (!repo) return;
+
+      repo.__summarizing = true;
+      renderTable();
+
+      try {
+        const resp = await fetch("/api/summarize", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ repo })
+        });
+        const data = await resp.json();
+        repo.__summarizing = false;
+        if (data.ok && data.summaries && data.summaries[0]) {
+          repo.ai_summary = data.summaries[0].ai_summary;
+          repo.ai_source = data.summaries[0].ai_source;
+          showToast(`已更新「${repo.name}」的状态总结`);
+        } else {
+          showToast(data.error || "总结失败", true);
+        }
+      } catch (err) {
+        repo.__summarizing = false;
+        showToast("模型 API 调用失败: " + err.message, true);
+      }
+      renderTable();
+    }
+
+    async function openInExplorer(encodedPath) {
+      const path = decodeURIComponent(encodedPath);
+      try {
+        const resp = await fetch("/api/open-explorer", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ path })
+        });
+        const data = await resp.json();
+        if (data.ok) {
+          showToast("📂 已在文件资源管理器中打开");
+        } else {
+          showToast(data.error || "打开失败", true);
+        }
+      } catch (err) {
+        showToast("请求失败: " + err.message, true);
+      }
+    }
+
+    async function openInTerminal(encodedPath) {
+      const path = decodeURIComponent(encodedPath);
+      try {
+        const resp = await fetch("/api/open-terminal", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ path })
+        });
+        const data = await resp.json();
+        if (data.ok) {
+          showToast(`💻 已在 ${data.terminal || "终端"} 中打开`);
+        } else {
+          showToast(data.error || "打开终端失败", true);
+        }
+      } catch (err) {
+        showToast("请求失败: " + err.message, true);
+      }
+    }
+
+    function openInGitHubWeb(encodedUrl) {
+      const url = decodeURIComponent(encodedUrl || "");
+      if (!url) {
+        showToast("该仓库未绑定远程 GitHub 地址", true);
+        return;
+      }
+      window.open(url, "_blank", "noopener");
+    }
+
+    async function openInGitHubDesktop(encodedPath) {
+      const path = decodeURIComponent(encodedPath);
+      try {
+        const resp = await fetch("/api/open-github-desktop", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify({ path })
+        });
+        const data = await resp.json();
+        if (data.ok) {
+          showToast("🐙 已在 GitHub Desktop 中打开");
+        } else {
+          showToast(data.error || "打开 GitHub Desktop 失败", true);
+        }
+      } catch (err) {
+        showToast("请求失败: " + err.message, true);
+      }
+    }
+
+    function copyText(encodedPath) {
+      const text = decodeURIComponent(encodedPath);
+      navigator.clipboard.writeText(text).then(() => {
+        showToast("已复制路径: " + text);
+      });
+    }
+
+    /* 设置弹窗 */
+    function openSettingsModal() {
+      const api = appConfig.api || {};
+      document.getElementById("cfgProvider").value = api.provider || "auto";
+      document.getElementById("cfgBaseUrl").value = api.base_url || "";
+      document.getElementById("cfgApiKey").value = api.api_key || "";
+      document.getElementById("cfgModel").value = api.model || "";
+      document.getElementById("cfgSystemPrompt").value = api.system_prompt || "";
+      document.getElementById("cfgTerminalType").value = appConfig.terminal_type || "auto";
+      toggleProviderFields();
+      document.getElementById("settingsModal").classList.add("open");
+    }
+
+    function closeSettingsModal() {
+      document.getElementById("settingsModal").classList.remove("open");
+    }
+
+    function toggleProviderFields() {
+      const provider = document.getElementById("cfgProvider").value;
+      const isCustom = provider === "openai_compat";
+      document.getElementById("baseUrlGroup").style.opacity = isCustom ? "1" : "0.75";
+      document.getElementById("apiKeyGroup").style.opacity = isCustom ? "1" : "0.75";
+    }
+
+    async function saveSettings() {
+      const payload = {
+        terminal_type: document.getElementById("cfgTerminalType").value,
+        auto_ai_summary: document.getElementById("autoAiCheckbox").checked,
+        scan_nested_repos: document.getElementById("scanNestedCheckbox").checked,
+        api: {
+          provider: document.getElementById("cfgProvider").value,
+          base_url: document.getElementById("cfgBaseUrl").value.trim(),
+          api_key: document.getElementById("cfgApiKey").value.trim(),
+          model: document.getElementById("cfgModel").value.trim(),
+          system_prompt: document.getElementById("cfgSystemPrompt").value.trim()
+        }
+      };
+      try {
+        const resp = await fetch("/api/config", {
+          method: "POST",
+          headers: { "Content-Type": "application/json" },
+          body: JSON.stringify(payload)
+        });
+        const data = await resp.json();
+        if (data.ok) {
+          appConfig = data.config;
+          closeSettingsModal();
+          showToast("✅ 配置已保存");
+        }
+      } catch (err) {
+        showToast("保存配置失败: " + err.message, true);
+      }
+    }
+
+    document.addEventListener("keydown", (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === "Enter") {
+        startScan();
+      }
+    });
+
+    window.addEventListener("DOMContentLoaded", initApp);
+  </script>
+</body>
+</html>
